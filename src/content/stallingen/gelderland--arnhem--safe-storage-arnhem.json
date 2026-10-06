@@ -1,0 +1,23 @@
+{
+  "id": 130961,
+  "slug": "safe-storage-arnhem",
+  "provincie": "gelderland",
+  "plaats": "arnhem",
+  "naam": "Safe Storage Arnhem",
+  "straat": "De Overmaat 35",
+  "postcode": "6831AE",
+  "plaatsnaam": "Arnhem",
+  "telefoon": "026-7112196",
+  "website": "http://www.safestorage.nl",
+  "lat": 51.955172,
+  "lon": 5.886037,
+  "status": "gesloten",
+  "oude_url": "/gelderland/arnhem/safe-storage-arnhem/",
+  "email": "info@derksen.nl",
+  "omschrijving": "Schone, droge en verwarmde opslagruimtes voor\nbedrijf en particulier. Ruime openingstijden,\n7 dagen p/w van 6:00 - 22:00 uur. Deskundig advies\n\n Wat wij doen:\nDerksen Verhuizingen BV is een Nationaal / Internationaal opererende verhuisorganisatie.\nDe focus is gericht op een diversiteit aan opdrachtgevers. Voor particulieren, zorginstellingen, (semi)overheidsinstellingen en gerenommeerde beursgenoteerde bedrijven hanteert Derksen concurrerende tarieven.\nMede door haar jarenlange bestaan heeft Derksen op nagenoeg ieder terrein specialistische kennis in huis.\nWij stellen ons ten doel alle mogelijke verhuis- en opslagvraagstukken op de voor onze relaties meest optimale wijze te verzorgen. Oplossings- en clientgericht zijn slechts enkele speerpunten.\n Openingstijden:\n Maandag : 08:00 - 17:00\n Dinsdag : 08:00 - 17:00\n Woensdag : 08:00 - 17:00\n Donderdag : 08:00 - 17:00\n Vrijdag : 08:00 - 17:00\n Zaterdag : gesloten\n Zondag : gesloten Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nCameratoezicht, Opslaan, Tijdelijke opslag\n\n Type opslag :\nSelf storage\n\n Aangesloten bij / Certificering :\n9001, VCA",
+  "meta_title": "Safe Storage Arnhem 026-7112196 info@derksen.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

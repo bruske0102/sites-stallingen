@@ -1,0 +1,22 @@
+{
+  "id": 130814,
+  "slug": "uts-nederland-regio-zeeland",
+  "provincie": "noord-brabant",
+  "plaats": "bergen-op-zoom",
+  "naam": "UTS Nederland regio Zeeland",
+  "straat": "Blankenweg 11",
+  "postcode": "4612RC",
+  "plaatsnaam": "Bergen op Zoom",
+  "telefoon": "0164-212000",
+  "website": "http://www.uts.nl",
+  "lat": 51.494784,
+  "lon": 4.260475,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/bergen-op-zoom/uts-nederland-regio-zeeland/",
+  "omschrijving": "Ruim 25 locaties verspreid over heel Nederland.\nAltijd een UTS Verhuisbedrijf bij u in de buurt!\n\n Wat wij doen:\nUnieke Totaal Service:\nDe organisatie van UTS van Hoek is er op ingericht om kwalitatief zeer hoogstaande dienstverlening te faciliteren op diverse specialismen. De peilers bestaan uit particuliere verhuizingen in binnen en buitenland, opslag van inboedels en archieven en projectverhuizingen. Ook bieden wij Unieke Totaal Service voor zowel de particuliere- als zakelijke markt. Ontzorgen krijgt met dit brede dienstenpakket echt inhoud en naast verhuizen kunnen ook alle zaken rondom de verhuizing georganiseerd worden.\n\nProjectverhuizingen:\nUTS van Hoek is expert op het gebied van kantoor- en projectverhuizingen. Wij zijn een gespecialiseerd bedrijf dat voldoet aan alle criteria die nodig zijn om uw bedrijfcontinuïteit te garanderen.",
+  "meta_title": "UTS Nederland regio Zeeland 0164-212000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

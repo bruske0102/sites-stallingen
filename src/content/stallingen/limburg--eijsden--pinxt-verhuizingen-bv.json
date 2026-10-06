@@ -1,0 +1,20 @@
+{
+  "id": 130805,
+  "slug": "pinxt-verhuizingen-bv",
+  "provincie": "limburg",
+  "plaats": "eijsden",
+  "naam": "Pinxt Verhuizingen BV",
+  "straat": "Zoerbeemden 3",
+  "postcode": "6245LR",
+  "plaatsnaam": "Eijsden",
+  "telefoon": "043-4091578",
+  "lat": 50.788268,
+  "lon": 5.715075,
+  "status": "gesloten",
+  "oude_url": "/limburg/eijsden/pinxt-verhuizingen-bv/",
+  "meta_title": "Pinxt Verhuizingen BV 043-4091578",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

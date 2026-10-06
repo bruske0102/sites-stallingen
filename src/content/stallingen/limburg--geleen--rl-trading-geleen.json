@@ -1,0 +1,21 @@
+{
+  "id": 130744,
+  "slug": "rl-trading-geleen",
+  "provincie": "limburg",
+  "plaats": "geleen",
+  "naam": "RL Trading Geleen",
+  "straat": "Industrieweg 7",
+  "postcode": "6163AH",
+  "plaatsnaam": "Geleen",
+  "telefoon": "06-29380662",
+  "website": "http://www.rltrading.nl/kopen/verhuur-opslagruimte",
+  "lat": 50.981671,
+  "lon": 5.828871,
+  "status": "gesloten",
+  "oude_url": "/limburg/geleen/rl-trading-geleen/",
+  "meta_title": "RL Trading Geleen 06-29380662",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": 131299,
+  "slug": "binnenstadgarage",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Binnenstadgarage",
+  "straat": "Ceintuurbaan 223",
+  "postcode": "1074CW",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6647114",
+  "website": "http://www.binnenstadgarage.nl",
+  "lat": 52.355346,
+  "lon": 4.902738,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/binnenstadgarage/",
+  "omschrijving": "Wat wij doen:\nIn de compleet ingerichte werkplaats van Binnenstadgarage kan vrijwel elk merk auto worden onderhouden en gerepareerd. Wij bieden een duidelijk stappensysteem van onderhoud aan. Je bepaalt zelf welke vorm van onderhoud je wil en welke onderhoudswerkzaamheden je wil laten uitvoeren. Wij verzorgen APK-keuringen voor personen en lichte bedrijfsauto's met zowel benzine, dieselmotor, hybride als Electro aandrijving. Eventuele noodzakelijke reparaties kunnen meestal dezelfde dag worden uitgevoerd zodat je de auto maar een dag hoeft te missen. Na controle ontvangt je hiervan altijd vooraf een prijsopgave. Al meer dan 12 jaar leveren wij personenauto's en lichte bedrijfswagens in verschillende prijsklasses. In de showroom tref je vooral occasions en Dealer-inruilauto's van het merk Suzuki. Deze worden uiteraard afgeleverd met een geldige APK keuring. Onze occasions worden op twee manieren aangeboden als budgetaankoop of met compleet garantiepakket. Openingstijden:\n Maandag : 08:00 - 17:00 werkplaats en in & verkoop\n Dinsdag : 08:00 - 17:00 werkplaats en in & verkoop\n Woensdag : 08:00 - 17:00 werkplaats en in & verkoop\n Donderdag : 08:00 - 17:00 werkplaats en in & verkoop\n Vrijdag : 08:00 - 17:00 werkplaats en in & verkoop\n Zaterdag : 10:00 - 13:00 afhaalservice\n Zondag : gesloten Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Remmen repareren / vervangen, Reparatie, Roetmeting, Schokdempers repareren / vervangen, Uitlaat repareren / vervangen, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Winterbanden montage en opslag, Online verkoop\n\n Merk :\nAudi, BMW, Chevrolet, Chrysler, Daihatsu, Dodge, Fiat, Ford, Honda, Hyundai, Jeep, Kia, Lexus, Mazda, Mini, Mitsubishi, Nissan, Opel, Peugeot, Saab, Seat, Skoda, Subaru, Suzuki, Toyota, Volkswagen, Volvo\n\n Betalingsmogelijkheden :\nContant, Pin, iDeal\n\n Aangesloten bij / Certificering :\nRDW erkend",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Binnenstadgarage 020-6647114",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

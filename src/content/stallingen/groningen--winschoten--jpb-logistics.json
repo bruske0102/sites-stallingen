@@ -1,0 +1,20 @@
+{
+  "id": 131184,
+  "slug": "jpb-logistics",
+  "provincie": "groningen",
+  "plaats": "winschoten",
+  "naam": "JPB Logistics",
+  "straat": "A.J. Romijnweg 30",
+  "postcode": "9672AH",
+  "plaatsnaam": "Winschoten",
+  "telefoon": "0596-575575",
+  "lat": 53.135113,
+  "lon": 7.057573,
+  "status": "gesloten",
+  "oude_url": "/groningen/winschoten/jpb-logistics/",
+  "meta_title": "JPB Logistics 0596-575575",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

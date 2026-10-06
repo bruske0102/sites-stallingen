@@ -1,0 +1,20 @@
+{
+  "id": 131267,
+  "slug": "eurotank-amsterdam-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "EuroTank Amsterdam BV",
+  "straat": "Jan van Riebeeckhavenweg 9",
+  "postcode": "1041AD",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-5872121",
+  "lat": 52.41037,
+  "lon": 4.850962,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/eurotank-amsterdam-bv/",
+  "meta_title": "EuroTank Amsterdam BV 020-5872121",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

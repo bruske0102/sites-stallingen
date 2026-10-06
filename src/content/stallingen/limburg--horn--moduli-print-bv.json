@@ -1,0 +1,22 @@
+{
+  "id": 130621,
+  "slug": "moduli-print-bv",
+  "provincie": "limburg",
+  "plaats": "horn",
+  "naam": "Moduli Print bv",
+  "straat": "Dorpstraat 28",
+  "postcode": "6085BG",
+  "plaatsnaam": "Horn",
+  "telefoon": "0475-582400",
+  "website": "http://www.moduliprint.com",
+  "lat": 51.209224,
+  "lon": 5.949781,
+  "status": "gesloten",
+  "oude_url": "/limburg/horn/moduli-print-bv/",
+  "omschrijving": "http://www.moduliprint.com\n\n Wat wij doen:\nDrukkerij Timmermans en Moduli Print zijn gespecialiseerde formulierendrukkerijen.\nVoor afnemers in én buiten Nederland.\nAl meer dan 50 jaar.\nWij produceren in plano-offset en in rotatieoffset. Onder meer kettingformulieren in enkel- en meervoud, acceptgiroformulieren, laserprinter- en overige plano-formulieren, thermische formulieren, sets en bloks.\nDaarnaast verzorgen wij ook alle aanvullende diensten. Van advies en prepress tot nabewerking, opslag en distributie.\nOnze kracht: kwaliteit, leverbetrouwbaarheid, flexibiliteit en co-making Drukwerk papier :\nBriefpapier, Enveloppen, Etiketten / labels / adreskaarten, Visitekaartjes, Kettingformulieren, Handels- en reclamedrukwerk, Zelfdoorschrijvende formulieren, Brochures, Acceptgiroformulieren",
+  "meta_title": "Moduli Print bv 0475-582400",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

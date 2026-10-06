@@ -1,0 +1,29 @@
+{
+  "id": 130984,
+  "slug": "burgers-mazda",
+  "provincie": "gelderland",
+  "plaats": "dreumel",
+  "naam": "Burgers Mazda",
+  "straat": "Nieuwstraat 16",
+  "postcode": "6621KV",
+  "plaatsnaam": "Dreumel",
+  "telefoon": "0487-571296",
+  "website": "http://www.autobedrijfburgers.nl",
+  "lat": 51.845899,
+  "lon": 5.43576,
+  "status": "gesloten",
+  "oude_url": "/gelderland/dreumel/burgers-mazda/",
+  "email": "info@autobedrijfburgers.nl",
+  "omschrijving": "0487-571296\nMazda Service\nOnderhoud, reparatie, APK keuringen\nBandenservice, reparatie airco\nnieuwe auto's en occasions alle merken\nlid BOVAG\n\n fax : 0487-572703\n\nhttp://www.autobedrijfburgers.nl\n\ninfo@autobedrijfburgers.nl\n\n Wat wij doen:\nAutobedrijf Burgers staat bekend om zijn uitstekende service en is het juiste adres voor alle onderhoud aan uw auto, van welk merk dan ook.\nAls Airco Specialist hebben wij al meer dan 15 jaar ervaring op airco gebied.\nTevens kunt u bij ons terecht voor advies en bemiddeling als u een nieuwe MAZDA of een auto van een ander merk wilt kopen.\n Openingstijden:\n Maandag : 08:15 - 17:00\n Dinsdag : 08:15 - 17:00\n Woensdag : 08:15 - 17:00\n Donderdag : 08:15 - 17:00\n Vrijdag : 08:15 - 17:00\n Zaterdag : 10:00 - 12:00 Op afspraak\n Zondag : gesloten Service :\nMobiliteitsgarantie, Vervangend vervoer / leenauto\n\n Toegankelijkheid :\nBegane grond, Toegankelijk voor rolstoelen\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Carkit inbouwen, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag, Airco specialist\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nBOVAG, STEK-erkend",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Burgers Mazda 0487-571296 info@autobedrijfburgers.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": 131087,
+  "slug": "jansen-loon-en-opslagbedrijf-kraanverhuur",
+  "provincie": "zeeland",
+  "plaats": "kruiningen",
+  "naam": "Jansen Loon- en Opslagbedrijf Kraanverhuur",
+  "straat": "Sluisweg 4",
+  "postcode": "4416NH",
+  "plaatsnaam": "Kruiningen",
+  "telefoon": "0113-381438",
+  "lat": 51.441726,
+  "lon": 4.019723,
+  "status": "gesloten",
+  "oude_url": "/zeeland/kruiningen/jansen-loon-en-opslagbedrijf-kraanverhuur/",
+  "omschrijving": "mobiele telefoon : 06-53419755\n\n Wat wij doen:\nJansen Loon- en Opslagbedrijf Kraanverhuur",
+  "meta_title": "Jansen Loon- en Opslagbedrijf Kraanverhuur 0113-381438",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

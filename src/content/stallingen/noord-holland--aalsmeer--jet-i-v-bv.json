@@ -1,0 +1,20 @@
+{
+  "id": 131210,
+  "slug": "jet-i-v-bv",
+  "provincie": "noord-holland",
+  "plaats": "aalsmeer",
+  "naam": "Jet I & V BV",
+  "straat": "Legmeerdijk 237",
+  "postcode": "1432KB",
+  "plaatsnaam": "Aalsmeer",
+  "telefoon": "06-24999854",
+  "lat": 52.268016,
+  "lon": 4.802415,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/aalsmeer/jet-i-v-bv/",
+  "meta_title": "Jet I & V BV 06-24999854",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

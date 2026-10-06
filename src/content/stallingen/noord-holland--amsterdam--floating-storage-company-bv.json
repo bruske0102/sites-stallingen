@@ -1,0 +1,20 @@
+{
+  "id": 131269,
+  "slug": "floating-storage-company-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Floating Storage Company BV",
+  "straat": "Coenhavenweg 14",
+  "postcode": "1013BL",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6880048",
+  "lat": 0.0,
+  "lon": 0.0,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/floating-storage-company-bv/",
+  "meta_title": "Floating Storage Company BV 020-6880048",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

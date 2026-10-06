@@ -1,0 +1,22 @@
+{
+  "id": 130558,
+  "slug": "uts-bernardt",
+  "provincie": "limburg",
+  "plaats": "elsloo",
+  "naam": "UTS Bernardt",
+  "straat": "Business Park Stein 161",
+  "postcode": "6181MA",
+  "plaatsnaam": "Elsloo lb",
+  "telefoon": "046-4363100",
+  "website": "http://www.uts.nl",
+  "lat": 50.959012,
+  "lon": 5.783679,
+  "status": "gesloten",
+  "oude_url": "/limburg/elsloo/uts-bernardt/",
+  "omschrijving": "Wat wij doen:\nService, kwaliteit en flexibiliteit:\nAl vanaf de beginjaren heeft onze organisatie gekozen voor service, kwaliteit en flexibiliteit als onderscheidend vermogen. Maar het belangrijkste zijn onze medewerkers. Het personeel wordt gestimuleerd om zichzelf voortdurend te blijven ontwikkelen. We zijn sociaal betrokken en geven de medewerkers veel verantwoordelijkheid. UTS Bernardt is partner van MVO Nederland en donateur van diverse stichtingen.\n\nTevens zijn wij de vaste partner van veel kleine en grote bedrijven, organisaties, (zorg)instellingen en thuiszorgorganisaties op het gebied van (interne) verhuizingen, facilitaire zaken en archiefbeheer.\n\nUTS Bernardt heeft 4 hoofddiensten:\nVerhuizingen\nParticulier: nationaal en internationaal, verhuisdirigente, schoonmaakservice en opslag.\nZakelijk: ICT Movements, HarryClean, opslag en meubelvoorraadbeheer.\nZorg: onze dienstverlening is speciaal afgestemd op de specifieke behoeften van ouderen.\nFacility Management\nOpstellen van herhuisvestingplannen, inkoop en advies, inrichten en detachering van facilitair coördinatoren en facilitair managers.\nHandymanservice\nHuismeester: ophangen whiteborden, bijvullen kopieerpapier, vervangen van lampen, onderhoud aan hang- en sluitwerk.\nHandyman: technisch onderhoud aan panden, oplossen van storingen, controlerondes en 24-uurs Servicedesk.\nArchief- en Databeheer\nOpslag, beheer, digitaliseren, online plaatsen, archiefbewerking en detachering Specialiteiten :\nkwaliteit en flexibiliteit, partner van MVO Nederland, facilitaire zaken , archiefbeheer, nationaal en internationaal, schoonmaakservice en opslag, ICT Movements",
+  "meta_title": "UTS Bernardt 046-4363100",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

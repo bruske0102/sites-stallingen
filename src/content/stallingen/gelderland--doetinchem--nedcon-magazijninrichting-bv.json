@@ -1,0 +1,23 @@
+{
+  "id": 130741,
+  "slug": "nedcon-magazijninrichting-bv",
+  "provincie": "gelderland",
+  "plaats": "doetinchem",
+  "naam": "Nedcon Magazijninrichting BV",
+  "straat": "Nijverheidsweg 26",
+  "postcode": "7005BJ",
+  "plaatsnaam": "Doetinchem",
+  "telefoon": "0314-334455",
+  "website": "http://www.nedcon.com",
+  "lat": 51.949793,
+  "lon": 6.295205,
+  "status": "gesloten",
+  "oude_url": "/gelderland/doetinchem/nedcon-magazijninrichting-bv/",
+  "email": "info@nedcon.com",
+  "omschrijving": "Wat wij doen:\nNedcon is internationaal toonaangevend, gespecialiseerd in het design, de productie en de installatie van industriële opslagsystemen. Storage meets intelligence: onze oplossingen sluiten optimaal aan bij uw bedrijfsstrategie en -organisatie. U profiteert van onze wereldwijde ervaring die wij hebben opgebouwd sinds 1969, onze kennis van markten en branches, onze oplossingsgerichtheid in design en engineering.\nNedcon heeft vestigingen in diverse Europese landen en de VS. Verder heeft Nedcon een uitgebreid dealernetwerk. Doelgroep :\nBedrijven\n\n Producten :\npalletstelling, magazijninrichting, legbordstelling, inrijstelling, shuttle, manuele stellingen, semi-automatische systemen, geautomatiseerde magazijninrichtingen, opslag, opslagoplossing, distributiecentrum, opslagsysteem, logistieke oplossing, doorrolstelling, grootvak legbordstelling, tussenvloer, entresolvloer, cloud, hangkledingsysteem\n\n Aangesloten bij / Certificering :\nBMWT, FME/CWM, Dutch Material Handling, MHIA, NEN EN ISO 9001:2008, Det Norske Veritas",
+  "meta_title": "Nedcon Magazijninrichting BV 0314-334455 info@nedcon.com",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

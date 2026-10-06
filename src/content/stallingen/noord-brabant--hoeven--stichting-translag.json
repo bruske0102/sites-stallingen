@@ -1,0 +1,20 @@
+{
+  "id": 130917,
+  "slug": "stichting-translag",
+  "provincie": "noord-brabant",
+  "plaats": "hoeven",
+  "naam": "Stichting Translag",
+  "straat": "Mgr. Van Hooydonklaan 17",
+  "postcode": "4741DJ",
+  "plaatsnaam": "Hoeven",
+  "telefoon": "06-24436196",
+  "lat": 51.58326,
+  "lon": 4.579004,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/hoeven/stichting-translag/",
+  "meta_title": "Stichting Translag 06-24436196",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

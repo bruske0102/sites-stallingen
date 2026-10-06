@@ -1,0 +1,20 @@
+{
+  "id": 131131,
+  "slug": "kor-transport-en-opslag-johan",
+  "provincie": "groningen",
+  "plaats": "blijham",
+  "naam": "Kor Transport en Opslag Johan",
+  "straat": "Hoofdweg 124",
+  "postcode": "9697NP",
+  "plaatsnaam": "Blijham",
+  "telefoon": "0597-562225",
+  "lat": 53.103527,
+  "lon": 7.075173,
+  "status": "gesloten",
+  "oude_url": "/groningen/blijham/kor-transport-en-opslag-johan/",
+  "meta_title": "Kor Transport en Opslag Johan 0597-562225",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

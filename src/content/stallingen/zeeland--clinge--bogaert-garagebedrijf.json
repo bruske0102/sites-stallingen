@@ -1,0 +1,27 @@
+{
+  "id": 131059,
+  "slug": "bogaert-garagebedrijf",
+  "provincie": "zeeland",
+  "plaats": "clinge",
+  "naam": "Bogaert Garagebedrijf",
+  "straat": "Tiberghienweg 14",
+  "postcode": "4567BR",
+  "plaatsnaam": "Clinge",
+  "telefoon": "0114-312190",
+  "website": "http://www.garage-bogaert.nl",
+  "lat": 51.271014,
+  "lon": 4.093213,
+  "status": "gesloten",
+  "oude_url": "/zeeland/clinge/bogaert-garagebedrijf/",
+  "omschrijving": "Wat wij doen:\nAuto- en demontagebedrijf Bogaert is werkzaam in de regio Zeeuws-Vlaanderen en demonteert auto 's volgens de Nederlandse wetgeving (ARN). Daarnaast verzorgen wij de reparatie & onderhoud van alle merken, inclusief APK-keuring. Openingstijden:\n Maandag : 08:30 - 17:00 Lunchpauze van 12:00 tot 13:30 uur\n Dinsdag : 08:30 - 17:00 Lunchpauze van 12:00 tot 13:30 uur\n Woensdag : 08:30 - 17:00 Lunchpauze van 12:00 tot 13:30 uur\n Donderdag : 08:30 - 17:00 Lunchpauze van 12:00 tot 13:30 uur\n Vrijdag : 08:30 - 17:00 Lunchpauze van 12:00 tot 13:30 uur\n Zaterdag : 09:00 - 12:00\n Zondag : gesloten Specialiteiten :\nDemontage, Reparatie, Onderhoud, Bergingactiviteiten, APK-keuring, Inkoop auto's, Transport auto's, Opslag auto's\n\n Aangesloten bij / Certificering :\nARN, RDW, BOVAG",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Bogaert Garagebedrijf 0114-312190",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

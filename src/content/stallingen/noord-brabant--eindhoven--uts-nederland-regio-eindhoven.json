@@ -1,0 +1,22 @@
+{
+  "id": 130798,
+  "slug": "uts-nederland-regio-eindhoven",
+  "provincie": "noord-brabant",
+  "plaats": "eindhoven",
+  "naam": "UTS Nederland regio Eindhoven",
+  "straat": "Flight Forum 3800",
+  "postcode": "5657DX",
+  "plaatsnaam": "Eindhoven",
+  "telefoon": "0499-712266",
+  "website": "http://www.uts.nl",
+  "lat": 51.450476,
+  "lon": 5.406032,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/eindhoven/uts-nederland-regio-eindhoven/",
+  "omschrijving": "Ruim 25 locaties verspreid over heel Nederland\nAltijd een UTS verhuisbedrijf bij ú in de buurt!\n\n Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland regio Eindhoven 0499-712266",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

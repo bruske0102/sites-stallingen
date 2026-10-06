@@ -1,0 +1,20 @@
+{
+  "id": 130604,
+  "slug": "binnenstad-service",
+  "provincie": "limburg",
+  "plaats": "maastricht",
+  "naam": "Binnenstad Service",
+  "straat": "Kotterweg 18",
+  "postcode": "6222NR",
+  "plaatsnaam": "Maastricht",
+  "telefoon": "043-3620071",
+  "lat": 50.875911,
+  "lon": 5.717486,
+  "status": "gesloten",
+  "oude_url": "/limburg/maastricht/binnenstad-service/",
+  "meta_title": "Binnenstad Service 043-3620071",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": 131278,
+  "slug": "oba-bulk-terminal-amsterdam",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "OBA Bulk Terminal Amsterdam",
+  "straat": "Westhavenweg 70",
+  "postcode": "1042AL",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-5873737",
+  "lat": 52.409773,
+  "lon": 4.826837,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/oba-bulk-terminal-amsterdam/",
+  "omschrijving": "Postbus8041, 1005AA, Amsterdam\nhttp://www.oba-bulk.nl",
+  "meta_title": "OBA Bulk Terminal Amsterdam 020-5873737",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

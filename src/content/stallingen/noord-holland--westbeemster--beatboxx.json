@@ -1,0 +1,20 @@
+{
+  "id": 131330,
+  "slug": "beatboxx",
+  "provincie": "noord-holland",
+  "plaats": "westbeemster",
+  "naam": "Beatboxx",
+  "straat": "Jisperweg 60",
+  "postcode": "1464NG",
+  "plaatsnaam": "Westbeemster",
+  "telefoon": "06-42288562",
+  "lat": 52.574484,
+  "lon": 4.899226,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/westbeemster/beatboxx/",
+  "meta_title": "Beatboxx 06-42288562",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

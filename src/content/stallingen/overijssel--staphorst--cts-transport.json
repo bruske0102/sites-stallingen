@@ -1,0 +1,22 @@
+{
+  "id": 130857,
+  "slug": "cts-transport",
+  "provincie": "overijssel",
+  "plaats": "staphorst",
+  "naam": "CTS Transport",
+  "straat": "Weth Timmermanstraat 5",
+  "postcode": "7951SH",
+  "plaatsnaam": "Staphorst",
+  "telefoon": "0522-460682",
+  "website": "http://www.ctstransport.nl",
+  "lat": 52.633086,
+  "lon": 6.211014,
+  "status": "gesloten",
+  "oude_url": "/overijssel/staphorst/cts-transport/",
+  "omschrijving": "oa. pakketvervoer, palletvervoer,\n\n Wat wij doen:\nWij bieden service, snelheid, kwaliteit en betrouwbaarheid zonder grenzen. Uw wens op transportgebied word door ons snel en zorgvuldig uitgevoert. Of het nu gaat om een pakketzending naar Tovalu of een koeriersrit naar Napels, wij doen het graag voor u. Ons streven is een langdurige relatie met onze klant, meedenken en meegroeien.\n\n Specialiteiten :\nKoeriers , Pakketdienst, Cargo, Distributie, Opslag, Pick, Pack & Send, Verpakkingsmateriaal\n\n Service :\nBezorgservice",
+  "meta_title": "CTS Transport 0522-460682",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

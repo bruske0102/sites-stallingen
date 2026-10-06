@@ -1,0 +1,28 @@
+{
+  "id": 606304,
+  "slug": "ralph-burkhard",
+  "provincie": "zuid-holland",
+  "plaats": "gouda",
+  "naam": "Ralph Burkhard",
+  "straat": "P.C. Hooftstraat 5",
+  "postcode": "2802 NM",
+  "plaatsnaam": "Gouda",
+  "telefoon": "0648137196",
+  "lat": 52.0042847,
+  "lon": 4.705759199999989,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/gouda/ralph-burkhard/",
+  "email": "redandwhitegarage@hotmail.com",
+  "omschrijving": "caravan stalling",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Ralph Burkhard 0648137196 redandwhitegarage@hotmail.com",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

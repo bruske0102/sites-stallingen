@@ -1,0 +1,20 @@
+{
+  "id": 131287,
+  "slug": "penninck-verhuizingen-opslag",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Penninck Verhuizingen & Opslag",
+  "straat": "Oceanenweg 5",
+  "postcode": "1047BA",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6885950",
+  "lat": 52.409783,
+  "lon": 4.762273,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/penninck-verhuizingen-opslag/",
+  "meta_title": "Penninck Verhuizingen & Opslag 020-6885950",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

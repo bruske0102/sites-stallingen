@@ -1,0 +1,193 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+import Layout from "../../../layouts/Layout.astro";
+import SchoolCard from "../../../components/SchoolCard.astro";
+import CityListPagination from "../../../components/CityListPagination.astro";
+import CityIntents from "../../../components/CityIntents.astro";
+import Diensten from "../../../components/Diensten.astro";
+import CityFaq from "../../../components/CityFaq.astro";
+import AdSense from "../../../components/AdSense.astro";
+import { getModel, getCity, plaatsPath, shopPath } from "../../../lib/data";
+import { isAPlus } from "../../../lib/model";
+import {
+  cityPageTitle,
+  cityPageDescription,
+  isHighTrafficCity,
+} from "../../../lib/city-intents";
+import { listingCount } from "../../../lib/nl-count";
+
+export function getStaticPaths() {
+  const m = getModel();
+  return [...m.plaatsenA, ...m.plaatsenB].map((p) => ({
+    params: { provincie: p.provincie, plaats: p.slug },
+    props: { groep: p.groep, key: p.key },
+  }));
+}
+
+const { provincie, plaats } = Astro.params;
+const { groep, key } = Astro.props;
+const m = getModel();
+const p =
+  (groep === "A" ? m.plaatsenA : m.plaatsenB).find((x) => x.key === key) ||
+  m.plaatsenA.find((x) => x.provincie === provincie && x.slug === plaats) ||
+  m.plaatsenB.find((x) => x.provincie === provincie && x.slug === plaats)!;
+const city = getCity(provincie!, plaats!);
+const isA = p.groep === "A";
+const listings = isA ? p.listings : [];
+const aPlus = city ? isAPlus(city) : false;
+const n = listings.length;
+const heroDir = path.join(process.cwd(), "public/heroes");
+const heroName = [
+  `${p.slug}.jpg`,
+  `${p.slug.replace("-gemeente", "")}.jpg`,
+].find((f) => fs.existsSync(path.join(heroDir, f)));
+const heroSrc = heroName ? `/heroes/${heroName}` : null;
+const heroWebp = heroName
+  ? `/heroes/${heroName.replace(/\.jpe?g$/i, ".webp")}`
+  : null;
+const heroWebpOk =
+  heroWebp &&
+  fs.existsSync(path.join(heroDir, path.basename(heroWebp)));
+const tn = p.titelNaam ?? p.naam;
+const seoStad = p.naam;
+
+const nearestBuren = !isA ? p.buren?.[0] : undefined;
+const title = isA
+  ? cityPageTitle({ stad: seoStad, plaatsSlug: p.slug, n, aPlus })
+  : `Stalling ${seoStad}? ${listingCount(p.buren.length)} dichtbij`;
+const description = isA
+  ? cityPageDescription({
+      stad: seoStad,
+      plaatsSlug: p.slug,
+      n,
+      provincieNaam: p.provincieNaam,
+      aPlus,
+    })
+  : nearestBuren
+    ? `Geen stalling in ${seoStad} zelf? De dichtstbijzijnde stalling zit op ${nearestBuren.km < 10 ? nearestBuren.km.toFixed(1) : Math.round(nearestBuren.km)} km. Bekijk ${listingCount(p.buren.length)} in de buurt.`
+    : `Geen stalling in ${seoStad} zelf in onze gids. Bekijk plaatsen in de omgeving of zoek landelijk.`;
+
+const lead = isA
+  ? `In ${tn} ${n === 1 ? "staat 1 stalling" : `staan ${n} stallingen`} in onze gids - met adres en telefoonnummer.`
+  : `In ${tn} staat geen stalling in onze gids. Hieronder de dichtstbijzijnde stallingen.`;
+
+const PAGE_SIZE = 50;
+const listItems = listings.map((s) => ({
+  naam: s.naam,
+  href: shopPath({
+    provincie: s.provincie || provincie!,
+    plaats: s.plaats || plaats!,
+    slug: s.slug!,
+  }),
+  meta: [s.straat, s.postcode, s.plaatsnaam].filter(Boolean).join(" · "),
+}));
+---
+<Layout title={title} description={description} deelPrompt={true}>
+  <section class="hero" aria-label={`Stalling ${tn}`}>
+    {heroSrc && (
+      <picture>
+        {heroWebpOk && <source srcset={heroWebp} type="image/webp" />}
+        <img
+          src={heroSrc}
+          alt=""
+          width="1600"
+          height="900"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
+    )}
+    <div class="hero-copy">
+      <p class="crumbs">
+        <a href={`/${p.provincie}/`}>{p.provincieNaam}</a> / {tn}
+      </p>
+      <h1>Stalling {tn}</h1>
+      <p class="lead">{lead}</p>
+    </div>
+  </section>
+
+  <div class="layout">
+    <div>
+      {isA ? (
+        <section class="section" aria-labelledby="lijst">
+          <h2 id="lijst">Alle stallingen in {tn}</h2>
+          <CityListPagination items={listItems} pageSize={PAGE_SIZE} placeName={tn} />
+          <div class="list-footer">
+            <p class="note">Niemand betaalt voor een hogere plek in de lijst.</p>
+            <div class="owner-cta">
+              <p>Mist jouw praktijk? Voeg hem gratis toe - we controleren elke aanmelding.</p>
+              <a href="/bedrijf/toevoegen/">Gratis toevoegen →</a>
+            </div>
+          </div>
+          <AdSense slot="link" />
+        </section>
+      ) : (
+        <section class="section" aria-labelledby="dichtbij">
+          <h2 id="dichtbij">Dichtstbijzijnde stallingen</h2>
+          {p.buren.length > 0 ? (
+            <div class="stack">
+              {p.buren.map((b) => (
+                <SchoolCard s={b.shop} km={b.km} toonPlaats actions={false} />
+              ))}
+            </div>
+          ) : (
+            <p class="note">Nog geen stallingen binnen bereik in onze gids. Bekijk plaatsen in de omgeving of zoek landelijk.</p>
+          )}
+          {p.dichtstbijePlaatsen?.length > 0 && (
+            <p class="note" style="margin-top:1rem">
+              Plaatsen met een eigen overzicht:
+              {p.dichtstbijePlaatsen.map((x, i) => (
+                <>
+                  {i > 0 ? ", " : " "}
+                  <a href={plaatsPath(x.plaats)}>{x.plaats.naam}</a>
+                  ({x.km < 10 ? x.km.toFixed(1) : Math.round(x.km)} km)
+                </>
+              ))}
+              .
+            </p>
+          )}
+        </section>
+      )}
+
+      {isA && (
+        <CityIntents
+          stad={seoStad}
+          plaatsSlug={p.slug}
+          listings={listings}
+          expanded={aPlus || isHighTrafficCity(p.slug)}
+        />
+      )}
+      {isA && aPlus && city && <Diensten city={city} listings={listings} />}
+
+      {isA && p.omgeving?.length > 0 && (
+        <section class="section" aria-labelledby="omgeving">
+          <h2 id="omgeving">Ook voor de omgeving van {tn}</h2>
+          <p class="omgeving">
+            Kleine plaatsen zonder eigen hub verwijzen naar deze pagina:
+            {p.omgeving.map((o, i) => (
+              <>
+                {i > 0 ? ", " : " "}
+                <strong>{o.naam}</strong>
+              </>
+            ))}
+            .
+          </p>
+        </section>
+      )}
+
+      {isA && aPlus && city && <CityFaq city={city} listings={listings} />}
+    </div>
+
+    <aside>
+      <div class="aside-card">
+        <h2>Hulp nodig?</h2>
+        <p>Vergelijk stallingen in de buurt</p>
+        <AdSense slot="auto" />
+        <a class="btn btn-ghost" href="/bedrijf/toevoegen/">Gratis toevoegen</a>
+        <a class="btn btn-ghost" href="/zoeken/">Zoeken</a>
+      </div>
+    </aside>
+  </div>
+</Layout>

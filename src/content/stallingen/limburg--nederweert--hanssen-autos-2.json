@@ -1,0 +1,23 @@
+{
+  "id": 130974,
+  "slug": "hanssen-autos-2",
+  "provincie": "limburg",
+  "plaats": "nederweert",
+  "naam": "Hanssen Auto's",
+  "straat": "Pannenweg 104",
+  "postcode": "6031RK",
+  "plaatsnaam": "Nederweert",
+  "telefoon": "0495-592154",
+  "website": "http://www.hanssenautos.nl",
+  "lat": 51.278008,
+  "lon": 5.751084,
+  "status": "gesloten",
+  "oude_url": "/limburg/nederweert/hanssen-autos-2/",
+  "email": "info@hanssenautos.nl",
+  "omschrijving": "Wat wij doen:\nHanssen auto's is reeds 40 jaar een begrip in de regio als het gaat om kwaliteit, service en betrouwbaarheid.\nNa 39 jaar zijn wij verhuisd van Maarheeze naar Nederweert.\nWij bieden u, als Bovag autobedrijf:\n\n- een ruim keuze aan betrouwbare occasions tegen betaalbare prijzen,\n- uitstekende service en garantiemogelijkheden,\n- bemiddeling bij het zoeken naar de juiste auto,\n- verkoop aan particulieren en autobedrijven,\n- inkoop jonge kwaliteitsauto's,\n- gunstige mogelijkheden voor financiering,\n- de mogelijkheid voor BOVAG garantie,\n- Nationale Auto Pas (auto's met gegarandeerde kilometerstanden),\n- onderhoud, reparatie, APK benzine / diesel en airco service van elk merk,\n- schadeherstel, schadetaxatie en afhandeling met uw verzekeringsmaatschapij,\n- uitdeuken zonder spuiten,\n- bandenservice en opslag van zomer-/winterbanden,\n- Mogelijkheid voor een leenauto bij een onderhoudsbeurt of reparatie, vraag naar de voorwaarden. Openingstijden:\n Maandag : 08:15 - 18:00\n Dinsdag : 08:15 - 18:00\n Woensdag : 08:15 - 18:00\n Donderdag : 08:15 - 18:00\n Vrijdag : 08:15 - 18:00\n Zaterdag : 10:00 - 16:00\n Zondag : gesloten Type autobedrijf :\nUniverseel autobedrijf\n\n Diensten :\nInkoop gebruikte auto's, Verkoop occasions / tweedehands auto's, Velgen, Banden",
+  "meta_title": "Hanssen Auto's 0495-592154 info@hanssenautos.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

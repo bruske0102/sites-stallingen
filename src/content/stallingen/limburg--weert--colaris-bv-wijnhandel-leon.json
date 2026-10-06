@@ -1,0 +1,22 @@
+{
+  "id": 130577,
+  "slug": "colaris-bv-wijnhandel-leon",
+  "provincie": "limburg",
+  "plaats": "weert",
+  "naam": "Colaris BV Wijnhandel Léon",
+  "straat": "Franklinstraat 1",
+  "postcode": "6003DK",
+  "plaatsnaam": "Weert",
+  "telefoon": "0495-766231",
+  "website": "http://www.colaris.nl",
+  "lat": 51.268943,
+  "lon": 5.731725,
+  "status": "gesloten",
+  "oude_url": "/limburg/weert/colaris-bv-wijnhandel-leon/",
+  "omschrijving": "Wat wij doen:\nWelkom bij wijnhandel Léon Colaris\nMeer dan 85 jaar importeur van kwaliteitswijnen!\n\nNoem ons makelaar in geneugten. Gevestigd in een modern bedrijfs-pand op bedrijvenpark Kampershoek in het Midden-Limburgse Weert, beschikken we over een uitstekend geoutilleerde boven- en onder-grondse opslag. Openingstijden:\n Maandag : 08:15 - 17:00\n Dinsdag : 08:15 - 17:00\n Woensdag : 08:15 - 17:00\n Donderdag : 08:15 - 17:00\n Vrijdag : 08:15 - 17:00\n Zaterdag : 10:00 - 15:00 enkel op afspraak\n Zondag : gesloten Specialiteiten :\nImporteur van kwaliteitswijnen , Uitstekend geoutilleerde boven- en ondergrondse opslag, Levering aan particulier of horeca-ondernemer, Ook halve flessen, Online bestellen, Advies\n\n Service :\nGratis wijncourant\n\n Betalingsmogelijkheden :\nContant, Pin, iDeal, MasterCard, Visa",
+  "meta_title": "Colaris BV Wijnhandel Léon 0495-766231",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

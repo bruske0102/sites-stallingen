@@ -1,0 +1,20 @@
+{
+  "id": 131268,
+  "slug": "fine-sales",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Fine Sales",
+  "straat": "Egidiusstraat 58",
+  "postcode": "1055GX",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "06-30037624",
+  "lat": 52.379922,
+  "lon": 4.851374,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/fine-sales/",
+  "meta_title": "Fine Sales 06-30037624",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 131259,
+  "slug": "boedelbeheer",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Boedelbeheer",
+  "straat": "Theemsweg 26",
+  "postcode": "1043BJ",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-5806506",
+  "lat": 52.389377,
+  "lon": 4.811171,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/boedelbeheer/",
+  "meta_title": "Boedelbeheer 020-5806506",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

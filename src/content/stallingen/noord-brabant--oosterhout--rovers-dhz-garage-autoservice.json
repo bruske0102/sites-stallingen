@@ -1,0 +1,28 @@
+{
+  "id": 130905,
+  "slug": "rovers-dhz-garage-autoservice",
+  "provincie": "noord-brabant",
+  "plaats": "oosterhout",
+  "naam": "Rovers DHZ Garage & Autoservice",
+  "straat": "Nachtegaalstraat 24",
+  "postcode": "4901BN",
+  "plaatsnaam": "Oosterhout nb",
+  "telefoon": "0162-426673",
+  "website": "http://www.doehetzelfgaragerovers.nl",
+  "lat": 51.64937,
+  "lon": 4.854663,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/oosterhout/rovers-dhz-garage-autoservice/",
+  "email": "info@garagerovers.nl",
+  "omschrijving": "Wat wij doen:\nDoe-het-zelf garage Rovers biedt u de mogelijkheid om zelf uw auto te repareren in een professionele werkplaats, met professioneel gereedschap en onder professionele begeleiding.\n\nU hoeft natuurlijk niets zelf te doen, onze ervaren monteurs staan altijd voor u klaar voor reparaties, een kleine of een grote beurt.\n\nMeer informatie over de mogelijkheden vindt u op onze site, maar bellen of binnenlopen kan natuurlijk ook altijd. Openingstijden:\n Maandag : 09:00 - 18:00\n Dinsdag : 09:00 - 18:00\n Woensdag : 09:00 - 13:00\n Donderdag : 09:00 - 20:00\n Vrijdag : 09:00 - 20:00\n Zaterdag : 09:00 - 14:00\n Zondag : gesloten Service :\ngratis opslag zomer/winterbanden\n\n Toegankelijkheid :\nBegane grond\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\ndoe het zelf garage\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, 5 hefbruggen, accu's, banden en uitlaten, ervaren personeel voor advies en hulp, kentekenplaten, laat het doen, onderdelen op voorraad, uitgebreid gereedschap, winterbanden\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin, Bank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nBOVAG",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Rovers DHZ Garage & Autoservice 0162-426673 info@garagerovers.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

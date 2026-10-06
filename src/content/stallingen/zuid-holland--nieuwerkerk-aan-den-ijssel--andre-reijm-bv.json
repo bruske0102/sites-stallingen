@@ -1,0 +1,29 @@
+{
+  "id": 2153291,
+  "slug": "andre-reijm-bv",
+  "provincie": "zuid-holland",
+  "plaats": "nieuwerkerk-aan-den-ijssel",
+  "naam": "Andre Reijm B.V.",
+  "straat": "Westringdijk 20",
+  "postcode": "2913 LK",
+  "plaatsnaam": "Nieuwerkerk aan den IJssel",
+  "telefoon": "0653125571",
+  "website": "https://www.andrereijmbv.com/",
+  "lat": 51.9750229,
+  "lon": 4.597114800000001,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/nieuwerkerk-aan-den-ijssel/andre-reijm-bv/",
+  "email": "andrereijmopslag@gmail.com",
+  "omschrijving": "​Andre Reijm B.V. levert stalling tegen een betaalbare prijs. Wij bieden een veilige opslagruimte gecombineerd met uitzonderlijke klantenservice voor uw Caravan | Camper | Auto | Boot | Aanhanger of Vouwwagen in Nieuwerkerk aan den IJssel.",
+  "kenmerken": {
+    "Type": [
+      "boot",
+      "caravan"
+    ]
+  },
+  "meta_title": "Andre Reijm B.V. 0653125571 andrereijmopslag@gmail.com",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

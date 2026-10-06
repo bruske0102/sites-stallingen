@@ -1,0 +1,23 @@
+{
+  "id": 130666,
+  "slug": "maxihuur",
+  "provincie": "limburg",
+  "plaats": "echt",
+  "naam": "Maxihuur",
+  "straat": "Rijksweg Zuid 80",
+  "postcode": "6102XZ",
+  "plaatsnaam": "Echt",
+  "telefoon": "0475-410500",
+  "website": "http://www.maxihuur.nl",
+  "lat": 51.088304,
+  "lon": 5.878594,
+  "status": "gesloten",
+  "oude_url": "/limburg/echt/maxihuur/",
+  "email": "info@maxihuur.com",
+  "omschrijving": "0475-410500\n\n fax : 0475-410450\n\nhttp://www.maxihuur.nl\n\n Wat wij doen:\nMaXiHuur Verhuurcentrum Echt is een regionaal verhuurbedrijf, gespecialiseerd in het verhuren van machines en gereedschappen voor klussers, bedrijven en particulieren die tegen gunstige condities over goede en moderne gereedschappen en machines willen beschikken.\n\nWe hebben in ons verkoop assortiment 3 soorten bulk zand:\n\n 1) Gewassen rivier zand (metsel / straat zand) in de maat 02.\n 2) Betonmix die bestaat uit een parel / rivierzand in de maat 02-16.\n 3) Grijze ophoogzand, humusvrij ook wel vulzand genoemd.\n\nTevens hebben wij in ons assortiment ook zakken cement (van 25 kg) voor het maken van beton, of metsel specie opgenomen. Openingstijden:\n Maandag : 07:30 - 17:00\n Dinsdag : 07:30 - 17:00\n Woensdag : 07:30 - 17:00\n Donderdag : 07:30 - 17:00\n Vrijdag : 07:30 - 17:00\n Zaterdag : 08:00 - 17:00\n Zondag : gesloten Doelgroep :\nBedrijven, Particulieren\n\n Feest, evenement en beurs :\nVloer\n\n Elektriciteit en klimaatbeheersing :\nCompressor, Verwarming\n\n Bouw, tuin, vervoer en gereedschap :\nLadder, Lift, Pomp, Steiger, Transportwagen, Zaagmachine\n\n Licht, beeld en geluid :\nVerlichting\n\n Tijdelijke huisvesting en opslag :\nUnit",
+  "meta_title": "Maxihuur 0475-410500 info@maxihuur.com",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

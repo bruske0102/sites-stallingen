@@ -1,0 +1,170 @@
+---
+/**
+ * Client-side zoek op plaats + stallingnaam voor suggesties/contact.
+ */
+import { allShops, shopPath, instellingen } from "../lib/data";
+
+interface Props {
+  required?: boolean;
+  /** Prefill search from ?q= */
+  initialQuery?: string;
+}
+const { required = false, initialQuery = "" } = Astro.props;
+const siteOrigin = instellingen.site.url;
+
+const shops = allShops()
+  .map((s) => ({
+    id: String(s.id ?? ""),
+    naam: s.naam,
+    plaats: s.plaatsnaam || s.plaats,
+    path: shopPath(s),
+    telefoon: s.telefoon || "",
+  }))
+  .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));
+---
+<div class="shop-picker" data-shop-picker data-required={required ? "1" : "0"}>
+  <label for="shop-zoek">
+    Zoek praktijk of stalling (plaats of naam){required ? " *" : ""}
+    <input
+      id="shop-zoek"
+      type="search"
+      placeholder="Bijv. Amsterdam, Rotterdam, Breda…"
+      autocomplete="off"
+      value={initialQuery}
+      data-shop-q
+    />
+    <span class="hint">Typ een plaats of naam - kies daarna de juiste praktijk uit de lijst.</span>
+  </label>
+
+  <ul class="shop-picker-results" data-shop-results hidden></ul>
+
+  <div class="shop-picker-selected" data-shop-selected hidden>
+    <p class="shop-picker-label">Geselecteerd</p>
+    <p class="shop-picker-name" data-sel-naam></p>
+    <p class="shop-picker-meta" data-sel-meta></p>
+    <p class="shop-picker-link"><a data-sel-link href="#" target="_blank" rel="noopener">Open pagina</a></p>
+    <button type="button" class="btn btn-ghost" data-shop-clear>Andere praktijk kiezen</button>
+  </div>
+
+  <input type="hidden" name="shop_naam" data-f-naam value="" />
+  <input type="hidden" name="shop_plaats" data-f-plaats value="" />
+  <input type="hidden" name="shop_url" data-f-url value="" />
+  <input type="hidden" name="shop_id" data-f-id value="" />
+  <input type="hidden" name="shop_telefoon" data-f-tel value="" />
+  <input type="hidden" name="pagina" data-f-pagina value="" />
+</div>
+
+<script define:vars={{ shops, siteOrigin }}>
+  const norm = (s) =>
+    String(s || "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+
+  for (const root of document.querySelectorAll("[data-shop-picker]")) {
+    const q = root.querySelector("[data-shop-q]");
+    const list = root.querySelector("[data-shop-results]");
+    const selected = root.querySelector("[data-shop-selected]");
+    const required = root.dataset.required === "1";
+    const form = root.closest("form");
+
+    const setFields = (shop) => {
+      root.querySelector("[data-f-naam]").value = shop?.naam || "";
+      root.querySelector("[data-f-plaats]").value = shop?.plaats || "";
+      root.querySelector("[data-f-url]").value = shop ? `${siteOrigin}${shop.path}` : "";
+      root.querySelector("[data-f-id]").value = shop?.id || "";
+      root.querySelector("[data-f-tel]").value = shop?.telefoon || "";
+      root.querySelector("[data-f-pagina]").value = shop ? `${siteOrigin}${shop.path}` : "";
+    };
+
+    const showSelected = (shop) => {
+      selected.hidden = false;
+      list.hidden = true;
+      q.hidden = true;
+      root.querySelector("[data-sel-naam]").textContent = shop.naam;
+      root.querySelector("[data-sel-meta]").textContent = [
+        shop.plaats,
+        shop.telefoon,
+        shop.path,
+      ]
+        .filter(Boolean)
+        .join(" · ");
+      const a = root.querySelector("[data-sel-link]");
+      a.href = shop.path;
+      setFields(shop);
+    };
+
+    const clear = () => {
+      selected.hidden = true;
+      q.hidden = false;
+      q.value = "";
+      q.focus();
+      list.hidden = true;
+      list.innerHTML = "";
+      setFields(null);
+    };
+
+    root.querySelector("[data-shop-clear]")?.addEventListener("click", clear);
+
+    const render = () => {
+      const needle = norm(q.value).trim();
+      if (needle.length < 2) {
+        list.hidden = true;
+        list.innerHTML = "";
+        return;
+      }
+      const parts = needle.split(/\s+/).filter(Boolean);
+      const hits = shops
+        .filter((s) => {
+          const hay = norm(`${s.naam} ${s.plaats}`);
+          return parts.every((p) => hay.includes(p));
+        })
+        .slice(0, 12);
+      list.innerHTML = "";
+      if (!hits.length) {
+        list.hidden = false;
+        list.innerHTML = `<li class="shop-picker-empty">Geen praktijk gevonden. Probeer een andere naam of plaats.</li>`;
+        return;
+      }
+      for (const s of hits) {
+        const li = document.createElement("li");
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "shop-picker-hit";
+        btn.innerHTML = `<strong></strong><span></span>`;
+        btn.querySelector("strong").textContent = s.naam;
+        btn.querySelector("span").textContent = s.plaats + (s.telefoon ? ` · ${s.telefoon}` : "");
+        btn.addEventListener("click", () => showSelected(s));
+        li.appendChild(btn);
+        list.appendChild(li);
+      }
+      list.hidden = false;
+    };
+
+    q.addEventListener("input", render);
+    q.addEventListener("focus", render);
+
+    const qParam = new URLSearchParams(location.search).get("q")?.trim();
+    if (qParam && !q.value) q.value = qParam;
+    if (q.value.trim().length >= 2) {
+      render();
+      const exact = shops.find((s) => norm(s.naam) === norm(q.value.trim()));
+      if (exact) showSelected(exact);
+    }
+
+    form?.addEventListener(
+      "submit",
+      (e) => {
+        if (!required) return;
+        if (!root.querySelector("[data-f-url]").value) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          q.focus();
+          list.hidden = false;
+          list.innerHTML = `<li class="shop-picker-empty">Kies eerst een praktijk uit de zoekresultaten.</li>`;
+        }
+      },
+      true,
+    );
+  }
+</script>

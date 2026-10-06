@@ -1,0 +1,20 @@
+{
+  "id": 131177,
+  "slug": "schenker-bv-htl",
+  "provincie": "noord-brabant",
+  "plaats": "zevenbergen",
+  "naam": "Schenker BV-HTL",
+  "straat": "Tradeboulevard 2",
+  "postcode": "4761RL",
+  "plaatsnaam": "Zevenbergen",
+  "telefoon": "0168-359400",
+  "lat": 51.658993,
+  "lon": 4.565007,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/zevenbergen/schenker-bv-htl/",
+  "meta_title": "Schenker BV-HTL 0168-359400",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "niche": "stallingen",
+  "model": "gpt_image_2_5",
+  "aspect_ratio": "16:9",
+  "count_ready": 13,
+  "count_total": 13,
+  "heroes": [
+    {
+      "index": 0,
+      "slug": "almere",
+      "naam": "Almere",
+      "volume": 590,
+      "job_id": null,
+      "jpg": "almere.jpg",
+      "webp": "almere.webp",
+      "ready": true,
+      "source": "copied-opslagruimte"
+    },
+    {
+      "index": 1,
+      "slug": "amsterdam",
+      "naam": "Amsterdam",
+      "volume": 590,
+      "job_id": null,
+      "jpg": "amsterdam.jpg",
+      "webp": "amsterdam.webp",
+      "ready": true,
+      "source": "existing"
+    },
+    {
+      "index": 2,
+      "slug": "haarlem",
+      "naam": "Haarlem",
+      "volume": 480,
+      "job_id": null,
+      "jpg": "haarlem.jpg",
+      "webp": "haarlem.webp",
+      "ready": true,
+      "source": "existing"
+    },
+    {
+      "index": 3,
+      "slug": "rotterdam",
+      "naam": "Rotterdam",
+      "volume": 480,
+      "job_id": null,
+      "jpg": "rotterdam.jpg",
+      "webp": "rotterdam.webp",
+      "ready": true,
+      "source": "existing"
+    },
+    {
+      "index": 4,
+      "slug": "utrecht-gemeente",
+      "naam": "Utrecht",
+      "volume": 480,
+      "job_id": null,
+      "jpg": "utrecht-gemeente.jpg",
+      "webp": "utrecht-gemeente.webp",
+      "ready": true,
+      "source": "existing"
+    },
+    {
+      "index": 5,
+      "slug": "nijmegen",
+      "naam": "Nijmegen",
+      "volume": 390,
+      "job_id": "15ef2a8f-4127-48ad-865f-72020e915b85",
+      "jpg": "nijmegen.jpg",
+      "webp": "nijmegen.webp",
+      "ready": true,
+      "source": "generated"
+    },
+    {
+      "index": 6,
+      "slug": "eindhoven",
+      "naam": "Eindhoven",
+      "volume": 320,
+      "job_id": null,
+      "jpg": "eindhoven.jpg",
+      "webp": "eindhoven.webp",
+      "ready": true,
+      "source": "existing"
+    },
+    {
+      "index": 7,
+      "slug": "tilburg",
+      "naam": "Tilburg",
+      "volume": 260,
+      "job_id": null,
+      "jpg": "tilburg.jpg",
+      "webp": "tilburg.webp",
+      "ready": true,
+      "source": "copied-opslagruimte"
+    },
+    {
+      "index": 8,
+      "slug": "zwolle",
+      "naam": "Zwolle",
+      "volume": 260,
+      "job_id": "9106c940-31c4-4a3e-9de9-158f315ce8de",
+      "jpg": "zwolle.jpg",
+      "webp": "zwolle.webp",
+      "ready": true,
+      "source": "generated"
+    },
+    {
+      "index": 9,
+      "slug": "amersfoort",
+      "naam": "Amersfoort",
+      "volume": 210,
+      "job_id": "2f67240e-787c-4395-97ab-4eb0cd4c4e96",
+      "jpg": "amersfoort.jpg",
+      "webp": "amersfoort.webp",
+      "ready": true,
+      "source": "generated"
+    },
+    {
+      "index": 10,
+      "slug": "arnhem",
+      "naam": "Arnhem",
+      "volume": 210,
+      "job_id": "a8c77ddf-411d-4c1f-88b2-caaba4b9a320",
+      "jpg": "arnhem.jpg",
+      "webp": "arnhem.webp",
+      "ready": true,
+      "source": "generated"
+    },
+    {
+      "index": 11,
+      "slug": "delft",
+      "naam": "Delft",
+      "volume": 210,
+      "job_id": "02943e08-afb0-4bcb-8cde-27b99166a049",
+      "jpg": "delft.jpg",
+      "webp": "delft.webp",
+      "ready": true,
+      "source": "generated"
+    },
+    {
+      "index": 12,
+      "slug": "groningen-gemeente",
+      "naam": "Groningen",
+      "volume": 210,
+      "job_id": null,
+      "jpg": "groningen-gemeente.jpg",
+      "webp": "groningen-gemeente.webp",
+      "ready": true,
+      "source": "copied-opslagruimte"
+    }
+  ],
+  "aliases": [
+    "utrecht",
+    "groningen"
+  ]
+}

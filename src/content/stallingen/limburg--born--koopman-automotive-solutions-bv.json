@@ -1,0 +1,21 @@
+{
+  "id": 130702,
+  "slug": "koopman-automotive-solutions-bv",
+  "provincie": "limburg",
+  "plaats": "born",
+  "naam": "Koopman Automotive Solutions BV",
+  "straat": "Verloren van Themaatweg 2",
+  "postcode": "6121RG",
+  "plaatsnaam": "Born",
+  "telefoon": "046-4891515",
+  "lat": 51.051042,
+  "lon": 5.815946,
+  "status": "gesloten",
+  "oude_url": "/limburg/born/koopman-automotive-solutions-bv/",
+  "omschrijving": "Postbus20, 6120AA, Born",
+  "meta_title": "Koopman Automotive Solutions BV 046-4891515",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

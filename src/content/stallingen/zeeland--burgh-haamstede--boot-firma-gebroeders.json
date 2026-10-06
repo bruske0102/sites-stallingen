@@ -1,0 +1,27 @@
+{
+  "id": 131067,
+  "slug": "boot-firma-gebroeders",
+  "provincie": "zeeland",
+  "plaats": "burgh-haamstede",
+  "naam": "Boot Firma Gebroeders",
+  "straat": "Steurswekken 5",
+  "postcode": "4328BJ",
+  "plaatsnaam": "Burgh-Haamstede",
+  "telefoon": "0111-653330",
+  "lat": 51.690168,
+  "lon": 3.748925,
+  "status": "gesloten",
+  "oude_url": "/zeeland/burgh-haamstede/boot-firma-gebroeders/",
+  "email": "mart@gebr-boot.nl",
+  "omschrijving": "Mart Boot : 06-53980843\n\nhttp://www.gebr-boot.nl\n\n Wat wij doen:\nFirma Gebr. Boot\n\nSinds de oprichting van ons bedrijf in 1948, zijn er veel facetten van de dienstverlening bijgekomen. Wat in 1948 begonnen is in de agrarische sector als loonbedrijf, is van lieverlee uitgegroeid tot een groot scala van diensten en producten. Met een machinepark die divers is in te zetten.\n\nDe werkzaamheden van ons bedrijf bestaan hoofdzakelijk uit:\n\n verhuur van grondverzetmachines\n aanleg/onderhoud riool en persleidingen\n aannemen van sloop- en grondwerkzaamheden\n leveren van zand en tuingrond\n transport\n stalling\n verhuur van opslag/bedrijfsruimte\n Service :\nAlleen op afspraak, Gratis advies, Gratis offerte\n\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\ngrondwerk, riool- en persleiding\n\n Specialisatie :\nGraafwerkzaamheden, Sloopwerk, levering zand en tuingrond, riool- en persleiding aanleg, verhuur opslagruimte\n\n Aangesloten bij / Certificering :\nCumela, VCA",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Boot Firma Gebroeders 0111-653330 mart@gebr-boot.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

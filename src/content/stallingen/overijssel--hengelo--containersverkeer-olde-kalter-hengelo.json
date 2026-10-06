@@ -1,0 +1,22 @@
+{
+  "id": 130890,
+  "slug": "containersverkeer-olde-kalter-hengelo",
+  "provincie": "overijssel",
+  "plaats": "hengelo",
+  "naam": "Containers/Verkeer Olde Kalter Hengelo",
+  "straat": "Beitelstraat 28",
+  "postcode": "7556NC",
+  "plaatsnaam": "Hengelo ov",
+  "telefoon": "074-2435548",
+  "website": "http://www.oldekalterhengelo.nl",
+  "lat": 52.281168,
+  "lon": 6.805831,
+  "status": "gesloten",
+  "oude_url": "/overijssel/hengelo/containersverkeer-olde-kalter-hengelo/",
+  "omschrijving": "bgg : 06-54783071\n\nhttp://www.oldekalterhengelo.nl\n\n Wat wij doen:\nOldekalter BV. leunt op een traditie van meer dan 85 jaar ervaring. In 1923 begonnen als een eenmanszaak met paard en wagen is er gedurende die periode hard gewerkt aan haar eigen ontwikkeling in het transport, grondwerk, en (afval)containers.\n\nVoor afvoer van diverse soorten afval, hout, puin en grond, verhuurt Olde Kalter diverse soorten grootte's van afval- en opslag containers. In zowel open als gesloten uitvoeringen. Inhoud van 1 tot 30 m3, zowel particulier als bedrijven. Voor 11.00 uur besteld, is dezelfde dag geleverd. Prijzen zijn gebaseerd op All- inn tarief, dus geen bijkomende kosten. Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nContainer verhuur, Containertransport\n\n Producten :\nAfvalcontainer, Opslagcontainer, Puincontainer, opslag container, hefcontainers, volume container",
+  "meta_title": "Containers/Verkeer Olde Kalter Hengelo 074-2435548",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

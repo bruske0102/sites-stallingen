@@ -1,0 +1,2161 @@
+{
+  "131034": {
+    "status": "dood",
+    "final": "http://www.tuinmanverhuizingen.nl",
+    "reason": "HTTP 404"
+  },
+  "131123": {
+    "status": "ok"
+  },
+  "131124": {
+    "status": "ok"
+  },
+  "131033": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130588": {
+    "status": "ok"
+  },
+  "131122": {
+    "status": "ok"
+  },
+  "130871": {
+    "status": "ander_domein",
+    "final": "https://nederland.raben-group.com/",
+    "reason": "unrelated redirect dgoexpress.nl → nederland.raben-group.com"
+  },
+  "130863": {
+    "status": "ok"
+  },
+  "130873": {
+    "status": "ok"
+  },
+  "131309": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131207": {
+    "status": "dood",
+    "final": "https://www.bakker-logistiek.nl",
+    "reason": " "
+  },
+  "131162": {
+    "status": "dood",
+    "final": "https://www.bakker-logistiek.nl",
+    "reason": " "
+  },
+  "130788": {
+    "status": "dood",
+    "final": "https://www.bakker-logistiek.nl",
+    "reason": " "
+  },
+  "130916": {
+    "status": "dood",
+    "final": "https://www.bakker-logistiek.nl",
+    "reason": " "
+  },
+  "131040": {
+    "status": "dood",
+    "final": "https://www.bakker-logistiek.nl",
+    "reason": " "
+  },
+  "131038": {
+    "status": "ok"
+  },
+  "130779": {
+    "status": "ok"
+  },
+  "131127": {
+    "status": "ok"
+  },
+  "130784": {
+    "status": "ok"
+  },
+  "131103": {
+    "status": "ander_domein",
+    "final": "https://abtexel.com/",
+    "reason": "unrelated redirect wigchers.nl → abtexel.com"
+  },
+  "130781": {
+    "status": "ok"
+  },
+  "130785": {
+    "status": "dood",
+    "final": "https://www.instituutroben.nl",
+    "reason": " "
+  },
+  "130953": {
+    "status": "dood",
+    "final": "https://www.hilcokramer.nl",
+    "reason": " "
+  },
+  "130783": {
+    "status": "ok"
+  },
+  "130853": {
+    "status": "ok"
+  },
+  "130777": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-leeuwarden/",
+    "reason": "HTTP 404"
+  },
+  "130952": {
+    "status": "ok"
+  },
+  "130776": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=heerenveen",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=heerenveen"
+  },
+  "130954": {
+    "status": "ok"
+  },
+  "130630": {
+    "status": "ok"
+  },
+  "130780": {
+    "status": "ok"
+  },
+  "130955": {
+    "status": "ok",
+    "final": "https://bandsmabultje.nl/",
+    "reason": "reopened: Dutch/BE host gambling-signal FP"
+  },
+  "130951": {
+    "status": "ok"
+  },
+  "131157": {
+    "status": "ok"
+  },
+  "130786": {
+    "status": "verhuisd",
+    "url": "https://www.ato-training.nl/",
+    "final": "https://www.ato-training.nl/",
+    "reason": "edunoord.nl → ato-training.nl"
+  },
+  "131125": {
+    "status": "ander_domein",
+    "final": "https://automathoogeveen.nl/",
+    "reason": "unrelated redirect autoprofi.nl → automathoogeveen.nl"
+  },
+  "131024": {
+    "status": "ok"
+  },
+  "130778": {
+    "status": "ok"
+  },
+  "130958": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=arnhem",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=arnhem"
+  },
+  "130965": {
+    "status": "ok"
+  },
+  "130968": {
+    "status": "ok"
+  },
+  "130964": {
+    "status": "verhuisd",
+    "url": "https://www.beekmantransport.nl/",
+    "final": "https://www.beekmantransport.nl/",
+    "reason": "beekman-transport.nl → beekmantransport.nl"
+  },
+  "131035": {
+    "status": "ok"
+  },
+  "130787": {
+    "status": "ok",
+    "final": "https://maasverhuur.nl/",
+    "reason": "reopened: Dutch/BE host gambling-signal FP"
+  },
+  "130971": {
+    "status": "ok"
+  },
+  "130915": {
+    "status": "ok"
+  },
+  "130966": {
+    "status": "ok"
+  },
+  "130839": {
+    "status": "ander_domein",
+    "final": "https://www.bochane.nl/",
+    "reason": "unrelated redirect coppes.nl → bochane.nl"
+  },
+  "130978": {
+    "status": "dood",
+    "final": "https://www.medimore.nl",
+    "reason": " "
+  },
+  "130676": {
+    "status": "ok",
+    "final": "https://www.safebox-selfstorage.nl/",
+    "reason": "reopened: Dutch/BE host gambling-signal FP"
+  },
+  "130737": {
+    "status": "ok"
+  },
+  "130832": {
+    "status": "ok"
+  },
+  "130741": {
+    "status": "ok"
+  },
+  "130674": {
+    "status": "ander_domein",
+    "final": "https://vansterkenburg.nl/self-storage/",
+    "reason": "unrelated redirect deopslagloods.nl → vansterkenburg.nl"
+  },
+  "130691": {
+    "status": "ok"
+  },
+  "130961": {
+    "status": "ok"
+  },
+  "130742": {
+    "status": "verhuisd",
+    "url": "https://maarsedrukwerk.nl/",
+    "final": "https://maarsedrukwerk.nl/",
+    "reason": "drukkerijmaarse.nl → maarsedrukwerk.nl"
+  },
+  "130984": {
+    "status": "ok"
+  },
+  "131161": {
+    "status": "dood",
+    "final": "https://www.vanzijlverhuizingen.nl",
+    "reason": " "
+  },
+  "130739": {
+    "status": "ok"
+  },
+  "130677": {
+    "status": "ander_domein",
+    "final": "https://oegemalogistics.com/",
+    "reason": "unrelated redirect oort.nl → oegemalogistics.com"
+  },
+  "131030": {
+    "status": "ander_domein",
+    "final": "https://smartconcepts.nl/?mtm_campaign=ref&mtm_kwd=lmbloenen",
+    "reason": "unrelated redirect lmbloenen.nl → smartconcepts.nl"
+  },
+  "130837": {
+    "status": "ok"
+  },
+  "130914": {
+    "status": "ok"
+  },
+  "131029": {
+    "status": "ok",
+    "final": "https://www.depatersloopwerken.nl/",
+    "reason": "reopened: Dutch/BE host gambling-signal FP"
+  },
+  "130772": {
+    "status": "ander_domein",
+    "final": "https://visueelvertoon.nl/",
+    "reason": "unrelated redirect a-etalages.nl → visueelvertoon.nl"
+  },
+  "131028": {
+    "status": "ok",
+    "final": "https://www.depatersloopwerken.nl/",
+    "reason": "reopened: Dutch/BE host gambling-signal FP"
+  },
+  "131016": {
+    "status": "ok"
+  },
+  "130736": {
+    "status": "ok"
+  },
+  "130962": {
+    "status": "ok"
+  },
+  "130834": {
+    "status": "ok"
+  },
+  "130646": {
+    "status": "ok"
+  },
+  "130831": {
+    "status": "ok"
+  },
+  "130833": {
+    "status": "ok"
+  },
+  "130763": {
+    "status": "ok"
+  },
+  "130838": {
+    "status": "ok"
+  },
+  "130969": {
+    "status": "ok"
+  },
+  "130830": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-nijmegen-wijchen/",
+    "reason": "HTTP 404"
+  },
+  "130829": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=nijmegen",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=nijmegen"
+  },
+  "130982": {
+    "status": "verhuisd",
+    "url": "https://milieusystemen.eu/",
+    "final": "https://milieusystemen.eu/",
+    "reason": "milieusystemen.nl → milieusystemen.eu"
+  },
+  "130774": {
+    "status": "ok"
+  },
+  "130836": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130967": {
+    "status": "ok"
+  },
+  "130995": {
+    "status": "ok"
+  },
+  "131128": {
+    "status": "ok"
+  },
+  "131158": {
+    "status": "ok"
+  },
+  "131129": {
+    "status": "verhuisd",
+    "url": "https://www.delaval.com/nl/",
+    "final": "https://www.delaval.com/nl/",
+    "reason": "delaval.nl → delaval.com"
+  },
+  "130715": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=groningen-bornholmstraat",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=groningen-bornholmstraat"
+  },
+  "130970": {
+    "status": "ok"
+  },
+  "131141": {
+    "status": "twijfel",
+    "final": "http://www.driveinbox.nl",
+    "reason": "HTTP 520"
+  },
+  "130716": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=groningen-peizerweg",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=groningen-peizerweg"
+  },
+  "131145": {
+    "status": "ander_domein",
+    "final": "https://ce-medical.com/",
+    "reason": "unrelated redirect cecourier.nl → ce-medical.com"
+  },
+  "131160": {
+    "status": "ander_domein",
+    "final": "https://svztransport.nl/",
+    "reason": "unrelated redirect tlslogistics.nl → svztransport.nl"
+  },
+  "130717": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-groningen/",
+    "reason": "HTTP 404"
+  },
+  "130722": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131148": {
+    "status": "ander_domein",
+    "final": "https://www.bmigroup.com/nl/?utm_source=icopal.nl&utm_medium=+referral-redirect&utm_campaign=dxb-redirects",
+    "reason": "unrelated redirect icopal.nl → bmigroup.com"
+  },
+  "131037": {
+    "status": "ok"
+  },
+  "130724": {
+    "status": "ok"
+  },
+  "130775": {
+    "status": "ok"
+  },
+  "131144": {
+    "status": "ok"
+  },
+  "130723": {
+    "status": "ok"
+  },
+  "131143": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130721": {
+    "status": "ok"
+  },
+  "130727": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131163": {
+    "status": "dood",
+    "final": "http://www.rjansma.nl",
+    "reason": "HTTP 404"
+  },
+  "131164": {
+    "status": "ok"
+  },
+  "131146": {
+    "status": "verhuisd",
+    "url": "https://www.brenntag.com/en-nl/",
+    "final": "https://www.brenntag.com/en-nl/",
+    "reason": "brenntag.nl → brenntag.com"
+  },
+  "131149": {
+    "status": "ok"
+  },
+  "130782": {
+    "status": "ok"
+  },
+  "130728": {
+    "status": "ok"
+  },
+  "131167": {
+    "status": "ok"
+  },
+  "130718": {
+    "status": "ok"
+  },
+  "130720": {
+    "status": "ok"
+  },
+  "131153": {
+    "status": "ok"
+  },
+  "131136": {
+    "status": "ok"
+  },
+  "131151": {
+    "status": "ok"
+  },
+  "131168": {
+    "status": "ok"
+  },
+  "131185": {
+    "status": "ok"
+  },
+  "130719": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130589": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-venlo-baarlo",
+    "reason": "HTTP 404"
+  },
+  "131154": {
+    "status": "ok"
+  },
+  "131169": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131165": {
+    "status": "ok"
+  },
+  "131155": {
+    "status": "ok"
+  },
+  "130581": {
+    "status": "ok"
+  },
+  "130704": {
+    "status": "ok"
+  },
+  "130623": {
+    "status": "dood",
+    "final": "https://www.selfstoragebaarlo.nl",
+    "reason": " "
+  },
+  "130565": {
+    "status": "geparkeerd",
+    "final": "https://www.qtransport.nl/",
+    "reason": "parked/for-sale signals"
+  },
+  "130842": {
+    "status": "ok"
+  },
+  "130667": {
+    "status": "ok"
+  },
+  "130665": {
+    "status": "ok"
+  },
+  "130558": {
+    "status": "ok"
+  },
+  "130729": {
+    "status": "ok"
+  },
+  "130590": {
+    "status": "ok"
+  },
+  "130572": {
+    "status": "ok"
+  },
+  "130823": {
+    "status": "ok"
+  },
+  "130744": {
+    "status": "geparkeerd",
+    "final": "https://www.rltrading.nl/kopen/verhuur-opslagruimte",
+    "reason": "parked/for-sale signals"
+  },
+  "130666": {
+    "status": "verhuisd",
+    "url": "https://maxihuur.com/",
+    "final": "https://maxihuur.com/",
+    "reason": "maxihuur.nl → maxihuur.com"
+  },
+  "130583": {
+    "status": "ok"
+  },
+  "130845": {
+    "status": "dood",
+    "final": "https://www.stallinggronsveld.nl",
+    "reason": " "
+  },
+  "130612": {
+    "status": "ok"
+  },
+  "130562": {
+    "status": "verhuisd",
+    "url": "https://www.harryvroomen.eu/",
+    "final": "https://www.harryvroomen.eu/",
+    "reason": "harryvroomen.nl → harryvroomen.eu"
+  },
+  "130575": {
+    "status": "ok"
+  },
+  "130582": {
+    "status": "verhuisd",
+    "url": "https://www.harryvroomen.eu/",
+    "final": "https://www.harryvroomen.eu/",
+    "reason": "harryvroomen.nl → harryvroomen.eu"
+  },
+  "130843": {
+    "status": "ok"
+  },
+  "130600": {
+    "status": "verhuisd",
+    "url": "https://menten-hilkens.nl/",
+    "final": "https://menten-hilkens.nl/",
+    "reason": "mentenhilkens.nl → menten-hilkens.nl"
+  },
+  "130846": {
+    "status": "ok"
+  },
+  "130601": {
+    "status": "ok"
+  },
+  "130874": {
+    "status": "geparkeerd",
+    "final": "https://www.stikkelbroek.nl/",
+    "reason": "parked/for-sale signals"
+  },
+  "130580": {
+    "status": "ok"
+  },
+  "130840": {
+    "status": "ok"
+  },
+  "130563": {
+    "status": "ok"
+  },
+  "130576": {
+    "status": "verhuisd",
+    "url": "https://lift-huren.nl/",
+    "final": "https://lift-huren.nl/",
+    "reason": "lifthuren.nl → lift-huren.nl"
+  },
+  "130596": {
+    "status": "ok"
+  },
+  "130911": {
+    "status": "ok"
+  },
+  "130945": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130622": {
+    "status": "ok"
+  },
+  "130593": {
+    "status": "ok"
+  },
+  "130939": {
+    "status": "ok",
+    "final": "https://www.zotskappen.nl/",
+    "reason": "reopened: Dutch/BE host gambling-signal FP"
+  },
+  "130947": {
+    "status": "ok"
+  },
+  "130946": {
+    "status": "ok"
+  },
+  "130567": {
+    "status": "ok"
+  },
+  "130875": {
+    "status": "ok"
+  },
+  "130557": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl"
+  },
+  "130568": {
+    "status": "ok"
+  },
+  "130621": {
+    "status": "ok"
+  },
+  "130573": {
+    "status": "dood",
+    "final": "https://www.0800-verhuizen.nl",
+    "reason": " "
+  },
+  "130828": {
+    "status": "ok"
+  },
+  "130609": {
+    "status": "dood",
+    "final": "http://www.asagroep.nl",
+    "reason": "HTTP 404"
+  },
+  "130610": {
+    "status": "dood",
+    "final": "http://www.asagroep.nl",
+    "reason": "HTTP 404"
+  },
+  "130608": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130607": {
+    "status": "dood",
+    "final": "https://www.wijsen.nl",
+    "reason": " "
+  },
+  "130569": {
+    "status": "dood",
+    "final": "https://www.krauthverhuizingen.nl",
+    "reason": " "
+  },
+  "130570": {
+    "status": "ok"
+  },
+  "130559": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=maastricht",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=maastricht"
+  },
+  "130948": {
+    "status": "ander_domein",
+    "final": "https://voertuigvitamine.nl/",
+    "reason": "unrelated redirect bremenautomaterialen.nl → voertuigvitamine.nl"
+  },
+  "130835": {
+    "status": "ok"
+  },
+  "130973": {
+    "status": "ander_domein",
+    "final": "https://www.dewitgoedspecialist.nl/store/de-witgoed-specialist-kusters-langstraat",
+    "reason": "unrelated redirect kusterselektroservice.nl → dewitgoedspecialist.nl"
+  },
+  "130714": {
+    "status": "ok"
+  },
+  "130974": {
+    "status": "ok"
+  },
+  "130996": {
+    "status": "verhuisd",
+    "url": "https://flex.com/",
+    "final": "https://flex.com/",
+    "reason": "flextronics.com → flex.com"
+  },
+  "130725": {
+    "status": "dood",
+    "final": "https://www.autoservicefair.nl",
+    "reason": " "
+  },
+  "130585": {
+    "status": "ok"
+  },
+  "130613": {
+    "status": "ok"
+  },
+  "130745": {
+    "status": "dood",
+    "final": "https://www.bpgdiederen.nl",
+    "reason": " "
+  },
+  "130615": {
+    "status": "ok"
+  },
+  "130619": {
+    "status": "ok"
+  },
+  "130561": {
+    "status": "ok"
+  },
+  "130876": {
+    "status": "ok"
+  },
+  "131002": {
+    "status": "ok"
+  },
+  "130614": {
+    "status": "ok"
+  },
+  "130591": {
+    "status": "ok"
+  },
+  "130595": {
+    "status": "ok"
+  },
+  "130697": {
+    "status": "dood",
+    "final": "https://www.auto-ebos.nl",
+    "reason": " "
+  },
+  "130663": {
+    "status": "ok"
+  },
+  "130579": {
+    "status": "ok"
+  },
+  "130700": {
+    "status": "ok"
+  },
+  "131003": {
+    "status": "verhuisd",
+    "url": "https://inba.de/en",
+    "final": "https://inba.de/en",
+    "reason": "inba-wv.nl → inba.de"
+  },
+  "130999": {
+    "status": "ok"
+  },
+  "130599": {
+    "status": "ok"
+  },
+  "130695": {
+    "status": "ok"
+  },
+  "130577": {
+    "status": "ok"
+  },
+  "130998": {
+    "status": "ok"
+  },
+  "2153166": {
+    "status": "ok"
+  },
+  "130922": {
+    "status": "ok"
+  },
+  "130598": {
+    "status": "ok"
+  },
+  "130814": {
+    "status": "ok"
+  },
+  "130809": {
+    "status": "ok"
+  },
+  "130877": {
+    "status": "ok"
+  },
+  "130712": {
+    "status": "ok"
+  },
+  "130602": {
+    "status": "ok"
+  },
+  "130649": {
+    "status": "ok"
+  },
+  "130801": {
+    "status": "ok"
+  },
+  "130699": {
+    "status": "ok"
+  },
+  "130641": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130903": {
+    "status": "ander_domein",
+    "final": "https://www.nassausneltransport.nl/",
+    "reason": "unrelated redirect gitrans.nl → nassausneltransport.nl"
+  },
+  "130707": {
+    "status": "ok"
+  },
+  "130625": {
+    "status": "ok"
+  },
+  "130908": {
+    "status": "verhuisd",
+    "url": "https://www.nassausneltransport.nl/",
+    "final": "https://www.nassausneltransport.nl/",
+    "reason": "gitrans.nl → nassausneltransport.nl"
+  },
+  "130651": {
+    "status": "ok"
+  },
+  "131360": {
+    "status": "verhuisd",
+    "url": "https://autovelden.nl/",
+    "final": "https://autovelden.nl/",
+    "reason": "autovandervelden.nl → autovelden.nl"
+  },
+  "130791": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=eindhoven-centrum",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=eindhoven-centrum"
+  },
+  "130790": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=eindhoven-acht",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=eindhoven-acht"
+  },
+  "130798": {
+    "status": "ok"
+  },
+  "130647": {
+    "status": "ok"
+  },
+  "130794": {
+    "status": "ok"
+  },
+  "130802": {
+    "status": "ok"
+  },
+  "130592": {
+    "status": "ok"
+  },
+  "130642": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=den-bosch",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=den-bosch"
+  },
+  "130825": {
+    "status": "ok"
+  },
+  "130924": {
+    "status": "ok"
+  },
+  "130920": {
+    "status": "ok"
+  },
+  "130795": {
+    "status": "ander_domein",
+    "final": "https://movers.nl/",
+    "reason": "unrelated redirect versfelt.com → movers.nl"
+  },
+  "130654": {
+    "status": "ok"
+  },
+  "130992": {
+    "status": "ok"
+  },
+  "130993": {
+    "status": "ok"
+  },
+  "130824": {
+    "status": "ok"
+  },
+  "130994": {
+    "status": "ander_domein",
+    "final": "https://www.hosting2go.nl/domein-geregistreerd-door-hosting2go/",
+    "reason": "unrelated redirect dekeuken.nl → hosting2go.nl"
+  },
+  "131112": {
+    "status": "ok"
+  },
+  "130643": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-boxtel/",
+    "reason": "HTTP 404"
+  },
+  "130709": {
+    "status": "ok"
+  },
+  "130800": {
+    "status": "ok"
+  },
+  "130797": {
+    "status": "ok"
+  },
+  "131182": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130987": {
+    "status": "ok"
+  },
+  "130990": {
+    "status": "ok"
+  },
+  "131179": {
+    "status": "ok"
+  },
+  "130658": {
+    "status": "ok"
+  },
+  "130803": {
+    "status": "ok"
+  },
+  "130986": {
+    "status": "ok"
+  },
+  "130985": {
+    "status": "ok"
+  },
+  "130989": {
+    "status": "ander_domein",
+    "final": "https://ilonaschomper.nl/",
+    "reason": "unrelated redirect degarageoss.nl → ilonaschomper.nl"
+  },
+  "130918": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130662": {
+    "status": "ok"
+  },
+  "130988": {
+    "status": "ander_domein",
+    "final": "https://www.denhartogh.com/news/royal-den-hartogh-acquires-hs-group",
+    "reason": "unrelated redirect hs-group.eu → denhartogh.com"
+  },
+  "130906": {
+    "status": "ok"
+  },
+  "130711": {
+    "status": "ok"
+  },
+  "131171": {
+    "status": "ok"
+  },
+  "130899": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130650": {
+    "status": "verhuisd",
+    "url": "https://www.brouwersbv.nl/",
+    "final": "https://www.brouwersbv.nl/",
+    "reason": "brouwerstransport.nl → brouwersbv.nl"
+  },
+  "130655": {
+    "status": "verhuisd",
+    "url": "https://www.brouwersbv.nl/",
+    "final": "https://www.brouwersbv.nl/",
+    "reason": "brouwerstransport.nl → brouwersbv.nl"
+  },
+  "130900": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-tilburg/",
+    "reason": "HTTP 404"
+  },
+  "130923": {
+    "status": "ok"
+  },
+  "130578": {
+    "status": "ok"
+  },
+  "130661": {
+    "status": "ok"
+  },
+  "130597": {
+    "status": "ok"
+  },
+  "130904": {
+    "status": "ok"
+  },
+  "130652": {
+    "status": "ok"
+  },
+  "130799": {
+    "status": "dood",
+    "final": "https://www.hvanrooijen.nl",
+    "reason": " "
+  },
+  "130626": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=alkmaar-centrum",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=alkmaar-centrum"
+  },
+  "130629": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=alkmaar-oudorp",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=alkmaar-oudorp"
+  },
+  "131211": {
+    "status": "verhuisd",
+    "url": "https://autobedrijf-nieuwendijk.nl/",
+    "final": "https://autobedrijf-nieuwendijk.nl/",
+    "reason": "renault-nieuwendijk.nl → autobedrijf-nieuwendijk.nl"
+  },
+  "130927": {
+    "status": "ok"
+  },
+  "130633": {
+    "status": "ok"
+  },
+  "131248": {
+    "status": "verhuisd",
+    "url": "https://www.degraaf.com/",
+    "final": "https://www.degraaf.com/",
+    "reason": "degraafverhuizingen.nl → degraaf.com"
+  },
+  "130905": {
+    "status": "verhuisd",
+    "url": "https://www.garagerovers.nl/",
+    "final": "https://www.garagerovers.nl/",
+    "reason": "doehetzelfgaragerovers.nl → garagerovers.nl"
+  },
+  "131212": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131215": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131213": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131250": {
+    "status": "ok"
+  },
+  "131255": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130637": {
+    "status": "ok"
+  },
+  "131296": {
+    "status": "ok"
+  },
+  "130928": {
+    "status": "ok"
+  },
+  "131252": {
+    "status": "ok"
+  },
+  "131291": {
+    "status": "ok"
+  },
+  "131254": {
+    "status": "dood",
+    "final": "https://www.lefbv.nl",
+    "reason": " "
+  },
+  "131054": {
+    "status": "ander_domein",
+    "final": "https://paxon.com/en-GB/about/base-logistics",
+    "reason": "unrelated redirect baselogistics.com → paxon.com"
+  },
+  "131249": {
+    "status": "ok"
+  },
+  "131286": {
+    "status": "ok"
+  },
+  "131299": {
+    "status": "ok"
+  },
+  "131305": {
+    "status": "ok"
+  },
+  "131261": {
+    "status": "dood",
+    "final": "https://www.boxx-opslagverhuur.nl",
+    "reason": " "
+  },
+  "131289": {
+    "status": "ok"
+  },
+  "131218": {
+    "status": "ok"
+  },
+  "131222": {
+    "status": "ok"
+  },
+  "131300": {
+    "status": "ander_domein",
+    "final": "https://domeinhelden.nl/nl",
+    "reason": "unrelated redirect eikelhof.nl → domeinhelden.nl"
+  },
+  "131302": {
+    "status": "ok"
+  },
+  "131270": {
+    "status": "dood",
+    "final": "https://www.steinweg.com/wp-signup.php?new=www.steinweg.nl",
+    "reason": "HTTP 404"
+  },
+  "131285": {
+    "status": "dood",
+    "final": "https://www.koendersverhuizingen.nl",
+    "reason": " "
+  },
+  "131272": {
+    "status": "dood",
+    "final": "https://www.huureenbox.nl",
+    "reason": " "
+  },
+  "131279": {
+    "status": "dood",
+    "final": "http://www.oiltanking.com/de/onepager.html",
+    "reason": "HTTP 404"
+  },
+  "131266": {
+    "status": "ok"
+  },
+  "131219": {
+    "status": "ok"
+  },
+  "131258": {
+    "status": "dood",
+    "final": "https://www.koendersverhuizingen.nl",
+    "reason": " "
+  },
+  "131295": {
+    "status": "ok"
+  },
+  "131288": {
+    "status": "ok"
+  },
+  "131256": {
+    "status": "ok"
+  },
+  "131292": {
+    "status": "ok"
+  },
+  "131197": {
+    "status": "ok"
+  },
+  "131308": {
+    "status": "ok"
+  },
+  "131290": {
+    "status": "ok"
+  },
+  "131214": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=amsterdam-zuid",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=amsterdam-zuid"
+  },
+  "130628": {
+    "status": "ok"
+  },
+  "131221": {
+    "status": "ok"
+  },
+  "131320": {
+    "status": "dood",
+    "final": "https://www.boxx-opslagverhuur.nl",
+    "reason": " "
+  },
+  "131235": {
+    "status": "ok"
+  },
+  "130627": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131233": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131298": {
+    "status": "ok"
+  },
+  "131234": {
+    "status": "ok"
+  },
+  "131241": {
+    "status": "ok"
+  },
+  "131237": {
+    "status": "dood",
+    "final": "https://www.rentaboxopslag.nl",
+    "reason": " "
+  },
+  "131322": {
+    "status": "ok"
+  },
+  "131306": {
+    "status": "ok"
+  },
+  "131326": {
+    "status": "ok"
+  },
+  "131238": {
+    "status": "ok"
+  },
+  "130639": {
+    "status": "ok"
+  },
+  "131353": {
+    "status": "ok"
+  },
+  "131355": {
+    "status": "ok"
+  },
+  "131327": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131361": {
+    "status": "ok"
+  },
+  "131369": {
+    "status": "ok"
+  },
+  "131226": {
+    "status": "ok"
+  },
+  "131337": {
+    "status": "ok"
+  },
+  "131343": {
+    "status": "ok"
+  },
+  "131356": {
+    "status": "verhuisd",
+    "url": "https://schoenmakergww.nl/",
+    "final": "https://schoenmakergww.nl/",
+    "reason": "hschoenmakerbv.nl → schoenmakergww.nl"
+  },
+  "131216": {
+    "status": "ok"
+  },
+  "131240": {
+    "status": "ok"
+  },
+  "131331": {
+    "status": "ok"
+  },
+  "131328": {
+    "status": "ok"
+  },
+  "131345": {
+    "status": "dood",
+    "final": "https://www.vrieshuisbotman.com",
+    "reason": " "
+  },
+  "131347": {
+    "status": "dood",
+    "final": "https://www.fivestar.nl",
+    "reason": " "
+  },
+  "131242": {
+    "status": "ok"
+  },
+  "130636": {
+    "status": "ok"
+  },
+  "131346": {
+    "status": "ok"
+  },
+  "131227": {
+    "status": "ok"
+  },
+  "131228": {
+    "status": "ok"
+  },
+  "131344": {
+    "status": "ok"
+  },
+  "131349": {
+    "status": "ok"
+  },
+  "131342": {
+    "status": "ok",
+    "final": "https://www.multi-box.nl/pg-12768-7-96399/pagina/home.html",
+    "reason": "reopened: Dutch/BE host gambling-signal FP"
+  },
+  "131253": {
+    "status": "ok"
+  },
+  "131310": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=hilversum",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=hilversum"
+  },
+  "130634": {
+    "status": "verhuisd",
+    "url": "https://svztransport.nl/",
+    "final": "https://svztransport.nl/",
+    "reason": "kuipertransport.nl → svztransport.nl"
+  },
+  "131312": {
+    "status": "ok"
+  },
+  "131068": {
+    "status": "ok"
+  },
+  "131348": {
+    "status": "ok"
+  },
+  "131043": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=hoorn",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=hoorn"
+  },
+  "130690": {
+    "status": "verhuisd",
+    "url": "https://bcc-hartendorp.nl/",
+    "final": "https://bcc-hartendorp.nl/",
+    "reason": "hartendorp.nl → bcc-hartendorp.nl"
+  },
+  "131220": {
+    "status": "ok"
+  },
+  "130692": {
+    "status": "verhuisd",
+    "url": "https://bcc-hartendorp.nl/",
+    "final": "https://bcc-hartendorp.nl/",
+    "reason": "hartendorp.nl → bcc-hartendorp.nl"
+  },
+  "131231": {
+    "status": "ok"
+  },
+  "130640": {
+    "status": "ok"
+  },
+  "131093": {
+    "status": "ok"
+  },
+  "131247": {
+    "status": "ok"
+  },
+  "131119": {
+    "status": "ok"
+  },
+  "131319": {
+    "status": "ok"
+  },
+  "131329": {
+    "status": "ok"
+  },
+  "131351": {
+    "status": "ok"
+  },
+  "131363": {
+    "status": "ok"
+  },
+  "131366": {
+    "status": "ok"
+  },
+  "131368": {
+    "status": "ok"
+  },
+  "131338": {
+    "status": "ok"
+  },
+  "131339": {
+    "status": "ok"
+  },
+  "131340": {
+    "status": "ok"
+  },
+  "131313": {
+    "status": "ok"
+  },
+  "131055": {
+    "status": "ok"
+  },
+  "131336": {
+    "status": "ok"
+  },
+  "131052": {
+    "status": "dood",
+    "final": "https://www.hemmoromp.nl",
+    "reason": " "
+  },
+  "131315": {
+    "status": "ok"
+  },
+  "131332": {
+    "status": "ok"
+  },
+  "131044": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=purmerend",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=purmerend"
+  },
+  "130632": {
+    "status": "ok"
+  },
+  "131333": {
+    "status": "ok"
+  },
+  "131049": {
+    "status": "ok"
+  },
+  "131335": {
+    "status": "ok"
+  },
+  "131236": {
+    "status": "dood",
+    "final": "https://www.caravanstalling-haarlem.nl",
+    "reason": " "
+  },
+  "131224": {
+    "status": "dood",
+    "final": "https://www.caravanstalling-haarlem.nl",
+    "reason": " "
+  },
+  "131316": {
+    "status": "ok"
+  },
+  "131045": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-volendam",
+    "reason": "HTTP 404"
+  },
+  "131051": {
+    "status": "ok"
+  },
+  "130638": {
+    "status": "ok"
+  },
+  "130586": {
+    "status": "ander_domein",
+    "final": "https://svdv.eu/",
+    "reason": "unrelated redirect schoorlvdveldt.nl → svdv.eu"
+  },
+  "131324": {
+    "status": "ok"
+  },
+  "130883": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-almelo/",
+    "reason": "HTTP 404"
+  },
+  "130856": {
+    "status": "ander_domein",
+    "final": "https://www.stvdbrink.nl/jan-hofman-transport",
+    "reason": "unrelated redirect vanhaarst.nl → stvdbrink.nl"
+  },
+  "131323": {
+    "status": "verhuisd",
+    "url": "https://www.autofirst-pietsanders.nl/",
+    "final": "https://www.autofirst-pietsanders.nl/",
+    "reason": "pietsanders.nl → autofirst-pietsanders.nl"
+  },
+  "130855": {
+    "status": "ander_domein",
+    "final": "https://www.stvdbrink.nl/jan-hofman-transport",
+    "reason": "unrelated redirect hofman.nu → stvdbrink.nl"
+  },
+  "130932": {
+    "status": "ok"
+  },
+  "130693": {
+    "status": "ander_domein",
+    "final": "https://www.stvdbrink.nl/jan-hofman-transport",
+    "reason": "unrelated redirect kuiperalmelo.nl → stvdbrink.nl"
+  },
+  "130868": {
+    "status": "ok"
+  },
+  "131048": {
+    "status": "ok",
+    "final": "https://www.finishbox.nl/",
+    "reason": "reopened: Dutch/BE host gambling-signal FP"
+  },
+  "130872": {
+    "status": "ok"
+  },
+  "131350": {
+    "status": "dood",
+    "final": "https://www.vriestransport.nl",
+    "reason": " "
+  },
+  "131027": {
+    "status": "ok"
+  },
+  "130584": {
+    "status": "ok"
+  },
+  "130886": {
+    "status": "ok"
+  },
+  "130891": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131019": {
+    "status": "ok"
+  },
+  "130884": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-enschede/",
+    "reason": "HTTP 404"
+  },
+  "130881": {
+    "status": "ok"
+  },
+  "131156": {
+    "status": "ok"
+  },
+  "130896": {
+    "status": "dood",
+    "final": "https://www.brinktwente.nl",
+    "reason": " "
+  },
+  "130885": {
+    "status": "ok"
+  },
+  "130882": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=hengelo",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=hengelo"
+  },
+  "131017": {
+    "status": "ok"
+  },
+  "130892": {
+    "status": "ok"
+  },
+  "130890": {
+    "status": "verhuisd",
+    "url": "https://www.oldekalter-hgl.nl:443/",
+    "final": "https://www.oldekalter-hgl.nl:443/",
+    "reason": "oldekalterhengelo.nl → oldekalter-hgl.nl"
+  },
+  "2409530": {
+    "status": "ok"
+  },
+  "2409428": {
+    "status": "ok"
+  },
+  "130941": {
+    "status": "ok"
+  },
+  "130894": {
+    "status": "verhuisd",
+    "url": "https://autovakmeester.nl/vestiging/eshuis-auto/",
+    "final": "https://autovakmeester.nl/vestiging/eshuis-auto/",
+    "reason": "eshuisauto.nl → autovakmeester.nl"
+  },
+  "130944": {
+    "status": "ok"
+  },
+  "130858": {
+    "status": "ok"
+  },
+  "130893": {
+    "status": "ok"
+  },
+  "130869": {
+    "status": "ok"
+  },
+  "130866": {
+    "status": "ok"
+  },
+  "130933": {
+    "status": "ok"
+  },
+  "130857": {
+    "status": "ok"
+  },
+  "130867": {
+    "status": "dood",
+    "final": "https://www.autoservicetimmer.nl",
+    "reason": " "
+  },
+  "130851": {
+    "status": "twijfel",
+    "final": "http://www.veijerverhuizingen.nl",
+    "reason": "HTTP 502"
+  },
+  "131025": {
+    "status": "ok"
+  },
+  "130895": {
+    "status": "ok"
+  },
+  "130861": {
+    "status": "ok"
+  },
+  "131026": {
+    "status": "ok"
+  },
+  "130865": {
+    "status": "ok"
+  },
+  "130888": {
+    "status": "dood",
+    "final": "https://www.busscher-containers.nl",
+    "reason": " "
+  },
+  "130852": {
+    "status": "dood",
+    "final": "https://www.groenwarehousingzwolle.nl",
+    "reason": " "
+  },
+  "130850": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-zwolle/",
+    "reason": "HTTP 404"
+  },
+  "130938": {
+    "status": "ok"
+  },
+  "130864": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130848": {
+    "status": "ok"
+  },
+  "130862": {
+    "status": "ok"
+  },
+  "130860": {
+    "status": "ok"
+  },
+  "130760": {
+    "status": "dood",
+    "final": "https://www.henkboshart.nl",
+    "reason": " "
+  },
+  "131293": {
+    "status": "dood",
+    "final": "https://www.coldstore.nl",
+    "reason": " "
+  },
+  "130935": {
+    "status": "ander_domein",
+    "final": "https://www.stvdbrink.nl/jan-hofman-transport",
+    "reason": "unrelated redirect hofman.nu → stvdbrink.nl"
+  },
+  "131039": {
+    "status": "ok"
+  },
+  "130849": {
+    "status": "ok"
+  },
+  "130887": {
+    "status": "verhuisd",
+    "url": "https://www.wesselsvriezenveen.nl/",
+    "final": "https://www.wesselsvriezenveen.nl/",
+    "reason": "wesselsenzoon.nl → wesselsvriezenveen.nl"
+  },
+  "130769": {
+    "status": "ok"
+  },
+  "130771": {
+    "status": "ok"
+  },
+  "130682": {
+    "status": "ok"
+  },
+  "130773": {
+    "status": "ok"
+  },
+  "130681": {
+    "status": "ok"
+  },
+  "130770": {
+    "status": "ok"
+  },
+  "130679": {
+    "status": "ok"
+  },
+  "130764": {
+    "status": "ok"
+  },
+  "130668": {
+    "status": "ok"
+  },
+  "130756": {
+    "status": "dood",
+    "final": "https://www.loonbedrijfverbeek.nl",
+    "reason": " "
+  },
+  "131159": {
+    "status": "ok"
+  },
+  "130757": {
+    "status": "ok"
+  },
+  "130683": {
+    "status": "ok"
+  },
+  "131230": {
+    "status": "verhuisd",
+    "url": "https://brouwerlogistics.com/",
+    "final": "https://brouwerlogistics.com/",
+    "reason": "brtl.nl → brouwerlogistics.com"
+  },
+  "130566": {
+    "status": "ok"
+  },
+  "130670": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130571": {
+    "status": "ok"
+  },
+  "130686": {
+    "status": "ok"
+  },
+  "130761": {
+    "status": "ok"
+  },
+  "130762": {
+    "status": "ok"
+  },
+  "130684": {
+    "status": "ok"
+  },
+  "130912": {
+    "status": "ok"
+  },
+  "130671": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=utrecht",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=utrecht"
+  },
+  "130687": {
+    "status": "ok"
+  },
+  "130669": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl"
+  },
+  "130768": {
+    "status": "ok"
+  },
+  "130963": {
+    "status": "ok"
+  },
+  "130751": {
+    "status": "ok"
+  },
+  "130680": {
+    "status": "dood",
+    "final": "https://www.greeven-zeist.nl",
+    "reason": " "
+  },
+  "131042": {
+    "status": "dood",
+    "final": "https://www.garagemeerman.nl",
+    "reason": " "
+  },
+  "130678": {
+    "status": "ok"
+  },
+  "131057": {
+    "status": "geparkeerd",
+    "final": "https://expireddomains.com/domain/terrapoint.nl?utm_source=redi",
+    "reason": "parked/for-sale signals"
+  },
+  "130688": {
+    "status": "ok"
+  },
+  "131056": {
+    "status": "ok"
+  },
+  "130675": {
+    "status": "ok"
+  },
+  "131059": {
+    "status": "ok"
+  },
+  "130765": {
+    "status": "ok"
+  },
+  "130822": {
+    "status": "ok"
+  },
+  "131066": {
+    "status": "ok"
+  },
+  "131072": {
+    "status": "ok"
+  },
+  "131064": {
+    "status": "verhuisd",
+    "url": "https://www.toyota-cappendijk.nl/",
+    "final": "https://www.toyota-cappendijk.nl/",
+    "reason": "toyota-dejonge.nl → toyota-cappendijk.nl"
+  },
+  "131071": {
+    "status": "ok"
+  },
+  "131063": {
+    "status": "ander_domein",
+    "final": "https://www.dehoop-bouwgrondstoffen.nl/depots/goes",
+    "reason": "unrelated redirect houtkaai.nl → dehoop-bouwgrondstoffen.nl"
+  },
+  "131086": {
+    "status": "ok"
+  },
+  "131065": {
+    "status": "ok"
+  },
+  "130815": {
+    "status": "ok"
+  },
+  "131088": {
+    "status": "ok"
+  },
+  "130818": {
+    "status": "dood",
+    "final": "https://www.gerardbouwense.nl",
+    "reason": " "
+  },
+  "131089": {
+    "status": "ok"
+  },
+  "130810": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=middelburg",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=middelburg"
+  },
+  "131079": {
+    "status": "ok",
+    "final": "https://www.bouwenseminiopslag.nl/",
+    "reason": "reopened: Dutch/BE host gambling-signal FP"
+  },
+  "131077": {
+    "status": "ok"
+  },
+  "131061": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130819": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131075": {
+    "status": "ok"
+  },
+  "131080": {
+    "status": "ok"
+  },
+  "131062": {
+    "status": "ok"
+  },
+  "131074": {
+    "status": "ander_domein",
+    "final": "https://vogel-verhuizingen.nl/",
+    "reason": "unrelated redirect multibox-inboedelhotel.nl → vogel-verhuizingen.nl"
+  },
+  "131092": {
+    "status": "ok"
+  },
+  "130806": {
+    "status": "ok"
+  },
+  "131076": {
+    "status": "ander_domein",
+    "final": "https://www.verbruggeinternational.com/en/services/alleghany-warehouse-europe",
+    "reason": "unrelated redirect awe.nl → verbruggeinternational.com"
+  },
+  "130808": {
+    "status": "twijfel",
+    "final": "https://www.siereveld.eu/",
+    "reason": "HTTP 500"
+  },
+  "131085": {
+    "status": "ok"
+  },
+  "130807": {
+    "status": "verhuisd",
+    "url": "https://www.joka.de/nl_nl/b2c/",
+    "final": "https://www.joka.de/nl_nl/b2c/",
+    "reason": "joka.nl → joka.de"
+  },
+  "131082": {
+    "status": "dood",
+    "final": "https://www.dts-verhuizingen.nl",
+    "reason": " "
+  },
+  "131100": {
+    "status": "ok"
+  },
+  "131101": {
+    "status": "ok"
+  },
+  "2197420": {
+    "status": "dood",
+    "final": "https://www.hagestalling.nl",
+    "reason": " "
+  },
+  "131104": {
+    "status": "ok"
+  },
+  "131102": {
+    "status": "ok"
+  },
+  "131091": {
+    "status": "ok"
+  },
+  "131078": {
+    "status": "ok"
+  },
+  "130820": {
+    "status": "ok"
+  },
+  "131126": {
+    "status": "dood",
+    "final": "https://www.vandepolgrondboringen.nl",
+    "reason": " "
+  },
+  "131098": {
+    "status": "dood",
+    "final": "https://www.verbrugge.nl",
+    "reason": " "
+  },
+  "131083": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130821": {
+    "status": "ok"
+  },
+  "131096": {
+    "status": "ok"
+  },
+  "131097": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "130817": {
+    "status": "ok"
+  },
+  "131094": {
+    "status": "ok"
+  },
+  "131114": {
+    "status": "ok"
+  },
+  "131206": {
+    "status": "ok"
+  },
+  "131195": {
+    "status": "ok"
+  },
+  "130574": {
+    "status": "ok"
+  },
+  "131107": {
+    "status": "ander_domein",
+    "final": "https://vostransportgroup.com/",
+    "reason": "unrelated redirect abrdehaan.nl → vostransportgroup.com"
+  },
+  "131090": {
+    "status": "ok"
+  },
+  "131111": {
+    "status": "ok"
+  },
+  "130901": {
+    "status": "ok"
+  },
+  "131203": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131202": {
+    "status": "twijfel",
+    "final": "http://www.eurobulk.nl",
+    "reason": "HTTP 500"
+  },
+  "130672": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-zederik",
+    "reason": "HTTP 404"
+  },
+  "131014": {
+    "status": "ok"
+  },
+  "131205": {
+    "status": "ok"
+  },
+  "131001": {
+    "status": "ander_domein",
+    "final": "https://nicsell.com/nl/domain/www.cliffords.nl",
+    "reason": "unrelated redirect cliffords.nl → nicsell.com"
+  },
+  "131132": {
+    "status": "ok"
+  },
+  "131004": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131108": {
+    "status": "ok"
+  },
+  "2153292": {
+    "status": "ok"
+  },
+  "2153291": {
+    "status": "ok"
+  },
+  "131134": {
+    "status": "ok"
+  },
+  "131194": {
+    "status": "verhuisd",
+    "url": "https://www.brusse-zn.com/nl/home/",
+    "final": "https://www.brusse-zn.com/nl/home/",
+    "reason": "brusse-zn.nl → brusse-zn.com"
+  },
+  "131196": {
+    "status": "ok"
+  },
+  "131191": {
+    "status": "ok"
+  },
+  "131006": {
+    "status": "ok"
+  },
+  "131186": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131110": {
+    "status": "ok"
+  },
+  "131187": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=rotterdam-feijenoord",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=rotterdam-feijenoord"
+  },
+  "131188": {
+    "status": "verhuisd",
+    "final": "https://www.shurgard.com/nl-nl?vestiging=rotterdam-spaanse-polder",
+    "reason": "brand move → shurgard.com",
+    "url": "https://www.shurgard.com/nl-nl?vestiging=rotterdam-spaanse-polder"
+  },
+  "131189": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-rotterdam-centrum-hillegersberg/",
+    "reason": "HTTP 404"
+  },
+  "131012": {
+    "status": "ok"
+  },
+  "131105": {
+    "status": "ok"
+  },
+  "131200": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131192": {
+    "status": "ok"
+  },
+  "131008": {
+    "status": "ok"
+  },
+  "131190": {
+    "status": "dood",
+    "final": "http://www.kubus-opslag.nl/vestigingen/opslagruimte-rotterdam-noord/",
+    "reason": "HTTP 404"
+  },
+  "131201": {
+    "status": "geblokkeerd",
+    "reason": "HTTP 403"
+  },
+  "131174": {
+    "status": "ok"
+  },
+  "131239": {
+    "status": "ander_domein",
+    "final": "https://oomen.com/bedrijven/van-leeuwen-verhuizingen/",
+    "reason": "unrelated redirect vanleeuwenverhuizingen.nl → oomen.com"
+  },
+  "130685": {
+    "status": "dood",
+    "final": "https://www.besselingkoeriersdienst.nl",
+    "reason": " "
+  },
+  "131133": {
+    "status": "ok"
+  },
+  "131199": {
+    "status": "ok"
+  },
+  "131011": {
+    "status": "ok"
+  },
+  "130759": {
+    "status": "dood",
+    "final": "https://www.xcellent.nl",
+    "reason": " "
+  },
+  "131135": {
+    "status": "ok"
+  },
+  "130956": {
+    "status": "ok"
+  },
+  "131009": {
+    "status": "ok"
+  },
+  "131095": {
+    "status": "dood",
+    "final": "https://www.kelvinterminals.com",
+    "reason": " "
+  }
+}

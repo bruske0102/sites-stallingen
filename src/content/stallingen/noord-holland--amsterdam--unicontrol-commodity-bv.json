@@ -1,0 +1,20 @@
+{
+  "id": 131280,
+  "slug": "unicontrol-commodity-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Unicontrol Commodity BV",
+  "straat": "Cacaoweg 20",
+  "postcode": "1047BM",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-5879720",
+  "lat": 52.412409,
+  "lon": 4.764338,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/unicontrol-commodity-bv/",
+  "meta_title": "Unicontrol Commodity BV 020-5879720",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

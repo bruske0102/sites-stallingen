@@ -1,0 +1,28 @@
+{
+  "id": 131245,
+  "slug": "etten-autobedrijf-van",
+  "provincie": "noord-holland",
+  "plaats": "heemskerk",
+  "naam": "Etten Autobedrijf Van",
+  "straat": "Timmerwerf 91",
+  "postcode": "1969NJ",
+  "plaatsnaam": "Heemskerk",
+  "telefoon": "0251-233677",
+  "lat": 52.505318,
+  "lon": 4.651871,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/heemskerk/etten-autobedrijf-van/",
+  "omschrijving": "Wat wij doen:\n\nAutobedrijf Van Etten in Heemskerk is een onafhankelijk BOVAG autobedrijf.\n\nWij zijn een universeel garagebedrijf maar onze voorkeur gaat uit naar\nde merken Fiat en Lancia Openingstijden:\n Maandag : 08:00 - 17:00\n Dinsdag : 08:00 - 17:00\n Woensdag : 08:00 - 17:00\n Donderdag : 08:00 - 17:00\n Vrijdag : 08:30 - 16:00\n Zaterdag : 09:00 - 13:00\n Zondag : gesloten Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Onderhoud en reparatie motorfiets, Remmen repareren / vervangen, Reparatie, Roetmeting, Schadeherstel, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag, occasions\n\n Merk :\nAlle merken, Fiat, Lancia\n\n Betalingsmogelijkheden :\nContant, Bank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nBOVAG",
+  "kenmerken": {
+    "Type": [
+      "fiets",
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Etten Autobedrijf Van 0251-233677",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 130921,
+  "slug": "transport-rien-goorden",
+  "provincie": "noord-brabant",
+  "plaats": "oudenbosch",
+  "naam": "Transport Rien Goorden",
+  "straat": "Vaartweg 3",
+  "postcode": "4731RA",
+  "plaatsnaam": "Oudenbosch",
+  "telefoon": "0165-316693",
+  "lat": 51.57931,
+  "lon": 4.5293,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/oudenbosch/transport-rien-goorden/",
+  "meta_title": "Transport Rien Goorden 0165-316693",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

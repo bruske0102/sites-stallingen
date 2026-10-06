@@ -1,0 +1,20 @@
+{
+  "id": 131281,
+  "slug": "vopak-terminal-amsterdam-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Vopak Terminal Amsterdam BV",
+  "straat": "Petroleumhavenweg 42",
+  "postcode": "1041AC",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6115353",
+  "lat": 52.411718,
+  "lon": 4.86091,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/vopak-terminal-amsterdam-bv/",
+  "meta_title": "Vopak Terminal Amsterdam BV 020-6115353",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 130696,
+  "slug": "vitesse-logistics-netherlands-bv",
+  "provincie": "limburg",
+  "plaats": "venlo",
+  "naam": "Vitesse Logistics Netherlands BV",
+  "straat": "Columbusweg 24",
+  "postcode": "5928LC",
+  "plaatsnaam": "Venlo",
+  "telefoon": "077-3894400",
+  "lat": 51.396424,
+  "lon": 6.092506,
+  "status": "gesloten",
+  "oude_url": "/limburg/venlo/vitesse-logistics-netherlands-bv/",
+  "meta_title": "Vitesse Logistics Netherlands BV 077-3894400",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 131041,
+  "slug": "vdv-vof",
+  "provincie": "zeeland",
+  "plaats": "aardenburg",
+  "naam": "VDV VOF",
+  "straat": "Herenweg Noord 1",
+  "postcode": "4527PV",
+  "plaatsnaam": "Aardenburg",
+  "telefoon": "0117-493658",
+  "lat": 51.278542,
+  "lon": 3.458578,
+  "status": "gesloten",
+  "oude_url": "/zeeland/aardenburg/vdv-vof/",
+  "email": "vdvkoeriers@planet.nl",
+  "omschrijving": "Klein transport en verhuizingen\nopslag & overslag\n\n mobiele telefoon : 06-29597175\n\n mobiele telefoon : 06-55781771",
+  "meta_title": "VDV VOF 0117-493658 vdvkoeriers@planet.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

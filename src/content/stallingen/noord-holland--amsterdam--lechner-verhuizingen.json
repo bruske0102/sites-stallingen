@@ -1,0 +1,20 @@
+{
+  "id": 131276,
+  "slug": "lechner-verhuizingen",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Lechner Verhuizingen",
+  "straat": "Basisweg 65",
+  "postcode": "1043AN",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6145738",
+  "lat": 52.391367,
+  "lon": 4.823235,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/lechner-verhuizingen/",
+  "meta_title": "Lechner Verhuizingen 020-6145738",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

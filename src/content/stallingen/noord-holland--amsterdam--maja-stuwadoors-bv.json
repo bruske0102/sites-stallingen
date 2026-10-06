@@ -1,0 +1,28 @@
+{
+  "id": 131197,
+  "slug": "maja-stuwadoors-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Maja Stuwadoors BV",
+  "straat": "Pier Azie 10",
+  "postcode": "1013BT",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6849712",
+  "website": "http://www.majastuwadoors.nl",
+  "lat": 52.405909,
+  "lon": 4.866211,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/maja-stuwadoors-bv/",
+  "email": "info@majastuwadoors.nl",
+  "omschrijving": "Wat wij doen:\nMaja Stuwadoors, dé drijvende kracht voor de overslag van bulk- en stukgoed.\n\nSinds 1972 is Maja Stuwadoors een begrip in de wereld van de overslag. Ons familiebedrijf onderscheidt zich door flexibiliteit, snelheid en een compacte organisatie. Vanuit het hoofdkantoor in Amsterdam wordt de organisatie met veel passie voor het stuwadoorsvak aangestuurd. Sfeer, vrijheid en korte lijnen zijn kenmerkend voor ons team van ruim 35 goed opgeleide en gedreven medewerkers.\n\nMaja wordt regelmatig door verzekeraars en maritieme opdrachtgevers ingeschakeld voor speciale projecten waaronder reddingsklussen en bergingswerkzaamheden.\n\nMaja verzorgt de overslag van agri-producten, zowel gewogen als ongewogen. Maja is ISO 9001 en GMP+ gecertificeerd voor de overslag van zowel menselijke als dierlijke consumptiegoederen, op- en overslag van kolen, houtpallets en vaste biobrandstoffen, laden en lossen van o.a. schroot. Specialiteiten :\nreddingswerkzaamheden\n\n Service :\n24-uurs service\n\n Doelgroep :\nBedrijven\n\n Diensten :\nbergingswerkzaamheden, laden- en lossen goederen, op- en overslag goederen, reddingswerken\n\n Faciliteiten :\n(zelfvarende) drijfkranen, duwboot, kraanponton\n\n Aangesloten bij / Certificering :\nISO 9001, 'Good Manufacturing/Managing Practice' (GMP+)",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Maja Stuwadoors BV 020-6849712 info@majastuwadoors.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

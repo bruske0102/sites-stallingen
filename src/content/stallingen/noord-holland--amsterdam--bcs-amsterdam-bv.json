@@ -1,0 +1,23 @@
+{
+  "id": 131293,
+  "slug": "bcs-amsterdam-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "BCS Amsterdam BV",
+  "straat": "Capriweg 2",
+  "postcode": "1044AL",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6131535",
+  "website": "http://www.coldstore.nl",
+  "lat": 52.416065,
+  "lon": 4.808237,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/bcs-amsterdam-bv/",
+  "email": "info@coldstore.nl",
+  "omschrijving": "020-6131535\n\n fax : 020-3344085\n\n Wat wij doen:\nBCS Coldstore & Logistics in Harderwijk krijgt vanuit geheel Europa duizenden verschillende producten aangeleverd die voor kortere of langere tijd een plek krijgen in de magazijnen waar de temperaturen variëren van tien graden boven nul tot vijfentwintig graden onder het vriespunt. Specialiteiten :\ndouane, geconditioneerde opslag, logistiek\n\n Aangesloten bij / Certificering :\nISO-9001, HACCP | SKAL-certificering | AEOF certificaat, EG-erkenning voor de opslag van vlees en vis",
+  "meta_title": "BCS Amsterdam BV 020-6131535 info@coldstore.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

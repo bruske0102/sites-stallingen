@@ -1,0 +1,37 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Formulier from "../../components/Formulier.astro";
+import { instellingen } from "../../lib/data";
+
+const email = instellingen.site.email;
+const naam = instellingen.site.naam;
+---
+<Layout
+  title={`Contact - ${naam}`}
+  description={`Neem contact op met de makers van ${naam} voor vragen, opmerkingen of aanvullingen.`}
+  zoekbaar={false}
+>
+  <p class="crumbs"><a href="/">Home</a> / Contact</p>
+  <h1 class="page-title">Contact opnemen</h1>
+  <p class="lead" style="margin-bottom:1.25rem;max-width:42rem">
+    Bericht voor de makers van de site - niet voor een praktijk.
+    Mail ook naar <a href={`mailto:${email}`}>{email}</a>.
+  </p>
+
+  <Formulier
+    id="contact"
+    onderwerp={`Contactformulier ${naam}`}
+    knop="Versturen"
+    velden={[
+      { naam: "naam", label: "Jouw naam", verplicht: true, auto: "name" },
+      { naam: "email", label: "E-mailadres", type: "email", verplicht: true, auto: "email" },
+      { naam: "bericht", label: "Bericht", type: "textarea", verplicht: true },
+    ]}
+  />
+
+  <p class="hint" style="margin-top:1.5rem">
+    Gegevens van een praktijk aanpassen of een vermelding laten verwijderen?
+    <a href="/contact/suggestie/">Stuur een suggestie of verwijderverzoek</a>
+    - of doe dat via de link op de praktijkpagina.
+  </p>
+</Layout>

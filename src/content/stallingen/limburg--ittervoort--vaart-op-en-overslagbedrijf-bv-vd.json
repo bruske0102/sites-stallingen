@@ -1,0 +1,20 @@
+{
+  "id": 130940,
+  "slug": "vaart-op-en-overslagbedrijf-bv-vd",
+  "provincie": "limburg",
+  "plaats": "ittervoort",
+  "naam": "Vaart Op- en Overslagbedrijf BV vd",
+  "straat": "Branskamp 2",
+  "postcode": "6014CB",
+  "plaatsnaam": "Ittervoort",
+  "telefoon": "0475-565252",
+  "lat": 51.175503,
+  "lon": 5.830135,
+  "status": "gesloten",
+  "oude_url": "/limburg/ittervoort/vaart-op-en-overslagbedrijf-bv-vd/",
+  "meta_title": "Vaart Op- en Overslagbedrijf BV vd 0475-565252",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

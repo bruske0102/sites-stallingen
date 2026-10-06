@@ -1,0 +1,21 @@
+{
+  "id": 131095,
+  "slug": "kelvin-terminals-koelveem-bv",
+  "provincie": "zeeland",
+  "plaats": "terneuzen",
+  "naam": "Kelvin Terminals Koelveem BV",
+  "straat": "Beneluxweg 5",
+  "postcode": "4538AL",
+  "plaatsnaam": "Terneuzen",
+  "telefoon": "0115-697155",
+  "website": "http://www.kelvinterminals.com",
+  "lat": 51.320523,
+  "lon": 3.828517,
+  "status": "gesloten",
+  "oude_url": "/zeeland/terneuzen/kelvin-terminals-koelveem-bv/",
+  "meta_title": "Kelvin Terminals Koelveem BV 0115-697155",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

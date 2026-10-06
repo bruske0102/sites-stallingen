@@ -1,0 +1,20 @@
+{
+  "id": 131138,
+  "slug": "nieveen-graanbedrijf-bv",
+  "provincie": "groningen",
+  "plaats": "farmsum",
+  "naam": "Nieveen Graanbedrijf BV",
+  "straat": "Koperweg 1",
+  "postcode": "9936BM",
+  "plaatsnaam": "Farmsum",
+  "telefoon": "0596-616405",
+  "lat": 53.317085,
+  "lon": 6.913782,
+  "status": "gesloten",
+  "oude_url": "/groningen/farmsum/nieveen-graanbedrijf-bv/",
+  "meta_title": "Nieveen Graanbedrijf BV 0596-616405",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

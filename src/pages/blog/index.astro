@@ -1,0 +1,41 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+import Layout from "../../layouts/Layout.astro";
+
+const dir = path.join(process.cwd(), "migration/blog-export/posts");
+const posts = fs.existsSync(dir)
+  ? fs
+      .readdirSync(dir)
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")))
+      .sort((a: { title: string }, b: { title: string }) =>
+        a.title.localeCompare(b.title, "nl"),
+      )
+  : [];
+---
+<Layout
+  title="Blog & gidsen | Stallingen.xyz"
+  description="Gidsen over caravanstalling, camperstalling, kosten, bootstalling en binnen of buiten stallen."
+>
+  <header class="page-intro">
+    <h1 class="page-title">Blog &amp; gidsen</h1>
+    <p class="lead">
+      Praktische uitleg over stallingen in Nederland: caravan, camper, boot en kosten.
+    </p>
+  </header>
+  {posts.length > 0 ? (
+    <ul class="linklist">
+      {posts.map((p: { slug: string; title: string }) => (
+        <li>
+          <a href={`/blog/${p.slug}/`}>{p.title}</a>
+          <span class="count">gids</span>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p class="note">
+      Nog geen artikelen. Zoek een <a href="/zoeken/">stalling bij jou in de buurt</a>.
+    </p>
+  )}
+</Layout>

@@ -1,0 +1,21 @@
+{
+  "id": 130665,
+  "slug": "tyco-safety-products-t-s-p",
+  "provincie": "limburg",
+  "plaats": "echt",
+  "naam": "Tyco Safety Products T S P",
+  "straat": "Voltaweg 20",
+  "postcode": "6101XK",
+  "plaatsnaam": "Echt",
+  "telefoon": "0475-371666",
+  "website": "http://www.tyco.com",
+  "lat": 51.117167,
+  "lon": 5.885143,
+  "status": "gesloten",
+  "oude_url": "/limburg/echt/tyco-safety-products-t-s-p/",
+  "meta_title": "Tyco Safety Products T S P 0475-371666",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

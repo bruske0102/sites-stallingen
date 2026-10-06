@@ -1,0 +1,23 @@
+{
+  "id": 130815,
+  "slug": "dieleman-leendertse-bv",
+  "provincie": "zeeland",
+  "plaats": "hulst",
+  "naam": "Dieleman Leendertse BV",
+  "straat": "Industrieweg 31",
+  "postcode": "4561GH",
+  "plaatsnaam": "Hulst",
+  "telefoon": "0114-313034",
+  "website": "http://www.ikwilverhuizen.com",
+  "lat": 51.273646,
+  "lon": 4.046918,
+  "status": "gesloten",
+  "oude_url": "/zeeland/hulst/dieleman-leendertse-bv/",
+  "email": "info@dl-verhuizingen.nl",
+  "omschrijving": "Openingstijden:\n Maandag : 08:30 - 16:30\n Dinsdag : 08:30 - 16:30\n Woensdag : 08:30 - 16:30\n Donderdag : 08:30 - 16:30\n Vrijdag : 08:30 - 16:30\n Zaterdag : gesloten\n Zondag : gesloten Service :\nBezorgservice, Gratis offerte\n\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nAdvies, Hijswerkzaamheden, Inpakken, Internationale verhuizing, Montage, Opslag, Uitpakken, Ontheffing aanvragen, Verhuur, Verkoop, Vervoer\n\n Producten :\nOpvulmateriaal, Verhuisdoos, Verhuislift, Verhuistape, Verhuiswagen, Verpakkingsmateriaal\n\n Betalingsmogelijkheden :\nContant, Bank / Giro overschrijving",
+  "meta_title": "Dieleman Leendertse BV 0114-313034 info@dl-verhuizingen.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

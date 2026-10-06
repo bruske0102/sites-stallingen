@@ -1,0 +1,13 @@
+{
+  "total_normalized": 834,
+  "parsed_ok": 834,
+  "actief": 604,
+  "with_website": 578,
+  "with_phone": 834,
+  "with_coords": 805,
+  "run_ok": 834,
+  "run_fail": 0,
+  "run_skip": 0,
+  "errors": [],
+  "content_dir": "src/content/stallingen"
+}

@@ -1,0 +1,20 @@
+{
+  "id": 131176,
+  "slug": "rademakers-stampersgat-bv",
+  "provincie": "noord-brabant",
+  "plaats": "stampersgat",
+  "naam": "Rademakers Stampersgat BV",
+  "straat": "Dennis Leestraat 107",
+  "postcode": "4754BC",
+  "plaatsnaam": "Stampersgat",
+  "telefoon": "0165-519666",
+  "lat": 51.612643,
+  "lon": 4.452162,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/stampersgat/rademakers-stampersgat-bv/",
+  "meta_title": "Rademakers Stampersgat BV 0165-519666",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

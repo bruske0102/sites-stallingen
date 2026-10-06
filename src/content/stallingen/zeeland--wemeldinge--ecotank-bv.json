@@ -1,0 +1,21 @@
+{
+  "id": 131114,
+  "slug": "ecotank-bv",
+  "provincie": "zeeland",
+  "plaats": "wemeldinge",
+  "naam": "Ecotank BV",
+  "straat": "Oostelijke Kanaalweg 22",
+  "postcode": "4424NC",
+  "plaatsnaam": "Wemeldinge",
+  "telefoon": "0113-256699",
+  "website": "http://www.ecotank.nl",
+  "lat": 51.510769,
+  "lon": 4.006841,
+  "status": "gesloten",
+  "oude_url": "/zeeland/wemeldinge/ecotank-bv/",
+  "meta_title": "Ecotank BV 0113-256699",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

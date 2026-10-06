@@ -1,0 +1,21 @@
+---
+interface Props { stad: string }
+const { stad } = Astro.props;
+---
+<section class="section" aria-labelledby="tips-stalling">
+  <h2 id="tips-stalling">Tips voor een stalling in {stad}</h2>
+  <div class="prijzen">
+    <p>
+      Handig om te weten voordat je belt:
+    </p>
+    <ul>
+      <li>Vraag of het binnen of buiten is, en wat de toegangsuren zijn</li>
+      <li>Check of verzekering of camerabeveiliging inbegrepen is</li>
+      <li>Vergelijk maand- versus seizoenstarief voor caravan of boot</li>
+    </ul>
+    <p class="fine">
+      Geen landelijke vaste tarieven. Vergelijk adressen hierboven of
+      <a href="/zoeken/">zoek landelijk</a>.
+    </p>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+{
+  "id": 131144,
+  "slug": "nijdam-kraanbedrijf-bv",
+  "provincie": "groningen",
+  "plaats": "groningen-gemeente",
+  "naam": "Nijdam Kraanbedrijf BV",
+  "straat": "Peizerweg 99",
+  "postcode": "9727AJ",
+  "plaatsnaam": "Groningen",
+  "telefoon": "050-5262688",
+  "website": "http://www.nijdamexpeditie.nl",
+  "lat": 53.207586,
+  "lon": 6.536205,
+  "status": "gesloten",
+  "oude_url": "/groningen/groningen-gemeente/nijdam-kraanbedrijf-bv/",
+  "omschrijving": "050-5262688\n\n fax : 050-5271271\nVoor al uw specialistisch\nhijs- en transportwerk\n\n Doelgroep :\nBedrijven\n\n Diensten :\nInternationaal transport, Opslag, Transport, Verhuur\n\n Producten :\nKraan",
+  "meta_title": "Nijdam Kraanbedrijf BV 050-5262688",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

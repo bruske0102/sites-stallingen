@@ -1,0 +1,23 @@
+{
+  "id": 130896,
+  "slug": "brink-x-l",
+  "provincie": "overijssel",
+  "plaats": "hardenberg",
+  "naam": "Brink X L",
+  "straat": "Postbus 200",
+  "postcode": "7770AE",
+  "plaatsnaam": "Hardenberg",
+  "telefoon": "088-2746595",
+  "website": "http://www.brinktwente.nl",
+  "lat": 0.0,
+  "lon": 0.0,
+  "status": "gesloten",
+  "oude_url": "/overijssel/hardenberg/brink-x-l/",
+  "email": "info@brinkxl.nl",
+  "omschrijving": "Kl. service, orders en prijzen : 088-2746557\n\n Websales Logistiek : 088-2746597\n\n Vestiging Hardenberg : 088-2746542\n\n Vestiging Goor : 088-2746589\n\n Wat wij doen:\nBrink Twente is een middelgroot transportbedrijf dat zich voornamelijk richt op het vervoer van kabelhaspels en bouwmaterialen. Wij beschikken over een modern en gevarieerd wagenpark waardoor wij bijna elke transportklus kunnen klaren. Brink Twente is al meer dan 75 jaar een ideale partner in transport. Niet voor niets zijn wij de ‘huisvervoerder’ voor een groot aantal gerenommeerde klanten in de regio.\n\nWij streven naar een persoonlijk contact met de klant, waardoor wij het transport zoveel mogelijk kunnen afstemmen op uw wensen. Bent u geïnteresseerd in de mogelijkheden die Brink Twente ú te bieden heeft? Neemt u dan contact met ons op. Graag bekijken wij hoe ook ‘uw vervoer onze zaak’ kan worden. Specialiteiten :\nTransportbedrijf, Kabelhaspel vervoer, Bouwmaterialen vervoer, Big Pack, Zone-vervoer, Mega-opleggers, Meeneem heftrucks, Vervoer kwetsbare lading, Opslag en overslag",
+  "meta_title": "Brink X L 088-2746595 info@brinkxl.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

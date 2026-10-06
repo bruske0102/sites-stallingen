@@ -1,0 +1,21 @@
+{
+  "id": 131254,
+  "slug": "lef-logistics-en-facilities",
+  "provincie": "noord-holland",
+  "plaats": "amstelveen",
+  "naam": "LEF Logistics en Facilities",
+  "straat": "Zijdelweg 3",
+  "postcode": "1187ZM",
+  "plaatsnaam": "Amstelveen",
+  "telefoon": "088-1030500",
+  "website": "http://www.lefbv.nl",
+  "lat": 52.260512,
+  "lon": 4.830475,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amstelveen/lef-logistics-en-facilities/",
+  "meta_title": "LEF Logistics en Facilities 088-1030500",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

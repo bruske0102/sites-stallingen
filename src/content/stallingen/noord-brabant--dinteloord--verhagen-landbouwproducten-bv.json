@@ -1,0 +1,20 @@
+{
+  "id": 131173,
+  "slug": "verhagen-landbouwproducten-bv",
+  "provincie": "noord-brabant",
+  "plaats": "dinteloord",
+  "naam": "Verhagen Landbouwproducten BV",
+  "straat": "Havenweg 6",
+  "postcode": "4671RM",
+  "plaatsnaam": "Dinteloord",
+  "telefoon": "0167-524155",
+  "lat": 51.642499,
+  "lon": 4.383135,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/dinteloord/verhagen-landbouwproducten-bv/",
+  "meta_title": "Verhagen Landbouwproducten BV 0167-524155",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

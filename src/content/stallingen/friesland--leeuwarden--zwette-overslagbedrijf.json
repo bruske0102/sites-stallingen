@@ -1,0 +1,21 @@
+{
+  "id": 130951,
+  "slug": "zwette-overslagbedrijf",
+  "provincie": "friesland",
+  "plaats": "leeuwarden",
+  "naam": "Zwette Overslagbedrijf",
+  "straat": "Pascalstraat 17",
+  "postcode": "8912AT",
+  "plaatsnaam": "Leeuwarden",
+  "telefoon": "058-2135538",
+  "website": "http://www.shoekstrazandengrind.nl",
+  "lat": 53.189168,
+  "lon": 5.764782,
+  "status": "gesloten",
+  "oude_url": "/friesland/leeuwarden/zwette-overslagbedrijf/",
+  "meta_title": "Zwette Overslagbedrijf 058-2135538",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

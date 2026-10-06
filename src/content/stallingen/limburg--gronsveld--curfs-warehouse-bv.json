@@ -1,0 +1,20 @@
+{
+  "id": 130844,
+  "slug": "curfs-warehouse-bv",
+  "provincie": "limburg",
+  "plaats": "gronsveld",
+  "naam": "Curfs Warehouse BV",
+  "straat": "Gronsvelderweg 1",
+  "postcode": "6247ER",
+  "plaatsnaam": "Gronsveld",
+  "telefoon": "043-4081628",
+  "lat": 50.807471,
+  "lon": 5.720219,
+  "status": "gesloten",
+  "oude_url": "/limburg/gronsveld/curfs-warehouse-bv/",
+  "meta_title": "Curfs Warehouse BV 043-4081628",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

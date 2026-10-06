@@ -1,0 +1,22 @@
+{
+  "id": 131246,
+  "slug": "joh-post-bv",
+  "provincie": "noord-holland",
+  "plaats": "beverwijk",
+  "naam": "Joh Post BV",
+  "straat": "Wijkermeerweg 51",
+  "postcode": "1948NT",
+  "plaatsnaam": "Beverwijk",
+  "telefoon": "0251-221520",
+  "lat": 52.477321,
+  "lon": 4.666496,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/beverwijk/joh-post-bv/",
+  "email": "info@johpost.nl",
+  "omschrijving": "Wat wij doen:\nVerhuizingen, transport en opslag\nEen modern wagenpark, geconditioneerde opslagplaatsen en uitgekiende hulpmiddelen maken Joh.Post Sterk in Logistiek. Mooi dat u er voor elk vervoer en elke vorm van opslag terecht kunt. Of het nu gaat om meubels en keukens, verhuizingen voor instellingen, bedrijven en particulieren, of zwaar vervoer. Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nInpakken, Montage, Uitpakken, Verhuur, Vervoer\n\n Producten :\nVerhuisdoos, Verhuislift, Verhuiswagen",
+  "meta_title": "Joh Post BV 0251-221520 info@johpost.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

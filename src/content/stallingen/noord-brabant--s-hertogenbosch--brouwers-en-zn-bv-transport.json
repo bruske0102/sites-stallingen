@@ -1,0 +1,23 @@
+{
+  "id": 130662,
+  "slug": "brouwers-en-zn-bv-transport",
+  "provincie": "noord-brabant",
+  "plaats": "s-hertogenbosch",
+  "naam": "Brouwers en Zn BV Transport",
+  "straat": "De Meerheuvel 14",
+  "postcode": "5221EA",
+  "plaatsnaam": "Den Bosch",
+  "telefoon": "073-6312593",
+  "website": "http://www.jbrouwersenzn.nl",
+  "lat": 51.712672,
+  "lon": 5.263432,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/s-hertogenbosch/brouwers-en-zn-bv-transport/",
+  "email": "info@jbrouwersenzn.nl",
+  "omschrijving": "Wat wij doen:\nJ. Brouwers & Zn. is een vooruitstrevend bedrijf op het gebied van transport, opslag en distributie.\n\nJ. Brouwers & Zn. opereert al meer dan 70 jaar vanuit het centraal gelegen 's-Hertogenbosch. Het middelgrote vervoersbedrijf timmert zowel nationaal als internationaal aan de weg.\n\nJ. Brouwers & Zn. beschikt over ruim 3000 m² opslagruimte.",
+  "meta_title": "Brouwers en Zn BV Transport 073-6312593 info@jbrouwersenzn.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

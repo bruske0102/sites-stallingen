@@ -1,0 +1,21 @@
+{
+  "id": 130874,
+  "slug": "stikkelbroek-verhuizingen-opslag-en-transport",
+  "provincie": "limburg",
+  "plaats": "heerlen",
+  "naam": "Stikkelbroek Verhuizingen Opslag en Transport",
+  "straat": "Litscherveldweg 14",
+  "postcode": "6413BA",
+  "plaatsnaam": "Heerlen",
+  "telefoon": "045-5715045",
+  "website": "http://www.stikkelbroek.nl",
+  "lat": 50.913252,
+  "lon": 5.959258,
+  "status": "gesloten",
+  "oude_url": "/limburg/heerlen/stikkelbroek-verhuizingen-opslag-en-transport/",
+  "meta_title": "Stikkelbroek Verhuizingen Opslag en Transport 045-5715045",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

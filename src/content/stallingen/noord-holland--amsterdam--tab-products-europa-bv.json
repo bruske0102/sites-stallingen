@@ -1,0 +1,21 @@
+{
+  "id": 131297,
+  "slug": "tab-products-europa-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Tab Products Europa BV",
+  "straat": "Hettenheuvelweg 8",
+  "postcode": "1101BN",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6975333",
+  "lat": 52.303118,
+  "lon": 4.946324,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/tab-products-europa-bv/",
+  "omschrijving": "Wat wij doen:\nTAB levert zowel producten als diensten voor efficient dossierbeheer.\nOnze producten:\n- diverse open en gesloten kastsystemen\n- dossiermappen, in diverse kleuren en formaten\n- software voor het printen van labels\n- software voor het beheren van digitale en fysieke informatie\n\nOnze dienstverlening bestaat uit:\n- advies betreffende informatiestromen binnen de organisatie\n- analyseren en implementeren van nieuwe werkwijze\n- indexeren en scannen van informatie\n- aanvullen van de database met informatie uit het fysieke dossier\n- verhuizen van archieven\n- externe opslag (met scan on demand) Openingstijden:\n Maandag : 08:30 - 17:00\n Dinsdag : 08:30 - 17:00\n Woensdag : 08:30 - 17:00\n Donderdag : 08:30 - 17:00\n Vrijdag : 08:30 - 17:00\n Zaterdag : gesloten\n Zondag : gesloten Specialiteiten :\nadvisering document management, archiefkasten, bewaartermijnen beleid, database verrijking, digitaliseren, dossiermappen, dossiervolg software, externe opslag, samenvoegen dossierstromen, schonen en herindelen dossiers",
+  "meta_title": "Tab Products Europa BV 020-6975333",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

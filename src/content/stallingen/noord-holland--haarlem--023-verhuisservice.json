@@ -1,0 +1,23 @@
+{
+  "id": 131240,
+  "slug": "023-verhuisservice",
+  "provincie": "noord-holland",
+  "plaats": "haarlem",
+  "naam": "023 Verhuisservice",
+  "straat": "Grijpensteinweg 4",
+  "postcode": "2014KX",
+  "plaatsnaam": "Haarlem",
+  "telefoon": "023-5246424",
+  "website": "http://www.baarsverhuizingen.nl",
+  "lat": 52.36566,
+  "lon": 4.611549,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/haarlem/023-verhuisservice/",
+  "email": "sales@baarsverhuizingen.nl",
+  "omschrijving": "Wat wij doen:\nBaars Verhuis- & Opslag BV is een nationaal en internationaal verhuisbedrijf dat sinds 1928 gevestigd is in Haarlem. Ons bedrijf telt 22 medewerkers die staan voor een kwalitatief goede uitvoering van al onze werkzaamheden. Dit is bevestigd door middel van een ISO-certificering in 2001.\n\nBaars Verhuis- & Opslag BV is partner in Mondial Movers. Dit samenwerkingsverband van 20 belangrijke erkende verhuisbedrijven in Nederland heeft inmiddels een prominente plaats ingenomen in verhuisland.\n\nKortom Baars Verhuizingen is een bedrijf waar U op kunt bouwen voor al Uw verhuis-en opslagwerkzaamheden. Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nAdvies, Inpakken, Opslag, Uitpakken, Verkoop, Vervoer\n\n Producten :\nVerhuisdoos, Verhuislift, Verhuiswagen\n\n Aangesloten bij / Certificering :\nMondial Movers, ISO-gecertificeerde verhuizer",
+  "meta_title": "023 Verhuisservice 023-5246424 sales@baarsverhuizingen.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

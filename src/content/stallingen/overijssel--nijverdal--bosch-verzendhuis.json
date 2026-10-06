@@ -1,0 +1,20 @@
+{
+  "id": 130931,
+  "slug": "bosch-verzendhuis",
+  "provincie": "overijssel",
+  "plaats": "nijverdal",
+  "naam": "Bosch Verzendhuis",
+  "straat": "James Wattstraat 12",
+  "postcode": "7442DC",
+  "plaatsnaam": "Nijverdal",
+  "telefoon": "0548-617699",
+  "lat": 52.358135,
+  "lon": 6.501578,
+  "status": "gesloten",
+  "oude_url": "/overijssel/nijverdal/bosch-verzendhuis/",
+  "meta_title": "Bosch Verzendhuis 0548-617699",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

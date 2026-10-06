@@ -1,0 +1,27 @@
+{
+  "id": 131252,
+  "slug": "hv-scooters",
+  "provincie": "noord-holland",
+  "plaats": "alkmaar",
+  "naam": "HV Scooters",
+  "straat": "Laat 79",
+  "postcode": "1811EC",
+  "plaatsnaam": "Alkmaar",
+  "telefoon": "072-5151753",
+  "website": "http://www.hvscooters.nl",
+  "lat": 52.629212,
+  "lon": 4.750268,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/alkmaar/hv-scooters/",
+  "omschrijving": "Bekijk onze website voor meer info\n\n Wat wij doen:\nBij HV Scooters kunt u terecht voor nieuwe (motor)scooters, occasions en verzekeringen. Wij hebben ook een zeer uitgebreid assortiment accessoires, van potjes tot intergraal helmen wij kunnen alles leveren. Als u uw scooter dagelijks gebruikt voor woon-werk verkeer is het aan te raden in de winter te gaan rijden op winterbanden. Wij kunnen deze banden altijd leveren, ook verzorgen wij de opslag van uw zomerbanden.\n\nBij HV Scooters bent u altijd aan het juiste adres voor uw reparatie of onderhoud.Onze gediplomeerde monteurs zullen altijd met veel motivatie aan uw scooter werken, ook kunnen zij al uw technische vragen beantwoorden.\n\nSinds Juli 2010 is HV Scooters uitgebreid door een zeer ruime en luxe ruimte toe te voegen aan het al bestaande pand. Deze ruimte is compleet ingericht als Vespa shop. Wij tonen hier natuurlijk alle Vespa scooter modellen maar ook de Vespa motorscooters, helmen, kleding en accesoires die Vespa in het assortiment heeft.\n\nWij hebben tevens twee auto's rijden zodat we u altijd kunnen helpen in geval van nood. Ook kunnen wij uw nieuwe of gebruikte scooter bij u thuis bezorgen. Openingstijden:\n Maandag : 13:00 - 18:00\n Dinsdag : 09:30 - 18:00\n Woensdag : 09:30 - 18:00\n Donderdag : 09:30 - 21:00\n Vrijdag : 09:30 - 18:00\n Zaterdag : 09:30 - 17:00\n Zondag : gesloten Specialiteiten :\nScooters, Motorscooters, Occasions, Accessoires, Reparatie, Onderhoud, Vespa assortiment\n\n Service :\nBezorgservice",
+  "kenmerken": {
+    "Type": [
+      "fiets"
+    ]
+  },
+  "meta_title": "HV Scooters 072-5151753",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

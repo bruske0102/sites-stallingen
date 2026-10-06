@@ -1,0 +1,22 @@
+{
+  "id": 131146,
+  "slug": "brenntag-nederland-bv",
+  "provincie": "groningen",
+  "plaats": "groningen-gemeente",
+  "naam": "Brenntag Nederland BV",
+  "straat": "Duinkerkenstraat 48",
+  "postcode": "9723BT",
+  "plaatsnaam": "Groningen",
+  "telefoon": "050-3682600",
+  "website": "http://www.brenntag.nl",
+  "lat": 53.199482,
+  "lon": 6.605205,
+  "status": "gesloten",
+  "oude_url": "/groningen/groningen-gemeente/brenntag-nederland-bv/",
+  "omschrijving": "Wat wij doen:\nBrenntag Nederland BV handelt (inter)nationaal, houdt voorraad, slaat op en over, mengt, verpakt en distribueert (an)organische vloeibare - en vaste stoffen voor laboratorium, farmaceutische-, voedingsmiddelen-, chemische- en algemene industrie.\n\nDe onderneming heeft een integrale benadering van de van elkaar afhankelijke beleidsgebieden Kwaliteit, Arbo en Milieu. De stuwende kracht is haar motto: \"Bewust bezig met Chemie\"\n\nVanuit het concept \"Just in Time\" garandeert Brenntag Nederland BV een optimale servicegraad bij de levering van producten aan klanten. De regionale depots en de verkoopafdelingen zorgen voor de verkoop van de producten en houden voorraad voor vaste regionale klanten. Specialiteiten :\nIndustriële Chemicaliën, Vooraden aanhouden, Opslag en overslag, Vermengen, Verpakken, Distribueren\n\n Aangesloten bij / Certificering :\nVerbond van Handelaren in Chemische Producten (VHCP), NEN ISO 9001:2000, ISO 14001:1996, OHSAS 18001, HACCP",
+  "meta_title": "Brenntag Nederland BV 050-3682600",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

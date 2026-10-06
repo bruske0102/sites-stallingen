@@ -1,0 +1,23 @@
+{
+  "id": 130852,
+  "slug": "groen-warehousing-zwolle",
+  "provincie": "overijssel",
+  "plaats": "zwolle",
+  "naam": "Groen Warehousing Zwolle",
+  "straat": "Steenboerweg 30",
+  "postcode": "8042AT",
+  "plaatsnaam": "Zwolle",
+  "telefoon": "038-4227901",
+  "website": "http://www.groenwarehousingzwolle.nl",
+  "lat": 52.521289,
+  "lon": 6.050549,
+  "status": "gesloten",
+  "oude_url": "/overijssel/zwolle/groen-warehousing-zwolle/",
+  "email": "groenbeheer@wxs.nl",
+  "omschrijving": "opslag van inboedels\n\n opslagloods : 038-4226644\n\nhttp://www.groenwarehousingzwolle.nl\n\n Wat wij doen:\n Opslag van handelsgoederen in droge,schone loodsen met gecontroleerde temparatuur en luchtvochtigheid.\n\n Eveneens opslag van inboedel in containers of in stellingen.",
+  "meta_title": "Groen Warehousing Zwolle 038-4227901 groenbeheer@wxs.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 131060,
+  "slug": "dijkzicht-maatschap",
+  "provincie": "zeeland",
+  "plaats": "driewegen-borsele",
+  "naam": "Dijkzicht Maatschap",
+  "straat": "Ruigendijk 2",
+  "postcode": "4438NM",
+  "plaatsnaam": "Driewegen",
+  "telefoon": "0113-655228",
+  "lat": 51.42674,
+  "lon": 3.797792,
+  "status": "gesloten",
+  "oude_url": "/zeeland/driewegen-borsele/dijkzicht-maatschap/",
+  "meta_title": "Dijkzicht Maatschap 0113-655228",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

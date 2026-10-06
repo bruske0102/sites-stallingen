@@ -1,0 +1,23 @@
+{
+  "id": 131126,
+  "slug": "pol-grondboringen-vd",
+  "provincie": "overijssel",
+  "plaats": "dedemsvaart",
+  "naam": "Pol Grondboringen Vd",
+  "straat": "Galileistraat 9",
+  "postcode": "7701SK",
+  "plaatsnaam": "Dedemsvaart",
+  "telefoon": "0523-616661",
+  "website": "http://www.vandepolgrondboringen.nl",
+  "lat": 52.599456,
+  "lon": 6.483266,
+  "status": "gesloten",
+  "oude_url": "/overijssel/dedemsvaart/pol-grondboringen-vd/",
+  "email": "receptie@vandepolgrondboringen.nl",
+  "omschrijving": "Al 35 jaar vakmanschap. Grondboringen\nbronbemalingen en warmte-koude\nopslag, eigen watervoorziening\n\n mobiele telefoon bgg : 06-51055955",
+  "meta_title": "Pol Grondboringen Vd 0523-616661 receptie@vandepolgrondboringen.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

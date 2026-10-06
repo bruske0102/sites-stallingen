@@ -1,0 +1,21 @@
+{
+  "id": 130977,
+  "slug": "verhoeks-a",
+  "provincie": "gelderland",
+  "plaats": "appeltern",
+  "naam": "Verhoeks A",
+  "straat": "Van der Capellenstraat 13",
+  "postcode": "6629AT",
+  "plaatsnaam": "Appeltern",
+  "telefoon": "0487-542317",
+  "lat": 51.832125,
+  "lon": 5.584986,
+  "status": "gesloten",
+  "oude_url": "/gelderland/appeltern/verhoeks-a/",
+  "omschrijving": "LOSSEN VAN SCHEPEN VD BINNENVAART",
+  "meta_title": "Verhoeks A 0487-542317",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

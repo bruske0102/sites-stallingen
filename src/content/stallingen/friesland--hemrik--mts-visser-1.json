@@ -1,0 +1,27 @@
+{
+  "id": 2409316,
+  "slug": "mts-visser-1",
+  "provincie": "friesland",
+  "plaats": "hemrik",
+  "naam": "Mts Visser",
+  "straat": "Tjalling Harkeswei 50A",
+  "postcode": "8409 CM",
+  "plaatsnaam": "Hemrik",
+  "telefoon": "0652451440",
+  "lat": 53.0230299,
+  "lon": 6.138848499999999,
+  "status": "gesloten",
+  "oude_url": "/friesland/hemrik/mts-visser-1/",
+  "email": "atevisser@hotmail.nl",
+  "omschrijving": "Caravan, camper, boten, vouwagens, auto's, etc stalling",
+  "kenmerken": {
+    "Type": [
+      "caravan"
+    ]
+  },
+  "meta_title": "Mts Visser 0652451440 atevisser@hotmail.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

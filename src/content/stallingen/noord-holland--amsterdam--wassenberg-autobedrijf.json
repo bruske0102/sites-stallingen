@@ -1,0 +1,29 @@
+{
+  "id": 131290,
+  "slug": "wassenberg-autobedrijf",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Wassenberg Autobedrijf",
+  "straat": "Nieuwe Looiersstraat 5",
+  "postcode": "1017VA",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6233888",
+  "website": "http://www.autowassenberg.nl",
+  "lat": 52.360856,
+  "lon": 4.891903,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/wassenberg-autobedrijf/",
+  "omschrijving": "Autobedrijf sinds 1925!\nFiat, Lancia en Alfa Romeo specialist\nNabij Vijzelgracht en Stadshouderkade\n\nhttp://www.autowassenberg.nl\n\n Wat wij doen:\nAutobedrijf Wassenberg is gespecialiseerd in onderhoud en reparatie van de merken; Fiat, Lancia en Alfa Romeo.\n\nNa oprichting in 1925 begon de eerste generatie Wassenberg zich te specialiseren in het merk Lancia. Na verloop van tijd zijn daar de andere Italiaanse merken Fiat en Alfa Romeo bijgekomen.\n\nDoor onze jarenlange ervaring en het feit dat wij kleinschalig werken, zijn wij in staat om met onze specifieke kennis van Fiat, Lancia en Alfa Romeo, een hoge kwaliteit te leveren tegen een aantrekkelijk prijs.\n\nBent u op zoek naar een garagebedrijf voor uw Lancia, Fiat of Alfa Romeo, neem dan contact met ons op. Wij zijn bereikbaar via telefoonnummer 020-6233888. Openingstijden:\n Maandag : 08:00 - 17:00 In overleg langer geopend\n Dinsdag : 08:00 - 17:00 In overleg langer geopend\n Woensdag : 08:00 - 17:00 In overleg langer geopend\n Donderdag : 08:00 - 17:00 In overleg langer geopend\n Vrijdag : 08:00 - 17:00 In overleg langer geopend\n Zaterdag : gesloten\n Zondag : gesloten\n Carnaval : 08:00 - 17:00\n Bevrijdingsdag : 08:00 - 17:00\n Suikerfeest : 08:00 - 17:00\n Sinterklaas : 08:00 - 17:00\n Oudjaarsdag : 08:00 - 16:00 eerder gesloten\n Overige Feestdagen : 08:00 - 16:30 Service :\nNieuwe of gebruikte onderdelen, Vervangend vervoer / leenauto\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto-aanpassingen, Carkit inbouwen, Demontage / montage, Grote beurt, Kleine beurt, Olie verversen, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Onderhoud en reparatie motorfiets, Remmen repareren / vervangen, Restauratie, Revisie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Tuning, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Winterbanden montage en opslag\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nBOVAG, Aangesloten bij het Check Star Service Network. Alle Checkstar specialisten beschikken door de samenwerking met Magneti Marelli over extra technische kennis vooral voor de merken Fiat, Alfa Romeo en Lancia",
+  "kenmerken": {
+    "Type": [
+      "fiets",
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Wassenberg Autobedrijf 020-6233888",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

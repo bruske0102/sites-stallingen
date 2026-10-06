@@ -1,0 +1,21 @@
+{
+  "id": 131096,
+  "slug": "klouwers-fa",
+  "provincie": "zeeland",
+  "plaats": "terneuzen",
+  "naam": "Klouwers Fa",
+  "straat": "Lange Reksestraat 10",
+  "postcode": "4538AZ",
+  "plaatsnaam": "Terneuzen",
+  "telefoon": "0115-612714",
+  "website": "http://www.klouwers.nl",
+  "lat": 51.304213,
+  "lon": 3.850672,
+  "status": "gesloten",
+  "oude_url": "/zeeland/terneuzen/klouwers-fa/",
+  "meta_title": "Klouwers Fa 0115-612714",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

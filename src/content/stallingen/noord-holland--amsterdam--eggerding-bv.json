@@ -1,0 +1,21 @@
+{
+  "id": 131266,
+  "slug": "eggerding-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Eggerding BV",
+  "straat": "Coenhavenweg 22",
+  "postcode": "1013BL",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-5812200",
+  "website": "http://www.eggerding.com",
+  "lat": 52.404219,
+  "lon": 4.860177,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/eggerding-bv/",
+  "meta_title": "Eggerding BV 020-5812200",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

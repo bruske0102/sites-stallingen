@@ -1,0 +1,23 @@
+{
+  "id": 131080,
+  "slug": "melis-kraanverhuur-middelburg-bv",
+  "provincie": "zeeland",
+  "plaats": "middelburg",
+  "naam": "Melis Kraanverhuur Middelburg BV",
+  "straat": "Ampereweg 39",
+  "postcode": "4338PT",
+  "plaatsnaam": "Middelburg",
+  "telefoon": "0118-650688",
+  "website": "http://www.meliskraanverhuur.nl",
+  "lat": 51.493936,
+  "lon": 3.65341,
+  "status": "gesloten",
+  "oude_url": "/zeeland/middelburg/melis-kraanverhuur-middelburg-bv/",
+  "email": "info@meliskraanverhuur.nl",
+  "omschrijving": "Telescoopkranen - Mobiele torenkranen\nVerreikers - Transport - Opslag\n\n mobiele telefoon : 06-53281701\n\nhttp://www.meliskraanverhuur.nl\n\ninfo@meliskraanverhuur.nl\n\n Wat wij doen:\nKraanverhuur Melis Middelburg BV is VCA*-gecertificeerd (2008/05) en lid van de VVT (Vereniging Verticaal Transport). Diensten :\nKraanverhuur, Transport, Verticaal transport",
+  "meta_title": "Melis Kraanverhuur Middelburg BV 0118-650688 info@meliskraanverhuur.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": 130760,
+  "slug": "autobedrijf-henk-boshart",
+  "provincie": "utrecht",
+  "plaats": "amersfoort",
+  "naam": "Autobedrijf Henk Boshart",
+  "straat": "Kosmonaut 23",
+  "postcode": "3824MK",
+  "plaatsnaam": "Amersfoort",
+  "telefoon": "033-4531697",
+  "website": "http://www.henkboshart.nl",
+  "lat": 52.198252,
+  "lon": 5.391402,
+  "status": "gesloten",
+  "oude_url": "/utrecht/amersfoort/autobedrijf-henk-boshart/",
+  "email": "info@henkboshart.nl",
+  "omschrijving": "Wat wij doen:\nGarage Henk Boshart repareert en onderhoudt auto’s van alle merken. Een klein en professioneel team werkt met de beste gereedschappen en onderdelen aan je auto.\n\nNieuwe banden, reparaties een APK of een onderhoudsbeurt: bij ons is je auto in vertrouwde en vakkundige handen. Zo krijg je van ons altijd 8 garanties:\nVAKMANSCHAP\nTECHNOLOGIE\nKWALITEIT\n(KLANT) VRIENDELIJKHEID\nPRIMA PRIJS\nALTIJD MOBIEL Openingstijden:\n Maandag : 09:00 - 17:00\n Dinsdag : 09:00 - 17:00\n Woensdag : 09:00 - 17:00\n Donderdag : 09:00 - 17:00\n Vrijdag : 09:00 - 17:00\n Zaterdag : 12:00 - 16:00\n Zondag : gesloten Service :\n\"vervangend vervoer service\", Online contactformulier\n\n Doelgroep :\nParticulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, APK keuring, Demontage / montage, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Reparatie, Schadeherstel, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Winterbanden montage en opslag\n\n Merk :\nAlle merken",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Autobedrijf Henk Boshart 033-4531697 info@henkboshart.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

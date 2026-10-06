@@ -1,0 +1,29 @@
+{
+  "id": 130869,
+  "slug": "leussen-garage-van",
+  "provincie": "overijssel",
+  "plaats": "ommen",
+  "naam": "Leussen Garage Van",
+  "straat": "Brink 2",
+  "postcode": "7731TG",
+  "plaatsnaam": "Ommen",
+  "telefoon": "0529-451261",
+  "website": "http://www.autobedrijfvanleussen.nl",
+  "lat": 52.531549,
+  "lon": 6.417423,
+  "status": "gesloten",
+  "oude_url": "/overijssel/ommen/leussen-garage-van/",
+  "email": "hvl@autobedrijfvanleussen.nl",
+  "omschrijving": "0529-451261\n\n fax : 0529-451169\n\n Wat wij doen:\nDealer van de merken Toyota en Ford met vestigingen in Ommen en Dalfsen Openingstijden:\n Maandag : 07:30 - 18:00\n Dinsdag : 07:30 - 18:00\n Woensdag : 07:30 - 18:00\n Donderdag : 07:30 - 18:00\n Vrijdag : 07:30 - 18:00\n Zaterdag : 08:00 - 17:00\n Zondag : gesloten Service :\nGratis offerte, Haal- en brengservice, Mobiliteitsgarantie, Nieuwe of gebruikte onderdelen, Vervangend vervoer / leenauto\n\n Toegankelijkheid :\nBegane grond, Honden toegestaan\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nMerkdealer\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Carkit inbouwen, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, LPG installatie inbouwen, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Reparatie, Revisie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag, Gratis leenauto, Wintercheck, Zomercheck\n\n Merk :\nFord, Toyota\n\n Betalingsmogelijkheden :\nContant, Pin, Bank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nBovag , Erkend Duurzaam",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Leussen Garage Van 0529-451261 hvl@autobedrijfvanleussen.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

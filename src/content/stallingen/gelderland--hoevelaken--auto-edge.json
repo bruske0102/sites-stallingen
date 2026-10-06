@@ -1,0 +1,27 @@
+{
+  "id": 130763,
+  "slug": "auto-edge",
+  "provincie": "gelderland",
+  "plaats": "hoevelaken",
+  "naam": "Auto EDGE",
+  "straat": "Oosterdorpsstraat 113",
+  "postcode": "3871AC",
+  "plaatsnaam": "Hoevelaken",
+  "telefoon": "033-8441375",
+  "website": "http://www.autoedge.nl",
+  "lat": 52.175434,
+  "lon": 5.476673,
+  "status": "gesloten",
+  "oude_url": "/gelderland/hoevelaken/auto-edge/",
+  "omschrijving": "mobiele telefoon : 06-28805270\n\n Wat wij doen:\nAuto EDGE in Hoevelaken heeft zich gespecialiseerd in het verhuren van 2e hands auto's voor langere tijd. Dat kan zijn: enkele (winter)maanden, maar kan ook voor jaren zijn. Het gaat hierbij om auto's van het merk Peugeot. Auto EDGE heeft op dit moment een wagenpark van zo’n 70 huurauto’s en 5 uitleenauto’s.\nOok zijn wij het adres voor uw trouwauto.\n\nUiteraard kunnen wij u ook van dienst zijn met het onderhoud van uw auto en de A.P.K. keuring. Toegankelijkheid :\nBegane grond\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAPK keuring, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Remmen repareren / vervangen, Reparatie, Roetmeting, Schadeherstel, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Winterbanden montage en opslag, Autoverhuur\n\n Merk :\nPeugeot\n\n Betalingsmogelijkheden :\nContant",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Auto EDGE 033-8441375",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

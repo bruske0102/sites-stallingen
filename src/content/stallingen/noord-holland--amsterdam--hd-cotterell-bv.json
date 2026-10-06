@@ -1,0 +1,20 @@
+{
+  "id": 131271,
+  "slug": "hd-cotterell-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "HD Cotterell BV",
+  "straat": "Coenhavenweg 9",
+  "postcode": "1013BK",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-5551444",
+  "lat": 52.402903,
+  "lon": 4.861397,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/hd-cotterell-bv/",
+  "meta_title": "HD Cotterell BV 020-5551444",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

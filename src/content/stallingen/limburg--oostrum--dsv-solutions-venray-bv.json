@@ -1,0 +1,21 @@
+{
+  "id": 130997,
+  "slug": "dsv-solutions-venray-bv",
+  "provincie": "limburg",
+  "plaats": "oostrum",
+  "naam": "DSV Solutions Venray BV",
+  "straat": "Witte Vennenweg 1",
+  "postcode": "5807EJ",
+  "plaatsnaam": "Oostrum lb",
+  "telefoon": "0478-521200",
+  "lat": 51.52147,
+  "lon": 6.025154,
+  "status": "gesloten",
+  "oude_url": "/limburg/oostrum/dsv-solutions-venray-bv/",
+  "omschrijving": "Postbus5062, 5800GB, Venray",
+  "meta_title": "DSV Solutions Venray BV 0478-521200",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

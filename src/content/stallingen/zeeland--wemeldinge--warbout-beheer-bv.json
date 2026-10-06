@@ -1,0 +1,20 @@
+{
+  "id": 131115,
+  "slug": "warbout-beheer-bv",
+  "provincie": "zeeland",
+  "plaats": "wemeldinge",
+  "naam": "Warbout Beheer BV",
+  "straat": "Oostelijke Kanaalweg 22",
+  "postcode": "4424NC",
+  "plaatsnaam": "Wemeldinge",
+  "telefoon": "0113-256686",
+  "lat": 51.510769,
+  "lon": 4.006841,
+  "status": "gesloten",
+  "oude_url": "/zeeland/wemeldinge/warbout-beheer-bv/",
+  "meta_title": "Warbout Beheer BV 0113-256686",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

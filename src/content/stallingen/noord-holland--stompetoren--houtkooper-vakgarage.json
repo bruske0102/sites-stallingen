@@ -1,0 +1,30 @@
+{
+  "id": 130638,
+  "slug": "houtkooper-vakgarage",
+  "provincie": "noord-holland",
+  "plaats": "stompetoren",
+  "naam": "Houtkooper Vakgarage",
+  "straat": "Noordervaart 100",
+  "postcode": "1841HC",
+  "plaatsnaam": "Stompetoren",
+  "telefoon": "072-5039333",
+  "website": "http://www.vakgaragehoutkooper.nl",
+  "lat": 52.611211,
+  "lon": 4.821337,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/stompetoren/houtkooper-vakgarage/",
+  "email": "info@vakgaragehoutkooper.nl",
+  "omschrijving": "http://www.vakgaragehoutkooper.nl\n\ninfo@vakgaragehoutkooper.nl\n\n Wat wij doen:\nSinds 1991 is Vakgarage al de grootste zelfstandige formule in Nederland. Iedere Vakgarage is aangesloten bij de BOVAG en RDW erkend. Wij bieden een full service aanbod aan alle automerken. Dat betekend dat wij voor ieder automerk kunnen voorzien in alle voorkomende reparaties en onderhoudswerkzaamheden. Onze monteurs zijn uitstekend opgeleid en hebben kennis om alle automerken uitmuntend te onderhouden.\n\nIn onze showroom vind u ons occasion aanbod. Als u op zoek bent naar een auto kunt u niet allen kiezen uit ons aanbod, wij hebben een uitgebreid netwerk waaruit wij kunnen putten om voor u de perfecte auto te vinden. Verschillende merken, modellen, prijzen en kleuren. Zo is er altijd wel een auto die aan uw wensen voldoet. Openingstijden:\n Maandag : 08:00 - 17:00\n Dinsdag : 08:00 - 17:00\n Woensdag : 08:00 - 17:00\n Donderdag : 08:00 - 17:00\n Vrijdag : 08:00 - 17:00\n Zaterdag : 09:00 - 17:00\n Zondag : gesloten Service :\nGratis offerte, Nieuwe of gebruikte onderdelen, Vervangend vervoer / leenauto\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto spuiten, Auto-aanpassingen, Autoalarm inbouwen, Carkit inbouwen, Demontage / montage, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, LPG installatie inbouwen, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Onderhoud en reparatie motorfiets, Remmen repareren / vervangen, Reparatie, Restauratie, Revisie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Tuning, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Aangesloten bij / Certificering :\nBOVAG, RDW",
+  "kenmerken": {
+    "Type": [
+      "fiets",
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Houtkooper Vakgarage 072-5039333 info@vakgaragehoutkooper.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

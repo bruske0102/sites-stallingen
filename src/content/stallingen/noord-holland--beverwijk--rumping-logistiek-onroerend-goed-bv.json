@@ -1,0 +1,21 @@
+{
+  "id": 131353,
+  "slug": "rumping-logistiek-onroerend-goed-bv",
+  "provincie": "noord-holland",
+  "plaats": "beverwijk",
+  "naam": "Rumping Logistiek Onroerend Goed BV",
+  "straat": "Duiveland 11",
+  "postcode": "1948RB",
+  "plaatsnaam": "Beverwijk",
+  "telefoon": "0251-220263",
+  "website": "http://www.rumping.nl",
+  "lat": 52.467598,
+  "lon": 4.674234,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/beverwijk/rumping-logistiek-onroerend-goed-bv/",
+  "meta_title": "Rumping Logistiek Onroerend Goed BV 0251-220263",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

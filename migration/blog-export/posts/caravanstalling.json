@@ -1,0 +1,44 @@
+{
+  "slug": "caravanstalling",
+  "title": "Caravanstalling: waar let je op?",
+  "meta_title": "Caravanstalling kiezen: binnen, buiten, verzekering & tips",
+  "meta_description": "Caravanstalling zoeken? Checklist voor binnen- of buitenstalling, bereikbaarheid, verzekering en wat je vraagt vóór je tekent.",
+  "author": "Redactie Stallingen.xyz",
+  "excerpt": "Winterstalling of jaarrond: een goede caravanstalling beschermt je campervan-broertje. Zo kies je scherp.",
+  "primary_keyword": "caravanstalling",
+  "secondary_keywords": [
+    "stalling caravan",
+    "caravan stallen",
+    "caravan opslag"
+  ],
+  "semrush": {
+    "database": "nl",
+    "volume": 3600,
+    "kd": 25,
+    "support": "stalling caravan 390/23; caravan stallen 170/29",
+    "note": "phrase_these 2026-10-05"
+  },
+  "faq": [
+    {
+      "q": "Binnen of buiten stallen?",
+      "a": "Binnen beschermt beter tegen weer en UV; buiten is vaak goedkoper. Vraag naar ondergrond, afwatering en stormbeleid."
+    },
+    {
+      "q": "Blijft mijn eigen verzekering gelden?",
+      "a": "Niet altijd automatisch op een stallingsterrein. Check polisvoorwaarden en vraag wat de stalling dekt."
+    },
+    {
+      "q": "Mag ik tussendoor bij mijn caravan?",
+      "a": "Verschilt per zaak: sommige hebben vaste bezoektijden, andere op afspraak. Vraag het vooraf."
+    }
+  ],
+  "content_html": "<p>Een <strong>caravanstalling</strong> bewaart je caravan als je niet op pad bent: veilig, bereikbaar en bij voorkeur droog.</p>\n\n<h2>Checklist bij bezichtiging</h2>\n<ul>\n<li>Binnen / buiten / overdekt</li>\n<li>Toegangshek, cameratoezicht, verlichting</li>\n<li>Ondergrond: tegels, gras, puin (zakken?)</li>\n<li>Afstand tot huis en ophaaltijd in het seizoen</li>\n<li>Contract: opzegtermijn, prijs per seizoen of jaar</li>\n</ul>\n\n<h2>Voorbereiding vóór installen</h2>\n<ol>\n<li>Leeg water en check voor lekkages</li>\n<li>Ventilatie open volgens advies stalling</li>\n<li>Noteer schade op een opleverlijst (foto's)</li>\n<li>Vraag waar gasflessen en accus mogen</li>\n</ol>\n\n<section class=\"faq\"><h2>Veelgestelde vragen</h2>\n<details><summary>Binnen of buiten stallen?</summary><p>Binnen beschermt beter tegen weer en UV; buiten is vaak goedkoper. Vraag naar ondergrond, afwatering en stormbeleid.</p></details>\n<details><summary>Blijft mijn eigen verzekering gelden?</summary><p>Niet altijd automatisch op een stallingsterrein. Check polisvoorwaarden en vraag wat de stalling dekt.</p></details>\n<details><summary>Mag ik tussendoor bij mijn caravan?</summary><p>Verschilt per zaak: sommige hebben vaste bezoektijden, andere op afspraak. Vraag het vooraf.</p></details>\n</section>\n\n<aside class=\"cta\">\n  <h2>Vind een caravanstalling</h2>\n  <p>Vergelijk stallingen op adres en telefoon.</p>\n  <p class=\"cta-links\"><a href=\"/noord-holland/amsterdam/\">Amsterdam</a> · <a href=\"/utrecht/utrecht-gemeente/\">Utrecht</a> · <a href=\"/noord-brabant/eindhoven/\">Eindhoven</a> · <a href=\"/noord-holland/haarlem/\">Haarlem</a> · <a href=\"/zoeken/\">Zoeken</a></p>\n</aside>\n",
+  "date": "2026-10-05",
+  "modified": "2026-10-05",
+  "_status": "published",
+  "redirects_from": [],
+  "hero": {
+    "src": "caravanstalling.jpg",
+    "alt": "Caravanstalling: waar let je op?"
+  }
+}

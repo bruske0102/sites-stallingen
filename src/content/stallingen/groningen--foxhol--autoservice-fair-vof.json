@@ -1,0 +1,28 @@
+{
+  "id": 130725,
+  "slug": "autoservice-fair-vof",
+  "provincie": "groningen",
+  "plaats": "foxhol",
+  "naam": "Autoservice Fair VOF",
+  "straat": "Korte Groningerweg 1",
+  "postcode": "9607PS",
+  "plaatsnaam": "Foxhol",
+  "telefoon": "0598-394260",
+  "website": "http://www.autoservicefair.nl",
+  "lat": 53.173237,
+  "lon": 6.715669,
+  "status": "gesloten",
+  "oude_url": "/groningen/foxhol/autoservice-fair-vof/",
+  "omschrijving": "BOVAG : 0598-394260\n\n0598-394260\n\nhttp://www.autoservicefair.nl\n\n Openingstijden:\n Maandag : 08:00 - 17:30\n Dinsdag : 08:00 - 17:30\n Woensdag : 08:00 - 17:30\n Donderdag : 08:00 - 17:30\n Vrijdag : 08:00 - 17:30\n Zaterdag : gesloten\n Zondag : gesloten Service :\nAlleen op afspraak, Gratis offerte, Haal- en brengservice, Nieuwe of gebruikte onderdelen, Vervangend vervoer / leenauto\n\n Toegankelijkheid :\nBegane grond, Honden toegestaan, Toegankelijk voor rolstoelen\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Reparatie, Roetmeting, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin, Vooruit betalen\n\n Aangesloten bij / Certificering :\nBovag",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Autoservice Fair VOF 0598-394260",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

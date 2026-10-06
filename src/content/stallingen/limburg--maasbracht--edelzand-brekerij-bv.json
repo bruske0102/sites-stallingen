@@ -1,0 +1,21 @@
+{
+  "id": 130972,
+  "slug": "edelzand-brekerij-bv",
+  "provincie": "limburg",
+  "plaats": "maasbracht",
+  "naam": "Edelzand-Brekerij BV",
+  "straat": "Bunkerhaven 1",
+  "postcode": "6051LR",
+  "plaatsnaam": "Maasbracht",
+  "telefoon": "0475-464200",
+  "lat": 51.142634,
+  "lon": 5.876302,
+  "status": "gesloten",
+  "oude_url": "/limburg/maasbracht/edelzand-brekerij-bv/",
+  "omschrijving": "Postbus7173, 6050AD, Maasbracht",
+  "meta_title": "Edelzand-Brekerij BV 0475-464200",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

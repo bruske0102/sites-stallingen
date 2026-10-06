@@ -1,0 +1,22 @@
+{
+  "id": 131027,
+  "slug": "leeuwen-precisie-bv-van",
+  "provincie": "overijssel",
+  "plaats": "deventer",
+  "naam": "Leeuwen Precisie BV Van",
+  "straat": "Hamburgweg 6",
+  "postcode": "7418ES",
+  "plaatsnaam": "Deventer",
+  "telefoon": "0570-500700",
+  "website": "http://www.vanleeuwen.com",
+  "lat": 52.240042,
+  "lon": 6.200068,
+  "status": "gesloten",
+  "oude_url": "/overijssel/deventer/leeuwen-precisie-bv-van/",
+  "omschrijving": "Wat wij doen:\nVan Leeuwen Precisie is de specialist op het gebied van stalen precisiebuizen en andere precisieproducten, w.o. cilinderbuizen, hydrauliekleiding, assen in geschilde, geslepen en hardverchroomde uitvoering en diverse componenten.\n\nHet Europese hoofdkantoor is gevestigd in Deventer, Nederland en vormt samen met de gespecialiseerde distributiecentra in België, Frankrijk, Verenigd Koninkrijk, Tsjechië en Polen, de Divisie Precisie. Als internationale voorraadhouder beschikt Van Leeuwen Precisie over specialistische kennis en werkt nauw samen met zorgvuldig geselecteerde kwaliteitsleveranciers. Met haar ruime ervaring op het gebied van logistiek, voorraadbeheer, distributie en transport is het bedrijf als geen ander in staat de bedrijfsketen van fabrikant tot afnemer efficiënt in te richten en te beheren.\nOns assortiment wordt voortdurend aangepast aan de wensen van de klant. Klanttevredenheid, kwaliteit en betrouwbaarheid staan hoog in ons vaandel. Hierbij beperken wij ons niet alleen tot de ISO9001. Door een team van goed opgeleide LEAN-specialisten en Six Sigma Green Belts wordt doorlopend gewerkt aan het continu verbeteren van onze bedrijfsprocessen. Door deze optimalisatie en efficiency verbeteringen zijn wij in staat onze klanten nog beter te bedienen. Deze klanten bevinden zich voornamelijk in de Hydrauliek sector, de Mechanical Engineering, Automotive en de meubel- en displayindustrie. Ook heeft Van Leeuwen Precisie een ruime ervaring in het exporteren naar zowel landen binnen als buiten Europa.\nIn Deventer, Nederland beschikt het bedrijf over een volledig, met de meest moderne opslagmiddelen uitgerust, magazijn van 7.200 m2. Met een goed uitgerust zaagcentrum kunnen alle materialen ook in vaste lengten worden geleverd. Specialiteiten :\nMateriaalbewerkingen, Logistieke diensten, Opslag, Distributie, Export documentatie, Documentbeheersing, Consultancy, klantspecifieke diensten, Projectbegeleiding, Advies",
+  "meta_title": "Leeuwen Precisie BV Van 0570-500700",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

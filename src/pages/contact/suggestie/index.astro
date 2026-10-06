@@ -1,0 +1,20 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import SuggestieForm from "../../../components/SuggestieForm.astro";
+import { instellingen } from "../../../lib/data";
+---
+<Layout
+  title={`Suggestie of verwijdering - ${instellingen.site.naam}`}
+  description="Stuur een suggestie of vraag verwijdering aan voor een bestaande praktijk. We beoordelen handmatig; er verandert niets meteen online."
+  zoekbaar={false}
+  noindex
+>
+  <p class="crumbs"><a href="/">Home</a> / <a href="/contact/">Contact</a> / Suggestie</p>
+  <h1 class="page-title">Suggestie of verwijdering</h1>
+  <p class="suggest-link">
+    Corrigeer gegevens of vraag een vermelding te verwijderen. Elk verzoek gaat per e-mail
+    (Web3Forms) met label <code>[Suggestie]</code> of <code>[Verwijderverzoek]</code> -
+    we keuren goed of af; er verandert niets automatisch.
+  </p>
+  <SuggestieForm />
+</Layout>

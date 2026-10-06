@@ -1,0 +1,22 @@
+{
+  "id": 2169905,
+  "slug": "leo-putman",
+  "provincie": "utrecht",
+  "plaats": "amerongen",
+  "naam": "Leo Putman",
+  "straat": "Lekdijk 1",
+  "postcode": "3958 ND",
+  "plaatsnaam": "Amerongen",
+  "telefoon": "0653540687",
+  "lat": 51.9949237,
+  "lon": 5.4478538,
+  "status": "gesloten",
+  "oude_url": "/utrecht/amerongen/leo-putman/",
+  "email": "leoputman1954@gmail.com",
+  "omschrijving": "Ik heb ruimte voor motoren en vouwwagens.",
+  "meta_title": "Leo Putman 0653540687 leoputman1954@gmail.com",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

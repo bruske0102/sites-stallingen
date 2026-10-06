@@ -1,0 +1,21 @@
+{
+  "id": 130738,
+  "slug": "rabelink-logistics",
+  "provincie": "gelderland",
+  "plaats": "doetinchem",
+  "naam": "Rabelink Logistics",
+  "straat": "Vlijtstraat 54",
+  "postcode": "7005BN",
+  "plaatsnaam": "Doetinchem",
+  "telefoon": "0314-368500",
+  "lat": 51.952119,
+  "lon": 6.30126,
+  "status": "gesloten",
+  "oude_url": "/gelderland/doetinchem/rabelink-logistics/",
+  "omschrijving": "Logistics-Forwarding-Transport\n\nPostbus501, 7000AM, Doetinchem\nhttp://www.rabelink.nl",
+  "meta_title": "Rabelink Logistics 0314-368500",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

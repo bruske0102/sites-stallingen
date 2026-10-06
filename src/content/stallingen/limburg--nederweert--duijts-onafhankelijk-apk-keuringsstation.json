@@ -1,0 +1,26 @@
+{
+  "id": 130708,
+  "slug": "duijts-onafhankelijk-apk-keuringsstation",
+  "provincie": "limburg",
+  "plaats": "nederweert",
+  "naam": "Duijts Onafhankelijk APK Keuringsstation",
+  "straat": "Roeven 5",
+  "postcode": "6031RN",
+  "plaatsnaam": "Nederweert",
+  "telefoon": "0495-632250",
+  "lat": 51.271808,
+  "lon": 5.75016,
+  "status": "gesloten",
+  "oude_url": "/limburg/nederweert/duijts-onafhankelijk-apk-keuringsstation/",
+  "omschrijving": "Wat wij doen:\nTAKELSERVICE DUYTS\n\nU kunt bij ons terecht voor takel en berging van uw auto. Tevens onderhoud, keuringen, en autoverhuur Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAirco onderhoud, APK keuring, Onderhoud, Diagnose, Takel en Berging, Transport, Autoverhuur, Opslag, Banden\n\n Merk :\nAlle merken\n\n Aangesloten bij / Certificering :\nLogicX, WOW, VBS",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Duijts Onafhankelijk APK Keuringsstation 0495-632250",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

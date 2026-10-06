@@ -1,0 +1,23 @@
+{
+  "id": 131249,
+  "slug": "huurdeverhuizer-bv",
+  "provincie": "noord-holland",
+  "plaats": "alkmaar",
+  "naam": "HUURdeVERHUIZER BV",
+  "straat": "Berenkoog 83",
+  "postcode": "1822BN",
+  "plaatsnaam": "Alkmaar",
+  "telefoon": "072-8200386",
+  "website": "http://www.huurdeverhuizer.nl",
+  "lat": 52.655694,
+  "lon": 4.794857,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/alkmaar/huurdeverhuizer-bv/",
+  "email": "info@huurdeverhuizer.nl",
+  "omschrijving": "Wat wij doen:\nDe verhuizers van Noord-Holland! Openingstijden:\n Maandag : 08:00 - 17:00\n Dinsdag : 08:00 - 17:00\n Woensdag : 08:00 - 17:00\n Donderdag : 08:00 - 17:00\n Vrijdag : 08:00 - 17:00\n Zaterdag : gesloten\n Zondag : gesloten Service :\nBezorgservice, Gratis offerte\n\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nAdvies, Hijswerkzaamheden, Inpakken, Internationale verhuizing, Montage, Opslag, Uitpakken, Ontheffing aanvragen, Verhuizing overzee, Verhuur, Verkoop, Vervoer, Inpak service\n\n Producten :\nAanhangwagen, Opvulmateriaal, Verhuisdoos, Verhuislift, Verhuistape, Verhuiswagen, Verpakkingsmateriaal\n\n Betalingsmogelijkheden :\nBank / Giro overschrijving, Incasso\n\n Aangesloten bij / Certificering :\nTln, Niwo, IRU",
+  "meta_title": "HUURdeVERHUIZER BV 072-8200386 info@huurdeverhuizer.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

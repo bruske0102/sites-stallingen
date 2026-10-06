@@ -1,0 +1,30 @@
+{
+  "id": 131154,
+  "slug": "autoservice-veendam",
+  "provincie": "groningen",
+  "plaats": "veendam",
+  "naam": "Autoservice Veendam",
+  "straat": "Boven Westerdiep 17",
+  "postcode": "9641LA",
+  "plaatsnaam": "Veendam",
+  "telefoon": "0598-626166",
+  "website": "http://www.autoserviceveendam.nl",
+  "lat": 53.105414,
+  "lon": 6.870245,
+  "status": "gesloten",
+  "oude_url": "/groningen/veendam/autoservice-veendam/",
+  "email": "info@autoserviceveendam.nl",
+  "omschrijving": "0598-626166\n\n fax : 0598-631285\n\n Wat wij doen:\nBij Autoservice Veendam kunt u terecht voor onderhoud, APK en reparaties voor alle merken auto's.\nWij werken met een vast team van goed opgeleide monteurs.\nTevens zijn wij een ANWB Partnerbedrijf in pechhulp daardoor hebben wij alle kennis en de modernste apparatuur in huis om uw auto goed te kunnen repareren.\nOok kunt u bij ons terecht voor airco-onderhoud, uitlijnen, storingen, schade- en spuitwerk, banden, bandenopslag Openingstijden:\n Maandag : 08:00 - 17:15\n Dinsdag : 08:00 - 17:15\n Woensdag : 08:00 - 17:15\n Donderdag : 08:00 - 17:15\n Vrijdag : 08:00 - 17:15\n Zaterdag : gesloten\n Zondag : gesloten Service :\nAlleen op afspraak, Gratis offerte, Haal- en brengservice, Nieuwe of gebruikte onderdelen, Vervangend vervoer / leenauto\n\n Toegankelijkheid :\nHonden toegestaan, Toegankelijk voor rolstoelen\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto spuiten, Auto-aanpassingen, Autoalarm inbouwen, Carkit inbouwen, Demontage / montage, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Onderhoud en reparatie motorfiets, Remmen repareren / vervangen, Reparatie, Restauratie, Revisie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Tuning, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nAlle merken, Alfa Romeo, Aston Martin, Audi, Bentley, BMW, Bugatti, Cadillac, Chevrolet, Chrysler, Citroën, Corvette, Dacia, Daihatsu, Dodge, Ferrari, Fiat, Ford, Honda, Hummer, Hyundai, Isuzu, Jaguar, Jeep, Kia, Lada, Lamborghini, Lancia, Land Rover, Landwind, Lexus, Lotus, Maserati, Maybach, Mazda, Mercedes-Benz, MG, Mini, Mitsubishi, Nissan, Opel, Peugeot, Porsche, Renault, Rolls-Royce, Rover, Saab, Seat, Skoda, Smart, Spyker, SsangYong, Subaru, Suzuki, Tesla, Toyota, Volkswagen, Volvo\n\n Betalingsmogelijkheden :\nContant, Pin, Visa\n\n Aangesloten bij / Certificering :\nBovag, 9001",
+  "kenmerken": {
+    "Type": [
+      "fiets",
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Autoservice Veendam 0598-626166 info@autoserviceveendam.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

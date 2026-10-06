@@ -1,0 +1,20 @@
+{
+  "id": 130733,
+  "slug": "jpl-expeditie-op-en-overslag-bv",
+  "provincie": "limburg",
+  "plaats": "cadier-en-keer",
+  "naam": "JPL Expeditie Op- en Overslag BV",
+  "straat": "Pastoor Kikkenweg 12",
+  "postcode": "6267NK",
+  "plaatsnaam": "Cadier en Keer",
+  "telefoon": "06-29490717",
+  "lat": 50.830586,
+  "lon": 5.757117,
+  "status": "gesloten",
+  "oude_url": "/limburg/cadier-en-keer/jpl-expeditie-op-en-overslag-bv/",
+  "meta_title": "JPL Expeditie Op- en Overslag BV 06-29490717",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

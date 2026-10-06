@@ -1,0 +1,27 @@
+{
+  "id": 1989843,
+  "slug": "ron-haulussy",
+  "provincie": "friesland",
+  "plaats": "oosterwolde",
+  "naam": "Ron Haulussy",
+  "straat": "Assessorlaan 68A",
+  "postcode": "8431 DE",
+  "plaatsnaam": "Oosterwolde",
+  "telefoon": "0618814421",
+  "lat": 52.98331049999999,
+  "lon": 6.288198,
+  "status": "gesloten",
+  "oude_url": "/friesland/oosterwolde/ron-haulussy/",
+  "email": "ihamahu@live.nl",
+  "omschrijving": "Graag zou ik mijn camper bij u in de stalling willen.\r\nHebt u nog ruimte?",
+  "kenmerken": {
+    "Type": [
+      "caravan"
+    ]
+  },
+  "meta_title": "Ron Haulussy 0618814421 ihamahu@live.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

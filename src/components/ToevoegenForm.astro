@@ -1,0 +1,215 @@
+---
+/**
+ * Stalling aanmelden - postcode+huisnummer via PDOK Locatieserver,
+ * diensten-checkboxes, Web3Forms + hCaptcha.
+ */
+import { instellingen } from "../lib/data";
+import { DIENSTEN as diensten } from "../lib/diensten";
+
+const key = import.meta.env.PUBLIC_WEB3FORMS_KEY || instellingen.web3forms?.key || "";
+const siteNaam = instellingen.site.naam;
+---
+<form
+  class="form toevoegen-form"
+  id="toevoegen"
+  action="https://api.web3forms.com/submit"
+  method="POST"
+  data-web3form
+  data-toevoegen
+  data-pagefind-ignore
+>
+  <input type="hidden" name="access_key" value={key} />
+  <input type="hidden" name="subject" value="Nieuwe stalling aangemeld" />
+  <input type="hidden" name="from_name" value={siteNaam} />
+  <input type="checkbox" name="botcheck" class="skip" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+  <label for="toevoegen-bedrijfsnaam">
+    Naam van de praktijk / stalling *
+    <input id="toevoegen-bedrijfsnaam" name="bedrijfsnaam" type="text" required autocomplete="organization" />
+  </label>
+
+  <fieldset class="form-fieldset">
+    <legend>Adres opzoeken</legend>
+    <p class="hint">Vul postcode en huisnummer in - we vullen straat en plaats automatisch in (BAG / PDOK).</p>
+    <div class="form-row">
+      <label for="toevoegen-postcode">
+        Postcode *
+        <input id="toevoegen-postcode" name="postcode" type="text" required autocomplete="postal-code" inputmode="text" placeholder="2611AZ" maxlength="7" />
+      </label>
+      <label for="toevoegen-huisnummer">
+        Huisnummer *
+        <input id="toevoegen-huisnummer" name="huisnummer" type="text" required inputmode="numeric" placeholder="47" />
+      </label>
+      <label for="toevoegen-toevoeging">
+        Toevoeging
+        <input id="toevoegen-toevoeging" name="huisnummer_toevoeging" type="text" placeholder="A" maxlength="6" />
+      </label>
+    </div>
+    <button type="button" class="btn btn-ghost" data-zoek-adres>Zoek adres</button>
+    <p class="hint" data-adres-status aria-live="polite"></p>
+  </fieldset>
+
+  <label for="toevoegen-straat">
+    Straat *
+    <input id="toevoegen-straat" name="straat" type="text" required autocomplete="address-line1" />
+  </label>
+  <label for="toevoegen-plaats">
+    Plaats *
+    <input id="toevoegen-plaats" name="plaats" type="text" required autocomplete="address-level2" />
+  </label>
+
+  <label for="toevoegen-telefoon">
+    Telefoonnummer *
+    <input id="toevoegen-telefoon" name="telefoon" type="tel" required autocomplete="tel" />
+  </label>
+  <label for="toevoegen-website">
+    Website
+    <input id="toevoegen-website" name="website" type="url" autocomplete="url" placeholder="https://" />
+  </label>
+  <label for="toevoegen-email">
+    E-mail *
+    <input id="toevoegen-email" name="email" type="email" required autocomplete="email" />
+    <span class="hint">
+      Bij voorkeur het e-mailadres van de stalling (bijv. info@jouwpraktijk.nl) - dat maakt controle sneller.
+      Niet openbaar op de site.
+    </span>
+  </label>
+
+  <fieldset class="form-fieldset">
+    <legend>Diensten *</legend>
+    <p class="hint">Selecteer wat jullie aanbieden (minstens één).</p>
+    <div class="check-grid" data-diensten>
+      {diensten.map((d) => (
+        <label class="check-item" for={`dienst-${d.id}`}>
+          <input id={`dienst-${d.id}`} type="checkbox" name="diensten" value={d.label} />
+          <span>{d.label}</span>
+        </label>
+      ))}
+    </div>
+  </fieldset>
+
+  <label for="toevoegen-omschrijving">
+    Korte omschrijving
+    <textarea id="toevoegen-omschrijving" name="omschrijving" placeholder="Optioneel: openingstijden, specialiteiten, …"></textarea>
+  </label>
+
+  <div class="h-captcha" data-captcha="true"></div>
+  <button class="btn" type="submit">Gratis aanmelden</button>
+  <div class="notice" role="status" aria-live="polite" hidden data-melding></div>
+  {!key && (
+    <p class="notice err">
+      Formulier nog niet gekoppeld (zet <code>PUBLIC_WEB3FORMS_KEY</code> in Cloudflare).
+    </p>
+  )}
+</form>
+
+<p class="suggest-link">
+  Al in de gids? Telefoon verkeerd, of diensten missen?
+  <a href="/contact/suggestie/">Stuur een suggestie of verwijderverzoek</a>
+  - zoek je stalling op naam/plaats; we controleren handmatig voordat iets online komt.
+</p>
+
+<script is:inline src="https://web3forms.com/client/script.js" async defer></script>
+<script>
+  const PDOK =
+    "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free";
+
+  function normPc(v) {
+    return String(v || "").replace(/\s+/g, "").toUpperCase();
+  }
+
+  async function zoekAdres(form) {
+    const status = form.querySelector("[data-adres-status]");
+    const pc = normPc(form.postcode.value);
+    const nr = String(form.huisnummer.value || "").trim();
+    const toev = String(form.huisnummer_toevoeging?.value || "").trim();
+    if (!/^[1-9][0-9]{3}[A-Z]{2}$/.test(pc) || !nr) {
+      status.textContent = "Vul een geldige postcode (1234AB) en huisnummer in.";
+      return;
+    }
+    status.textContent = "Adres opzoeken…";
+    const q = toev ? `${pc} ${nr}${toev}` : `${pc} ${nr}`;
+    const url = `${PDOK}?q=${encodeURIComponent(q)}&fq=type:adres&fl=straatnaam,huisnummer,huisletter,huisnummertoevoeging,postcode,woonplaatsnaam,weergavenaam&rows=5`;
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+      const docs = data?.response?.docs || [];
+      const match =
+        docs.find((d) => normPc(d.postcode) === pc && String(d.huisnummer) === nr) ||
+        docs[0];
+      if (!match?.straatnaam) {
+        status.textContent = "Geen adres gevonden. Vul straat en plaats handmatig in.";
+        return;
+      }
+      form.straat.value = match.straatnaam;
+      form.plaats.value = match.woonplaatsnaam || "";
+      form.postcode.value = match.postcode || pc;
+      status.textContent = `Gevonden: ${match.weergavenaam || match.straatnaam}`;
+    } catch {
+      status.textContent = "Adreslookup lukte niet. Vul straat en plaats handmatig in.";
+    }
+  }
+
+  for (const form of document.querySelectorAll("[data-toevoegen]")) {
+    const btn = form.querySelector("[data-zoek-adres]");
+    btn?.addEventListener("click", () => zoekAdres(form));
+    for (const name of ["postcode", "huisnummer", "huisnummer_toevoeging"]) {
+      form.elements.namedItem(name)?.addEventListener("change", () => {
+        if (normPc(form.postcode.value).length >= 6 && form.huisnummer.value) zoekAdres(form);
+      });
+    }
+
+    const melding = form.querySelector("[data-melding]");
+    const knop = form.querySelector('button[type="submit"]');
+    const toon = (ok, tekst) => {
+      melding.hidden = false;
+      melding.className = "notice " + (ok ? "ok" : "err");
+      melding.textContent = tekst;
+    };
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const checked = form.querySelectorAll('input[name="diensten"]:checked');
+      if (!checked.length) {
+        return toon(false, "Selecteer minstens één dienst.");
+      }
+      const formData = new FormData(form);
+      const diensten = [...checked].map((c) => c.value).join(", ");
+      formData.set("diensten", diensten);
+      formData.set(
+        "adres",
+        [form.straat.value, form.huisnummer.value + (form.huisnummer_toevoeging?.value || ""), form.postcode.value, form.plaats.value]
+          .filter(Boolean)
+          .join(", "),
+      );
+      if (!formData.get("access_key")) {
+        return toon(false, "Formulier is nog niet gekoppeld (access key ontbreekt).");
+      }
+      if (!formData.get("h-captcha-response")) {
+        return toon(false, "Vink eerst de controle aan (ik ben geen robot).");
+      }
+      const originalText = knop.textContent;
+      knop.textContent = "Versturen…";
+      knop.disabled = true;
+      try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData,
+        });
+        const data = await response.json();
+        if (response.ok && data.success) {
+          form.reset();
+          form.querySelector("[data-adres-status]").textContent = "";
+          toon(true, "Bedankt! Je aanmelding is verstuurd. We controleren handmatig voordat je praktijk online komt.");
+        } else {
+          toon(false, "Versturen lukte niet: " + (data.message || "onbekende fout") + ".");
+        }
+      } catch {
+        toon(false, "Er ging iets mis. Controleer je verbinding en probeer het opnieuw.");
+      } finally {
+        knop.textContent = originalText;
+        knop.disabled = false;
+      }
+    });
+  }
+</script>

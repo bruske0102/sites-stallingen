@@ -1,0 +1,29 @@
+{
+  "id": 131322,
+  "slug": "baron-autos",
+  "provincie": "noord-holland",
+  "plaats": "assendelft",
+  "naam": "Baron Auto's",
+  "straat": "Rode Ring 27",
+  "postcode": "1566HR",
+  "plaatsnaam": "Assendelft",
+  "telefoon": "075-6871144",
+  "website": "http://www.baronautos.nl",
+  "lat": 52.48735,
+  "lon": 4.761368,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/assendelft/baron-autos/",
+  "email": "info@baronautos.nl",
+  "omschrijving": "075-6871144\n\n fax : 075-6874569\nwww.baronautos.nl\n\n Wat wij doen:\nBaron Auto's is al 15 jaar een begrip in Assendelft en omstreken.\n\nWij zijn een Bovag autobedrijf.\nBij ons kunt u terecht voor elke soort reparatie of onderhoud aan uw auto of bedrijfsauto.\nIn ons splinternieuwe pand hebben wij de modernste gereedschappen en apparatuur om uw auto perfect af te leveren en te onderhouden.\nNatuurlijk kunt u ook bij ons terecht voor; Inkoop,Verkoop,A.p.k.keuring,Reparatie,Onderhoud,Schadeherstel,Aircoservice,Banden,enz.\nIn onze showroom bieden wij betrouwbare occassions aan die eerst zorgvuldig worden nagezien voordat ze de showroom ingaan.\n\nTot ziens bij Baron Auto's. Openingstijden:\n Maandag : 08:00 - 17:15\n Dinsdag : 08:00 - 17:15\n Woensdag : 08:00 - 17:15\n Donderdag : 08:00 - 17:15\n Vrijdag : 08:00 - 17:15\n Zaterdag : 09:00 - 15:30\n Zondag : gesloten Service :\nVervangend vervoer / leenauto\n\n Toegankelijkheid :\nBegane grond, Gehandicaptenparkeerplaats, Honden toegestaan, Toegankelijk voor rolstoelen\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Carkit inbouwen, Demontage / montage, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Reparatie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nBOVAG, Nationale Autopas., RDW erkend",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Baron Auto's 075-6871144 info@baronautos.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

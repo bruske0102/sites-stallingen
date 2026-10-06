@@ -1,0 +1,21 @@
+{
+  "id": 130703,
+  "slug": "langen-groothandel-born-bv",
+  "provincie": "limburg",
+  "plaats": "born",
+  "naam": "Langen Groothandel Born BV",
+  "straat": "Industrieweg 2",
+  "postcode": "6121EZ",
+  "plaatsnaam": "Born",
+  "telefoon": "046-4810063",
+  "lat": 51.053739,
+  "lon": 5.808426,
+  "status": "gesloten",
+  "oude_url": "/limburg/born/langen-groothandel-born-bv/",
+  "omschrijving": "Postbus90, 6160AB, Geleen\nhttp://www.langen.nl",
+  "meta_title": "Langen Groothandel Born BV 046-4810063",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

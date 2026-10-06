@@ -1,0 +1,20 @@
+{
+  "id": 131172,
+  "slug": "opslagcentrale-innoseeds-bv",
+  "provincie": "noord-brabant",
+  "plaats": "oudemolen",
+  "naam": "Opslagcentrale Innoseeds BV",
+  "straat": "Stadsedijk 45",
+  "postcode": "4796RA",
+  "plaatsnaam": "Oudemolen nb",
+  "telefoon": "0168-462238",
+  "lat": 51.653722,
+  "lon": 4.463337,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/oudemolen/opslagcentrale-innoseeds-bv/",
+  "meta_title": "Opslagcentrale Innoseeds BV 0168-462238",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

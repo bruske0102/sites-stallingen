@@ -1,0 +1,20 @@
+{
+  "id": 130731,
+  "slug": "exel",
+  "provincie": "limburg",
+  "plaats": "brunssum",
+  "naam": "Exel",
+  "straat": "Boschstraat 23",
+  "postcode": "6442PB",
+  "plaatsnaam": "Brunssum",
+  "telefoon": "045-5261247",
+  "lat": 50.956485,
+  "lon": 5.991816,
+  "status": "gesloten",
+  "oude_url": "/limburg/brunssum/exel/",
+  "meta_title": "Exel 045-5261247",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

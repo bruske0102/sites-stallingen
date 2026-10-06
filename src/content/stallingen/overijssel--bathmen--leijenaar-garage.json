@@ -1,0 +1,30 @@
+{
+  "id": 131159,
+  "slug": "leijenaar-garage",
+  "provincie": "overijssel",
+  "plaats": "bathmen",
+  "naam": "Leijenaar Garage",
+  "straat": "Koekendijk 8",
+  "postcode": "7437CK",
+  "plaatsnaam": "Bathmen",
+  "telefoon": "0570-541224",
+  "website": "http://www.leijenaar.info",
+  "lat": 52.25295,
+  "lon": 6.287971,
+  "status": "gesloten",
+  "oude_url": "/overijssel/bathmen/leijenaar-garage/",
+  "omschrijving": "Onderhoud alle merken auto's\nErkend Renault garage\n\nhttp://www.leijenaar.info\n\n Wat wij doen:\nGarage Leijenaar uit Bathmen is ook uw Renault dealer. Wij hebben de nieuwste modellen en tal van aantrekkelijke occasions. Als erkend Renault-garage bent u bij ons ook aan het goede adres voor onderhoud en reparatie.\n\nGarage Leijenaar uit Bathmen kent een lange geschiedenis. Het is opgericht in 1918 en nog steeds een echt familiebedrijf. Sinds 1963 bezit Garage Leijenaar het dealerschap van Renault. Van een kleine dorpsgarage is het bedrijf gegroeid naar een bloeiende onderneming dat service, vakmanschap en klantgerichtheid hoog in het vaandel heeft staan. Het sterke van een kleine garage heeft het echter altijd behouden.\n\nSoms heeft u een voertuig slechts één dag of misschien hooguit een weekeind nodig. Dat bestaat de mogelijkheid om dat te huren. Wij werken daarin samen met Vega, een 5-sterren Bovag gecertificeerd autoverhuurbedrijf in Lochem.\n\nU kunt de meest uiteenlopen voertuigen huren; van personenauto's tot verhuiswagens; van tractoren tot aanhangwagens en van een rolstoelbus tot terreinwagen.\n\nFLEXIBEL\nHet grote voordeel van een auto huren bij Garage Leijenaar is dat u het voertuig bij ons in Bathmen kunt brengen en halen. Daarin zijn wij, net als al onze andere diensten, uitermate flexibel.\n\nOp de site van Vega vindt u informatie over tarieven en voorwaarden. Openingstijden:\n Maandag : 08:00 - 18:00 Openingstijden werkplaats: Maandag t/m vrijdag 08.00/12.00u. - 13.00/17.15u. Zaterdag: 08.30/12.00u.\n Dinsdag : 08:00 - 18:00\n Woensdag : 08:00 - 18:00\n Donderdag : 08:00 - 18:00\n Vrijdag : 08:00 - 18:30\n Zaterdag : 08:30 - 16:30\n Zondag : gesloten Service :\nWasstraat aanwezig\n\n Soort garagebedrijf :\nMerkdealer\n\n Diensten :\nAPK keuring, LPG installatie inbouwen, Onderhoud, Reparatie, Schadeherstel, Storing oplossen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag, Inbouw accessoires, Verkoop nieuwe auto's, Verhuur personenauto, ALLE MOGELIJKE VOERTUIGEN ZIJN TE HUUR BIJ LEIJENAAR\n\n Merk :\nRenault",
+  "openingstijden": {
+    "za": "08.30/12.00u"
+  },
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Leijenaar Garage 0570-541224",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

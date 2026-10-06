@@ -1,0 +1,23 @@
+{
+  "id": 130595,
+  "slug": "taco-agro-bv",
+  "provincie": "limburg",
+  "plaats": "horst",
+  "naam": "Taco-Agro BV",
+  "straat": "Donkstraat 6",
+  "postcode": "5964AJ",
+  "plaatsnaam": "Meterik",
+  "telefoon": "077-3976666",
+  "website": "http://www.tacobedrijven.nl",
+  "lat": 51.454226,
+  "lon": 6.028125,
+  "status": "gesloten",
+  "oude_url": "/limburg/horst/taco-agro-bv/",
+  "email": "info@tacobedrijven.nl",
+  "omschrijving": "077-3976666\n\n fax : 077-3976660\n\n Doelgroep :\nBedrijven\n\n Diensten :\nAgrarische werkzaamheden, Loonwerk, Oogsten, Ploegen, Transport, Zaaien\n\n Materieel :\nShovel, Stalmeststrooier, Tractor",
+  "meta_title": "Taco-Agro BV 077-3976666 info@tacobedrijven.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

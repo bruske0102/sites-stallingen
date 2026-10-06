@@ -1,0 +1,21 @@
+{
+  "id": 130758,
+  "slug": "insight-graphics-bv",
+  "provincie": "utrecht",
+  "plaats": "amersfoort",
+  "naam": "Insight Graphics BV",
+  "straat": "De Stuwdam 71",
+  "postcode": "3815KM",
+  "plaatsnaam": "Amersfoort",
+  "telefoon": "033-4673440",
+  "lat": 52.168575,
+  "lon": 5.432165,
+  "status": "gesloten",
+  "oude_url": "/utrecht/amersfoort/insight-graphics-bv/",
+  "omschrijving": "Postbus217, 3800AE, Amersfoort\nhttp://www.insightgraphics.info\n\nhttp://www.insightgraphics.info\n\ninfo@insightgraphics.info\n\n Wat wij doen:\nInsight in Graphics is een fullservicebedrijf voor grafische media. We werken voor middelgrote tot grote organisaties met een complex drukwerkpakket. Ons dienstenpakket beslaat het totale proces: van advies, ontwerp en productie tot en met opslag, beheer en verspreiding van drukwerk.Maar natuurlijk verzorgen we ook losse onderdelen ervan. Specialiteiten :\nadvies, ontwerp, productie, opslag, beheer, verspreiding, desktop publishing, Productiebegeleiding drukwerk, grafische winkelinrichting, visual merchandising",
+  "meta_title": "Insight Graphics BV 033-4673440",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

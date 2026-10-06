@@ -1,0 +1,717 @@
+---
+/**
+ * Structured change or removal request for an existing stalling.
+ * - On shop pages: shop is locked, form stays on the page.
+ * - On /contact/suggestie/: pick a shop first, then choose wijziging or verwijderen.
+ *
+ * Submissions go to Web3Forms only (no auto-edit / auto-delete). Subjects use
+ * `[Suggestie]` / `[Verwijderverzoek]` so Thomas can approve (edit/close listing)
+ * or reject (ignore) in email. Payload admin UI can replace this later.
+ */
+import SchoolPicker from "./SchoolPicker.astro";
+import { DIENSTEN } from "../lib/diensten";
+import { instellingen } from "../lib/data";
+
+export interface PrefillShop {
+  id?: string | number;
+  naam: string;
+  plaats: string;
+  path: string;
+  telefoon?: string;
+  website?: string;
+  adres?: string;
+}
+
+interface Props {
+  shop?: PrefillShop;
+  /** When true, shop cannot be changed (shop detail page). */
+  locked?: boolean;
+  compact?: boolean;
+}
+
+const { shop, locked = false, compact = false } = Astro.props;
+const key = import.meta.env.PUBLIC_WEB3FORMS_KEY || instellingen.web3forms?.key || "";
+const hasShop = Boolean(shop?.naam);
+const formId = locked ? "suggestie-shop" : "suggestie";
+const siteOrigin = instellingen.site.url;
+const siteNaam = instellingen.site.naam;
+const subjectWijziging = `[Suggestie] Wijziging - ${siteNaam}`;
+const subjectVerwijderen = `[Verwijderverzoek] Vermelding - ${siteNaam}`;
+
+const verwijderRedenen = [
+  { value: "bestaat_niet_meer", label: "Bedrijf bestaat niet meer" },
+  { value: "website_offline", label: "Website werkt niet / is offline" },
+  { value: "verkeerde_niche", label: "Dit is geen stallingenpraktijk (verkeerde niche)" },
+  { value: "gegevens_verouderd", label: "Gegevens kloppen niet meer (verhuisd/gestopt)" },
+  { value: "duplicaat", label: "Duplicaat van een andere vermelding" },
+  { value: "opt_out", label: "Eigenaar wil niet in de gids (opt-out)" },
+  { value: "spam_nep", label: "Spam of nepvermelding" },
+  { value: "anders", label: "Anders" },
+] as const;
+---
+<section
+  class:list={["suggestie-panel", compact && "suggestie-panel--compact"]}
+  data-suggestie-form
+  data-locked={locked ? "1" : "0"}
+  data-subject-wijziging={subjectWijziging}
+  data-subject-verwijderen={subjectVerwijderen}
+  aria-labelledby={`${formId}-title`}
+>
+  {locked ? (
+    <>
+      <h2 id={`${formId}-title`} class="suggestie-title">
+        Klopt iets niet? Of moet de vermelding weg?
+      </h2>
+      <p class="suggestie-lead">
+        Voor {shop!.naam} - je blijft op deze pagina. We controleren elk verzoek handmatig voordat er iets online wijzigt.
+      </p>
+    </>
+  ) : (
+    <p class="suggestie-lead" id={`${formId}-title`}>
+      Kies een praktijk, geef aan of je een <strong>wijziging</strong> of een <strong>verwijdering</strong> wilt, en vul de details in. We controleren handmatig.
+    </p>
+  )}
+
+  <form
+    class="form"
+    id={formId}
+    action="https://api.web3forms.com/submit"
+    method="POST"
+    data-web3form
+    data-suggestie
+    data-pagefind-ignore
+  >
+    <input type="hidden" name="access_key" value={key} />
+    <input type="hidden" name="subject" value={subjectWijziging} data-subject />
+    <input type="hidden" name="from_name" value={siteNaam} />
+    <input type="hidden" name="aanvraag_type" value="wijziging" data-aanvraag-type />
+    <input type="checkbox" name="botcheck" class="skip" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+    {locked && shop ? (
+      <div class="shop-picker-selected" data-shop-selected>
+        <p class="shop-picker-label">Praktijk / stalling</p>
+        <p class="shop-picker-name">{shop.naam}</p>
+        <p class="shop-picker-meta">
+          {[shop.plaats, shop.telefoon, shop.adres].filter(Boolean).join(" · ")}
+        </p>
+        <input type="hidden" name="shop_naam" value={shop.naam} />
+        <input type="hidden" name="shop_plaats" value={shop.plaats} />
+        <input type="hidden" name="shop_url" value={`${siteOrigin}${shop.path}`} />
+        <input type="hidden" name="shop_id" value={String(shop.id ?? "")} />
+        <input type="hidden" name="shop_telefoon" value={shop.telefoon || ""} />
+        <input type="hidden" name="pagina" value={`${siteOrigin}${shop.path}`} />
+      </div>
+    ) : (
+      <SchoolPicker required={true} />
+    )}
+
+    <div class="suggestie-fields" data-suggestie-fields hidden={!locked && !hasShop}>
+      <fieldset class="form-fieldset">
+        <legend>Wat wil je doen? *</legend>
+        <p class="hint">Kies eerst het type verzoek - daarna verschijnen de juiste velden.</p>
+        <div class="intent-grid" data-intent-choice role="radiogroup" aria-label="Type verzoek">
+          <label class="intent-option">
+            <input type="radio" name="intent" value="wijziging" checked data-intent />
+            <span class="intent-option-body">
+              <span class="intent-option-title">Wijziging voorstellen</span>
+              <span class="intent-option-desc">Openingstijden, telefoon, adres, diensten of iets anders corrigeren.</span>
+            </span>
+          </label>
+          <label class="intent-option">
+            <input type="radio" name="intent" value="verwijderen" data-intent />
+            <span class="intent-option-body">
+              <span class="intent-option-title">Verwijderen aanvragen</span>
+              <span class="intent-option-desc">Vermelding offline halen na handmatige controle (geen automatische delete).</span>
+            </span>
+          </label>
+        </div>
+      </fieldset>
+
+      <div data-mode-panel="wijziging">
+        <fieldset class="form-fieldset">
+          <legend>Wat wil je aanpassen? *</legend>
+          <p class="hint">Kies één of meer onderwerpen - daarna verschijnen de velden.</p>
+          <div class="check-grid" data-change-types>
+            <label class="check-item">
+              <input type="checkbox" name="wijzig_type" value="openingstijden" data-toggle="openingstijden" />
+              <span>Openingstijden</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="wijzig_type" value="telefoon" data-toggle="telefoon" />
+              <span>Telefoonnummer</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="wijzig_type" value="website" data-toggle="website" />
+              <span>Website</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="wijzig_type" value="diensten" data-toggle="diensten" />
+              <span>Diensten / subcategorieën</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="wijzig_type" value="adres" data-toggle="adres" />
+              <span>Adres</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="wijzig_type" value="overig" data-toggle="overig" />
+              <span>Iets anders</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="suggestie-panel-field" data-panel="openingstijden" hidden>
+          <fieldset class="form-fieldset hours-fieldset">
+            <legend>Nieuwe openingstijden *</legend>
+            <p class="hint">Vul per dag in. Zondag staat standaard op gesloten - pas aan waar nodig.</p>
+            <div class="hours-actions">
+              <button type="button" class="btn btn-ghost" data-hours-preset="kantoor">Standaard 09:00–17:30</button>
+              <button type="button" class="btn btn-ghost" data-hours-copy-week>Ma → di–vr kopiëren</button>
+            </div>
+            <div class="hours-table-wrap">
+              <table class="hours-table" data-hours-table>
+                <thead>
+                  <tr>
+                    <th scope="col">Dag</th>
+                    <th scope="col">Open</th>
+                    <th scope="col">Van</th>
+                    <th scope="col">Tot</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { id: "ma", label: "Maandag", open: true, van: "09:00", tot: "17:30" },
+                    { id: "di", label: "Dinsdag", open: true, van: "09:00", tot: "17:30" },
+                    { id: "wo", label: "Woensdag", open: true, van: "09:00", tot: "17:30" },
+                    { id: "do", label: "Donderdag", open: true, van: "09:00", tot: "17:30" },
+                    { id: "vr", label: "Vrijdag", open: true, van: "09:00", tot: "17:30" },
+                    { id: "za", label: "Zaterdag", open: true, van: "10:00", tot: "16:00" },
+                    { id: "zo", label: "Zondag", open: false, van: "10:00", tot: "16:00" },
+                  ].map((d) => (
+                    <tr data-day={d.id} class:list={[!d.open && "is-closed"]}>
+                      <th scope="row">{d.label}</th>
+                      <td>
+                        <label class="hours-open">
+                          <input
+                            type="checkbox"
+                            data-hours-open
+                            checked={d.open}
+                            aria-label={`${d.label} open`}
+                          />
+                          <span data-hours-open-label>{d.open ? "Open" : "Gesloten"}</span>
+                        </label>
+                      </td>
+                      <td>
+                        <input
+                          type="time"
+                          data-hours-van
+                          value={d.van}
+                          disabled={!d.open}
+                          aria-label={`${d.label} van`}
+                        />
+                      </td>
+                      <td>
+                        <input
+                          type="time"
+                          data-hours-tot
+                          value={d.tot}
+                          disabled={!d.open}
+                          aria-label={`${d.label} tot`}
+                        />
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p class="hours-preview hint" data-hours-preview aria-live="polite"></p>
+            <input type="hidden" name="openingstijden" data-hours-value value="" />
+          </fieldset>
+        </div>
+
+        <div class="suggestie-panel-field" data-panel="telefoon" hidden>
+          {shop?.telefoon && (
+            <p class="hint">Nu op de site: <strong>{shop.telefoon}</strong></p>
+          )}
+          <label>
+            Nieuw telefoonnummer *
+            <input name="nieuw_telefoon" type="tel" autocomplete="tel" placeholder="06… of 015…" />
+          </label>
+        </div>
+
+        <div class="suggestie-panel-field" data-panel="website" hidden>
+          {shop?.website && (
+            <p class="hint">Nu op de site: <strong>{shop.website}</strong></p>
+          )}
+          <label>
+            Nieuwe website *
+            <input name="nieuw_website" type="url" autocomplete="url" placeholder="https://" />
+          </label>
+        </div>
+
+        <div class="suggestie-panel-field" data-panel="diensten" hidden>
+          <fieldset class="form-fieldset">
+            <legend>Diensten toevoegen of corrigeren *</legend>
+            <p class="hint">Vink aan wat jullie (ook) doen - of wat er fout staat in de gids.</p>
+            <div class="check-grid">
+              {DIENSTEN.map((d) => (
+                <label class="check-item" for={`${formId}-dienst-${d.id}`}>
+                  <input id={`${formId}-dienst-${d.id}`} type="checkbox" name="diensten" value={d.label} />
+                  <span>{d.label}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+          <label>
+            Toelichting diensten
+            <textarea name="diensten_toelichting" rows="2" placeholder="Optioneel: bijv. specialisatie, extra diensten, diensten, kinder…"></textarea>
+          </label>
+        </div>
+
+        <div class="suggestie-panel-field" data-panel="adres" hidden>
+          {shop?.adres && (
+            <p class="hint">Nu op de site: <strong>{shop.adres}</strong></p>
+          )}
+          <label>
+            Nieuw / correct adres *
+            <textarea name="nieuw_adres" rows="2" placeholder="Straat, postcode, plaats"></textarea>
+          </label>
+        </div>
+
+        <div class="suggestie-panel-field" data-panel="overig" hidden>
+          <label>
+            Wat moet er nog meer wijzigen? *
+            <textarea name="overig_bericht" rows="3" placeholder="Beschrijf de wijziging…"></textarea>
+          </label>
+        </div>
+      </div>
+
+      <div data-mode-panel="verwijderen" hidden>
+        <fieldset class="form-fieldset">
+          <legend>Waarom verwijderen? *</legend>
+          <p class="hint">Kies de reden die het best past. We controleren elk verzoek voordat een vermelding offline gaat.</p>
+          <div class="reason-list" data-removal-reasons>
+            {verwijderRedenen.map((r) => (
+              <label class="check-item reason-item">
+                <input
+                  type="radio"
+                  name="verwijder_reden"
+                  value={r.value}
+                  data-removal-reason
+                />
+                <span>{r.label}</span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
+        <label data-removal-anders hidden>
+          Korte toelichting *
+          <textarea
+            name="verwijder_anders"
+            rows="2"
+            maxlength="500"
+            placeholder="Max. een paar zinnen…"
+            data-removal-anders-text
+          ></textarea>
+        </label>
+      </div>
+
+      <label>
+        Jouw naam *
+        <input name="naam" type="text" required autocomplete="name" />
+      </label>
+      <label>
+        E-mailadres *
+        <input name="email" type="email" required autocomplete="email" />
+        <span class="hint">Bij voorkeur van de zaak als je eigenaar bent - makkelijker te controleren.</span>
+      </label>
+      <label>
+        Extra opmerking
+        <textarea name="bericht" rows="2" placeholder="Optioneel"></textarea>
+      </label>
+
+      <div class="h-captcha" data-captcha="true"></div>
+      <button class="btn" type="submit" data-submit-label>Wijziging voorstellen</button>
+      <div class="notice" role="status" aria-live="polite" hidden data-melding></div>
+      {!key && (
+        <p class="notice err">Formulier nog niet gekoppeld (access key ontbreekt).</p>
+      )}
+    </div>
+  </form>
+</section>
+
+<script is:inline src="https://web3forms.com/client/script.js" async defer></script>
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>("[data-suggestie-form]")) {
+    const form = root.querySelector<HTMLFormElement>("form[data-suggestie]")!;
+    const fields = root.querySelector<HTMLElement>("[data-suggestie-fields]")!;
+    const locked = root.dataset.locked === "1";
+    const melding = form.querySelector<HTMLElement>("[data-melding]")!;
+    const knop = form.querySelector<HTMLButtonElement>("[data-submit-label]")!;
+    const subjectInput = form.querySelector<HTMLInputElement>("[data-subject]")!;
+    const aanvraagType = form.querySelector<HTMLInputElement>("[data-aanvraag-type]")!;
+    const hoursTable = form.querySelector<HTMLTableElement>("[data-hours-table]");
+    const hoursValue = form.querySelector<HTMLInputElement>("[data-hours-value]");
+    const hoursPreview = form.querySelector<HTMLElement>("[data-hours-preview]");
+    const andersWrap = form.querySelector<HTMLElement>("[data-removal-anders]");
+    const andersText = form.querySelector<HTMLTextAreaElement>("[data-removal-anders-text]");
+    const subjectWijziging = root.dataset.subjectWijziging || "";
+    const subjectVerwijderen = root.dataset.subjectVerwijderen || "";
+
+    const fmtTime = (t: string) => (t ? t.slice(0, 5) : "");
+
+    const currentIntent = (): "wijziging" | "verwijderen" => {
+      const checked = form.querySelector<HTMLInputElement>("[data-intent]:checked");
+      return checked?.value === "verwijderen" ? "verwijderen" : "wijziging";
+    };
+
+    const syncIntent = () => {
+      const intent = currentIntent();
+      aanvraagType.value = intent;
+      subjectInput.value = intent === "verwijderen" ? subjectVerwijderen : subjectWijziging;
+      knop.textContent = intent === "verwijderen" ? "Verwijdering aanvragen" : "Wijziging voorstellen";
+      for (const panel of form.querySelectorAll<HTMLElement>("[data-mode-panel]")) {
+        panel.hidden = panel.dataset.modePanel !== intent;
+      }
+      if (intent === "verwijderen") {
+        syncRemovalAnders();
+      }
+    };
+
+    const syncRemovalAnders = () => {
+      const reason = form.querySelector<HTMLInputElement>("[data-removal-reason]:checked")?.value;
+      const showAnders = reason === "anders";
+      if (andersWrap) andersWrap.hidden = !showAnders;
+      if (andersText) {
+        andersText.required = showAnders;
+        if (!showAnders) andersText.value = "";
+      }
+    };
+
+    form.querySelectorAll("[data-intent]").forEach((el) => {
+      el.addEventListener("change", syncIntent);
+    });
+    form.querySelectorAll("[data-removal-reason]").forEach((el) => {
+      el.addEventListener("change", syncRemovalAnders);
+    });
+
+    const syncDayRow = (row: HTMLTableRowElement) => {
+      const open = row.querySelector<HTMLInputElement>("[data-hours-open]")!;
+      const van = row.querySelector<HTMLInputElement>("[data-hours-van]")!;
+      const tot = row.querySelector<HTMLInputElement>("[data-hours-tot]")!;
+      const label = row.querySelector<HTMLElement>("[data-hours-open-label]")!;
+      const isOpen = open.checked;
+      row.classList.toggle("is-closed", !isOpen);
+      van.disabled = !isOpen;
+      tot.disabled = !isOpen;
+      label.textContent = isOpen ? "Open" : "Gesloten";
+    };
+
+    const buildHoursText = (): string => {
+      if (!hoursTable) return "";
+      const lines: string[] = [];
+      for (const row of hoursTable.querySelectorAll<HTMLTableRowElement>("tbody tr")) {
+        const day = row.querySelector("th")?.textContent?.trim() || "";
+        const open = row.querySelector<HTMLInputElement>("[data-hours-open]")!.checked;
+        if (!open) {
+          lines.push(`${day}: gesloten`);
+          continue;
+        }
+        const van = fmtTime(row.querySelector<HTMLInputElement>("[data-hours-van]")!.value);
+        const tot = fmtTime(row.querySelector<HTMLInputElement>("[data-hours-tot]")!.value);
+        lines.push(`${day}: ${van}–${tot}`);
+      }
+      return lines.join("\n");
+    };
+
+    const syncHours = () => {
+      if (!hoursTable) return;
+      for (const row of hoursTable.querySelectorAll<HTMLTableRowElement>("tbody tr")) {
+        syncDayRow(row);
+      }
+      const text = buildHoursText();
+      if (hoursValue) hoursValue.value = text;
+      if (hoursPreview) {
+        const rows = [...hoursTable.querySelectorAll<HTMLTableRowElement>("tbody tr")].map((row) => {
+          const open = row.querySelector<HTMLInputElement>("[data-hours-open]")!.checked;
+          const van = fmtTime(row.querySelector<HTMLInputElement>("[data-hours-van]")!.value);
+          const tot = fmtTime(row.querySelector<HTMLInputElement>("[data-hours-tot]")!.value);
+          return open ? `${van}–${tot}` : "gesloten";
+        });
+        const short = ["Ma", "Di", "Wo", "Do", "Vr", "Za", "Zo"];
+        const parts: string[] = [];
+        let i = 0;
+        while (i < 7) {
+          let j = i;
+          while (j + 1 < 7 && rows[j + 1] === rows[i] && j < 4) j++;
+          if (i <= 4 && j > i && rows[i] === rows[j]) {
+            parts.push(`${short[i]}–${short[j]} ${rows[i]}`);
+            i = j + 1;
+          } else {
+            parts.push(`${short[i]} ${rows[i]}`);
+            i++;
+          }
+        }
+        hoursPreview.textContent = "Samenvatting: " + parts.join(" · ");
+      }
+    };
+
+    if (hoursTable) {
+      hoursTable.addEventListener("change", syncHours);
+      hoursTable.addEventListener("input", syncHours);
+      form.querySelector("[data-hours-copy-week]")?.addEventListener("click", () => {
+        const ma = hoursTable.querySelector<HTMLTableRowElement>('tr[data-day="ma"]')!;
+        const open = ma.querySelector<HTMLInputElement>("[data-hours-open]")!.checked;
+        const van = ma.querySelector<HTMLInputElement>("[data-hours-van]")!.value;
+        const tot = ma.querySelector<HTMLInputElement>("[data-hours-tot]")!.value;
+        for (const id of ["di", "wo", "do", "vr"]) {
+          const row = hoursTable.querySelector<HTMLTableRowElement>(`tr[data-day="${id}"]`)!;
+          row.querySelector<HTMLInputElement>("[data-hours-open]")!.checked = open;
+          row.querySelector<HTMLInputElement>("[data-hours-van]")!.value = van;
+          row.querySelector<HTMLInputElement>("[data-hours-tot]")!.value = tot;
+        }
+        syncHours();
+      });
+      form.querySelector('[data-hours-preset="kantoor"]')?.addEventListener("click", () => {
+        const defaults: Record<string, { open: boolean; van: string; tot: string }> = {
+          ma: { open: true, van: "09:00", tot: "17:30" },
+          di: { open: true, van: "09:00", tot: "17:30" },
+          wo: { open: true, van: "09:00", tot: "17:30" },
+          do: { open: true, van: "09:00", tot: "17:30" },
+          vr: { open: true, van: "09:00", tot: "17:30" },
+          za: { open: true, van: "10:00", tot: "16:00" },
+          zo: { open: false, van: "10:00", tot: "16:00" },
+        };
+        for (const [id, d] of Object.entries(defaults)) {
+          const row = hoursTable.querySelector<HTMLTableRowElement>(`tr[data-day="${id}"]`)!;
+          row.querySelector<HTMLInputElement>("[data-hours-open]")!.checked = d.open;
+          row.querySelector<HTMLInputElement>("[data-hours-van]")!.value = d.van;
+          row.querySelector<HTMLInputElement>("[data-hours-tot]")!.value = d.tot;
+        }
+        syncHours();
+      });
+      syncHours();
+    }
+
+    const syncPanels = () => {
+      for (const cb of form.querySelectorAll<HTMLInputElement>("[data-toggle]")) {
+        const panel = form.querySelector<HTMLElement>(`[data-panel="${cb.dataset.toggle}"]`);
+        if (panel) panel.hidden = !cb.checked;
+      }
+      if (form.querySelector<HTMLInputElement>('[data-toggle="openingstijden"]')?.checked) {
+        syncHours();
+      }
+    };
+    form.querySelectorAll("[data-toggle]").forEach((cb) => {
+      cb.addEventListener("change", syncPanels);
+    });
+
+    const picker = root.querySelector("[data-shop-picker]");
+    if (picker && !locked) {
+      const observe = () => {
+        const url = picker.querySelector<HTMLInputElement>("[data-f-url]")?.value;
+        fields.hidden = !url;
+      };
+      picker.addEventListener("click", () => setTimeout(observe, 0));
+      picker.querySelector("[data-shop-q]")?.addEventListener("input", () => {
+        if (!picker.querySelector<HTMLInputElement>("[data-f-url]")?.value) {
+          fields.hidden = true;
+        }
+      });
+      const sel = picker.querySelector("[data-shop-selected]");
+      if (sel) {
+        new MutationObserver(observe).observe(sel, { attributes: true, attributeFilter: ["hidden"] });
+      }
+      observe();
+    }
+
+    syncIntent();
+
+    const toon = (ok: boolean, tekst: string) => {
+      melding.hidden = false;
+      melding.className = "notice " + (ok ? "ok" : "err");
+      melding.textContent = tekst;
+    };
+
+    const reasonLabel = (value: string): string => {
+      const map: Record<string, string> = {
+        bestaat_niet_meer: "Bedrijf bestaat niet meer",
+        website_offline: "Website werkt niet / is offline",
+        verkeerde_niche: "Dit is geen stallingenpraktijk (verkeerde niche)",
+        gegevens_verouderd: "Gegevens kloppen niet meer (verhuisd/gestopt)",
+        duplicaat: "Duplicaat van een andere vermelding",
+        opt_out: "Eigenaar wil niet in de gids (opt-out)",
+        spam_nep: "Spam of nepvermelding",
+        anders: "Anders",
+      };
+      return map[value] || value;
+    };
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      syncHours();
+      syncIntent();
+      const formData = new FormData(form);
+      if (!formData.get("access_key")) {
+        return toon(false, "Formulier is nog niet gekoppeld (access key ontbreekt).");
+      }
+      if (!formData.get("shop_url") && !formData.get("shop_naam")) {
+        return toon(false, "Kies eerst een praktijk.");
+      }
+      if (!formData.get("h-captcha-response")) {
+        return toon(false, "Vink eerst de controle aan (ik ben geen robot).");
+      }
+
+      const intent = currentIntent();
+      formData.set("aanvraag_type", intent);
+      formData.set("subject", intent === "verwijderen" ? subjectVerwijderen : subjectWijziging);
+
+      if (intent === "verwijderen") {
+        const reason = String(formData.get("verwijder_reden") || "");
+        if (!reason) {
+          return toon(false, "Kies een reden voor verwijdering.");
+        }
+        const anders = String(formData.get("verwijder_anders") || "").trim();
+        if (reason === "anders" && !anders) {
+          return toon(false, "Vul een korte toelichting in bij ‘Anders’.");
+        }
+
+        const lines = [
+          "=== [Verwijderverzoek] handmatige check ===",
+          "Approve = vermelding sluiten/verwijderen in de gids; reject = negeren.",
+          `Shop: ${formData.get("shop_naam")}`,
+          `Plaats: ${formData.get("shop_plaats")}`,
+          `URL: ${formData.get("shop_url")}`,
+          `ID: ${formData.get("shop_id") || "-"}`,
+          `Huidig tel: ${formData.get("shop_telefoon") || "-"}`,
+          "",
+          `Reden: ${reasonLabel(reason)} (${reason})`,
+        ];
+        if (anders) lines.push(`Toelichting: ${anders}`);
+        const extra = String(formData.get("bericht") || "").trim();
+        if (extra) lines.push("", `Opmerking: ${extra}`);
+        lines.push("", "Actie: vermelding NIET automatisch verwijderen - eerst verifiëren.");
+        formData.set("bericht", lines.join("\n"));
+      } else {
+        const types = formData.getAll("wijzig_type");
+        if (!types.length) {
+          return toon(false, "Vink minstens één onderwerp aan (openingstijden, telefoon, …).");
+        }
+        if (types.includes("diensten") && !formData.getAll("diensten").length) {
+          return toon(false, "Selecteer minstens één dienst / subcategorie.");
+        }
+        if (types.includes("openingstijden")) {
+          const openRows = [...(hoursTable?.querySelectorAll<HTMLTableRowElement>("tbody tr") || [])].filter(
+            (row) => row.querySelector<HTMLInputElement>("[data-hours-open]")!.checked,
+          );
+          for (const row of openRows) {
+            const van = row.querySelector<HTMLInputElement>("[data-hours-van]")!.value;
+            const tot = row.querySelector<HTMLInputElement>("[data-hours-tot]")!.value;
+            if (!van || !tot) {
+              return toon(false, "Vul van/tot in voor elke open dag, of zet de dag op gesloten.");
+            }
+            if (van >= tot) {
+              return toon(false, `Controleer de tijden bij ${row.querySelector("th")?.textContent}: ‘tot’ moet later zijn dan ‘van’.`);
+            }
+          }
+          formData.set("openingstijden", buildHoursText());
+        }
+        if (types.includes("telefoon") && !String(formData.get("nieuw_telefoon") || "").trim()) {
+          return toon(false, "Vul het nieuwe telefoonnummer in.");
+        }
+        if (types.includes("website") && !String(formData.get("nieuw_website") || "").trim()) {
+          return toon(false, "Vul de nieuwe website in.");
+        }
+        if (types.includes("adres") && !String(formData.get("nieuw_adres") || "").trim()) {
+          return toon(false, "Vul het nieuwe adres in.");
+        }
+        if (types.includes("overig") && !String(formData.get("overig_bericht") || "").trim()) {
+          return toon(false, "Beschrijf de overige wijziging.");
+        }
+
+        const lines = [
+          "=== [Suggestie] handmatige check ===",
+          "Approve = gegevens aanpassen in de gids; reject = negeren.",
+          `Shop: ${formData.get("shop_naam")}`,
+          `Plaats: ${formData.get("shop_plaats")}`,
+          `URL: ${formData.get("shop_url")}`,
+          `ID: ${formData.get("shop_id") || "-"}`,
+          `Huidig tel: ${formData.get("shop_telefoon") || "-"}`,
+          "",
+          `Wijzigingen: ${types.join(", ")}`,
+        ];
+        if (types.includes("openingstijden")) {
+          lines.push("", "Openingstijden:", String(formData.get("openingstijden")));
+        }
+        if (types.includes("telefoon")) {
+          lines.push("", `Nieuw telefoon: ${formData.get("nieuw_telefoon")}`);
+        }
+        if (types.includes("website")) {
+          lines.push("", `Nieuwe website: ${formData.get("nieuw_website")}`);
+        }
+        if (types.includes("diensten")) {
+          lines.push("", `Diensten: ${formData.getAll("diensten").join("; ")}`);
+          const t = String(formData.get("diensten_toelichting") || "").trim();
+          if (t) lines.push(`Toelichting: ${t}`);
+        }
+        if (types.includes("adres")) {
+          lines.push("", `Nieuw adres: ${formData.get("nieuw_adres")}`);
+        }
+        if (types.includes("overig")) {
+          lines.push("", `Overig: ${formData.get("overig_bericht")}`);
+        }
+        const extra = String(formData.get("bericht") || "").trim();
+        if (extra) lines.push("", `Opmerking: ${extra}`);
+        lines.push("", "Actie: wijziging NIET automatisch doorvoeren - eerst verifiëren.");
+        formData.set("bericht", lines.join("\n"));
+      }
+
+      const originalText = knop.textContent;
+      knop.textContent = "Versturen…";
+      knop.disabled = true;
+      try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData,
+        });
+        const data = await response.json();
+        if (response.ok && data.success) {
+          const shopFields = ["shop_naam", "shop_plaats", "shop_url", "shop_id", "shop_telefoon", "pagina"];
+          const keep = Object.fromEntries(shopFields.map((n) => [n, formData.get(n)]));
+          form.reset();
+          if (locked) {
+            for (const [n, v] of Object.entries(keep)) {
+              const el = form.querySelector<HTMLInputElement>(`[name="${n}"]`);
+              if (el && v != null) el.value = String(v);
+            }
+            fields.hidden = false;
+          } else {
+            const sel = form.querySelector<HTMLElement>("[data-shop-selected]");
+            const q = form.querySelector<HTMLInputElement>("[data-shop-q]");
+            if (sel) sel.hidden = true;
+            if (q) {
+              q.hidden = false;
+              q.value = "";
+            }
+            fields.hidden = true;
+          }
+          syncPanels();
+          syncHours();
+          syncIntent();
+          toon(
+            true,
+            intent === "verwijderen"
+              ? "Bedankt! Je verwijderverzoek is verstuurd. We beoordelen het handmatig; de vermelding verdwijnt niet meteen."
+              : "Bedankt! Je suggestie is verstuurd. We beoordelen hem handmatig; wijzigingen komen niet meteen online.",
+          );
+        } else {
+          toon(false, "Versturen lukte niet: " + (data.message || "onbekende fout") + ".");
+        }
+      } catch {
+        toon(false, "Er ging iets mis. Controleer je verbinding en probeer het opnieuw.");
+      } finally {
+        knop.textContent = originalText;
+        knop.disabled = false;
+      }
+    });
+  }
+</script>

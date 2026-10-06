@@ -1,0 +1,21 @@
+{
+  "id": 131236,
+  "slug": "aaa-opslagcontainers",
+  "provincie": "noord-holland",
+  "plaats": "vijfhuizen",
+  "naam": "AAA Opslagcontainers",
+  "straat": "Spaarnwouderweg 1163",
+  "postcode": "2141BN",
+  "plaatsnaam": "Vijfhuizen nh",
+  "telefoon": "023-7771489",
+  "website": "http://www.caravanstalling-haarlem.nl",
+  "lat": 52.373937,
+  "lon": 4.700206,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/vijfhuizen/aaa-opslagcontainers/",
+  "meta_title": "AAA Opslagcontainers 023-7771489",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

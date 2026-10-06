@@ -1,0 +1,27 @@
+{
+  "id": 625207,
+  "slug": "willem-hesseling",
+  "provincie": "zeeland",
+  "plaats": "dreischor",
+  "naam": "Willem Hesseling",
+  "straat": "Slotstraat 25",
+  "postcode": "4315 AN",
+  "plaatsnaam": "Dreischor",
+  "telefoon": "0653830117",
+  "lat": 51.68897269999999,
+  "lon": 3.9812422999999626,
+  "status": "gesloten",
+  "oude_url": "/zeeland/dreischor/willem-hesseling/",
+  "email": "info@studiohesseling.nl",
+  "omschrijving": "Ik ben opzoek naar een caravanstalling in de buurt van Dreischor",
+  "kenmerken": {
+    "Type": [
+      "caravan"
+    ]
+  },
+  "meta_title": "Willem Hesseling 0653830117 info@studiohesseling.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

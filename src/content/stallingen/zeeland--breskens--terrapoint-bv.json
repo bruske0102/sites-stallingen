@@ -1,0 +1,28 @@
+{
+  "id": 131057,
+  "slug": "terrapoint-bv",
+  "provincie": "zeeland",
+  "plaats": "breskens",
+  "naam": "Terrapoint BV",
+  "straat": "Deltahoek 106",
+  "postcode": "4511PA",
+  "plaatsnaam": "Breskens",
+  "telefoon": "0117-381500",
+  "website": "http://www.terrapoint.nl",
+  "lat": 51.391966,
+  "lon": 3.575375,
+  "status": "gesloten",
+  "oude_url": "/zeeland/breskens/terrapoint-bv/",
+  "email": "info@terrapoint.nl",
+  "omschrijving": "Zie onze website.\n\n Wat wij doen:\nIn april 2007 is Terrapoint B.V. gestart als nieuwe onderneming in Breskens.\nDe activiteiten van Terrapoint zijn o.a.:\nOpslag en bewaring van aardappelen en uien\nSorteren van deze producten\nVerpakken op klantspecificatie, variërend van zakjes met 4 kg tot bigbags met 1200 kg.\nHandel in aardappelen en uien, zowel nationaal als internationaal\nTijdelijke op- en overslag en bewerking van landbouwprodukten\nWegen voor agrarisch en niet-agrarisch transport\nTerrapoint is gevestigd in West Zeeuws Vlaanderen, een prachtig landbouwgebied gelegen tussen 3 grote exporthavens, nl. Vlissingen, Antwerpen en Zeebrugge.\nDit maakt Terrapoint tot een aantrekkelijke partner voor veel im- en exportbedrijven.\nDe Terrapoint-produkten vinden dan ook hun weg over de hele wereld. Specialiteiten :\naardappels, opslag, pootgoed & uienzaad, uien\n\n Toegankelijkheid :\nBegane grond",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Terrapoint BV 0117-381500 info@terrapoint.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

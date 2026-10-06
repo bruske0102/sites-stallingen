@@ -1,0 +1,23 @@
+{
+  "id": 130967,
+  "slug": "jacobs-heteren-bv",
+  "provincie": "gelderland",
+  "plaats": "heteren",
+  "naam": "Jacobs Heteren BV",
+  "straat": "Dorpsstraat 20",
+  "postcode": "6666AH",
+  "plaatsnaam": "Heteren",
+  "telefoon": "026-4722488",
+  "website": "http://www.jacobsheteren.nl",
+  "lat": 51.960475,
+  "lon": 5.760157,
+  "status": "gesloten",
+  "oude_url": "/gelderland/heteren/jacobs-heteren-bv/",
+  "email": "info@jacobsheteren.nl",
+  "omschrijving": "* Erkend Verhuizer * Verwarmde opslag voor\ninboedels * Verdieping werk 100% verzekerd\n\n Wat wij doen:\nTakelen, piano en vleugel vervoer\n\nPiano's en vleugels verhuizen is ons nooit te moeilijk en nooit te hoog.\n\nMede dankzij de hechte samenwerking met Wijnen en van Oostrom piano's en vleugels in Nijmegen, hebben wij ruim voldoende ervaring met allerlei situaties, zodat uw geliefd instrument altijd veilig en goed op de door u gewenste plek terecht komt.\n\nOok andere grote objecten zoals een bank of een kast kunnen wij voor u takelen of via de verhuislift naar boven of beneden brengen.\n\nAls u uw nieuwe woning nog niet kunt betrekken, bij verblijf tijdelijk op een ander adres of tijdens een verbouwing, is het mogelijk uw inboedel bij ons (verwarmd en geventileerd) op te slaan. Doelgroep :\nBedrijven\n\n Diensten :\nAdvies, Opslag, Uitpakken\n\n Producten :\nVerhuislift\n\n Aangesloten bij / Certificering :\nOrganisatie van Erkende verhuizers, Transport en Logistiek Nederland, Vianorm",
+  "meta_title": "Jacobs Heteren BV 026-4722488 info@jacobsheteren.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

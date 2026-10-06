@@ -1,0 +1,21 @@
+{
+  "id": 131175,
+  "slug": "cromstrijen-warehousing-bv",
+  "provincie": "zuid-holland",
+  "plaats": "numansdorp",
+  "naam": "Cromstrijen Warehousing BV",
+  "straat": "Voltastraat 10",
+  "postcode": "3281NG",
+  "plaatsnaam": "Numansdorp",
+  "telefoon": "0186-651909",
+  "lat": 51.74801,
+  "lon": 4.447825,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/numansdorp/cromstrijen-warehousing-bv/",
+  "omschrijving": "Postbus7417, 3280AE, Numansdorp",
+  "meta_title": "Cromstrijen Warehousing BV 0186-651909",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

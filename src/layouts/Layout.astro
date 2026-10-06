@@ -1,0 +1,161 @@
+---
+import "@fontsource-variable/fraunces/wght.css";
+import "@fontsource/source-sans-3/latin-400.css";
+import "@fontsource/source-sans-3/latin-600.css";
+import "@fontsource/source-sans-3/latin-700.css";
+import "../styles/global.css";
+import ShareChip from "../components/ShareChip.astro";
+import { instellingen } from "../lib/data";
+
+interface Props {
+  title: string;
+  description: string;
+  schema?: object[];
+  noindex?: boolean;
+  zoekbaar?: boolean;
+  /** Soft WhatsApp/native share chip (city + listing pages). Skip on thin/404. */
+  deelPrompt?: boolean;
+  /** Load AdSense (Auto ads). Default on for indexable pages. */
+  ads?: boolean;
+}
+const {
+  title,
+  description,
+  schema = [],
+  noindex = false,
+  zoekbaar = true,
+  deelPrompt = false,
+  ads = !noindex,
+} = Astro.props;
+const adsenseClient =
+  instellingen.monetization?.adsense?.client || "ca-pub-1164977516474335";
+const siteNaam = instellingen.site.naam;
+const siteEmail = instellingen.site.email;
+
+const path = Astro.url.pathname;
+const site = Astro.site?.toString().replace(/\/$/, "") || instellingen.site.url;
+const canonical = new URL(path, site + "/").toString();
+const nav = [
+  { href: "/", label: "Home", match: null, home: true },
+  { href: "/blog/", label: "Blog", match: "/blog" },
+  { href: "/contact/", label: "Contact", match: "/contact" },
+];
+---
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:site_name" content={siteNaam} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="/favicon-16.png" type="image/png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    {schema.length > 0 && (
+      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    )}
+    {ads && (
+      <script is:inline define:vars={{ adsenseClient }}>
+        // Defer AdSense until idle so first paint stays fast
+        const loadAds = () => {
+          if (document.getElementById("adsense-lib")) return;
+          const s = document.createElement("script");
+          s.id = "adsense-lib";
+          s.async = true;
+          s.src =
+            "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" +
+            adsenseClient;
+          s.crossOrigin = "anonymous";
+          document.head.appendChild(s);
+        };
+        if ("requestIdleCallback" in window) {
+          requestIdleCallback(loadAds, { timeout: 2500 });
+        } else {
+          window.addEventListener("load", () => setTimeout(loadAds, 1200));
+        }
+      </script>
+    )}
+    <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Naar de inhoud</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/" aria-label={`${siteNaam}, naar home`}>
+          <span class="b-strong">Stallingen</span><span class="b-mark"></span><span class="b-tld">.xyz</span>
+        </a>
+        <nav class="nav" aria-label="Hoofdmenu">
+          {nav.map((item) => (
+            <a
+              href={item.href}
+              aria-current={
+                ("home" in item && item.home && path === "/") ||
+                (item.match && path.startsWith(item.match))
+                  ? "page"
+                  : undefined
+              }
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <div class="wrap">
+      <main id="main" data-pagefind-body={zoekbaar ? "" : undefined}>
+        <slot />
+      </main>
+    </div>
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a class="brand" href="/">
+              <span class="b-strong">Stallingen</span><span class="b-mark"></span><span class="b-tld">.xyz</span>
+            </a>
+            <p>Vind een stalling bij jou in de buurt - met openingstijden, adres en telefoon.</p>
+          </div>
+          <div class="footer-col">
+            <h2>Ontdekken</h2>
+            <ul>
+              <li><a href="/zoeken/">Zoeken</a></li>
+              <li><a href="/#provincies">Provincies</a></li>
+              <li><a href="/blog/">Blog &amp; gidsen</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>Voor praktijken</h2>
+            <ul>
+              <li><a href="/bedrijf/toevoegen/">Stalling toevoegen</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>Info</h2>
+            <ul>
+              <li><a href="/p/disclaimer/">Privacy &amp; disclaimer</a></li>
+              <li><a href={`mailto:${siteEmail}`}>{siteEmail}</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer-legal">
+          © {new Date().getFullYear()} {siteNaam} · Onafhankelijke gids · Geen betaalde ranking
+        </p>
+      </div>
+    </footer>
+    {deelPrompt && <ShareChip />}
+  </body>
+</html>

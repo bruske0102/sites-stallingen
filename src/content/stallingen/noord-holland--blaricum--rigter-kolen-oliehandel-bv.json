@@ -1,0 +1,21 @@
+{
+  "id": 131317,
+  "slug": "rigter-kolen-oliehandel-bv",
+  "provincie": "noord-holland",
+  "plaats": "blaricum",
+  "naam": "Rigter Kolen- Oliehandel BV",
+  "straat": "Kerklaan 15",
+  "postcode": "1261JA",
+  "plaatsnaam": "Blaricum",
+  "telefoon": "035-5382477",
+  "lat": 52.271289,
+  "lon": 5.250454,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/blaricum/rigter-kolen-oliehandel-bv/",
+  "omschrijving": "* verkoop en verhuur van bouwdrogers\n* verkoop en verhuur van gas/olieheaters\n* olie/tankgasinstallaties, flessengas\n\n Wat wij doen:\nRigter Oliehandel is een oliehandel in vaste- en vloeibare brandstoffen, smeermiddelen, propaan, brandstof instalaties, propaantanken, IBC mobiele brandstof opslag.\nDit leveren wij aan bedrijfen en particulieren.\n\nOok verkopen en verhuuren wij Thermobiel hetelucht verwarming en bouwdrogers.\nDit leveren wij aan de bouw, tenten bouwers, feest",
+  "meta_title": "Rigter Kolen- Oliehandel BV 035-5382477",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

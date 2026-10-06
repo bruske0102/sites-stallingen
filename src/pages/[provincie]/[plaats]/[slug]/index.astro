@@ -1,0 +1,209 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import { findShop, getPlaats, getModel, shopPath, plaatsPath, instellingen } from "../../../../lib/data";
+import { mapsUrl, telHref } from "../../../../lib/model";
+import { shopTitle, shopDescription } from "../../../../lib/seo";
+import { listingCount } from "../../../../lib/nl-count";
+import SchoolCard from "../../../../components/SchoolCard.astro";
+import AffiliateTip from "../../../../components/AffiliateTip.astro";
+import AdSense from "../../../../components/AdSense.astro";
+
+export function getStaticPaths() {
+  const m = getModel();
+  return m.actief.map((s) => ({
+    params: { provincie: s.provincie, plaats: s.plaats, slug: s.slug },
+  }));
+}
+
+const { provincie, plaats, slug } = Astro.params;
+const s = findShop(provincie!, plaats!, slug!)!;
+const plaatsRec = getPlaats(provincie!, plaats!);
+const m = getModel();
+const buren = m
+  .dichtstbijShops(s, 6, 25)
+  .filter((b) => b.shop.id !== s.id)
+  .slice(0, 5);
+const website = s.websiteUrl;
+const maps = mapsUrl(s);
+const provNaam = plaatsRec?.provincieNaam ?? provincie;
+const plaatsNaam = plaatsRec?.naam ?? s.plaatsnaam ?? plaats;
+const path = shopPath(s);
+const siteOrigin = instellingen.site.url;
+const title = shopTitle({
+  metaTitle: s.meta_title,
+  naam: s.naam,
+  plaats: plaatsNaam,
+  telefoon: s.telefoon,
+});
+const description = shopDescription({
+  metaDescription: s.meta_description,
+  naam: s.naam,
+  plaats: plaatsNaam,
+  telefoon: s.telefoon,
+  website: Boolean(website),
+});
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: s.naam,
+    url: new URL(path, Astro.site).toString(),
+    ...(s.telefoon ? { telephone: s.telefoon } : {}),
+    ...(website ? { sameAs: [website] } : {}),
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: s.straat,
+      postalCode: s.postcode,
+      addressLocality: s.plaatsnaam,
+      addressRegion: provNaam,
+      addressCountry: "NL",
+    },
+    ...(s.lat != null && s.lon != null
+      ? { geo: { "@type": "GeoCoordinates", latitude: s.lat, longitude: s.lon } }
+      : {}),
+  },
+];
+---
+<Layout title={title} description={description} schema={schema} deelPrompt={true}>
+  <p class="crumbs">
+    <a href={`/${s.provincie}/`}>{provNaam}</a> /
+    <a href={plaatsRec ? plaatsPath(plaatsRec) : `/${s.provincie}/${s.plaats}/`}>{plaatsNaam}</a> /
+    {s.naam}
+  </p>
+
+  <div class="layout">
+    <div>
+      <h1 class="listing-title">{s.naam}</h1>
+      <p class="lead-plain">Stalling in {plaatsNaam}, {provNaam}.</p>
+
+      <div class="shop-actions shop-actions--detail">
+        {s.telefoon && (
+          <a class="shop-btn shop-btn--primary" href={`tel:${telHref(s.telefoon)}`} aria-label={`Bel ${s.telefoon}`}>
+            <span class="shop-btn__emoji" aria-hidden="true">📞</span> Bel {s.telefoon}
+          </a>
+        )}
+        {maps && (
+          <a class="shop-btn shop-btn--primary" href={maps} rel="nofollow noopener" target="_blank" aria-label={`Route naar ${s.naam}`}>
+            <span class="shop-btn__emoji" aria-hidden="true">📍</span> Route
+          </a>
+        )}
+        {website && (
+          <a class="shop-btn shop-btn--secondary" href={website} rel="nofollow noopener" target="_blank">Website</a>
+        )}
+        <a
+          class="shop-btn shop-btn--wa"
+          href={`https://wa.me/?text=${encodeURIComponent(`${title}\n${siteOrigin}${path}`)}`}
+          rel="nofollow noopener"
+          target="_blank"
+          aria-label={`Deel ${s.naam} via WhatsApp`}
+        ><span class="shop-btn__emoji" aria-hidden="true">💬</span> Deel via WhatsApp</a>
+      </div>
+
+      <section class="section panel" aria-labelledby="gegevens">
+        <h2 id="gegevens" style="margin-top:0">Gegevens</h2>
+        <dl class="facts">
+          {(s.straat || s.postcode) && (
+            <>
+              <dt>Adres</dt>
+              <dd>
+                {s.straat && <>{s.straat}<br /></>}
+                {[s.postcode, s.plaatsnaam].filter(Boolean).join(" ")}
+              </dd>
+            </>
+          )}
+          {s.telefoon && (
+            <>
+              <dt>Telefoon</dt>
+              <dd><a href={`tel:${telHref(s.telefoon)}`}>{s.telefoon}</a></dd>
+            </>
+          )}
+          {website && (
+            <>
+              <dt>Website</dt>
+              <dd>
+                <a href={website} rel="nofollow noopener" target="_blank">
+                  {website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}
+                </a>
+              </dd>
+            </>
+          )}
+          {maps && (
+            <>
+              <dt>Route</dt>
+              <dd>
+                <a href={maps} rel="nofollow noopener" target="_blank">Route naar {s.naam}</a>
+              </dd>
+            </>
+          )}
+        </dl>
+      </section>
+
+      <AffiliateTip />
+
+      {s.omschrijving ? (
+        <section class="section" aria-labelledby="over">
+          <h2 id="over">Over {s.naam}</h2>
+          <div class="prose" style="white-space:pre-line">{s.omschrijving}</div>
+          <br />
+          <p class="note note--inline">
+            <a href={`/contact/suggestie/?q=${encodeURIComponent(s.naam)}`}>Klopt iets niet of moet de vermelding weg?</a>
+          </p>
+        </section>
+      ) : (
+        <p class="note note--inline">
+          <a href={`/contact/suggestie/?q=${encodeURIComponent(s.naam)}`}>Klopt iets niet of moet de vermelding weg?</a>
+        </p>
+      )}
+
+      <AdSense slot="link" />
+
+      {s.kenmerken && Object.keys(s.kenmerken).length > 0 && (
+        <section class="section" aria-labelledby="kenmerken">
+          <h2 id="kenmerken">Diensten en kenmerken</h2>
+          <div class="diensten-grid">
+            {Object.entries(s.kenmerken).map(([k, v]) => (
+              <div class="dienst">
+                <h3>{k}</h3>
+                <p>{(v as string[]).join(", ")}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {buren.length > 0 && (
+        <section class="section" aria-labelledby="buurt">
+          <h2 id="buurt">Andere stallingen in de buurt</h2>
+          <div class="stack">
+            {buren.map((b) => (
+              <SchoolCard s={b.shop as any} km={b.km} toonPlaats actions={false} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <p class="note shop-footer-note">
+        Mist jouw praktijk, of klopt er iets niet?
+        <a href="/bedrijf/toevoegen/">Gratis toevoegen</a>
+      </p>
+    </div>
+
+    <aside>
+      <div class="aside-card">
+        <h2>Meer in {plaatsNaam}</h2>
+        <p>
+          {(plaatsRec?.listings?.length ?? 0) > 0
+            ? `${listingCount(plaatsRec!.listings.length)} in onze gids.`
+            : "Bekijk de plaatspagina voor meer context."}
+        </p>
+        <AffiliateTip compact />
+        <AdSense slot="auto" />
+        <a class="btn" href={plaatsRec ? plaatsPath(plaatsRec) : `/${s.provincie}/${s.plaats}/`}>
+          Stalling {plaatsNaam}
+        </a>
+        <a class="btn btn-ghost" href="/zoeken/">Zoeken</a>
+      </div>
+    </aside>
+  </div>
+</Layout>

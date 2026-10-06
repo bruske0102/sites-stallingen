@@ -1,0 +1,20 @@
+{
+  "id": 130980,
+  "slug": "box-oss",
+  "provincie": "noord-brabant",
+  "plaats": "oss",
+  "naam": "Box Oss",
+  "straat": "Gasstraat-oost 40",
+  "postcode": "5349AV",
+  "plaatsnaam": "Oss",
+  "telefoon": "0412-648950",
+  "lat": 51.7623,
+  "lon": 5.551914,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/oss/box-oss/",
+  "meta_title": "Box Oss 0412-648950",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

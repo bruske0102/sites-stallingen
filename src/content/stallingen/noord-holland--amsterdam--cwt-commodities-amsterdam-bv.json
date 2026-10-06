@@ -1,0 +1,21 @@
+{
+  "id": 131260,
+  "slug": "cwt-commodities-amsterdam-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "CWT Commodities (Amsterdam) BV",
+  "straat": "Accraweg 39",
+  "postcode": "1047HJ",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-5853830",
+  "lat": 0.0,
+  "lon": 0.0,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/cwt-commodities-amsterdam-bv/",
+  "omschrijving": "Postbus20547, 1001NM, Amsterdam\nhttp://www.cwtcommodities.com\n\n Wat wij doen:\nWith its head-office in Amsterdam, the Netherlands, CWT Sitos was founded on 1 July 2002.\n\nYoung of age but with years and years of experience in managing soft commodity logistics.\n\nThe company offers a wide range of logistical services, focusing on soft commodities mainly but not limited between Africa, South America, Caribbean and Europe. Specialiteiten :\nWarehousing, Tendering, Weighing and sampling, Stevedoring, Quality control, Inspection services, Shipping, forwarding, Transport and distribution, Customs clearance, And more!\n\n Service :\nwww.cwtsitos.com",
+  "meta_title": "CWT Commodities (Amsterdam) BV 020-5853830",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

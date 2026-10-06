@@ -1,0 +1,22 @@
+{
+  "id": 130848,
+  "slug": "uts-hersevoort-bv",
+  "provincie": "overijssel",
+  "plaats": "zwolle",
+  "naam": "UTS Hersevoort BV",
+  "straat": "Nervistraat 5",
+  "postcode": "8013RS",
+  "plaatsnaam": "Zwolle",
+  "telefoon": "038-4656560",
+  "website": "http://www.uts.nl",
+  "lat": 52.489579,
+  "lon": 6.138252,
+  "status": "gesloten",
+  "oude_url": "/overijssel/zwolle/uts-hersevoort-bv/",
+  "omschrijving": "Ruim 25 locaties verspreid over heel Nederland.\nAltijd een UTS Verhuisbedrijf bij u in de buurt!\n\n Wat wij doen:\nIn 1925 opgericht op de Molenweg 101 in Zwolle, reed de familie Hersevoort als een van de eerste verhuizers met een T-Ford door de landerijen van Overijssel. Vandaag de dag zijn wij als professionele organisatie gegroeid naar een betrouwbare facilitaire partner die zowel de particuliere als zakelijke markt services biedt die inspelen op uw specifieke wensen.\n\nSpecialist in projectverhuizingen en archiefopslag:\nOnze specialisatie als projectverhuizer en archiefspecialist heeft ons een leiderspositie gegeven in de markt. Met een zeer modern archiefdepot in Zwolle en 95 kilometer archief capaciteit, bieden wij u de mogelijkheid conform uw wensen te besparen op beheer en opslag. Ook bieden wij integrale oplossingen bij projectverhuizingen die specifiek zijn voor kantoren, zorgcentra, scholen, fabrieken en overheden.\nVerhuizen (inter)nationaal:\nGaat u een nieuwe woning betrekken in binnen- of buitenland dan bent u bij ons aan het juiste adres. Bij het verhuizen van inboedels draait alles om vakmanschap en vertrouwen.\nUnieke Totaal Service:\nNaast verhuizen kunt u ook gebruik maken van de Unieke Totaal Service. Een breed pakket aan doelgroep gerichte diensten waarbij u zelf kiest om in te spannen of te ontspannen. Van doe-het-zelf service tot aan het volledig laten organiseren van de complete verhuizing.\nDe klanten van UTS Hersevoort komen o.a. uit Zwolle, Meppel, Apeldoorn en Deventer.",
+  "meta_title": "UTS Hersevoort BV 038-4656560",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

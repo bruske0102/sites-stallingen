@@ -1,0 +1,22 @@
+{
+  "id": 131336,
+  "slug": "clearfreight-bv",
+  "provincie": "noord-holland",
+  "plaats": "purmerend",
+  "naam": "Clearfreight BV",
+  "straat": "Impuls 149",
+  "postcode": "1446WE",
+  "plaatsnaam": "Purmerend",
+  "telefoon": "0299-630700",
+  "website": "http://www.clearfreight.nl",
+  "lat": 52.511359,
+  "lon": 5.005291,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/purmerend/clearfreight-bv/",
+  "omschrijving": "0299-630700\n\n fax : 0299-630707\n\nhttp://www.clearfreight.com\n\n Openingstijden:\n Maandag : 08:30 - 18:00\n Dinsdag : 08:30 - 18:00\n Woensdag : 08:30 - 18:00\n Donderdag : 08:30 - 18:00\n Vrijdag : 08:30 - 18:00\n Zaterdag : gesloten\n Zondag : gesloten Diensten :\nForwarding\n\n Specialisme :\nTransport, Warehousing\n\n Producten :\nContainer",
+  "meta_title": "Clearfreight BV 0299-630700",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

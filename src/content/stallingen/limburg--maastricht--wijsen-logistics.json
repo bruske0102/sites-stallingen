@@ -1,0 +1,28 @@
+{
+  "id": 130607,
+  "slug": "wijsen-logistics",
+  "provincie": "limburg",
+  "plaats": "maastricht",
+  "naam": "Wijsen Logistics",
+  "straat": "Slagmolen 1",
+  "postcode": "6229PP",
+  "plaatsnaam": "Maastricht",
+  "telefoon": "043-6049600",
+  "website": "http://www.wijsen.nl",
+  "lat": 50.819026,
+  "lon": 5.712469,
+  "status": "gesloten",
+  "oude_url": "/limburg/maastricht/wijsen-logistics/",
+  "email": "info@wijsen.nl",
+  "omschrijving": "http://www.wijsen.nl\n\n Wat wij doen:\nWijsen Logistics is een bloeiende onderneming met ruim veertig vaste werknemers.\n\nHet bedrijf is in een halve eeuw uitgegroeid van lokaal vervoerder tot een internationaal opererend bedrijf met 42 moderne vrachtwagencombinaties. In vestigingsplaats Maastricht beschikt Wijsen bovendien over 5500 vierkante meter overdekte ruimte voor warehousing.\n\nIn een sterk concurrerende markt heeft Wijsen Logistics zich gespecialiseerd in transporten naar Zwitserland. Dagelijks zijn combinaties op weg om een lijndienst tussen de Benelux en Zwitserland te onderhouden. Op deze route wordt tevens voor diverse klanten gelost en geladen in de Elzas en Zuid-Duitsland (Schwarzwald).\n\nDe centrale ligging, de uitstekende aansluitingen op auto- en waterwegen en de directe nabijheid van twee internationale luchthavens geven Wijsen Logistics een grote actieradius. De planners zijn 24 uur per dag bereikbaar. Flexibiliteit, service en meedenken met de klant zijn de sleutelbegrippen in onze onderneming. Of het nu gaat om één enkel pakje of een complete lading van 24 ton.\n\nWijsen Logistics is gespecialiseerd in transporten van en naar Zwitserland, maar ook uitstekend thuis in Nederland, België, Luxemburg, Duitsland, Frankrijk, Oostenrijk, Scandinavië, Italië en Spanje. Openingstijden:\n Maandag : 08:30 - 18:30\n Dinsdag : 08:30 - 17:30\n Woensdag : 08:30 - 17:30\n Donderdag : 08:30 - 17:30\n Vrijdag : 08:30 - 17:30\n Zaterdag : 09:00 - 14:00\n Zondag : Gesloten Specialiteiten :\nTransportbedrijf, Internationaal transport, Dagelijkse lijndiensten , Palletgoederen , Zwitserland-specialist, Opslag goederen, Groupage goederen, Overslag goederen\n\n Service :\nGratis offerte\n\n Toegankelijkheid :\nToegankelijk voor rolstoelen\n\n Aangesloten bij / Certificering :\nADR diploma",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Wijsen Logistics 043-6049600 info@wijsen.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

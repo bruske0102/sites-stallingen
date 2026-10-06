@@ -1,0 +1,23 @@
+{
+  "id": 131001,
+  "slug": "cliffords",
+  "provincie": "zuid-holland",
+  "plaats": "haastrecht",
+  "naam": "Cliffords",
+  "straat": "Wagenmakersstraat 6",
+  "postcode": "2851BN",
+  "plaatsnaam": "Haastrecht",
+  "telefoon": "06-10303837",
+  "website": "http://www.cliffords.nl",
+  "lat": 52.001504,
+  "lon": 4.775109,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/haastrecht/cliffords/",
+  "email": "info@cliffords.nl",
+  "omschrijving": "Wat wij doen:\nCLIFFORDS antiekrestauratie & meubelmakerij, tevens het adres voor leggen en alle afwerkingen van alle houten vloeren.\n\nCLIFFORDS bouwt nieuwe meubels naar eigen ontwerp en verbouwt oude meubels zoals u wilt.\nOok is het mogelijk om antieke meubels aan te passen aan moderne eisen. Hierbij moet u denken aan het verhogen van tafels, het geschikt maken van kasten voor de tv of computer, aanpassen van laden voor opslag cd's of dvd's e.d.\n\nCLIFFORDS heeft ruime ervaring op het gebied van het leggen en afwerken van massief houten vloeren. Cliffords levert diverse soorten massief houten vloeren.\nCLIFFORDS is gespecialiseerd in het renoveren (schuren) van bestaande houten vloeren. Door de vloer op de juiste wijze te schuren en opnieuw te lakken of oliën, krijgt deze een bijna nieuw uiterlijk. Ook voor reparatie of het aanhelen van een bestaande vloer bent u aan het juiste adres.\n\nDesgewenst maakt u een afspraak en komt CLIFFORDS bij u thuis. De situatie wordt dan ter plaatse beoordeeld en het aantal vierkante meters kan exact worden opgemeten. Zo krijgt u advies op maat en antwoord op al uw vragen in uw eigen vertrouwde omgeving.\n\n Toegankelijkheid :\nBegane grond\n\n Diensten :\nAdvies, Antiekrestauratie, Conserveren, Maatwerk, Meubelrestauratie, Onderhoud, Ontwerpen, Politoeren, Reparatie, Restauratie\n\n Productgroepen :\nAntieke producten, Dressoir, Eiken meubelen, Fineerwerk, Houtsnijwerk, Kasten, Tafels, leggen en afwerken, meubelmakerij, renovatie, vloeren\n\n Stijlen :\nArt deco, Art nouveau, Barok, Brocante, Design, Jugendstil, Klassiek, Koloniaal, Nostalgisch, Retro, Romantisch, Vintage",
+  "meta_title": "Cliffords 06-10303837 info@cliffords.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

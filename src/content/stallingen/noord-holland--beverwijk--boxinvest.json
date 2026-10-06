@@ -1,0 +1,20 @@
+{
+  "id": 131354,
+  "slug": "boxinvest",
+  "provincie": "noord-holland",
+  "plaats": "beverwijk",
+  "naam": "Boxinvest",
+  "straat": "Postbus 349",
+  "postcode": "1940AH",
+  "plaatsnaam": "Beverwijk",
+  "telefoon": "0251-218026",
+  "lat": 0.0,
+  "lon": 0.0,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/beverwijk/boxinvest/",
+  "meta_title": "Boxinvest 0251-218026",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

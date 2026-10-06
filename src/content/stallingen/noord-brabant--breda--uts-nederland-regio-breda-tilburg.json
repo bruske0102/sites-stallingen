@@ -1,0 +1,21 @@
+{
+  "id": 130902,
+  "slug": "uts-nederland-regio-breda-tilburg",
+  "provincie": "noord-brabant",
+  "plaats": "breda",
+  "naam": "UTS Nederland regio Breda Tilburg",
+  "straat": "Takkebijsters 10",
+  "postcode": "4817BL",
+  "plaatsnaam": "Breda",
+  "telefoon": "076-5781500",
+  "lat": 51.596758,
+  "lon": 4.825506,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/breda/uts-nederland-regio-breda-tilburg/",
+  "omschrijving": "Flight Forum3800, 5657DX, Eindhoven\n0499-462002\n\nBlankenweg11, 4612RC, Bergen op Zoom\n0164-212000\n\n Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland regio Breda Tilburg 076-5781500",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

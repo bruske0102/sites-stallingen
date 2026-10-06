@@ -1,0 +1,22 @@
+{
+  "id": 130699,
+  "slug": "hefco-machineverhuur",
+  "provincie": "limburg",
+  "plaats": "venlo",
+  "naam": "Hefco Machineverhuur",
+  "straat": "Albertushofweg 10",
+  "postcode": "5916PW",
+  "plaatsnaam": "Venlo",
+  "telefoon": "077-3512362",
+  "website": "http://www.machineverhuur-hefco.nl",
+  "lat": 51.393721,
+  "lon": 6.180141,
+  "status": "gesloten",
+  "oude_url": "/limburg/venlo/hefco-machineverhuur/",
+  "omschrijving": "Bouw, tuin, vervoer en gereedschap :\nKraan\n\n Tijdelijke huisvesting en opslag :\nContainer",
+  "meta_title": "Hefco Machineverhuur 077-3512362",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

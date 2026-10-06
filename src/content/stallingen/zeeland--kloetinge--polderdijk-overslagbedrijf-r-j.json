@@ -1,0 +1,21 @@
+{
+  "id": 131070,
+  "slug": "polderdijk-overslagbedrijf-r-j",
+  "provincie": "zeeland",
+  "plaats": "kloetinge",
+  "naam": "Polderdijk Overslagbedrijf R J",
+  "straat": "H Roland Holstlaan 45",
+  "postcode": "4481DG",
+  "plaatsnaam": "Kloetinge",
+  "telefoon": "0113-229528",
+  "lat": 51.491016,
+  "lon": 3.910438,
+  "status": "gesloten",
+  "oude_url": "/zeeland/kloetinge/polderdijk-overslagbedrijf-r-j/",
+  "omschrijving": "mobiele telefoon : 06-55322331",
+  "meta_title": "Polderdijk Overslagbedrijf R J 0113-229528",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

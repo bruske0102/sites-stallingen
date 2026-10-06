@@ -1,0 +1,28 @@
+{
+  "id": 130561,
+  "slug": "haven-stein-op-en-overslag",
+  "provincie": "limburg",
+  "plaats": "stein",
+  "naam": "Haven Stein Op- en Overslag",
+  "straat": "Havenstraat 38",
+  "postcode": "6171EE",
+  "plaatsnaam": "Stein lb",
+  "telefoon": "046-4331880",
+  "website": "http://www.lortye.info",
+  "lat": 50.974143,
+  "lon": 5.761072,
+  "status": "gesloten",
+  "oude_url": "/limburg/stein/haven-stein-op-en-overslag/",
+  "email": "haven@lortye-hoensbroek.nl",
+  "omschrijving": "Voor al uw op- en overslag\nvan bulkgoederen\n\nhttp://www.lortye.info\n\ninfo@lortye-hoensbroek.nl\n\n Wat wij doen:\nL'Ortye Haven Op- en Overslag\nIn Stein exploiteert L'Ortye de binnenhaven aan het Julianakanaal. Vanuit deze strategisch gelegen haven wordt de doorvoer gecoördineerd naar o.a. Nederland, België en Duitsland.\n\nWij bieden diverse mogelijkheden voor het laden, lossen, overslaan en opslaan van stuk- en bulkgoederen. Op het 7,5 ha grote haventerrein zijn daartoe o.a. twee laadsteigers, een weegbrug, een havenkraan en diverse opslagsilo's en -terreinen aanwezig.",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Haven Stein Op- en Overslag 046-4331880 haven@lortye-hoensbroek.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

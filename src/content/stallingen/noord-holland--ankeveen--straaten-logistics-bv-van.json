@@ -1,0 +1,22 @@
+{
+  "id": 131308,
+  "slug": "straaten-logistics-bv-van",
+  "provincie": "noord-holland",
+  "plaats": "ankeveen",
+  "naam": "Straaten Logistics BV Van",
+  "straat": "Cannenburgerweg 67",
+  "postcode": "1244RH",
+  "plaatsnaam": "Ankeveen",
+  "telefoon": "035-6565223",
+  "website": "http://www.vanstraatenlogistics.nl",
+  "lat": 52.258923,
+  "lon": 5.119843,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/ankeveen/straaten-logistics-bv-van/",
+  "omschrijving": "Wat wij doen:\nTransport, op- en overslag",
+  "meta_title": "Straaten Logistics BV Van 035-6565223",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 131283,
+  "slug": "mj-fulfillment-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "MJ Fulfillment BV",
+  "straat": "Pieter Oosterhuisstraat 81",
+  "postcode": "1087HT",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "088-8453000",
+  "lat": 52.351978,
+  "lon": 5.006545,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/mj-fulfillment-bv/",
+  "meta_title": "MJ Fulfillment BV 088-8453000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": 130978,
+  "slug": "medimore",
+  "provincie": "gelderland",
+  "plaats": "dreumel",
+  "naam": "Medimore",
+  "straat": "Van Heemstraweg 128",
+  "postcode": "6621KL",
+  "plaatsnaam": "Dreumel",
+  "telefoon": "0487-570661",
+  "website": "http://www.medimore.nl",
+  "lat": 51.859126,
+  "lon": 5.444629,
+  "status": "gesloten",
+  "oude_url": "/gelderland/dreumel/medimore/",
+  "meta_title": "Medimore 0487-570661",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

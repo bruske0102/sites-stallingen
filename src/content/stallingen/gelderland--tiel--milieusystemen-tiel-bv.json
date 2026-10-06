@@ -1,0 +1,21 @@
+{
+  "id": 130982,
+  "slug": "milieusystemen-tiel-bv",
+  "provincie": "gelderland",
+  "plaats": "tiel",
+  "naam": "Milieusystemen Tiel BV",
+  "straat": "Polderweg 9",
+  "postcode": "4005GA",
+  "plaatsnaam": "Tiel",
+  "telefoon": "0344-633363",
+  "website": "http://www.milieusystemen.nl",
+  "lat": 51.89763,
+  "lon": 5.448209,
+  "status": "gesloten",
+  "oude_url": "/gelderland/tiel/milieusystemen-tiel-bv/",
+  "meta_title": "Milieusystemen Tiel BV 0344-633363",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

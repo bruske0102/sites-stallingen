@@ -1,0 +1,20 @@
+{
+  "id": 131180,
+  "slug": "jong-hazeldonk-bv-de",
+  "provincie": "zuid-holland",
+  "plaats": "strijen",
+  "naam": "Jong Hazeldonk BV de",
+  "straat": "Schelpweg 62",
+  "postcode": "3291EM",
+  "plaatsnaam": "Strijen",
+  "telefoon": "078-6744157",
+  "lat": 51.735264,
+  "lon": 4.563807,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/strijen/jong-hazeldonk-bv-de/",
+  "meta_title": "Jong Hazeldonk BV de 078-6744157",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

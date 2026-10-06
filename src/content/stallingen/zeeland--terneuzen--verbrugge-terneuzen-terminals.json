@@ -1,0 +1,21 @@
+{
+  "id": 131098,
+  "slug": "verbrugge-terneuzen-terminals",
+  "provincie": "zeeland",
+  "plaats": "terneuzen",
+  "naam": "Verbrugge Terneuzen Terminals",
+  "straat": "Zwedenweg 1",
+  "postcode": "4538BH",
+  "plaatsnaam": "Terneuzen",
+  "telefoon": "0115-646000",
+  "website": "http://www.verbrugge.nl",
+  "lat": 51.306759,
+  "lon": 3.837234,
+  "status": "gesloten",
+  "oude_url": "/zeeland/terneuzen/verbrugge-terneuzen-terminals/",
+  "meta_title": "Verbrugge Terneuzen Terminals 0115-646000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

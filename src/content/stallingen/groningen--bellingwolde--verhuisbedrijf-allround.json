@@ -1,0 +1,21 @@
+{
+  "id": 131130,
+  "slug": "verhuisbedrijf-allround",
+  "provincie": "groningen",
+  "plaats": "bellingwolde",
+  "naam": "Verhuisbedrijf Allround",
+  "straat": "Hoofdweg 234",
+  "postcode": "9695AV",
+  "plaatsnaam": "Bellingwolde",
+  "telefoon": "0597-531921",
+  "lat": 53.11754,
+  "lon": 7.165755,
+  "status": "gesloten",
+  "oude_url": "/groningen/bellingwolde/verhuisbedrijf-allround/",
+  "omschrijving": "0597-531921\n\n fax : 0597-530480\n\nhttp://www.boedelbergingplekzat.nl\n\n Toegankelijkheid :\nBegane grond\n\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nArchiefopslag, Opslaan, Transport, Verhuizen\n\n Materialen :\nVerhuislift",
+  "meta_title": "Verhuisbedrijf Allround 0597-531921",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

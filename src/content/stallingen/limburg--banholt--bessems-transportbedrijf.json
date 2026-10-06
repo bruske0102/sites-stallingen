@@ -1,0 +1,21 @@
+{
+  "id": 130624,
+  "slug": "bessems-transportbedrijf",
+  "provincie": "limburg",
+  "plaats": "banholt",
+  "naam": "Bessems Transportbedrijf",
+  "straat": "Bredeweg 5",
+  "postcode": "6262NX",
+  "plaatsnaam": "Banholt",
+  "telefoon": "043-4571636",
+  "lat": 50.790239,
+  "lon": 5.810867,
+  "status": "gesloten",
+  "oude_url": "/limburg/banholt/bessems-transportbedrijf/",
+  "omschrijving": "Wat wij doen:\nWelkom bij Bessems Transportbedrijf!\n\nDynamisch en veelzijdig, snel, tactvol, vakkundig en zorgvuldig. Elke denkbare lading, minimaal of gigantisch, wij doen het. Afspraak is afspraak! Openingstijden:\n Maandag : 08:00 - 18:00\n Dinsdag : 08:00 - 18:00\n Woensdag : 08:00 - 18:00\n Donderdag : 08:00 - 18:00\n Vrijdag : 08:00 - 18:00\n Zaterdag : gesloten\n Zondag : gesloten Werkgebied :\nRegionaal, Nationaal, Internationaal\n\n Diensten :\nOpslag en overslag, Transport",
+  "meta_title": "Bessems Transportbedrijf 043-4571636",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

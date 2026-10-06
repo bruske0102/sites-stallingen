@@ -1,0 +1,22 @@
+{
+  "id": 130995,
+  "slug": "skm",
+  "provincie": "gelderland",
+  "plaats": "tiel",
+  "naam": "SKM",
+  "straat": "Grotebrugse Grintweg 159",
+  "postcode": "4005AD",
+  "plaatsnaam": "Tiel",
+  "telefoon": "0344-750876",
+  "website": "http://www.skm-service.nl",
+  "lat": 51.896644,
+  "lon": 5.441888,
+  "status": "gesloten",
+  "oude_url": "/gelderland/tiel/skm/",
+  "omschrijving": "Wat wij doen:\nWij zijn een jong en dynamisch bedrijf gespecialiseerd in pro-actief en regulier onderhoud van voornamelijk hydraulische, pneumatische en mechanische productie machines. Ook voor machinebouw, metingen of advies op het gebied van opslag en omgang met olie en vetten, het milieu of terugdringen van aantal producten bent u bij ons aan het goede adres. Specialiteiten :\nmachineonderhoud, machinebouw, metingen, advies, verkoop olie e.a materialen, preventief onderhoud\n\n Service :\nBezorgservice",
+  "meta_title": "SKM 0344-750876",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

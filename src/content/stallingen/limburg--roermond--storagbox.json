@@ -1,0 +1,20 @@
+{
+  "id": 130616,
+  "slug": "storagbox",
+  "provincie": "limburg",
+  "plaats": "roermond",
+  "naam": "Storagbox",
+  "straat": "Mijnheerkensweg 22",
+  "postcode": "6041TA",
+  "plaatsnaam": "Roermond",
+  "telefoon": "0475-330363",
+  "lat": 51.207074,
+  "lon": 5.998065,
+  "status": "gesloten",
+  "oude_url": "/limburg/roermond/storagbox/",
+  "meta_title": "Storagbox 0475-330363",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

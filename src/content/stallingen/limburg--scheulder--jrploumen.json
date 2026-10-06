@@ -1,0 +1,27 @@
+{
+  "id": 2481756,
+  "slug": "jrploumen",
+  "provincie": "limburg",
+  "plaats": "scheulder",
+  "naam": "J.R.Ploumen",
+  "straat": "Scheulder Dorpsstraat 95",
+  "postcode": "6307 PB",
+  "plaatsnaam": "Scheulder",
+  "telefoon": "+31622532071",
+  "lat": 50.830118,
+  "lon": 5.841054499999999,
+  "status": "gesloten",
+  "oude_url": "/limburg/scheulder/jrploumen/",
+  "email": "rploumen@home.nl",
+  "omschrijving": "Bij ons kunt u terecht voor het veilig stallen van uw caravan. De caravanstalling is gevestigd in het dorp Scheulder Zuid-Limburg, gelegen nabij de toeristische plaats Valkenburg, tussen de steden Maastricht en Heerlen.\r\n\r\nIn 2022 zijn wij gestart met het stallen van caravan's. Ten behoeve hiervan hebben wij recent onze ruimte aangepast, die goed geventileerd en beveiligd is.\r\n\r\nVoor meer informatie kunt u altijd vrijblijvend contact met ons opnemen.\r\nT: 06-22532071\r\nE: rploumen@home.nl",
+  "kenmerken": {
+    "Type": [
+      "caravan"
+    ]
+  },
+  "meta_title": "J.R.Ploumen +31622532071 rploumen@home.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

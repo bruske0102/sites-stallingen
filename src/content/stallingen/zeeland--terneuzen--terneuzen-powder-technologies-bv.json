@@ -1,0 +1,21 @@
+{
+  "id": 131097,
+  "slug": "terneuzen-powder-technologies-bv",
+  "provincie": "zeeland",
+  "plaats": "terneuzen",
+  "naam": "Terneuzen Powder Technologies BV",
+  "straat": "Finlandweg 21",
+  "postcode": "4538BL",
+  "plaatsnaam": "Terneuzen",
+  "telefoon": "0115-649841",
+  "website": "http://www.tpt-group.com",
+  "lat": 51.298454,
+  "lon": 3.839408,
+  "status": "gesloten",
+  "oude_url": "/zeeland/terneuzen/terneuzen-powder-technologies-bv/",
+  "meta_title": "Terneuzen Powder Technologies BV 0115-649841",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

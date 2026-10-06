@@ -1,0 +1,240 @@
+---
+/**
+ * Paginate long city listing stacks (mobile-friendly).
+ * SSR renders page 1 only; ?page=N is handled client-side from compact JSON.
+ */
+interface Item {
+  naam: string;
+  href: string;
+  meta: string;
+}
+
+interface Props {
+  items: Item[];
+  pageSize?: number;
+  placeName: string;
+}
+
+const { items, pageSize = 50, placeName } = Astro.props;
+const total = items.length;
+const totalPages = Math.max(1, Math.ceil(total / pageSize));
+const needsPager = total > pageSize;
+const page1 = items.slice(0, pageSize);
+const ssrPages = Array.from({ length: Math.min(totalPages, 5) }, (_, i) => i + 1);
+---
+{
+  needsPager ? (
+    <>
+      <p class="city-page-meta" id="city-page-meta" data-total={total} data-size={pageSize}>
+        {total} stallingen · pagina <span data-page-label>1</span> van {totalPages}
+      </p>
+      <div class="stack" id="city-list-stack" data-city-list>
+        {page1.map((s) => (
+          <article class="shop">
+            <h3><a href={s.href}>{s.naam}</a></h3>
+            {s.meta && <p class="meta"><span>{s.meta}</span></p>}
+          </article>
+        ))}
+      </div>
+      <nav class="city-pager" id="city-pager" aria-label="Paginering" data-pager>
+        <span class="city-pager-btn is-current" aria-current="page">1</span>
+        {ssrPages.filter((n) => n > 1).map((n) => (
+          <a class="city-pager-btn" href={`?page=${n}#lijst`}>{n}</a>
+        ))}
+        {totalPages > 5 && (
+          <a class="city-pager-btn" href={`?page=${totalPages}#lijst`}>{totalPages}</a>
+        )}
+        {totalPages > 1 && (
+          <a class="city-pager-btn" href="?page=2#lijst">Volgende</a>
+        )}
+      </nav>
+      <script type="application/json" id="city-list-data" set:html={JSON.stringify(items)} />
+      <script is:inline define:vars={{ pageSize, totalPages }}>
+        (() => {
+          const dataEl = document.getElementById("city-list-data");
+          const stack = document.getElementById("city-list-stack");
+          const pager = document.getElementById("city-pager");
+          const metaLabel = document.querySelector("[data-page-label]");
+          if (!dataEl || !stack || !pager) return;
+
+          /** @type {{ naam: string, href: string, meta: string }[]} */
+          let items = [];
+          try {
+            items = JSON.parse(dataEl.textContent || "[]");
+          } catch {
+            return;
+          }
+
+          function clampPage(n) {
+            if (!Number.isFinite(n) || n < 1) return 1;
+            return Math.min(totalPages, Math.floor(n));
+          }
+
+          function currentPage() {
+            const q = new URLSearchParams(location.search).get("page");
+            return clampPage(parseInt(q || "1", 10));
+          }
+
+          function renderCard(s) {
+            const art = document.createElement("article");
+            art.className = "shop";
+            const h3 = document.createElement("h3");
+            const a = document.createElement("a");
+            a.href = s.href;
+            a.textContent = s.naam;
+            h3.appendChild(a);
+            art.appendChild(h3);
+            if (s.meta) {
+              const p = document.createElement("p");
+              p.className = "meta";
+              const span = document.createElement("span");
+              span.textContent = s.meta;
+              p.appendChild(span);
+              art.appendChild(p);
+            }
+            return art;
+          }
+
+          function renderPager(page) {
+            pager.replaceChildren();
+
+            const mk = (label, target, opts = {}) => {
+              const el = opts.current
+                ? document.createElement("span")
+                : document.createElement("a");
+              el.className = "city-pager-btn" + (opts.current ? " is-current" : "");
+              el.textContent = label;
+              if (!opts.current) {
+                const url = new URL(location.href);
+                if (target <= 1) url.searchParams.delete("page");
+                else url.searchParams.set("page", String(target));
+                url.hash = "lijst";
+                el.href = url.pathname + url.search + url.hash;
+              } else {
+                el.setAttribute("aria-current", "page");
+              }
+              return el;
+            };
+
+            if (page > 1) pager.appendChild(mk("Vorige", page - 1));
+
+            const windowSize = 5;
+            let start = Math.max(1, page - 2);
+            let end = Math.min(totalPages, start + windowSize - 1);
+            start = Math.max(1, end - windowSize + 1);
+
+            if (start > 1) {
+              pager.appendChild(mk("1", 1));
+              if (start > 2) {
+                const dots = document.createElement("span");
+                dots.className = "city-pager-gap";
+                dots.textContent = "…";
+                pager.appendChild(dots);
+              }
+            }
+            for (let i = start; i <= end; i++) {
+              pager.appendChild(mk(String(i), i, { current: i === page }));
+            }
+            if (end < totalPages) {
+              if (end < totalPages - 1) {
+                const dots = document.createElement("span");
+                dots.className = "city-pager-gap";
+                dots.textContent = "…";
+                pager.appendChild(dots);
+              }
+              pager.appendChild(mk(String(totalPages), totalPages));
+            }
+
+            if (page < totalPages) pager.appendChild(mk("Volgende", page + 1));
+          }
+
+          function show(page) {
+            page = clampPage(page);
+            const start = (page - 1) * pageSize;
+            const slice = items.slice(start, start + pageSize);
+            stack.replaceChildren(...slice.map(renderCard));
+            if (metaLabel) metaLabel.textContent = String(page);
+            renderPager(page);
+
+            const url = new URL(location.href);
+            if (page <= 1) url.searchParams.delete("page");
+            else url.searchParams.set("page", String(page));
+            const next = url.pathname + url.search + (url.hash || "");
+            if (next !== location.pathname + location.search + location.hash) {
+              history.replaceState(null, "", next);
+            }
+
+            document.title = document.title.replace(/\s*[·|]\s*pagina\s*\d+/i, "");
+            if (page > 1) {
+              document.title = document.title + " · pagina " + page;
+            }
+          }
+
+          pager.addEventListener("click", (e) => {
+            const a = e.target.closest("a.city-pager-btn");
+            if (!a) return;
+            e.preventDefault();
+            const url = new URL(a.href);
+            const p = clampPage(parseInt(url.searchParams.get("page") || "1", 10));
+            show(p);
+            const lijst = document.getElementById("lijst");
+            if (lijst) lijst.scrollIntoView({ behavior: "smooth", block: "start" });
+          });
+
+          show(currentPage());
+        })();
+      </script>
+    </>
+  ) : (
+    <div class="stack">
+      {items.map((s) => (
+        <article class="shop">
+          <h3><a href={s.href}>{s.naam}</a></h3>
+          {s.meta && <p class="meta"><span>{s.meta}</span></p>}
+        </article>
+      ))}
+    </div>
+  )
+}
+
+<style is:global>
+  .city-page-meta {
+    margin: 0 0 0.85rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .city-pager {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    align-items: center;
+    margin: 1.25rem 0 0.5rem;
+  }
+  .city-pager-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.35rem;
+    padding: 0.45rem 0.7rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+  a.city-pager-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent-ink);
+  }
+  .city-pager-btn.is-current {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .city-pager-gap {
+    color: var(--muted);
+    padding: 0 0.15rem;
+  }
+</style>

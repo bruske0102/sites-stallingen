@@ -1,0 +1,27 @@
+{
+  "id": 131294,
+  "slug": "schnabel-automobielbedrijf",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Schnabel Automobielbedrijf",
+  "straat": "Tweede Boerhaavestraat 17",
+  "postcode": "1091AK",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6653126",
+  "lat": 52.359203,
+  "lon": 4.911974,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/schnabel-automobielbedrijf/",
+  "email": "garage@schnabelonline.com",
+  "omschrijving": "APK - Onderhoud & reparatie\nvan alle merken\n\n Openingstijden:\n Maandag : 09:30 - 17:00\n Dinsdag : 09:30 - 18:00\n Woensdag : 09:30 - 17:00\n Donderdag : 09:30 - 18:00\n Vrijdag : 09:30 - 17:00\n Zaterdag : gesloten\n Zondag : gesloten\n Carnaval : 09:00 - 18:00\n Bevrijdingsdag : 09:00 - 18:00\n Sinterklaas : 09:00 - 18:00 Service :\nAlleen op afspraak, Gratis offerte\n\n Toegankelijkheid :\nBegane grond, Toegankelijk voor rolstoelen\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Remmen repareren / vervangen, Reparatie, Roetmeting, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin, facturatie",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Schnabel Automobielbedrijf 020-6653126 garage@schnabelonline.com",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 130976,
+  "slug": "bulk-terminal-oss-bv",
+  "provincie": "noord-brabant",
+  "plaats": "oss",
+  "naam": "Bulk Terminal Oss BV",
+  "straat": "Waalkade 75",
+  "postcode": "5347KR",
+  "plaatsnaam": "Oss",
+  "telefoon": "0412-650722",
+  "lat": 51.782389,
+  "lon": 5.545451,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/oss/bulk-terminal-oss-bv/",
+  "meta_title": "Bulk Terminal Oss BV 0412-650722",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

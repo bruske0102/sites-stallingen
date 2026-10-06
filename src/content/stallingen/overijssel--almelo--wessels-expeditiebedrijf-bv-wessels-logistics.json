@@ -1,0 +1,21 @@
+{
+  "id": 130934,
+  "slug": "wessels-expeditiebedrijf-bv-wessels-logistics",
+  "provincie": "overijssel",
+  "plaats": "almelo",
+  "naam": "Wessels Expeditiebedrijf BV - Wessels Logistics",
+  "straat": "Bedrijvenpark Twente 400",
+  "postcode": "7602KM",
+  "plaatsnaam": "Almelo",
+  "telefoon": "0546-561279",
+  "lat": 52.380641,
+  "lon": 6.609941,
+  "status": "gesloten",
+  "oude_url": "/overijssel/almelo/wessels-expeditiebedrijf-bv-wessels-logistics/",
+  "omschrijving": "Wat wij doen:\nAfspraak is afspraak. Daar kunt u van op aan bij Wessels Expeditiebedrijf. Vanuit onze vestiging in Almelo verzorgen we transporten naar diverse bestemmingen in Nederland België en Duitsland. Levering binnen 24 uur. Gegarandeerd. Betrouwbaarheid, flexibiliteit, klantvriendelijkheid en een hoge kwaliteit vormen de basis van onze visie.. Specialiteiten :\nTransport, Nederland, Belgie en Duitsland, Complete vrachten, Deelladingen, Chemische producten, VLG / ADR stoffen, Business to business transport, Distributie, Groupage, Opslag & warehouse\n\n Aangesloten bij / Certificering :\nVLG en ADR",
+  "meta_title": "Wessels Expeditiebedrijf BV - Wessels Logistics 0546-561279",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

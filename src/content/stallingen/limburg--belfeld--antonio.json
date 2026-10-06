@@ -1,0 +1,22 @@
+{
+  "id": 2239684,
+  "slug": "antonio",
+  "provincie": "limburg",
+  "plaats": "belfeld",
+  "naam": "Antonio",
+  "straat": "Rijksweg Noord 28",
+  "postcode": "5951 AG",
+  "plaatsnaam": "Belfeld",
+  "telefoon": "+31621633743",
+  "lat": 51.3220487,
+  "lon": 6.1186308,
+  "status": "gesloten",
+  "oude_url": "/limburg/belfeld/antonio/",
+  "email": "dsautosbelfeld@outlook.com",
+  "omschrijving": "Auto handelen, zoek naar plaats voor autos",
+  "meta_title": "Antonio +31621633743 dsautosbelfeld@outlook.com",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

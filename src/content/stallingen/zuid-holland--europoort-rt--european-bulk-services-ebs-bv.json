@@ -1,0 +1,26 @@
+{
+  "id": 131193,
+  "slug": "european-bulk-services-ebs-bv",
+  "provincie": "zuid-holland",
+  "plaats": "europoort-rt",
+  "naam": "European Bulk Services EBS BV",
+  "straat": "Elbeweg 117",
+  "postcode": "3198LC",
+  "plaatsnaam": "Europoort rt",
+  "telefoon": "0181-262988",
+  "lat": 51.951541,
+  "lon": 4.121518,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/europoort-rt/european-bulk-services-ebs-bv/",
+  "omschrijving": "Hoofdkantoor en Europoort Terminal\n\nPostbus1204, 3180AE, Rozenburg zh\n Havennummer 5820 : 0181-262988\n\n fax : 0181-258144\nEBS St Laurenhaven Terminal\nMontrealweg 50 3197 KH Botlek Rt\n\nPostbus1204, 3180AE, Rozenburg zh\n Havennummer 4310 : 0181-243500\n\n fax : 0181-243582\n\nhttp://www.ebsbulk.nl\n\nhttp://www.ebsbulk.nl\n\nsales@ebsbulk.nl\n\n Wat wij doen:\nEuropean Bulk Services B.V. is the major multi purpose bulk terminal operator in the port of Rotterdam. E.B.S. engages in the transhipment, loading, discharge and storage of all kinds of dry bulk products such as coal, minerals, agri- and biomass products to and from Europe.\nE.B.S. strives for a tailor-made approach together with its customers (mining companies, energy producers, processing industries, ship owners, traders and commodity brokers, etc.).This entails offering specialized storage and efficient handling of the various commodities 24 hours per day during the week.\n\nE.B.S. is a 100% subsidiary company of HES Beheer N.V. , which is listed on the Amsterdam Stock Exhange.\n Specialiteiten :\nTranshipment., Loading., Discharge., Storage., Dry bulk products., Rail loading., Truck loading., Green energy., Recycling., Agribulk.",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "European Bulk Services EBS BV 0181-262988",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

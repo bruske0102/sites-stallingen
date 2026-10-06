@@ -1,0 +1,22 @@
+{
+  "id": 130574,
+  "slug": "uts-project-verhuizingen",
+  "provincie": "zuid-holland",
+  "plaats": "den-haag",
+  "naam": "UTS Project Verhuizingen",
+  "straat": null,
+  "postcode": "2509EC",
+  "plaatsnaam": "Den Haag",
+  "telefoon": "088-0023000",
+  "website": "http://www.uts.nl",
+  "lat": 0.0,
+  "lon": 0.0,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/den-haag/uts-project-verhuizingen/",
+  "omschrijving": "Bel en vraag ons naar de dichtstbijzijnde\nvestiging bij ú in de buurt!\n\n Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Project Verhuizingen 088-0023000",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

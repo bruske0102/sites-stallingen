@@ -1,0 +1,20 @@
+{
+  "id": 131015,
+  "slug": "noah-logistic-services",
+  "provincie": "gelderland",
+  "plaats": "zutphen",
+  "naam": "Noah Logistic Services",
+  "straat": "Groen van Prinstererstr 31",
+  "postcode": "7204MH",
+  "plaatsnaam": "Zutphen",
+  "telefoon": "06-47345585",
+  "lat": 52.131295,
+  "lon": 6.20371,
+  "status": "gesloten",
+  "oude_url": "/gelderland/zutphen/noah-logistic-services/",
+  "meta_title": "Noah Logistic Services 06-47345585",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

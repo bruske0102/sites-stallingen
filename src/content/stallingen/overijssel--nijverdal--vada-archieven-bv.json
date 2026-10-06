@@ -1,0 +1,21 @@
+{
+  "id": 130936,
+  "slug": "vada-archieven-bv",
+  "provincie": "overijssel",
+  "plaats": "nijverdal",
+  "naam": "VADA Archieven BV",
+  "straat": "Marconistraat 3",
+  "postcode": "7442DD",
+  "plaatsnaam": "Nijverdal",
+  "telefoon": "0548-631212",
+  "lat": 52.357228,
+  "lon": 6.503331,
+  "status": "gesloten",
+  "oude_url": "/overijssel/nijverdal/vada-archieven-bv/",
+  "omschrijving": "Postbus372, 7440AJ, Nijverdal\nhttp://www.vada.nl\n\n Wat wij doen:\nWij bieden u\n- Opslag volgens hoogste archiefregeling\n- Hoogwaardige beveiliging\n- Luchtvochtigheid- en temperatuurregeling\n- Landelijke collectie en aflevering\n- Service Level Agreement\n- Digitaliseren fysieke dossiers\n- Regeling en controle luchtkwaliteit\n- Aanvragen via internet & e-mail\n- Compleet beheer & rapportage via internet\n Specialiteiten :\nArchiefopslag",
+  "meta_title": "VADA Archieven BV 0548-631212",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

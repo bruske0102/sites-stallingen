@@ -1,0 +1,27 @@
+{
+  "id": 131174,
+  "slug": "helleman-handels-en-expeditiebedrijf-bv",
+  "provincie": "zuid-holland",
+  "plaats": "numansdorp",
+  "naam": "Helleman Handels en Expeditiebedrijf BV",
+  "straat": "Voltastraat 20",
+  "postcode": "3281NG",
+  "plaatsnaam": "Numansdorp",
+  "telefoon": "0186-650650",
+  "website": "http://www.helleman.nl",
+  "lat": 51.747956,
+  "lon": 4.447797,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/numansdorp/helleman-handels-en-expeditiebedrijf-bv/",
+  "omschrijving": "Wat wij doen:\nDe weg weten in wereldhavens Rotterdam en Antwerpen en zorgen voor de juiste aansluitvrachten naar het Europese achterland… daar gaat het om! Wij kennen die weg en door onze ervaring en flexibele instelling vinden we altijd de juiste oplossing voor elke logisieke uitdaging.\n\nWij bieden u altijd de passende oplossing voor Uw warehouse demands. Specialiteiten :\nWarehousing, Containertrucking in eigen beheer , Transporten, Regelen van douane papieren, Verzendgereed maken van produkten, Labelling, Sorteren van goederen, Kwaliteitscontrole, Om- en verpakken, bijvoegen, Assemblage\n\n Aangesloten bij / Certificering :\n9001-2000, GMP",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Helleman Handels en Expeditiebedrijf BV 0186-650650",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 130592,
+  "slug": "zhv-verhuur-bv",
+  "provincie": "noord-brabant",
+  "plaats": "cuijk",
+  "naam": "ZHV Verhuur BV",
+  "straat": "Simon Homburgstraat 13",
+  "postcode": "5431NN",
+  "plaatsnaam": "Cuijk",
+  "telefoon": "0412-628275",
+  "website": "http://www.zhvverhuur.nl",
+  "lat": 51.721662,
+  "lon": 5.874961,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/cuijk/zhv-verhuur-bv/",
+  "email": "info@zhvverhuur.nl",
+  "omschrijving": "Verhuur in- en verkoop: tijdelijke\nwoonruimten, kantoorunits, schaftwagens\nwoonunits, kantoorunits, opslag-\ncontainers, bouwhekken en goederenopslag\n\nhttp://www.zhvverhuur.nl\n\n Wat wij doen:\nZHV Verhuur is uw partner die u zoekt als u om tijdelijke ruimte verlegen zit.\n\nVoor kantoor, woning, kantine of opslag kunnen wij u met een breed assortiment aan units (kantoor-, woningunits, schaftwagens, opslagcontainers) altijd een passende oplossing bieden.\n\nTevens verhuur zeecontainers en bouwhekken alsmede nieuwbouw/verkoop van units.\n\nZHV is een bedrijf dat de laatste jaren een onmiskenbare positie heeft verworven in de regionale markt op het gebied van verhuur van semipermanente woon- en kantoorruimten. Een erkenning die is ontstaan door een goede bedrijfsfilosofie en grote inzet van onze mensen om klanten snel te helpen op het moment dat ze er om vragen. Of dit nu tijdens kantooruren, in het weekend of 's nachts is bij ZHV staat er altijd iemand voor U klaar.\n\nVanuit het depot in Cuijk leveren wij onze produkten aan: bedrijven, instellingen en particulieren, die in een groot deel van Nederland maar ook België en Duitsland worden afgezet. Levering van standaard eenheden geschiedt veelal uit voorraad onder het motto vandaag besteld is morgen geleverd. Voor meer specifieke wensen kunnen we altijd offereren en een spoedige levering in het vooruitzicht stellen.\n\nVERHUUR IN- EN VERKOOP\nTijdelijke woonruimten\nKantoorunits\nSchaftwagens\nOpslagcontainers\nBouwhekken\nBouwmaterieel\nGoederenopslag\n\n Service :\nBezorgservice\n\n Doelgroep :\nBedrijven, Particulieren\n\n Elektriciteit en klimaatbeheersing :\nVerwarming\n\n Bouw, tuin, vervoer en gereedschap :\nHeftruck, Kraan, Lift, Schaftkeet\n\n Licht, beeld en geluid :\nVerlichting\n\n Kantoor en winkel :\nBalie, Kassa\n\n Tijdelijke huisvesting en opslag :\nContainer, Kantoorunit, Unit",
+  "meta_title": "ZHV Verhuur BV 0412-628275 info@zhvverhuur.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

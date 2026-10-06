@@ -1,0 +1,20 @@
+{
+  "id": 130826,
+  "slug": "hoebink-exped-en-overslag-bv",
+  "provincie": "limburg",
+  "plaats": "kerkrade",
+  "naam": "Hoebink Exped en Overslag BV",
+  "straat": "Strijthagenweg 105",
+  "postcode": "6468EH",
+  "plaatsnaam": "Kerkrade",
+  "telefoon": "045-5465040",
+  "lat": 50.869972,
+  "lon": 6.032279,
+  "status": "gesloten",
+  "oude_url": "/limburg/kerkrade/hoebink-exped-en-overslag-bv/",
+  "meta_title": "Hoebink Exped en Overslag BV 045-5465040",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

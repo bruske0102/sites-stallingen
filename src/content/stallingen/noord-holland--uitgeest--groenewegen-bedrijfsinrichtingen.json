@@ -1,0 +1,22 @@
+{
+  "id": 131324,
+  "slug": "groenewegen-bedrijfsinrichtingen",
+  "provincie": "noord-holland",
+  "plaats": "uitgeest",
+  "naam": "Groenewegen Bedrijfsinrichtingen",
+  "straat": "Westerwerf 28",
+  "postcode": "1911JA",
+  "plaatsnaam": "Uitgeest",
+  "telefoon": "0251-714574",
+  "website": "http://www.fami.nl",
+  "lat": 52.536888,
+  "lon": 4.718276,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/uitgeest/groenewegen-bedrijfsinrichtingen/",
+  "omschrijving": "Wat wij doen:\nWelkom bij Groenewegen Bedrijfsinrichtingen.\n\nU kunt bij ons terecht voor:\n\n- bakkenkasten, stellingen, wagens\n- kantelbakken Practibox\n- magazijnbakken\n- stapelbakken\n- transportbakken\n- CNC opslag\n- kasten\n- laden-indelingsmateriaal\n- mobiele ladenkasten\n- transportwagens\n- werkbanken\n\nU kunt uiteraard online bestellen!\n Specialiteiten :\nbedrijfsinrichting, bakkenkasten, stellingen, kantelbakken Practibox, magazijnbakken, stapelbakken, transportbakken, kasten, CNC opslag, laden-indelingsmateriaal, mobiele ladenkasten, transportwagens, werkbanken, online bestellen",
+  "meta_title": "Groenewegen Bedrijfsinrichtingen 0251-714574",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

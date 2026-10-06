@@ -1,0 +1,20 @@
+{
+  "id": 131275,
+  "slug": "koppers-netherlands-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Koppers Netherlands BV",
+  "straat": "Petroleumhavenweg 20",
+  "postcode": "1041AC",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6114488",
+  "lat": 52.409525,
+  "lon": 4.856865,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/koppers-netherlands-bv/",
+  "meta_title": "Koppers Netherlands BV 020-6114488",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

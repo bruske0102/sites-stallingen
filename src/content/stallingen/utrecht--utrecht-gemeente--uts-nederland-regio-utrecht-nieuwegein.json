@@ -1,0 +1,22 @@
+{
+  "id": 130684,
+  "slug": "uts-nederland-regio-utrecht-nieuwegein",
+  "provincie": "utrecht",
+  "plaats": "utrecht-gemeente",
+  "naam": "UTS Nederland regio Utrecht Nieuwegein",
+  "straat": "Nucleonenweg 23",
+  "postcode": "3542CD",
+  "plaatsnaam": "Utrecht",
+  "telefoon": "030-2476000",
+  "website": "http://www.uts.nl",
+  "lat": 52.108302,
+  "lon": 5.061815,
+  "status": "gesloten",
+  "oude_url": "/utrecht/utrecht-gemeente/uts-nederland-regio-utrecht-nieuwegein/",
+  "omschrijving": "Ruim 25 locaties verspreid over heel Nederland\nAltijd een UTS verhuisbedrijf bij ú in de buurt!\n\n Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland regio Utrecht Nieuwegein 030-2476000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

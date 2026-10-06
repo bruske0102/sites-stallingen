@@ -1,0 +1,28 @@
+{
+  "id": 130983,
+  "slug": "us-car-service",
+  "provincie": "noord-brabant",
+  "plaats": "oss",
+  "naam": "US Car Service",
+  "straat": "IJsselstraat 23",
+  "postcode": "5347KG",
+  "plaatsnaam": "Oss",
+  "telefoon": "0412-622452",
+  "lat": 51.777486,
+  "lon": 5.54242,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/oss/us-car-service/",
+  "email": "info@uscarservice.nl",
+  "omschrijving": "0412-622452\n\n fax : 0412-690130\n\n Wat wij doen:\nUS Car specialist voor onderhoud en reparatie van uw Amerikaanse auto.\nDodge/Chrysler/Ford/Lincoln/Cadillac/Chevrolet\nGespecialiseerd in begrafenisautos (uitvaart) en limousines.\n*Onderhoud, reparatie en APK aan alle US merken\n*Onderdelen direct leverbaar uit Amerika / Cargo-Service\n*Schade herstel/taxatie\n*Aankoopkeuringen(eventueel op locatie)\n*Wieluitlijning/sporingcontrole\n*Aircoservice\n*Tonneau cover/Bedliner/Truck caps&lids\n*storingdiagnose (Alldata)\n*Leenauto beschikbaar\n*kijk ook eens op www.carserviceoss.nl Openingstijden:\n Maandag : 08:00 - 17:00\n Dinsdag : 08:00 - 17:00\n Woensdag : 08:00 - 17:00\n Donderdag : 08:00 - 17:00\n Vrijdag : 08:00 - 17:00\n Zaterdag : gesloten\n Zondag : gesloten Service :\nHaal- en brengservice, Vervangend vervoer / leenauto\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto-aanpassingen, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Revisie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Tuning, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nCadillac, Chevrolet, Chrysler, Corvette, Dodge, Ford, Hummer, Jeep\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nRDW, RDW / Innovam",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "US Car Service 0412-622452 info@uscarservice.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

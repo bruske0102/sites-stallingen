@@ -1,0 +1,22 @@
+{
+  "id": 130764,
+  "slug": "a-star-promotions",
+  "provincie": "utrecht",
+  "plaats": "austerlitz",
+  "naam": "A-Star Promotions",
+  "straat": "Gramserweg 7",
+  "postcode": "3711AT",
+  "plaatsnaam": "Austerlitz",
+  "telefoon": "0343-493249",
+  "website": "http://www.a-star.nl",
+  "lat": 52.078365,
+  "lon": 5.311655,
+  "status": "gesloten",
+  "oude_url": "/utrecht/austerlitz/a-star-promotions/",
+  "omschrijving": "Bouw, tuin, vervoer en gereedschap :\nPomp\n\n Tijdelijke huisvesting en opslag :\nLoods",
+  "meta_title": "A-Star Promotions 0343-493249",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

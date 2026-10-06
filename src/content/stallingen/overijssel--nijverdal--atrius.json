@@ -1,0 +1,20 @@
+{
+  "id": 130930,
+  "slug": "atrius",
+  "provincie": "overijssel",
+  "plaats": "nijverdal",
+  "naam": "Atrius",
+  "straat": "van den Bergsweg 3",
+  "postcode": "7442CK",
+  "plaatsnaam": "Nijverdal",
+  "telefoon": "0548-622500",
+  "lat": 52.357259,
+  "lon": 6.491456,
+  "status": "gesloten",
+  "oude_url": "/overijssel/nijverdal/atrius/",
+  "meta_title": "Atrius 0548-622500",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

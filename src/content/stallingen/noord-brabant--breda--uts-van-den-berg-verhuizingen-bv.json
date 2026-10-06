@@ -1,0 +1,21 @@
+{
+  "id": 130649,
+  "slug": "uts-van-den-berg-verhuizingen-bv",
+  "provincie": "noord-brabant",
+  "plaats": "breda",
+  "naam": "UTS Van den Berg Verhuizingen BV",
+  "straat": "Takkebijsters 10",
+  "postcode": "4817BL",
+  "plaatsnaam": "Breda",
+  "telefoon": "076-5781500",
+  "website": "http://www.uts.nl",
+  "lat": 51.596758,
+  "lon": 4.825506,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/breda/uts-van-den-berg-verhuizingen-bv/",
+  "meta_title": "UTS Van den Berg Verhuizingen BV 076-5781500",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 131150,
+  "slug": "boog-trade-bv",
+  "provincie": "groningen",
+  "plaats": "eemshaven",
+  "naam": "Boog Trade BV",
+  "straat": "Robbenplaatweg 15",
+  "postcode": "9979XL",
+  "plaatsnaam": "Eemshaven",
+  "telefoon": "06-22905557",
+  "lat": 53.431516,
+  "lon": 6.866568,
+  "status": "gesloten",
+  "oude_url": "/groningen/eemshaven/boog-trade-bv/",
+  "meta_title": "Boog Trade BV 06-22905557",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": 131270,
+  "slug": "handelsveem-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Handelsveem BV",
+  "straat": "Sextantweg 8",
+  "postcode": "1042AH",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6149755",
+  "website": "http://www.steinweg.nl",
+  "lat": 52.403491,
+  "lon": 4.832662,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/handelsveem-bv/",
+  "meta_title": "Handelsveem BV 020-6149755",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

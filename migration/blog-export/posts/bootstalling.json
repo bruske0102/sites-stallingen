@@ -1,0 +1,44 @@
+{
+  "slug": "bootstalling",
+  "title": "Bootstalling: wal, water of stallingshal",
+  "meta_title": "Bootstalling: walligplaats, indoor stalling & winterklaar",
+  "meta_description": "Bootstalling kiezen: walligplaats vs indoor, winterklaarmaken, verzekering en praktische checklist voor jouw boot.",
+  "author": "Redactie Stallingen.xyz",
+  "excerpt": "Boot in de winter of langere stilstand: stalling op de wal of indoor voorkomt schade. Dit check je vooraf.",
+  "primary_keyword": "bootstalling",
+  "secondary_keywords": [
+    "stalling boten",
+    "caravanstalling",
+    "winterstalling"
+  ],
+  "semrush": {
+    "database": "nl",
+    "volume": 390,
+    "kd": 14,
+    "support": "stalling boten 40/8",
+    "note": "phrase_these 2026-10-05"
+  },
+  "faq": [
+    {
+      "q": "Moet de boot winterklaar zijn?",
+      "a": "Meestal ja: water aftappen, accu's, brandstofbeleid volgens stalling. Vraag hun protocol."
+    },
+    {
+      "q": "Mag een trailer erbij?",
+      "a": "Niet overal. Sommige stallingen hebben aparte trailerplaatsen of eisen demontage."
+    },
+    {
+      "q": "Is antivries voldoende in het water?",
+      "a": "Nee. Een bootstalling is geen vervanging voor correct winterklaar maken; volg werf- of stallingsadvies."
+    }
+  ],
+  "content_html": "<p><strong>Bootstalling</strong> kan op de wal, in een hal of soms in het water met winterafmeer. Indoor beschermt beter tegen UV en vorst.</p>\n\n<h2>Vragen aan de stalling</h2>\n<ul>\n<li>Maximale lengte, breedte, diepgang of masthoogte</li>\n<li>Kraan / trailer toegang</li>\n<li>Brandveiligheid en accu-regels</li>\n<li>Periode en tussentijdse toegang</li>\n</ul>\n\n<section class=\"faq\"><h2>Veelgestelde vragen</h2>\n<details><summary>Moet de boot winterklaar zijn?</summary><p>Meestal ja: water aftappen, accu's, brandstofbeleid volgens stalling. Vraag hun protocol.</p></details>\n<details><summary>Mag een trailer erbij?</summary><p>Niet overal. Sommige stallingen hebben aparte trailerplaatsen of eisen demontage.</p></details>\n<details><summary>Is antivries voldoende in het water?</summary><p>Nee. Een bootstalling is geen vervanging voor correct winterklaar maken; volg werf- of stallingsadvies.</p></details>\n</section>\n\n<aside class=\"cta\">\n  <h2>Zoek bootstalling</h2>\n  <p>Vergelijk adressen en bel met type en lengte van je boot.</p>\n  <p class=\"cta-links\"><a href=\"/noord-holland/amsterdam/\">Amsterdam</a> · <a href=\"/utrecht/utrecht-gemeente/\">Utrecht</a> · <a href=\"/noord-brabant/eindhoven/\">Eindhoven</a> · <a href=\"/noord-holland/haarlem/\">Haarlem</a> · <a href=\"/zoeken/\">Zoeken</a></p>\n</aside>\n",
+  "date": "2026-10-05",
+  "modified": "2026-10-05",
+  "_status": "published",
+  "redirects_from": [],
+  "hero": {
+    "src": "bootstalling.jpg",
+    "alt": "Bootstalling: wal, water of stallingshal"
+  }
+}

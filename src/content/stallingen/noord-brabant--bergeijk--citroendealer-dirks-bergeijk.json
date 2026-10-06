@@ -1,0 +1,27 @@
+{
+  "id": 130801,
+  "slug": "citroendealer-dirks-bergeijk",
+  "provincie": "noord-brabant",
+  "plaats": "bergeijk",
+  "naam": "Citroëndealer Dirks Bergeijk",
+  "straat": "De Waterlaat 12",
+  "postcode": "5571MZ",
+  "plaatsnaam": "Bergeijk",
+  "telefoon": "0497-550000",
+  "website": "http://www.autobedrijfdirks.nl",
+  "lat": 51.318252,
+  "lon": 5.337369,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/bergeijk/citroendealer-dirks-bergeijk/",
+  "omschrijving": "http://www.autobedrijfdirks.nl\n\n Wat wij doen:\nBij ons is uw CITROËN in vertrouwde handen. Ons doel: uw auto in optimale conditie houden. Ook staan onze medewerkers u met raad en daad terzijde bij de aanschaf van een nieuwe CITROEN. Openingstijden:\n Maandag : 07:30 - 19:00\n Dinsdag : 07:30 - 19:00\n Woensdag : 07:30 - 19:00\n Donderdag : 07:30 - 19:00\n Vrijdag : 07:30 - 19:00\n Zaterdag : 08:00 - 17:00\n Zondag : gesloten Service :\nMobiliteitsgarantie, Vervangend vervoer / leenauto\n\n Toegankelijkheid :\nBegane grond\n\n Type autobedrijf :\nMerkdealer\n\n Diensten :\nAuto accessoires., Vervangend vervoer (Fiets, auto)., APK keuringen., Winterbanden inclusief opslag., Schadetaxatie & reparatie van alle merken auto's., Onderhoud & reparatie van alle merken auto's., Ruitreparatie & Ruitvervanging., Airco service (onderhoud en reparatie).\n\n Merk :\nCitroën\n\n Betalingsmogelijkheden :\nContant, Pin, Bank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nBOVAG",
+  "kenmerken": {
+    "Type": [
+      "fiets"
+    ]
+  },
+  "meta_title": "Citroëndealer Dirks Bergeijk 0497-550000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 130956,
+  "slug": "agro-delta-groep",
+  "provincie": "zuid-holland",
+  "plaats": "zwijndrecht",
+  "naam": "Agro Delta Groep",
+  "straat": "Lindtsedijk 62",
+  "postcode": "3336LE",
+  "plaatsnaam": "Zwijndrecht",
+  "telefoon": "078-6100900",
+  "website": "http://www.agro-delta.nl",
+  "lat": 51.811494,
+  "lon": 4.61887,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/zwijndrecht/agro-delta-groep/",
+  "omschrijving": "Wat wij doen:\nDe Agro Delta Groep omvat 4 werkmaatschappijen op locaties in Zwijndrecht en Dordrecht met ruim 60 jaar ervaring in opslag en overslag van veevoedergrondstoffen, granen, zaden, peulvruchten, rijst en kunstmeststoffen in bulk en stukgoed.\nAanvoer en afvoer vindt plaats via zeeschepen, binnenvaartschepen, vrachtwagens en containers.\n Specialiteiten :\nOpslag en Overslag van, veevoedergrondstoffen, granen, zaden, peulvruchten, rijst, kunstmeststoffen , Aanvoer en afvoer , via zeeschepen, binnenvaart, vrachtwagens en containers., verhuur van, terreinen, loodsen en kantoren, gecertificeerd bedrijf\n\n Service :\nneem eens een kijkje op website voor meer informatie\n\n Aangesloten bij / Certificering :\nGMP+, ISPS, USDA-NOP en SKAL",
+  "meta_title": "Agro Delta Groep 078-6100900",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": 131088,
+  "slug": "kole-autobedrijf",
+  "provincie": "zeeland",
+  "plaats": "kruiningen",
+  "naam": "Kole Autobedrijf",
+  "straat": "Burg Elenbaasstraat 18",
+  "postcode": "4416AP",
+  "plaatsnaam": "Kruiningen",
+  "telefoon": "0113-381387",
+  "website": "http://www.autokole.nl",
+  "lat": 51.449352,
+  "lon": 4.03696,
+  "status": "gesloten",
+  "oude_url": "/zeeland/kruiningen/kole-autobedrijf/",
+  "email": "f.kole@kpnplanet.nl",
+  "omschrijving": "0113-381387\n\n fax : 0113-381461\n\n Openingstijden:\n Maandag : 07:30 - 20:30\n Dinsdag : 07:30 - 20:30\n Woensdag : 07:30 - 20:30\n Donderdag : 07:30 - 20:30\n Vrijdag : 07:30 - 20:30\n Zaterdag : 08:00 - 17:00\n Zondag : gesloten Service :\nTankstation aanwezig\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Remmen repareren / vervangen, Reparatie, Roetmeting, Ruit reparatie / vervangen, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Verkoop en montage van banden / bandenservice, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Betalingsmogelijkheden :\nContant, Pin",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Kole Autobedrijf 0113-381387 f.kole@kpnplanet.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

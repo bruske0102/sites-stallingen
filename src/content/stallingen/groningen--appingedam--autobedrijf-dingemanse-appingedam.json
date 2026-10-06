@@ -1,0 +1,27 @@
+{
+  "id": 131128,
+  "slug": "autobedrijf-dingemanse-appingedam",
+  "provincie": "groningen",
+  "plaats": "appingedam",
+  "naam": "Autobedrijf Dingemanse Appingedam",
+  "straat": "Farmsumerweg 21",
+  "postcode": "9902BK",
+  "plaatsnaam": "Appingedam",
+  "telefoon": "0596-622616",
+  "website": "http://www.autobedrijfdingemanse.nl",
+  "lat": 53.32091,
+  "lon": 6.866626,
+  "status": "gesloten",
+  "oude_url": "/groningen/appingedam/autobedrijf-dingemanse-appingedam/",
+  "omschrijving": "Wat wij doen:\nWelkom op de website van Autobedrijf Dingemanse in Appingedam, voorheen Henk Slagter Autoservice, Mitsubishi, Daihatsu dealer. Tegenwoordig uw AutoCrew garage voor alle merken, met nadruk op betaalbare kwaliteit en service.\n\nBij ons kunt u terecht voor onderhoud, reparatie, in- en verkoop van (alle merken) personenauto's en lichte bedrijfswagens, met het specialisme op japans gebied. Openingstijden:\n Maandag : 08:00 - 17:00 Zaterdag alleen de vestiging Hellum\n Dinsdag : 08:00 - 17:00 Zaterdag alleen de vestiging Hellum\n Woensdag : 08:00 - 17:00 Zaterdag alleen de vestiging Hellum\n Donderdag : 08:00 - 17:00 Zaterdag alleen de vestiging Hellum\n Vrijdag : 08:00 - 17:00 Zaterdag alleen de vestiging Hellum\n Zaterdag : 09:00 - 12:00 Zaterdag alleen de vestiging Hellum\n Zondag : gesloten Service :\nHaal- en brengservice, Mobiliteitsgarantie, Vervangend vervoer / leenauto\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAPK keuring, Inkoop gebruikte auto's, Onderhoud, Storing oplossen, Uitlaat repareren / vervangen, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag, Uitlijnen, Airco service\n\n Merk :\nAlle merken, Daihatsu, Mitsubishi\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nBOVAG, RDW erkend, Nationale Autopas, Bosch AutoCrew",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Autobedrijf Dingemanse Appingedam 0596-622616",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

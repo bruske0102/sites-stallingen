@@ -1,0 +1,29 @@
+{
+  "id": 131185,
+  "slug": "autoservice-knoop-dijkstra",
+  "provincie": "groningen",
+  "plaats": "winsum",
+  "naam": "Autoservice Knoop & Dijkstra",
+  "straat": "Het Aanleg 18",
+  "postcode": "9951SJ",
+  "plaatsnaam": "Winsum gn",
+  "telefoon": "0595-439757",
+  "website": "http://www.autoserviceknoopendijkstra.nl",
+  "lat": 53.335584,
+  "lon": 6.504849,
+  "status": "gesloten",
+  "oude_url": "/groningen/winsum/autoservice-knoop-dijkstra/",
+  "email": "info@autoserviceknoopendijkstra.nl",
+  "omschrijving": "info@autoserviceknoopendijkstra.nl\n\n Wat wij doen:\nAutoservice Knoop en Dijkstra is een jong en dynamisch autobedrijf gevestigd aan Het Aanleg 18B in Winsum.\n\nBij ons kunt u zowel als particulier als zakelijk terecht voor Groot of Klein Onderhoud aan Auto Camper Caravan of Heftruck , Reparatie, Airco, Uitlijnen, Accu's, Uitlaten, Schade, Motor revisie en APK keuringen aan Auto's en Campers van alle merken.\n\nKlantvriendelijkheid, kwaliteit, betaalbaarheid en flexibiliteit staan bij ons centraal.\n\nTot ziens in ons autobedrijf.\n\nKijk ook eens op onze website: www.autoserviceknoopendijkstra.nl ook mobile versie!!!! Openingstijden:\n Maandag : 08:00 - 18:00 Buiten openingstijden berijkbaar op telefoonnummer: 0595-439757\n Dinsdag : 08:00 - 18:00 Buiten openingstijden berijkbaar op telefoonnummer: 0595-439757\n Woensdag : 08:00 - 18:00 Buiten openingstijden berijkbaar op telefoonnummer: 0595-439757\n Donderdag : 08:00 - 18:00 Buiten openingstijden berijkbaar op telefoonnummer: 0595-439757\n Vrijdag : 08:00 - 18:00 Buiten openingstijden berijkbaar op telefoonnummer: 0595-439757\n Zaterdag : 09:00 - 12:00 Buiten openingstijden berijkbaar op telefoonnummer: 0595-439757\n Zondag : gesloten Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto spuiten, Auto-aanpassingen, Autoalarm inbouwen, Carkit inbouwen, Demontage / montage, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, LPG installatie inbouwen, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Reparatie, Restauratie, Revisie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Tuning, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag, Zomer check, Winter check\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin, Bank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nRDW erkend",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Autoservice Knoop & Dijkstra 0595-439757 info@autoserviceknoopendijkstra.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,41 @@
+---
+/**
+ * Google AdSense unit - same publisher as live Blogger site.
+ * Library is deferred in Layout; this queues the unit push.
+ */
+interface Props {
+  slot?: "link" | "auto" | string;
+  class?: string;
+}
+const { slot = "auto", class: className } = Astro.props;
+const client = "ca-pub-1164977516474335";
+const slots: Record<string, { id: string; format: string; fullWidth?: boolean }> = {
+  link: { id: "9271726430", format: "link" },
+  auto: { id: "2985496306", format: "auto", fullWidth: true },
+};
+const cfg = slots[slot] || { id: slot, format: "auto", fullWidth: true };
+---
+<div class:list={["adsense-slot", className]} aria-label="Advertentie">
+  <ins
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client={client}
+    data-ad-slot={cfg.id}
+    data-ad-format={cfg.format}
+    {...(cfg.fullWidth ? { "data-full-width-responsive": "true" } : {})}
+  />
+  <script is:inline>
+    (function () {
+      const push = () => {
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) {}
+      };
+      if (window.adsbygoogle?.loaded || document.getElementById("adsense-lib")) {
+        push();
+        return;
+      }
+      window.addEventListener("load", () => setTimeout(push, 2800), { once: true });
+    })();
+  </script>
+</div>

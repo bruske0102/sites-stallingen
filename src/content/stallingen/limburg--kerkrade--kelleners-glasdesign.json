@@ -1,0 +1,23 @@
+{
+  "id": 130828,
+  "slug": "kelleners-glasdesign",
+  "provincie": "limburg",
+  "plaats": "kerkrade",
+  "naam": "Kelleners Glasdesign",
+  "straat": "Wiebachstraat 8",
+  "postcode": "6466NG",
+  "plaatsnaam": "Kerkrade",
+  "telefoon": "045-5610570",
+  "website": "http://www.kellenersglasdesign.nl",
+  "lat": 50.851877,
+  "lon": 6.009279,
+  "status": "gesloten",
+  "oude_url": "/limburg/kerkrade/kelleners-glasdesign/",
+  "email": "info@kellenersglasdesign.nl",
+  "omschrijving": "Wat wij doen:\nOns bedrijf is gegroeid, de showroom werd te klein, net zoals de opslag en de werkplaats. Na grondig zoeken hebben we een schitterend nieuw pand gevonden alwaar we u, met nog meer plezier en vanzelfsprekend met dezelfde persoonlijke inzet en service, nóg beter van dienst zullen zijn!\nKomt u snel eens kijken in onze showroom. Openingstijden:\n Maandag : 08:30 - 17:00\n Dinsdag : 08:30 - 17:00\n Woensdag : 08:30 - 17:00\n Donderdag : 08:30 - 17:00\n Vrijdag : 08:30 - 17:00\n Zaterdag : 10:00 - 16:00\n Zondag : gesloten Service :\nGratis advies, Gratis offerte\n\n Diensten :\nglasdesign\n\n Soorten glas :\nInterieurglas, Isolatieglas, Spiegelglas, douchecabines, glazen deuren\n\n Betalingsmogelijkheden :\nContant, Bank / Giro overschrijving",
+  "meta_title": "Kelleners Glasdesign 045-5610570 info@kellenersglasdesign.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

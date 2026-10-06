@@ -1,0 +1,23 @@
+{
+  "id": 131075,
+  "slug": "spruijt-transportbedrijf",
+  "provincie": "zeeland",
+  "plaats": "middelburg",
+  "naam": "Spruijt Transportbedrijf",
+  "straat": "Elektraweg 30",
+  "postcode": "4338PK",
+  "plaatsnaam": "Middelburg",
+  "telefoon": "0118-642936",
+  "website": "http://www.spruijttransport.nl",
+  "lat": 51.489357,
+  "lon": 3.649581,
+  "status": "gesloten",
+  "oude_url": "/zeeland/middelburg/spruijt-transportbedrijf/",
+  "email": "patrick@spruijttransport.nl",
+  "omschrijving": "0118-642936\nTevens pallethandel\n\n fax : 0118-640497",
+  "meta_title": "Spruijt Transportbedrijf 0118-642936 patrick@spruijttransport.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

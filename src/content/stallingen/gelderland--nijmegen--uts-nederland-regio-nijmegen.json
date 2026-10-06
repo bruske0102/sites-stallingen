@@ -1,0 +1,22 @@
+{
+  "id": 130834,
+  "slug": "uts-nederland-regio-nijmegen",
+  "provincie": "gelderland",
+  "plaats": "nijmegen",
+  "naam": "UTS Nederland regio Nijmegen",
+  "straat": "Bijsterhuizen 1131",
+  "postcode": "6546AR",
+  "plaatsnaam": "Nijmegen",
+  "telefoon": "024-3775322",
+  "website": "http://www.uts.nl",
+  "lat": 51.828391,
+  "lon": 5.762863,
+  "status": "gesloten",
+  "oude_url": "/gelderland/nijmegen/uts-nederland-regio-nijmegen/",
+  "omschrijving": "Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland regio Nijmegen 024-3775322",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

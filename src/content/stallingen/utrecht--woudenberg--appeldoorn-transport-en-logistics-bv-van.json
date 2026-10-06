@@ -1,0 +1,22 @@
+{
+  "id": 130768,
+  "slug": "appeldoorn-transport-en-logistics-bv-van",
+  "provincie": "utrecht",
+  "plaats": "woudenberg",
+  "naam": "Appeldoorn Transport en Logistics BV Van",
+  "straat": "Parallelweg 6",
+  "postcode": "3931MT",
+  "plaatsnaam": "Woudenberg",
+  "telefoon": "033-2859060",
+  "website": "http://www.vanappeldoorn.nl",
+  "lat": 52.081949,
+  "lon": 5.449876,
+  "status": "gesloten",
+  "oude_url": "/utrecht/woudenberg/appeldoorn-transport-en-logistics-bv-van/",
+  "omschrijving": "Wat wij doen:\nVan Appeldoorn en haar beide dochterondernemingen zijn de aangewezen partners voor:\ntransport en logistiek van handelsgoederen\ntransport en logistiek van handelsgoederen\nopslag en overslag van gevaarlijke stoffen\nopslag en overslag van gevaarlijke stoffen\nwarehouse en value added logistics\nafhandeling van douaneformulieren Specialiteiten :\nTransport, Logistiek, Opslag, Overslag, Gevaarlijke stoffen, Warehouse, Value added logistics, Afhandelen duaneformulieren",
+  "meta_title": "Appeldoorn Transport en Logistics BV Van 033-2859060",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

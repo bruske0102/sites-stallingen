@@ -1,0 +1,27 @@
+{
+  "id": 2170465,
+  "slug": "nancy-hoekstra-muns",
+  "provincie": "utrecht",
+  "plaats": "amersfoort",
+  "naam": "Nancy Hoekstra-Muns",
+  "straat": "Wervershoofstraat 277",
+  "postcode": "3826 EM",
+  "plaatsnaam": "Amersfoort",
+  "telefoon": "0622288918",
+  "lat": 52.2028231,
+  "lon": 5.4218907,
+  "status": "gesloten",
+  "oude_url": "/utrecht/amersfoort/nancy-hoekstra-muns/",
+  "email": "nancymuns@home.nl",
+  "omschrijving": "Zoek stalling voor onze camper 2,40x6mtr",
+  "kenmerken": {
+    "Type": [
+      "caravan"
+    ]
+  },
+  "meta_title": "Nancy Hoekstra-Muns 0622288918 nancymuns@home.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

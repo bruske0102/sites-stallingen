@@ -1,0 +1,21 @@
+{
+  "id": 130907,
+  "slug": "sameg",
+  "provincie": "noord-brabant",
+  "plaats": "gemert",
+  "naam": "Sameg",
+  "straat": "Cortenbachstraat 17",
+  "postcode": "5421KH",
+  "plaatsnaam": "Gemert",
+  "telefoon": "0492-369864",
+  "lat": 51.556806,
+  "lon": 5.686539,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/gemert/sameg/",
+  "omschrijving": "http://www.sameg.nl\n\n Wat wij doen:\nSameg voor uw mobiele badkamer aan huis geheel verzorgd en geleverd bij u voor de deur bel gerust voor meer info. Tijdelijke huisvesting en opslag :\naanhangers, mobiele badkamers, mobiele leefunit, toiletwagens",
+  "meta_title": "Sameg 0492-369864",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

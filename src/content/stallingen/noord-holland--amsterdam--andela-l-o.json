@@ -1,0 +1,20 @@
+{
+  "id": 131262,
+  "slug": "andela-l-o",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Andela L O",
+  "straat": "1e Hugo de Grootstraat 11",
+  "postcode": "1052KK",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "06-52624335",
+  "lat": 52.375784,
+  "lon": 4.874994,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/andela-l-o/",
+  "meta_title": "Andela L O 06-52624335",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

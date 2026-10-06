@@ -1,0 +1,28 @@
+{
+  "id": 130987,
+  "slug": "bloks-auto-en-autoschade",
+  "provincie": "noord-brabant",
+  "plaats": "oss",
+  "naam": "Bloks Auto en Autoschade",
+  "straat": "Rossinistraat 5",
+  "postcode": "5344AK",
+  "plaatsnaam": "Oss",
+  "telefoon": "0412-638320",
+  "website": "http://www.bloksautobedrijf.nl",
+  "lat": 51.758149,
+  "lon": 5.51424,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/oss/bloks-auto-en-autoschade/",
+  "email": "info@bloksautobedrijf.nl",
+  "omschrijving": "Auto onderhoud, APK keuringen, reparatie\nwij zijn gecertificeerd schadehersteller\n\ninfo@bloksautobedrijf.nl\n\n Wat wij doen:\nBloks Auto- en Autoschade Oss is een allround autobedrijf in onderhoud en schadeherstel dat al ruim 30 jaar ervaring heeft in deze branche. Wij hebben in de loop van deze jaren veel vaste klanten aan ons weten te binden, zowel particulieren als bedrijven.\n\nDat is niet verwonderlijk als u weet dat wij alle kennis in huis hebben op het gebied van revisie, onderhoud en herstellen van schade aan auto's. Ongeacht het merk kunt u altijd bij ons terecht.\n\nBloks is gegarandeerd goed en voordelig: dit geldt zeker voor onze onderhoud- en reparatiewerkzaamheden. Tevens is tijdens reparatie de mogelijkheid aanwezig, gebruik te maken van vervangend vervoer. Bloks werkt vakkundig, snel en is flexibel in het maken van afspraken. En dat tegen normale tarieven. Service :\nVervangend vervoer / leenauto\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nSchadeherstelbedrijf\n\n Diensten :\nAPK keuring, Grote beurt, Onderhoud, Onderhoud en reparatie 4x4, Schadeherstel, Schadetaxatie, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Aangesloten bij / Certificering :\nFOCWA, BOVAG, Schadegarant",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Bloks Auto en Autoschade 0412-638320 info@bloksautobedrijf.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,61 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getModel, plaatsPath } from "../../lib/data";
+import { PROVINCIES } from "../../lib/bouw-model.mjs";
+import { listingCount, nlCount } from "../../lib/nl-count";
+
+export function getStaticPaths() {
+  return Object.keys(PROVINCIES).map((provincie) => ({ params: { provincie } }));
+}
+
+const { provincie } = Astro.params;
+const m = getModel();
+const block = m.perProvincie[provincie!] ?? { A: [], B: [] };
+const naam = PROVINCIES[provincie!] ?? provincie;
+const shops = block.A.reduce((t, c) => t + c.listings.length, 0);
+const plaatsLabel = nlCount(block.A.length, "plaats", "plaatsen");
+---
+<Layout
+  title={`Stalling ${naam}: ${listingCount(shops)} in ${plaatsLabel}`}
+  description={`Stalling in ${naam}? Bekijk ${listingCount(shops)} verdeeld over ${plaatsLabel} - adres, telefoon en route.`}
+>
+  <p class="crumbs"><a href="/">Home</a> / {naam}</p>
+  <header class="page-intro">
+    <h1>Stalling {naam}</h1>
+    <p class="lead">
+      {listingCount(shops)} in {plaatsLabel}
+      {block.B.length > 0 && <> · plus {nlCount(block.B.length, "plaats", "plaatsen")} met stallingen dichtbij</>}.
+    </p>
+  </header>
+
+  <section class="section" aria-labelledby="plaatsen">
+    <div class="section-head">
+      <h2 id="plaatsen">Plaatsen met een stalling</h2>
+    </div>
+    <ul class="linklist">
+      {block.A.map((c) => (
+        <li>
+          <a href={plaatsPath(c)}>{c.naam}</a>
+          <span class="count">{c.listings.length}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  {block.B.length > 0 && (
+    <section class="section" aria-labelledby="dichtbij">
+      <div class="section-head">
+        <h2 id="dichtbij">Plaatsen zonder eigen stalling</h2>
+        <p>Dichtstbijzijnde stallingen</p>
+      </div>
+      <ul class="linklist">
+        {block.B.map((c) => (
+          <li>
+            <a href={plaatsPath(c)}>{c.naam}</a>
+            <span class="count">{c.buren.length}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Layout>

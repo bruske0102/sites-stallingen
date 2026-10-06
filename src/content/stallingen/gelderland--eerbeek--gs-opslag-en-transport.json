@@ -1,0 +1,20 @@
+{
+  "id": 131018,
+  "slug": "gs-opslag-en-transport",
+  "provincie": "gelderland",
+  "plaats": "eerbeek",
+  "naam": "GS Opslag en Transport",
+  "straat": "Bijenkorf 73",
+  "postcode": "6961PA",
+  "plaatsnaam": "Eerbeek",
+  "telefoon": "0313-654393",
+  "lat": 52.111285,
+  "lon": 6.047619,
+  "status": "gesloten",
+  "oude_url": "/gelderland/eerbeek/gs-opslag-en-transport/",
+  "meta_title": "GS Opslag en Transport 0313-654393",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

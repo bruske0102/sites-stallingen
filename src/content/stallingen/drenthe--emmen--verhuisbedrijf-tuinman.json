@@ -1,0 +1,23 @@
+{
+  "id": 131034,
+  "slug": "verhuisbedrijf-tuinman",
+  "provincie": "drenthe",
+  "plaats": "emmen",
+  "naam": "Verhuisbedrijf Tuinman",
+  "straat": "Laan van het Kinholt 469",
+  "postcode": "7823GL",
+  "plaatsnaam": "Emmen",
+  "telefoon": "0591-629731",
+  "website": "http://www.tuinmanverhuizingen.nl",
+  "lat": 52.787814,
+  "lon": 6.943788,
+  "status": "gesloten",
+  "oude_url": "/drenthe/emmen/verhuisbedrijf-tuinman/",
+  "email": "tuinmanverhuizingen@gmail.com",
+  "omschrijving": "0591-629731\nErkende verhuizers\n- Nationaal en Internationaal verhuizen\n- Inboedel en Archief opslag\n\n fax : 0591-627755",
+  "meta_title": "Verhuisbedrijf Tuinman 0591-629731 tuinmanverhuizingen@gmail.com",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 131017,
+  "slug": "bomhof-verhuisbedrijfklunder-transport-logistiek",
+  "provincie": "overijssel",
+  "plaats": "deventer",
+  "naam": "Bomhof Verhuisbedrijf/Klunder Transport & Logistiek",
+  "straat": "Harderwijkerstraat 8",
+  "postcode": "7418BA",
+  "plaatsnaam": "Deventer",
+  "telefoon": "0570-623725",
+  "website": "http://www.bomhof-verhuisbedrijf.nl",
+  "lat": 52.246522,
+  "lon": 6.178953,
+  "status": "gesloten",
+  "oude_url": "/overijssel/deventer/bomhof-verhuisbedrijfklunder-transport-logistiek/",
+  "omschrijving": "Vestiging Vaassen/Apeldoorn : 0578-571291",
+  "meta_title": "Bomhof Verhuisbedrijf/Klunder Transport & Logistiek 0570-623725",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

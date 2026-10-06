@@ -1,0 +1,21 @@
+{
+  "id": 131171,
+  "slug": "blonk-bv-h-m-a",
+  "provincie": "noord-brabant",
+  "plaats": "oudemolen",
+  "naam": "Blonk BV H M A",
+  "straat": "Zuidlangeweg 2",
+  "postcode": "4796SB",
+  "plaatsnaam": "Oudemolen nb",
+  "telefoon": "0168-472288",
+  "website": "http://www.blonkagri.com",
+  "lat": 51.675794,
+  "lon": 4.440245,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/oudemolen/blonk-bv-h-m-a/",
+  "meta_title": "Blonk BV H M A 0168-472288",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

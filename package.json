@@ -1,0 +1,29 @@
+{
+  "name": "stallingen",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "sync-assets": "node scripts/sync-assets.mjs",
+    "predev": "npm run sync-assets",
+    "prebuild": "npm run sync-assets",
+    "dev": "astro dev --port 43881 --host 127.0.0.1",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview --port 43881 --host 127.0.0.1",
+    "check": "astro check",
+    "verify:golive": "node scripts/verify-golive.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "astro": "^7.3.5",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource/source-sans-3": "^5.2.5"
+  },
+  "devDependencies": {
+    "pagefind": "1.5",
+    "wrangler": "^4.40.0"
+  }
+}

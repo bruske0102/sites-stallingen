@@ -1,0 +1,21 @@
+{
+  "id": 131191,
+  "slug": "uts-abbink-den-haag",
+  "provincie": "zuid-holland",
+  "plaats": "rijswijk",
+  "naam": "UTS Abbink Den Haag",
+  "straat": "Zuiderweg 70",
+  "postcode": "2289BR",
+  "plaatsnaam": "Rijswijk zh",
+  "telefoon": "070-7101070",
+  "website": "http://www.uts.nl",
+  "lat": 52.028651,
+  "lon": 4.352588,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/rijswijk/uts-abbink-den-haag/",
+  "meta_title": "UTS Abbink Den Haag 070-7101070",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

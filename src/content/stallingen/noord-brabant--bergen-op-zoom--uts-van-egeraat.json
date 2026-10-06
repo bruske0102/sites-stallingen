@@ -1,0 +1,22 @@
+{
+  "id": 130809,
+  "slug": "uts-van-egeraat",
+  "provincie": "noord-brabant",
+  "plaats": "bergen-op-zoom",
+  "naam": "UTS Van Egeraat",
+  "straat": "Blankenweg 11",
+  "postcode": "4612RC",
+  "plaatsnaam": "Bergen op Zoom",
+  "telefoon": "0164-212000",
+  "website": "http://www.uts.nl",
+  "lat": 51.494784,
+  "lon": 4.260475,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/bergen-op-zoom/uts-van-egeraat/",
+  "omschrijving": "Ruim 25 locaties verspreid over heel Nederland.\nAltijd een UTS verhuisbedrijf bij ú in de buurt!\n\n Wat wij doen:\nUTS Van Egeraat is een bedrijf met een verregaande historische achtergrond. Na een uitgebreid onderzoek in de gemeentearchieven van Bergen op Zoom is gebleken dat de oorsprong van de verhuisonderneming teruggaat tot december 1783. Begonnen als molenkardrijver te Bergen op Zoom, heeft de onderneming Van Egeraat zich in de loop der jaren ontwikkeld tot een professioneel verhuisbedrijf waarbij kwaliteit hoog in het vaandel staat. Inmiddels is UTS Van Egeraat uitgegroeid tot een energiek verhuisbedrijf met een brede dienstverlening.\nSpecialist in zorgverhuizingen en opslag:\nBuiten de particuliere en zakelijke verhuizingen is het bedrijf gespecialiseerd in verhuizingen in de zorgsector en beschikt over inboedel- en archiefopslag. Maar een internationale verhuizing is voor UTS Van Egeraat natuurlijk ook geen enkel probleem.\nOnderdeel van UTS Nederland:\nUTS Van Egeraat maakt deel uit van UTS, het toonaangevend samenwerkingsverband van Nederlandse verhuisbedrijven met in totaal 25 locaties verdeeld over Nederland. Gezamenlijk bieden wij u een Unieke Totaal Service. Alle UTS verhuisbedrijven zijn Erkende Verhuizers. Daarnaast zijn alle UTS verhuisbedrijven ISO 9001 gecertificeerd en in het bezit van VCA.\nUTS Van Egeraat heeft vestigingen in Bergen op Zoom, Roosendaal, Etten-Leur en Goes.",
+  "meta_title": "UTS Van Egeraat 0164-212000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

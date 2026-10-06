@@ -1,0 +1,20 @@
+{
+  "id": 130949,
+  "slug": "friesland-verhuizingen",
+  "provincie": "friesland",
+  "plaats": "leeuwarden",
+  "naam": "Friesland Verhuizingen",
+  "straat": "Archimedesweg 12",
+  "postcode": "8912AK",
+  "plaatsnaam": "Leeuwarden",
+  "telefoon": "058-2131949",
+  "lat": 53.19416,
+  "lon": 5.760232,
+  "status": "gesloten",
+  "oude_url": "/friesland/leeuwarden/friesland-verhuizingen/",
+  "meta_title": "Friesland Verhuizingen 058-2131949",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

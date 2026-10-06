@@ -1,0 +1,20 @@
+{
+  "id": 131209,
+  "slug": "emarc",
+  "provincie": "noord-holland",
+  "plaats": "aalsmeer",
+  "naam": "Emarc",
+  "straat": "Aalsmeerderweg 249",
+  "postcode": "1432CM",
+  "plaatsnaam": "Aalsmeer",
+  "telefoon": "0297-321305",
+  "lat": 52.279271,
+  "lon": 4.793856,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/aalsmeer/emarc/",
+  "meta_title": "Emarc 0297-321305",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

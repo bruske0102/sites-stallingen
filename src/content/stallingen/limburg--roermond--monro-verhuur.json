@@ -1,0 +1,21 @@
+{
+  "id": 130620,
+  "slug": "monro-verhuur",
+  "provincie": "limburg",
+  "plaats": "roermond",
+  "naam": "Monro Verhuur",
+  "straat": "Jules Breukersstraat 9",
+  "postcode": "6041BP",
+  "plaatsnaam": "Roermond",
+  "telefoon": "0475-320847",
+  "lat": 51.20917,
+  "lon": 6.002959,
+  "status": "gesloten",
+  "oude_url": "/limburg/roermond/monro-verhuur/",
+  "omschrijving": "Wat wij doen:\nMonro is actief sinds 1994 en uitgegroeid van verhuur van springkussens tot een allround partyservice bedrijf. Wij verzorgen evenementen, bedrijfsopeningen, verhuur van tenten en attracties en beschikken over een eigen logistieke afdeling. Ook zijn wij actief in de Autosport. Bovendien vormt de particuliere markt een belangrijke doelgroep.\n\n Openingstijden:\n Maandag : 09:00 - 17:30\n Dinsdag : 09:00 - 17:30\n Woensdag : 09:00 - 17:30\n Donderdag : 09:00 - 17:30\n Vrijdag : 09:00 - 17:30\n Zaterdag : 09:00 - 12:00\n Zondag : gesloten Specialiteiten :\nOpblaasbare attracties, Draai- en zweefmolens, Partymeubilair, Taptechniek, Beurzen/presentaties, Tentenverhuur, Porselein, bestek, glaswerk, Mini Opslag ,Opslagcontainers, Bedrijfsopeningen, Erkend Leerwerkbedrijf\n\n Aangesloten bij / Certificering :\nErkend leerwerkbedrijf",
+  "meta_title": "Monro Verhuur 0475-320847",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

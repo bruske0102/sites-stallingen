@@ -1,0 +1,23 @@
+{
+  "id": 130846,
+  "slug": "schrijnemaekers-tankstation-oliehandel-en-gassen-bv-h",
+  "provincie": "limburg",
+  "plaats": "gronsveld",
+  "naam": "Schrijnemaekers Tankstation Oliehandel en Gassen BV H",
+  "straat": "Stationsstraat 75",
+  "postcode": "6247BK",
+  "plaatsnaam": "Gronsveld",
+  "telefoon": "043-4083625",
+  "website": "http://www.tankstation-schrijnemaekers.nl",
+  "lat": 50.810712,
+  "lon": 5.718383,
+  "status": "gesloten",
+  "oude_url": "/limburg/gronsveld/schrijnemaekers-tankstation-oliehandel-en-gassen-bv-h/",
+  "email": "info@tankstation-schrijnemaekers.nl",
+  "omschrijving": "Zowel zakelijk als particulier\ntankstation\n\n Wat wij doen:\nU vindt ons niet alleen in Gronsveld, tankstation H. Schrijnemaekers B.V. vindt u zelfs op de digitale snelweg.\nTanken is ook mogelijk buiten de openingsuren met de \"SCHRIJNEMAEKERS TANKPAS\"\n\nTankstation H. Schrijnemaekers B.V. is tevens uw leverancier van alle soorten brandstoffen, recreatie gas en smeermiddelen. We verkopen dus meer dan benzine en diesel alleen.\n Openingstijden:\n Maandag : 07:00 - 19:00\n Dinsdag : 07:00 - 19:00\n Woensdag : 07:00 - 19:00\n Donderdag : 07:00 - 19:00\n Vrijdag : 07:00 - 19:00\n Zaterdag : 08:00 - 17:00\n Zondag : gesloten Brandstoffen :\nBenzine, Diesel, Gas\n\n Faciliteiten :\nBandenpomp, Benzinepomp met pin\n\n Producten :\nOlie, accessoires, brandstof, chemisch, gassen, oliën, opslag",
+  "meta_title": "Schrijnemaekers Tankstation Oliehandel en Gassen BV H 043-4083625 info@tankstation-schrijnemaekers.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

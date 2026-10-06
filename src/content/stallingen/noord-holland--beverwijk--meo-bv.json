@@ -1,0 +1,21 @@
+{
+  "id": 131352,
+  "slug": "meo-bv",
+  "provincie": "noord-holland",
+  "plaats": "beverwijk",
+  "naam": "MEO BV",
+  "straat": "Noorderkade 10",
+  "postcode": "1948NR",
+  "plaatsnaam": "Beverwijk",
+  "telefoon": "0251-291999",
+  "lat": 52.476282,
+  "lon": 4.662686,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/beverwijk/meo-bv/",
+  "omschrijving": "Wat wij doen:\nVSA vertegenwoordigt een groot aantal toonaangevende fabrikanten van verlichting,opbergsystemen, bedrijfs en bedrijfswageninrichting, metaal bewerkingsmachines, elektrisch en handgereedschap op de Nederlandse markt. De overeenkomst tussen deze fabrikanten is, dat het stuk voor stuk leveranciers zijn van absolute topproducten. Specialiteiten :\ngroothandel, verlichting, , opbergsystemen, bedrijfs en bedrijfswageninrichting, metaal bewerkingsmachines, elektrisch en handgereedschap",
+  "meta_title": "MEO BV 0251-291999",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

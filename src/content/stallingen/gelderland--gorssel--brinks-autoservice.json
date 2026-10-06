@@ -1,0 +1,26 @@
+{
+  "id": 131021,
+  "slug": "brinks-autoservice",
+  "provincie": "gelderland",
+  "plaats": "gorssel",
+  "naam": "Brinks Autoservice",
+  "straat": "Hoofdstraat 65",
+  "postcode": "7213CS",
+  "plaatsnaam": "Gorssel",
+  "telefoon": "0575-491277",
+  "lat": 52.202276,
+  "lon": 6.197184,
+  "status": "gesloten",
+  "oude_url": "/gelderland/gorssel/brinks-autoservice/",
+  "omschrijving": "Wat wij doen:\nOns autobedrijf is gevestigd in Gorssel.\nU kunt bij ons terecht voor alle merken auto's, zowel nieuw als gebruikt\nWij zijn ook gespecialiseerd in Volvo klassieker en modern onderhoud.\nIn onze werkplaats wordt er met de modernste apparatuur aan uw auto gewerkt.\nWij begeleiden met onze ervaring en kennis een Volvo Amazon rallyauto\nVolg ons op Facebook : Brink Historic Motorsport Openingstijden:\n Maandag : 08:00 - 17:00 Tussen 12:30 uur en 13:30 gesloten\n Dinsdag : 08:00 - 17:00 Tussen 12:30 uur en 13:30 gesloten\n Woensdag : 08:00 - 17:00 Tussen 12:30 uur en 13:30 gesloten\n Donderdag : 08:00 - 17:00 Tussen 12:30 uur en 13:30 gesloten\n Vrijdag : 08:00 - 17:00 Tussen 12:30 uur en 13:30 gesloten\n Zaterdag : 10:00 - 15:30 Tussen 12:30 uur en 13:30 gesloten, werkplaats alleen voor noodreparatie\n Zondag : gesloten Service :\nGratis offerte, Haal- en brengservice, Nieuwe of gebruikte onderdelen, Vervangend vervoer / leenauto, Wasstraat aanwezig\n\n Toegankelijkheid :\nBegane grond, Toegankelijk voor rolstoelen\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, APK keuring, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Reparatie, Restauratie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin, Bank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nBOVAG, BOVAG",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Brinks Autoservice 0575-491277",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

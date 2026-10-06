@@ -1,0 +1,23 @@
+{
+  "id": 131345,
+  "slug": "botmans-koel-en-vrieshuis-bv",
+  "provincie": "noord-holland",
+  "plaats": "heerhugowaard",
+  "naam": "Botman's Koel- en Vrieshuis BV",
+  "straat": "Nijverheidsstraat 10",
+  "postcode": "1704RA",
+  "plaatsnaam": "Heerhugowaard",
+  "telefoon": "072-5712478",
+  "website": "http://www.vrieshuisbotman.com",
+  "lat": 52.672943,
+  "lon": 4.8269,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/heerhugowaard/botmans-koel-en-vrieshuis-bv/",
+  "email": "vrieshuis-botman@planet.nl",
+  "omschrijving": "072-5712478\n\n fax : 072-5744734\n\nhttp://www.vrieshuisbotman.com\n\n Wat wij doen:\nBotman's Koel- en Vrieshuis BV is opgericht in 1963 door Dhr. J.A. Botman. Het Koel- en Vrieshuis bestond destijds uit drie koelcellen en drie vriescellen met een totale inhoud van 2.500 m3.\n\nSinds die tijd zijn er regelmatig koel- en vriescellen bij gebouwd. De nieuwste vriescel heeft een inhoud van 7.000 m3.\n\nOm aan de huidige kwaliteitseisen te kunnen blijven voldoen zijn alle oudere vriescellen geheel voorzien van nieuwe isolatiepanelen.\n Specialiteiten :\nOpslag van Koel- en Diepvriesprodukten, Laden/lossen van zee-containers , Voorraadbeheer, Aanmaken van Cmr documenten, Ompakken, Order picken",
+  "meta_title": "Botman's Koel- en Vrieshuis BV 072-5712478 vrieshuis-botman@planet.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

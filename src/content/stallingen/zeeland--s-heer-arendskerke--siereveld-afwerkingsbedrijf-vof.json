@@ -1,0 +1,23 @@
+{
+  "id": 130808,
+  "slug": "siereveld-afwerkingsbedrijf-vof",
+  "provincie": "zeeland",
+  "plaats": "s-heer-arendskerke",
+  "naam": "Siereveld Afwerkingsbedrijf VOF",
+  "straat": "Meerkoetweg 11",
+  "postcode": "4458NH",
+  "plaatsnaam": "'s-Heer Arendskerke",
+  "telefoon": "0113-670400",
+  "website": "http://www.siereveld.eu",
+  "lat": 51.514431,
+  "lon": 3.75617,
+  "status": "gesloten",
+  "oude_url": "/zeeland/s-heer-arendskerke/siereveld-afwerkingsbedrijf-vof/",
+  "email": "info@siereveld.eu",
+  "omschrijving": "0113-670400\n\n mobiele telefoon : 06-22480857\n\n fax : 0113-670420\nVoor spackspuiten & stukadoren in Zeeland\n\nhttp://www.siereveld.eu\n\n Wat wij doen:\nSinds 2001 werken we vanuit onze woning in ’s-Heer Arendskerke, waar we voldoende ruimte hebben voor opslag en werkzaamheden.\n\nIndien u geen idee hebt wat spackspuitwerk en sierpleister inhoud mag u ons altijd bellen om onze woning te komen bezichtigen. Onze afwerking binnenshuis is divers zodat u kunt zien hoe het resultaat bij u kan worden. Service :\nofferte op maat\n\n Diensten :\nbrander briljant spuitwerk, brander crystal spuitwerk, brander sierpleister, sigmulto, stukadoren",
+  "meta_title": "Siereveld Afwerkingsbedrijf VOF 0113-670400 info@siereveld.eu",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

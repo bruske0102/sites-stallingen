@@ -1,0 +1,21 @@
+{
+  "id": 130941,
+  "slug": "graansloot-kampen-bv",
+  "provincie": "overijssel",
+  "plaats": "kampen",
+  "naam": "Graansloot Kampen BV",
+  "straat": "Haatlandhaven 13",
+  "postcode": "8263AS",
+  "plaatsnaam": "Kampen",
+  "telefoon": "038-3321616",
+  "website": "http://www.graansloot.nl",
+  "lat": 52.573593,
+  "lon": 5.875101,
+  "status": "gesloten",
+  "oude_url": "/overijssel/kampen/graansloot-kampen-bv/",
+  "meta_title": "Graansloot Kampen BV 038-3321616",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

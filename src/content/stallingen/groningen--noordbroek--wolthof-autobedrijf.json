@@ -1,0 +1,30 @@
+{
+  "id": 131153,
+  "slug": "wolthof-autobedrijf",
+  "provincie": "groningen",
+  "plaats": "noordbroek",
+  "naam": "Wolthof Autobedrijf",
+  "straat": "Scheemderstraat 6",
+  "postcode": "9635AG",
+  "plaatsnaam": "Noordbroek",
+  "telefoon": "0598-451250",
+  "website": "http://www.autobedrijfwolthof.nl",
+  "lat": 53.192562,
+  "lon": 6.875282,
+  "status": "gesloten",
+  "oude_url": "/groningen/noordbroek/wolthof-autobedrijf/",
+  "email": "autobedrijfwolthof@hetnet.nl",
+  "omschrijving": "Wat wij doen:\nWij zijn een all-round autobedrijf. Verkopen alle merken auto's. Gespecialiseerd in Fiat.\n\nWij zijn tevens Merkdealer van Aixam brommobielen.\n\nEr is een zelfbediening tank station aanwezig , geopend van 6.30 tot 22.30 uur Service :\nTankstation aanwezig, Vervangend vervoer / leenauto, Wasstraat aanwezig\n\n Doelgroep :\nBedrijven\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto spuiten, Auto-aanpassingen, Autoalarm inbouwen, Carkit inbouwen, Demontage / montage, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Onderhoud en reparatie motorfiets, Remmen repareren / vervangen, Reparatie, Restauratie, Revisie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Tuning, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nAlle merken, Fiat\n\n Aangesloten bij / Certificering :\nBOVAG",
+  "kenmerken": {
+    "Type": [
+      "fiets",
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Wolthof Autobedrijf 0598-451250 autobedrijfwolthof@hetnet.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

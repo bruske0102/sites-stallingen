@@ -1,0 +1,21 @@
+{
+  "id": 130695,
+  "slug": "laadgoed-bv",
+  "provincie": "limburg",
+  "plaats": "venlo",
+  "naam": "Laadgoed BV",
+  "straat": "Venrayseweg 126",
+  "postcode": "5928RH",
+  "plaatsnaam": "Venlo",
+  "telefoon": "077-3897210",
+  "website": "http://www.frankort.nl",
+  "lat": 51.407749,
+  "lon": 6.134477,
+  "status": "gesloten",
+  "oude_url": "/limburg/venlo/laadgoed-bv/",
+  "meta_title": "Laadgoed BV 077-3897210",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

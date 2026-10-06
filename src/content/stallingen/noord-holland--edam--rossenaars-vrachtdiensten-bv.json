@@ -1,0 +1,22 @@
+{
+  "id": 131337,
+  "slug": "rossenaars-vrachtdiensten-bv",
+  "provincie": "noord-holland",
+  "plaats": "edam",
+  "naam": "Rossenaar's Vrachtdiensten BV",
+  "straat": "Beitelstraat 27",
+  "postcode": "1135KX",
+  "plaatsnaam": "Edam",
+  "telefoon": "0299-372024",
+  "website": "http://www.rossenaar-edam.nl",
+  "lat": 52.518002,
+  "lon": 5.037999,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/edam/rossenaars-vrachtdiensten-bv/",
+  "omschrijving": "0299-372024\n\n fax : 0299-373033\nTransport, Opslag, Distributie\n\n Wat wij doen:\nRossenaar Transport is een echt Edams familiebedrijf. Maar de ritten gaan ver buiten de gemeentegrenzen. In Nederland, België, Luxemburg, Frankrijk en Duitsland kunt u onze blauw-rode wagens tegenkomen.\n\nHet transportbedrijf werd opgericht in 1931 en floreert nog steeds. Hoe dat komt? Diensten :\nLogistiek\n\n Soorten transport :\nWegtransport\n\n Transportmiddelen :\nVrachtwagen",
+  "meta_title": "Rossenaar's Vrachtdiensten BV 0299-372024",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

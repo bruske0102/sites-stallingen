@@ -1,0 +1,22 @@
+{
+  "id": 131081,
+  "slug": "transportbedrijf-lt",
+  "provincie": "zeeland",
+  "plaats": "serooskerke-walcheren",
+  "naam": "Transportbedrijf LT",
+  "straat": "de Padweie 23",
+  "postcode": "4353RW",
+  "plaatsnaam": "Serooskerke Walcheren",
+  "telefoon": "0118-592470",
+  "lat": 51.54327,
+  "lon": 3.591763,
+  "status": "gesloten",
+  "oude_url": "/zeeland/serooskerke-walcheren/transportbedrijf-lt/",
+  "email": "ltrans@zeelandnet.nl",
+  "omschrijving": "mobiele telefoon : 06-53215956",
+  "meta_title": "Transportbedrijf LT 0118-592470 ltrans@zeelandnet.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

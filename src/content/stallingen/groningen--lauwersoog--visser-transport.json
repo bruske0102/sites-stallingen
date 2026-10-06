@@ -1,0 +1,22 @@
+{
+  "id": 130728,
+  "slug": "visser-transport",
+  "provincie": "groningen",
+  "plaats": "lauwersoog",
+  "naam": "Visser Transport",
+  "straat": "Kustweg 12",
+  "postcode": "9976VP",
+  "plaatsnaam": "Lauwersoog",
+  "telefoon": "0519-349999",
+  "website": "http://www.visserlauwersoog.nl",
+  "lat": 53.40736,
+  "lon": 6.197878,
+  "status": "gesloten",
+  "oude_url": "/groningen/lauwersoog/visser-transport/",
+  "omschrijving": "Wat wij doen:\nvisser transport bv\n\nvervoer van en naar de waddeneilanden\n(inter)nationaal transport\naan en verkoop van visresten, vismeel en visolie Openingstijden:\n Maandag : 08:30 - 17:00\n Dinsdag : 08:30 - 17:00\n Woensdag : 08:30 - 17:00\n Donderdag : 08:30 - 17:00\n Vrijdag : 08:30 - 17:00\n Zaterdag : gesloten\n Zondag : gesloten Doelgroep :\nBedrijven, Particulieren\n\n Werkgebied :\nRegionaal, Nationaal, Internationaal\n\n Diensten :\nAdvies, Koeriersdienst / pakketdienst, Logistiek, Opslag en overslag, Track en trace, Transportplanning\n\n Soorten transport :\nVriestransport\n\n Aangesloten bij / Certificering :\nGMP , HACCP, MSC",
+  "meta_title": "Visser Transport 0519-349999",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

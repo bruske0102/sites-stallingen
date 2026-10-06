@@ -1,0 +1,44 @@
+{
+  "slug": "binnen-of-buitenstalling",
+  "title": "Binnen- of buitenstalling voor je caravan?",
+  "meta_title": "Binnenstalling of buitenstalling caravan: voor- en nadelen",
+  "meta_description": "Binnenstalling vs buitenstalling voor caravan of camper: weer, kosten, diefstalrisico en wanneer buiten prima volstaat.",
+  "author": "Redactie Stallingen.xyz",
+  "excerpt": "Duurder binnen, goedkoper buiten: wat past bij jouw caravan, regio en seizoen?",
+  "primary_keyword": "binnenstalling caravan",
+  "secondary_keywords": [
+    "buitenstalling caravan",
+    "caravanstalling",
+    "camperstalling"
+  ],
+  "semrush": {
+    "database": "nl",
+    "volume": 40,
+    "kd": 18,
+    "support": "buitenstalling caravan 30/13; caravanstalling 3600/25",
+    "note": "phrase_these 2026-10-05; head term caravanstalling supports"
+  },
+  "faq": [
+    {
+      "q": "Is buitenstalling onveilig?",
+      "a": "Niet per se. Goede hekwerken, verlichting en een harde ondergrond maken veel goed. Binnen wint op weersbescherming."
+    },
+    {
+      "q": "Condens in de binnenhal?",
+      "a": "Komt voor. Vraag naar ventilatiebeleid en zet ventilatieroosters volgens advies open."
+    },
+    {
+      "q": "Kan ik later upgraden van buiten naar binnen?",
+      "a": "Soms bij beschikbaarheid. Zet je op een wachtlijst als binnen vol is."
+    }
+  ],
+  "content_html": "<p>Twijfel je tussen <strong>binnenstalling</strong> en <strong>buitenstalling</strong>? Weer, budget en type voertuig bepalen de keuze.</p>\n\n<h2>Binnen: wanneer het loont</h2>\n<ul>\n<li>Langere stilstand in natte of zonnige regio's</li>\n<li>Durdere caravan/camper met kwetsbare kitnaden</li>\n<li>Minder poetsen in het voorjaar</li>\n</ul>\n\n<h2>Buiten: wanneer het kan</h2>\n<ul>\n<li>Goede ademende hoes / regelmatige checks</li>\n<li>Harde vlakke ondergrond met afwatering</li>\n<li>Korter seizoen zonder stalling</li>\n</ul>\n\n<section class=\"faq\"><h2>Veelgestelde vragen</h2>\n<details><summary>Is buitenstalling onveilig?</summary><p>Niet per se. Goede hekwerken, verlichting en een harde ondergrond maken veel goed. Binnen wint op weersbescherming.</p></details>\n<details><summary>Condens in de binnenhal?</summary><p>Komt voor. Vraag naar ventilatiebeleid en zet ventilatieroosters volgens advies open.</p></details>\n<details><summary>Kan ik later upgraden van buiten naar binnen?</summary><p>Soms bij beschikbaarheid. Zet je op een wachtlijst als binnen vol is.</p></details>\n</section>\n\n<aside class=\"cta\">\n  <h2>Vergelijk stallingstypes</h2>\n  <p>Bel stallingen en vraag expliciet naar binnen- én buitenopties.</p>\n  <p class=\"cta-links\"><a href=\"/noord-holland/amsterdam/\">Amsterdam</a> · <a href=\"/utrecht/utrecht-gemeente/\">Utrecht</a> · <a href=\"/noord-brabant/eindhoven/\">Eindhoven</a> · <a href=\"/noord-holland/haarlem/\">Haarlem</a> · <a href=\"/zoeken/\">Zoeken</a></p>\n</aside>\n",
+  "date": "2026-10-05",
+  "modified": "2026-10-05",
+  "_status": "published",
+  "redirects_from": [],
+  "hero": {
+    "src": "binnen-of-buitenstalling.jpg",
+    "alt": "Binnen- of buitenstalling voor je caravan?"
+  }
+}

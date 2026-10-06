@@ -1,0 +1,27 @@
+{
+  "id": 2153065,
+  "slug": "mts-m-heida-en-g-heida-de-bie",
+  "provincie": "friesland",
+  "plaats": "fochteloo",
+  "naam": "Mts M. Heida en G. Heida-de Bie",
+  "straat": "Zuideinde 58",
+  "postcode": "8428 HG",
+  "plaatsnaam": "Fochteloo",
+  "telefoon": "0622454681",
+  "lat": 52.975241,
+  "lon": 6.3425055,
+  "status": "gesloten",
+  "oude_url": "/friesland/fochteloo/mts-m-heida-en-g-heida-de-bie/",
+  "email": "mtsheidadebie@hotmail.com",
+  "omschrijving": "We gaan op 1 oktober 2020 open.\r\nWe hebben stalling voor caravans en vouwwagens",
+  "kenmerken": {
+    "Type": [
+      "caravan"
+    ]
+  },
+  "meta_title": "Mts M. Heida en G. Heida-de Bie 0622454681 mtsheidadebie@hotmail.com",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

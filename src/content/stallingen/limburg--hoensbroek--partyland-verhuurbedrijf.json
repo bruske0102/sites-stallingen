@@ -1,0 +1,22 @@
+{
+  "id": 130911,
+  "slug": "partyland-verhuurbedrijf",
+  "provincie": "limburg",
+  "plaats": "hoensbroek",
+  "naam": "Partyland Verhuurbedrijf",
+  "straat": "Heerlerweg 156",
+  "postcode": "6433HX",
+  "plaatsnaam": "Hoensbroek",
+  "telefoon": "045-5728687",
+  "website": "http://www.partylandverhuur.nl",
+  "lat": 50.908562,
+  "lon": 5.936566,
+  "status": "gesloten",
+  "oude_url": "/limburg/hoensbroek/partyland-verhuurbedrijf/",
+  "omschrijving": "Toegankelijkheid :\nBegane grond\n\n Doelgroep :\nBedrijven, Particulieren\n\n Feest, evenement en beurs :\nBiertap, Decoratie, Feestartikelen, Keukenapparatuur, Linnen, Partytent, Podium, Tent\n\n Elektriciteit en klimaatbeheersing :\nVerwarming\n\n Witgoed :\nWasmachine\n\n Bouw, tuin, vervoer en gereedschap :\nTransportwagen\n\n Licht, beeld en geluid :\nVerlichting\n\n Kantoor en winkel :\nKassa\n\n Tijdelijke huisvesting en opslag :\nContainer, Unit",
+  "meta_title": "Partyland Verhuurbedrijf 045-5728687",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

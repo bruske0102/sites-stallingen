@@ -1,0 +1,20 @@
+{
+  "id": 130910,
+  "slug": "harreman-verhuizingen",
+  "provincie": "limburg",
+  "plaats": "hoensbroek",
+  "naam": "Harreman Verhuizingen",
+  "straat": "De Koumen 28",
+  "postcode": "6433KD",
+  "plaatsnaam": "Hoensbroek",
+  "telefoon": "045-5233333",
+  "lat": 50.908229,
+  "lon": 5.942206,
+  "status": "gesloten",
+  "oude_url": "/limburg/hoensbroek/harreman-verhuizingen/",
+  "meta_title": "Harreman Verhuizingen 045-5233333",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

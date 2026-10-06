@@ -1,0 +1,70 @@
+---
+interface Props {
+  s: {
+    naam: string;
+    slug?: string;
+    provincie?: string;
+    plaats?: string;
+    straat?: string | null;
+    postcode?: string | null;
+    plaatsnaam?: string | null;
+    telefoon?: string | null;
+    lat?: number;
+    lon?: number;
+    kenmerken?: Record<string, string[]>;
+  };
+  km?: number;
+  toonPlaats?: boolean;
+  /** When false, render name + address only (no Bel/Route/Deel). */
+  actions?: boolean;
+}
+import { mapsUrl, telHref } from "../lib/model";
+import { shopPath, instellingen } from "../lib/data";
+
+const { s, km, toonPlaats = false, actions = true } = Astro.props;
+const tags = Object.values(s.kenmerken ?? {}).flat().slice(0, 4);
+const href =
+  s.slug && s.provincie && s.plaats
+    ? shopPath({ provincie: s.provincie, plaats: s.plaats, slug: s.slug })
+    : "#";
+const maps = actions ? mapsUrl(s) : null;
+const origin = instellingen.site.url;
+const shareUrl =
+  actions && href !== "#"
+    ? `https://wa.me/?text=${encodeURIComponent(`${s.naam} - ${href.startsWith("http") ? href : `${origin}${href}`}`)}`
+    : null;
+---
+<article class="shop">
+  <h3><a href={href}>{s.naam}</a></h3>
+  <p class="meta">
+    {toonPlaats && s.plaatsnaam && <span>{s.plaatsnaam}</span>}
+    {km != null && <span>{km < 10 ? km.toFixed(1) : Math.round(km)} km</span>}
+    {(s.straat || s.postcode) && (
+      <span>{[s.straat, s.postcode, !toonPlaats ? s.plaatsnaam : null].filter(Boolean).join(" · ")}</span>
+    )}
+  </p>
+  {actions && (
+    <div class="shop-actions">
+      {s.telefoon && (
+        <a class="shop-btn shop-btn--primary" href={`tel:${telHref(s.telefoon)}`} aria-label={`Bel ${s.naam}`}>
+          Bel
+        </a>
+      )}
+      {maps && (
+        <a class="shop-btn shop-btn--primary" href={maps} rel="nofollow noopener" target="_blank" aria-label={`Route naar ${s.naam}`}>
+          Route
+        </a>
+      )}
+      {shareUrl && (
+        <a class="shop-btn shop-btn--wa" href={shareUrl} rel="nofollow noopener" target="_blank" aria-label={`Deel ${s.naam} via WhatsApp`}>
+          Deel
+        </a>
+      )}
+    </div>
+  )}
+  {actions && tags.length > 0 && (
+    <div class="tags">
+      {tags.map((t) => <span class="tag">{t}</span>)}
+    </div>
+  )}
+</article>

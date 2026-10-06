@@ -1,0 +1,20 @@
+{
+  "id": 130605,
+  "slug": "winkel-ooms-bv-te",
+  "provincie": "limburg",
+  "plaats": "maastricht",
+  "naam": "Winkel & Ooms BV Te",
+  "straat": "Ankerkade 31",
+  "postcode": "6222NL",
+  "plaatsnaam": "Maastricht",
+  "telefoon": "043-3529898",
+  "lat": 50.885116,
+  "lon": 5.711129,
+  "status": "gesloten",
+  "oude_url": "/limburg/maastricht/winkel-ooms-bv-te/",
+  "meta_title": "Winkel & Ooms BV Te 043-3529898",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

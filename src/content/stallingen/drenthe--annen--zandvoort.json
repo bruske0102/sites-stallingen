@@ -1,0 +1,21 @@
+{
+  "id": 130588,
+  "slug": "zandvoort",
+  "provincie": "drenthe",
+  "plaats": "annen",
+  "naam": "Zandvoort",
+  "straat": "Schoolstraat 5",
+  "postcode": "9468BR",
+  "plaatsnaam": "Annen",
+  "telefoon": "0592-271386",
+  "website": "http://opslagruimteannen.nl",
+  "lat": 53.05551,
+  "lon": 6.725208,
+  "status": "gesloten",
+  "oude_url": "/drenthe/annen/zandvoort/",
+  "meta_title": "Zandvoort 0592-271386",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

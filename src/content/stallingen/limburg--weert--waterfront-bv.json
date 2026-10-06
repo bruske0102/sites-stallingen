@@ -1,0 +1,20 @@
+{
+  "id": 130705,
+  "slug": "waterfront-bv",
+  "provincie": "limburg",
+  "plaats": "weert",
+  "naam": "Waterfront BV",
+  "straat": "Copernicusstraat 10",
+  "postcode": "6003DE",
+  "plaatsnaam": "Weert",
+  "telefoon": "0495-459777",
+  "lat": 51.272679,
+  "lon": 5.735708,
+  "status": "gesloten",
+  "oude_url": "/limburg/weert/waterfront-bv/",
+  "meta_title": "Waterfront BV 0495-459777",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

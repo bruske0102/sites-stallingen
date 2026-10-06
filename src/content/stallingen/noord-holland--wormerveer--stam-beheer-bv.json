@@ -1,0 +1,21 @@
+{
+  "id": 131050,
+  "slug": "stam-beheer-bv",
+  "provincie": "noord-holland",
+  "plaats": "wormerveer",
+  "naam": "Stam Beheer BV",
+  "straat": "Esdoornlaan 65",
+  "postcode": "1521EC",
+  "plaatsnaam": "Wormerveer",
+  "telefoon": "075-6225588",
+  "lat": 52.492122,
+  "lon": 4.781974,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/wormerveer/stam-beheer-bv/",
+  "omschrijving": "Verhuur bedrijfshallen v opslag/handel\n\n mobiele telefoon : 06-20420075\n\n Wat wij doen:\nStam Beheer BV verhuurt bedrijfshallen (200m2) op de Veerdijk 27a t/m g en pand 28a in Wormer (1531 MS).\n Doelgroep :\nBedrijven",
+  "meta_title": "Stam Beheer BV 075-6225588",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

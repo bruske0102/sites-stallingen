@@ -1,0 +1,20 @@
+{
+  "id": 130732,
+  "slug": "perfect-logistics",
+  "provincie": "limburg",
+  "plaats": "brunssum",
+  "naam": "Perfect Logistics",
+  "straat": "Landsheerstraat 11",
+  "postcode": "6441EP",
+  "plaatsnaam": "Brunssum",
+  "telefoon": "045-5680916",
+  "lat": 50.950556,
+  "lon": 5.9647,
+  "status": "gesloten",
+  "oude_url": "/limburg/brunssum/perfect-logistics/",
+  "meta_title": "Perfect Logistics 045-5680916",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

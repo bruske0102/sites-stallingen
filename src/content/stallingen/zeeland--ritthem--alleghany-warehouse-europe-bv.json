@@ -1,0 +1,23 @@
+{
+  "id": 131076,
+  "slug": "alleghany-warehouse-europe-bv",
+  "provincie": "zeeland",
+  "plaats": "ritthem",
+  "naam": "Alleghany Warehouse Europe BV",
+  "straat": "Duitslandweg 2",
+  "postcode": "4389PJ",
+  "plaatsnaam": "Ritthem",
+  "telefoon": "0118-467530",
+  "website": "http://www.awe.nl",
+  "lat": 51.470071,
+  "lon": 3.68118,
+  "status": "gesloten",
+  "oude_url": "/zeeland/ritthem/alleghany-warehouse-europe-bv/",
+  "email": "awe@awe.nl",
+  "omschrijving": "0118-467530\n\n fax : 0118-462056\n\n Wat wij doen:\nAlleghany Warehouse Europe is specialized in the reception, storage, handling and delivery / distribution of leaf tobaccos and leaf tobacco products and can be considered as one of the largest distribution centres for the tobacco industry and -trade throughout Western Europe. Specialiteiten :\ncomplete customs services, handling, including:, innage, leaf tobacco products, leaf tobaccos, sampling, quality control, separate inspection room, state of the art warehouses, storage, weighing, sorting, marking,\n\n Aangesloten bij / Certificering :\nPart of Verbrugge Terminals",
+  "meta_title": "Alleghany Warehouse Europe BV 0118-467530 awe@awe.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

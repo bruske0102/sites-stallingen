@@ -1,0 +1,21 @@
+{
+  "id": 131010,
+  "slug": "khz-internationale-verhuizers-bv",
+  "provincie": "zuid-holland",
+  "plaats": "alphen-aan-den-rijn",
+  "naam": "KHZ Internationale Verhuizers BV",
+  "straat": "A. van Leeuwenhoekweg 50",
+  "postcode": "2408AN",
+  "plaatsnaam": "Alphen aan den Rijn",
+  "telefoon": "0172-449977",
+  "lat": 52.126772,
+  "lon": 4.634949,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/alphen-aan-den-rijn/khz-internationale-verhuizers-bv/",
+  "omschrijving": "Wat wij doen:\nWanneer u gaat verhuizen komt er veel op u af. Ervaar de verhuisservice van KHZ voor uw internationale verhuizing en laat u veel zorgen uit handen nemen. KHZ Internationale Verhuizers is de betrouwbare verhuisservice voor uw internationale verhuizing, particulier of zakelijk, over de weg, over zee of door de lucht. Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nAdvies, Inpakken, Internationale verhuizing, Opslag, Uitpakken, Verkoop, Vervoer\n\n Producten :\nVerhuisdoos\n\n Aangesloten bij / Certificering :\nNEVIM, FIDI, Erkend Verhuizer, 9001:2000, FAIM, RIM, LACMA, IAM, OMNI",
+  "meta_title": "KHZ Internationale Verhuizers BV 0172-449977",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

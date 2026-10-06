@@ -1,0 +1,29 @@
+{
+  "id": 131121,
+  "slug": "kloeze-garagebedrijf",
+  "provincie": "drenthe",
+  "plaats": "zuidwolde",
+  "naam": "Kloeze Garagebedrijf",
+  "straat": "Nijverheidsweg 2",
+  "postcode": "7921JJ",
+  "plaatsnaam": "Zuidwolde dr",
+  "telefoon": "0528-371284",
+  "lat": 52.667534,
+  "lon": 6.43186,
+  "status": "gesloten",
+  "oude_url": "/drenthe/zuidwolde/kloeze-garagebedrijf/",
+  "email": "info@kloezezuidwolde.nl",
+  "omschrijving": "Wat wij doen:\nGaragebedrijf Kloeze vof is het adres voor reparatie en onderhoud van alle personenwagens, lichte en zware bedrijfswagens, brommobielen, kampeerwagens, caravans en aanhangwagens.\nOok voor de Algemene Periodieke Keuring ( APK ) bent u bij ons aan het juiste adres.\nWij staan al vanaf 1934 voor onze klanten klaar.\nBij ons staat de klant namelijk op nummer 1.\nU bent van harte welkom en de koffie staat vers voor u klaar.\n\nMet vriendelijke groet,\n\nMartin en Bennie Kloeze. Openingstijden:\n Maandag : 08:00 - 17:00 van 12:00 - 13:00 pauze\n Dinsdag : 08:00 - 17:00 van 12:00 - 13:00 pauze\n Woensdag : 08:00 - 17:00 van 12:00 - 13:00 pauze\n Donderdag : 08:00 - 17:00 van 12:00 - 13:00 pauze\n Vrijdag : 08:00 - 17:00 van 12:00 - 13:00 pauze\n Zaterdag : 09:00 - 12:00 Op afspraak en voor noodgevallen\n Zondag : gesloten\n Oudjaarsdag : 08:00 - 12:00 Op afspraak en voor noodgevallen Service :\nAlleen op afspraak, Gratis offerte, Haal- en brengservice, Mobiliteitsgarantie, Nieuwe of gebruikte onderdelen, Vervangend vervoer / leenauto\n\n Toegankelijkheid :\nBegane grond, Honden toegestaan, Toegankelijk voor rolstoelen\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto spuiten, Auto-aanpassingen, Carkit inbouwen, Demontage / montage, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Onderhoud en reparatie motorfiets, Remmen repareren / vervangen, Reparatie, Restauratie, Revisie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Tuning, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin, Bank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nBOVAG",
+  "kenmerken": {
+    "Type": [
+      "fiets",
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Kloeze Garagebedrijf 0528-371284 info@kloezezuidwolde.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 130748,
+  "slug": "ibrahim-ilbay",
+  "provincie": "utrecht",
+  "plaats": "soest",
+  "naam": "Ibrahim Ilbay",
+  "straat": "Dalweg 28",
+  "postcode": "3764BX",
+  "plaatsnaam": "Soest",
+  "telefoon": "035-6016258",
+  "lat": 52.178823,
+  "lon": 5.298604,
+  "status": "gesloten",
+  "oude_url": "/utrecht/soest/ibrahim-ilbay/",
+  "meta_title": "Ibrahim Ilbay 035-6016258",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

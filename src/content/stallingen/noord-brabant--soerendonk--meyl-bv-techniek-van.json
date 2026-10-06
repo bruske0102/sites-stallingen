@@ -1,0 +1,22 @@
+{
+  "id": 130711,
+  "slug": "meyl-bv-techniek-van",
+  "provincie": "noord-brabant",
+  "plaats": "soerendonk",
+  "naam": "Meyl BV Techniek Van",
+  "straat": "De Branten 13",
+  "postcode": "6027NL",
+  "plaatsnaam": "Soerendonk",
+  "telefoon": "0495-591403",
+  "website": "http://www.vanmeijltechniek.nl",
+  "lat": 51.297531,
+  "lon": 5.566538,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/soerendonk/meyl-bv-techniek-van/",
+  "omschrijving": "Diensten :\nOpslag, Transport, Verhuur, Verkoop",
+  "meta_title": "Meyl BV Techniek Van 0495-591403",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

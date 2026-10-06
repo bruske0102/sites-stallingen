@@ -1,0 +1,21 @@
+{
+  "id": 130701,
+  "slug": "beurskens-all-round-cargo-bv",
+  "provincie": "limburg",
+  "plaats": "tegelen",
+  "naam": "Beurskens All Round Cargo BV",
+  "straat": "Tichlouwstraat 45",
+  "postcode": "5932AA",
+  "plaatsnaam": "Tegelen",
+  "telefoon": "077-3734380",
+  "lat": 51.337055,
+  "lon": 6.140783,
+  "status": "gesloten",
+  "oude_url": "/limburg/tegelen/beurskens-all-round-cargo-bv/",
+  "omschrijving": "Internationaal Transport,\n\nhttp://www.beurkensallroundcargo.nl\n\n Wat wij doen:\nBeurskens All-Round Cargo is al 25 jaar een betrouwbare partner én logistieke duizendpoot voor haar klanten.\nHet volledig zelfstandige transportbedrijf werd opgericht in 1982.\nSinds de oprichting zit Jack Beurskens aan het stuur van de onderneming.\n\nHet hart van Beurskens All-Round Cargo wordt gevormd door een hecht team van planners\nen chauffeurs die elkaar al jaren en daardoor ook door en door kennen.\n\nBeurskens All-Round Cargo is gespecialiseerd in:\n\n- Snelvracht door heel Europa;\n- Geconditioneerd transport van planten;\n - Vervoer van gevaarlijke stoffen door gespecialiseerde chauffeurs;\n-Transport van diefstalgevoelige lading;\n-Opslag, overslag en distributie;\n-Leveringsbetrouwbaarheid binnen 24 of 48 uur;\n - Persoonlijke en betrouwbare begeleiding van de klant én de lading.\n\n Specialiteiten :\nTransportbedrijf, Opslag, Overslag, Distributie",
+  "meta_title": "Beurskens All Round Cargo BV 077-3734380",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

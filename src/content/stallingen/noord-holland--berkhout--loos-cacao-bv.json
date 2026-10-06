@@ -1,0 +1,22 @@
+{
+  "id": 131331,
+  "slug": "loos-cacao-bv",
+  "provincie": "noord-holland",
+  "plaats": "berkhout",
+  "naam": "Loos Cacao BV",
+  "straat": "Bobeldijk 69",
+  "postcode": "1647CH",
+  "plaatsnaam": "Berkhout",
+  "telefoon": "0229-551432",
+  "website": "http://www.looscacao.com",
+  "lat": 52.653218,
+  "lon": 5.001252,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/berkhout/loos-cacao-bv/",
+  "omschrijving": "Wat wij doen:\nLoos Cacao B.V. heeft zich gespecialiseerd in verwerking van cacaopoeders met diverse vetgehaltes en cacaomassa en -boter. Inmiddels kan het bedrijf bijna alle grote gerenommeerde Nederlandse cacaofabrikanten tot hun klantenkring rekenen. Daarnaast hebben ook diverse buitenlandse cacaofabrikanten de weg naar Berkhout gevonden. Specialiteiten :\nOmpakken van cacaopoeder, Kleinverpakking , Grootverpakking , Bulkwagens, Mengen van cacaopoeders , Reconditioneren cacaopoeders , Malen van cacaocakes, Cacaopoeder opvetten, Malen van suikers, Geconditioneerde opslag",
+  "meta_title": "Loos Cacao BV 0229-551432",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

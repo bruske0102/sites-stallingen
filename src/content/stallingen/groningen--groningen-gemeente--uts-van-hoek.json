@@ -1,0 +1,21 @@
+{
+  "id": 130775,
+  "slug": "uts-van-hoek",
+  "provincie": "groningen",
+  "plaats": "groningen-gemeente",
+  "naam": "UTS Van Hoek",
+  "straat": "Emdenweg 2",
+  "postcode": "9723TB",
+  "plaatsnaam": "Groningen",
+  "telefoon": "050-5422666",
+  "website": "http://www.uts.nl",
+  "lat": 53.207829,
+  "lon": 6.607985,
+  "status": "gesloten",
+  "oude_url": "/groningen/groningen-gemeente/uts-van-hoek/",
+  "meta_title": "UTS Van Hoek 050-5422666",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

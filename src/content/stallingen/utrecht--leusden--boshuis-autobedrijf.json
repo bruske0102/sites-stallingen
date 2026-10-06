@@ -1,0 +1,28 @@
+{
+  "id": 130757,
+  "slug": "boshuis-autobedrijf",
+  "provincie": "utrecht",
+  "plaats": "leusden",
+  "naam": "Boshuis Autobedrijf",
+  "straat": "Arnhemseweg 38",
+  "postcode": "3832GM",
+  "plaatsnaam": "Leusden",
+  "telefoon": "033-4940505",
+  "website": "http://www.autobedrijfboshuis.nl",
+  "lat": 52.116866,
+  "lon": 5.401614,
+  "status": "gesloten",
+  "oude_url": "/utrecht/leusden/boshuis-autobedrijf/",
+  "email": "info@autobedrijfboshuis.nl",
+  "omschrijving": "Wat wij doen:\nVoor het maken van een afspraak kunt u contact met ons opnemen via telefoonnummer: 033 494 05 05 of stuur een e-mail naar: info@autobedrijfboshuis.nl.\nUiteraard kunt u bij ons terecht voor:\n\n· APK\n· Onderhoud\n· Reparaties\n· Banden\n· En meer...\n\n Openingstijden:\n Maandag : 08:15 - 17:30\n Dinsdag : 08:15 - 17:30\n Woensdag : 08:15 - 17:30\n Donderdag : 08:15 - 17:30\n Vrijdag : 08:15 - 17:30\n Zaterdag : gesloten\n Zondag : gesloten Toegankelijkheid :\nBegane grond\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAPK keuring, Onderhoud, Reparatie, Verkoop en montage van banden / bandenservice, Winterbanden montage en opslag\n\n Merk :\nAlle merken",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Boshuis Autobedrijf 033-4940505 info@autobedrijfboshuis.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

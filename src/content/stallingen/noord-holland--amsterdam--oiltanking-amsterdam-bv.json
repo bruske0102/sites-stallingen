@@ -1,0 +1,21 @@
+{
+  "id": 131279,
+  "slug": "oiltanking-amsterdam-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Oiltanking Amsterdam BV",
+  "straat": "Heining 100",
+  "postcode": "1047AH",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-4070100",
+  "website": "http://www.oiltanking.com",
+  "lat": 52.398721,
+  "lon": 4.771201,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/oiltanking-amsterdam-bv/",
+  "meta_title": "Oiltanking Amsterdam BV 020-4070100",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

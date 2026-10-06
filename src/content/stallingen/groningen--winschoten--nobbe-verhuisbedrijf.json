@@ -1,0 +1,22 @@
+{
+  "id": 130719,
+  "slug": "nobbe-verhuisbedrijf",
+  "provincie": "groningen",
+  "plaats": "winschoten",
+  "naam": "Nobbe Verhuisbedrijf",
+  "straat": "Transportbaan 21",
+  "postcode": "9672BJ",
+  "plaatsnaam": "Winschoten",
+  "telefoon": "0597-412463",
+  "website": "http://www.verhuisbedrijfnobbe.nl",
+  "lat": 53.145036,
+  "lon": 7.049794,
+  "status": "gesloten",
+  "oude_url": "/groningen/winschoten/nobbe-verhuisbedrijf/",
+  "omschrijving": "Groningen : 050-5496089\n\n Stadskanaal : 0599-614680\n\n Veendam : 0598-624350\n\n Assen : 0592-760003\n\n Wat wij doen:\nZo aangenaam mogelijk verhuizen\nLaten we eerlijk zijn: verhuizen is voor de meeste mensen geen pretje. Maar Nobbe kan voor u het verhuizen zo aangenaam mogelijk maken. Elke verhuizing die we uitvoeren begint daarom met een goed gesprek. Daarin spreken we duidelijk af wat u zelf wilt doen en wat wij voor u kunnen doen. Vervolgens ontvangt u onze offerte. We kunnen alles voor u doen: van het inpakken en verhuizen van uw hele inboedel tot en met alles uitpakken en op de juiste plek neerzetten in uw nieuwe woning. Maar we kunnen ook heel weinig voor u doen: bijvoorbeeld alleen het verhuizen van een piano. Maar wat we ook voor u doen, we gaan zorgvuldig om met uw spullen en woning.\n\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nOpslaan, Verhuizen",
+  "meta_title": "Nobbe Verhuisbedrijf 0597-412463",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

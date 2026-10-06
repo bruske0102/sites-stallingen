@@ -1,0 +1,22 @@
+{
+  "id": 131148,
+  "slug": "icopal-bv",
+  "provincie": "groningen",
+  "plaats": "groningen-gemeente",
+  "naam": "Icopal BV",
+  "straat": "Hoendiep 316",
+  "postcode": "9744TC",
+  "plaatsnaam": "Groningen",
+  "telefoon": "050-5516333",
+  "website": "http://www.icopal.nl",
+  "lat": 53.211347,
+  "lon": 6.482864,
+  "status": "gesloten",
+  "oude_url": "/groningen/groningen-gemeente/icopal-bv/",
+  "omschrijving": "http://www.icopal.nl\n\n Wat wij doen:\nIcopal Regio West heeft 4 verschillende productielocaties in Nederland, België en het Verenigd Koninkrijk en diverse opslag-/distributiecentra en verkoopkantoren verspreid over Nederland, België, Duitsland, Frankrijk, het Engeland en Ierland.Icopal is Europa's toonaangevende producent van producten voor de bescherming en afdichting van daken. Specialiteiten :\nBitumen, Kunststof, Universal, Dakpanelementen, Folies, Kunststof dakgoten, Civiele techniek, Technische ondersteuning",
+  "meta_title": "Icopal BV 050-5516333",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

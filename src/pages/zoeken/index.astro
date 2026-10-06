@@ -1,0 +1,312 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getModel, shopPath, plaatsPath, allShops } from "../../lib/data";
+import { PROVINCIES } from "../../lib/bouw-model.mjs";
+import { listingCount } from "../../lib/nl-count";
+
+const m = getModel();
+
+const plaatsen = [...m.plaatsenA, ...m.plaatsenB].map((p) => ({
+  type: "plaats" as const,
+  naam: p.naam,
+  label: `Stalling ${p.naam}`,
+  sub: p.provincieNaam || PROVINCIES[p.provincie] || p.provincie,
+  path: plaatsPath(p),
+  n: p.groep === "A" ? p.listings.length : p.buren?.length || 0,
+  groep: p.groep,
+}));
+
+const shops = allShops().map((s) => ({
+  type: "shop" as const,
+  naam: s.naam,
+  label: s.naam,
+  sub: s.plaatsnaam || s.plaats,
+  path: shopPath(s),
+  n: 0,
+  groep: "S",
+}));
+
+const provincies = Object.entries(PROVINCIES).map(([slug, naam]) => ({
+  type: "provincie" as const,
+  naam,
+  label: `Stalling ${naam}`,
+  sub: "Provincie",
+  path: `/${slug}/`,
+  n: 0,
+  groep: "P",
+}));
+
+const index = { plaatsen, shops, provincies };
+---
+<Layout
+  title="Zoek een stalling in de buurt"
+  description="Zoek een stalling op naam, plaats of provincie - adres, telefoon en route."
+  noindex
+  zoekbaar={false}
+  ads={false}
+>
+  <p class="crumbs"><a href="/">Home</a> / Zoeken</p>
+  <h1 class="page-title">Zoek een stalling</h1>
+  <p class="lead" style="margin-bottom:1.25rem">
+    Typ een plaats of bedrijfsnaam. Bij een duidelijke match ga je meteen naar de juiste pagina.
+  </p>
+
+  <form class="hero-search zoek-form" role="search" data-zoek-form action="/zoeken/" method="get">
+    <label for="zoek-q" class="skip">Zoek op plaats of stalling</label>
+    <input
+      id="zoek-q"
+      name="q"
+      type="search"
+      placeholder="Bijv. Breda, Den Haag, Amsterdam…"
+      autocomplete="off"
+      data-zoek-input
+    />
+    <button type="submit">Zoeken</button>
+  </form>
+
+  <p class="zoek-status" data-zoek-status aria-live="polite"></p>
+  <div class="zoek-results" data-zoek-results></div>
+
+  <details class="zoek-advanced">
+    <summary>Uitgebreid zoeken in alle pagina’s</summary>
+    <p class="hint">Langzamer - doorzoekt ook blogteksten. Alleen nodig als je iets niet vindt.</p>
+    <div id="zoeken" class="pagefind-ui-host"></div>
+  </details>
+
+  <script define:vars={{ index }}>
+    const norm = (s) =>
+      String(s || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9\s]/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+
+    const input = document.querySelector("[data-zoek-input]");
+    const status = document.querySelector("[data-zoek-status]");
+    const results = document.querySelector("[data-zoek-results]");
+    const form = document.querySelector("[data-zoek-form]");
+
+    function scoreItem(item, q, parts) {
+      const naam = norm(item.naam);
+      const label = norm(item.label);
+      const sub = norm(item.sub);
+      if (naam === q || label === q) return 100;
+      if (naam.startsWith(q)) return 90;
+      if (parts.every((p) => naam.includes(p))) return 80;
+      if (parts.every((p) => (naam + " " + sub).includes(p))) return 60;
+      if (parts.some((p) => naam.includes(p) || sub.includes(p))) return 40;
+      return 0;
+    }
+
+    function search(raw) {
+      const q = norm(raw);
+      results.innerHTML = "";
+      if (q.length < 2) {
+        status.textContent = "Typ minstens 2 letters.";
+        return;
+      }
+      const parts = q.split(" ").filter(Boolean);
+
+      const plaatsHits = index.plaatsen
+        .map((p) => ({ ...p, score: scoreItem(p, q, parts) }))
+        .filter((p) => p.score > 0)
+        .sort((a, b) => b.score - a.score || a.naam.localeCompare(b.naam, "nl"));
+
+      const exactPlaats = plaatsHits.find((p) => p.score >= 90);
+      // Direct doorsturen bij duidelijke plaatsmatch (bijv. "delft")
+      if (exactPlaats && parts.length <= 2 && !index.shops.some((s) => scoreItem(s, q, parts) >= 100)) {
+        status.textContent = `Naar Stalling ${exactPlaats.naam}…`;
+        location.replace(exactPlaats.path);
+        return;
+      }
+
+      const exactShop = index.shops
+        .map((s) => ({ ...s, score: scoreItem(s, q, parts) }))
+        .filter((s) => s.score >= 100)
+        .sort((a, b) => b.score - a.score)[0];
+      if (exactShop && q.length >= 5) {
+        status.textContent = `Naar ${exactShop.naam}…`;
+        location.replace(exactShop.path);
+        return;
+      }
+
+      const shopHits = index.shops
+        .map((s) => ({ ...s, score: scoreItem(s, q, parts) }))
+        .filter((s) => s.score >= 60)
+        .sort((a, b) => b.score - a.score || a.naam.localeCompare(b.naam, "nl"))
+        .slice(0, 12);
+
+      const provHits = index.provincies
+        .map((p) => ({ ...p, score: scoreItem(p, q, parts) }))
+        .filter((p) => p.score >= 80)
+        .slice(0, 3);
+
+      const blocks = [];
+      if (plaatsHits.length) {
+        blocks.push({
+          title: "Plaatsen",
+          items: plaatsHits.slice(0, 8).map((p) => ({
+            href: p.path,
+            title: p.label,
+            meta: p.groep === "A" ? `${listingCount(p.n)} · ${p.sub}` : `Dichtbij · ${p.sub}`,
+          })),
+        });
+      }
+      if (shopHits.length) {
+        blocks.push({
+          title: "Stallingen",
+          items: shopHits.map((s) => ({
+            href: s.path,
+            title: s.label,
+            meta: s.sub,
+          })),
+        });
+      }
+      if (provHits.length) {
+        blocks.push({
+          title: "Provincies",
+          items: provHits.map((p) => ({
+            href: p.path,
+            title: p.label,
+            meta: p.sub,
+          })),
+        });
+      }
+
+      if (!blocks.length) {
+        status.textContent = `Geen snelle match voor “${raw.trim()}”. Probeer Uitgebreid zoeken hieronder.`;
+        return;
+      }
+
+      const total = blocks.reduce((n, b) => n + b.items.length, 0);
+      status.textContent = `${total} resultaten`;
+      for (const block of blocks) {
+        const sec = document.createElement("section");
+        sec.className = "zoek-block";
+        sec.innerHTML = `<h2></h2><ul class="zoek-list"></ul>`;
+        sec.querySelector("h2").textContent = block.title;
+        const ul = sec.querySelector("ul");
+        for (const it of block.items) {
+          const li = document.createElement("li");
+          li.innerHTML = `<a href=""><strong></strong><span></span></a>`;
+          const a = li.querySelector("a");
+          a.href = it.href;
+          a.querySelector("strong").textContent = it.title;
+          a.querySelector("span").textContent = it.meta;
+          ul.appendChild(li);
+        }
+        results.appendChild(sec);
+      }
+    }
+
+    // Prefill from ?q=
+    const initial = new URLSearchParams(location.search).get("q") || "";
+    if (input) {
+      input.value = initial;
+      if (initial.trim()) search(initial);
+      let t;
+      input.addEventListener("input", () => {
+        clearTimeout(t);
+        t = setTimeout(() => search(input.value), 120);
+      });
+    }
+    form?.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const q = input.value.trim();
+      const url = new URL(location.href);
+      if (q) url.searchParams.set("q", q);
+      else url.searchParams.delete("q");
+      history.replaceState(null, "", url);
+      search(q);
+    });
+
+    // Pagefind alone when details opened
+    const adv = document.querySelector(".zoek-advanced");
+    let pfLoaded = false;
+    adv?.addEventListener("toggle", () => {
+      if (!adv.open || pfLoaded) return;
+      pfLoaded = true;
+      status.textContent = status.textContent || "Uitgebreid zoeken laden…";
+      const css = document.createElement("link");
+      css.rel = "stylesheet";
+      css.href = "/pagefind/pagefind-ui.css";
+      document.head.appendChild(css);
+      const s = document.createElement("script");
+      s.src = "/pagefind/pagefind-ui.js";
+      s.onload = () => {
+        if (!window.PagefindUI) return;
+        const ui = new PagefindUI({
+          element: "#zoeken",
+          bundlePath: "/pagefind/",
+          showSubResults: false,
+          showImages: false,
+          excerptLength: 18,
+          translations: {
+            placeholder: "Zoek in alle pagina’s…",
+            clear_search: "Wis",
+            load_more: "Meer resultaten",
+            search_label: "Zoeken",
+            filters_label: "Filters",
+            zero_results: "Geen resultaten voor [SEARCH_TERM]",
+            many_results: "[COUNT] resultaten voor [SEARCH_TERM]",
+            one_result: "[COUNT] resultaat voor [SEARCH_TERM]",
+          },
+        });
+        const q = input?.value || new URLSearchParams(location.search).get("q");
+        if (q && typeof ui.triggerSearch === "function") ui.triggerSearch(q);
+      };
+      document.body.appendChild(s);
+    });
+  </script>
+</Layout>
+
+<style>
+  .zoek-form { margin-bottom: 1rem; max-width: 36rem; }
+  .zoek-status {
+    min-height: 1.4em;
+    margin: 0 0 1rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .zoek-block { margin-bottom: 1.75rem; }
+  .zoek-block h2 {
+    font-family: var(--font);
+    font-size: 1.05rem;
+    font-weight: 750;
+    margin: 0 0 0.65rem;
+  }
+  .zoek-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--line);
+  }
+  .zoek-list li { border-bottom: 1px solid var(--line); }
+  .zoek-list a {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 0.85rem 0.15rem;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .zoek-list a:hover { background: color-mix(in srgb, var(--accent-soft) 35%, transparent); }
+  .zoek-list strong { font-weight: 750; }
+  .zoek-list span { color: var(--muted); font-size: 0.9rem; white-space: nowrap; }
+  .zoek-advanced {
+    margin: 2.5rem 0 1rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    background: color-mix(in srgb, #fff 70%, var(--bg-deep));
+  }
+  .zoek-advanced summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--accent-dark);
+  }
+  .zoek-advanced .hint { margin: 0.65rem 0 0.85rem; }
+</style>

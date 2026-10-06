@@ -1,0 +1,27 @@
+{
+  "id": 130767,
+  "slug": "geotherm-energy-systems-bv",
+  "provincie": "utrecht",
+  "plaats": "bunschoten",
+  "naam": "Geotherm Energy Systems BV",
+  "straat": "Produktieweg 12",
+  "postcode": "3751 LN",
+  "plaatsnaam": "Bunschoten-Spakenburg",
+  "telefoon": "033-2470030",
+  "lat": 52.2302129,
+  "lon": 5.373729300000036,
+  "status": "gesloten",
+  "oude_url": "/utrecht/bunschoten/geotherm-energy-systems-bv/",
+  "email": "roy.verhoeff@geotherm.nl",
+  "omschrijving": "Bij Geotherm is geen opslagruimte te huur en ook geen caravanstalling",
+  "kenmerken": {
+    "Type": [
+      "caravan"
+    ]
+  },
+  "meta_title": "Geotherm Energy Systems BV 033-2470030 roy.verhoeff@geotherm.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 130756,
+  "slug": "verbeeks-loonbedrijf-1",
+  "provincie": "utrecht",
+  "plaats": "hoogland",
+  "naam": "Verbeek's Loonbedrijf",
+  "straat": "Coelhorsterweg 30",
+  "postcode": "3828PB",
+  "plaatsnaam": "Hoogland",
+  "telefoon": "06-50663844",
+  "website": "http://www.loonbedrijfverbeek.nl",
+  "lat": 52.181513,
+  "lon": 5.356017,
+  "status": "gesloten",
+  "oude_url": "/utrecht/hoogland/verbeeks-loonbedrijf-1/",
+  "omschrijving": "Wat wij doen:\nVerbeek's loonbedrijf is echt goed voor prettig zakendoen. Voor u de dienstverlener bij uitstek. Wij denken met u mee en bieden het beste alternatief !!\nOnze ervaring, de meest geschikte machines met goede bediening, geeft u het beoogde resultaat.\nWij zijn groot in kleinere projecten.\n\nNeem gerust contact voor een vrijblijvende prijsopgave.\n\nOns motto: \" 't komt goed \"\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nMachineverhuur, Groenaanslag en mos bestrijden, Sloopwerk, Grondwerk, Groen, Opslag, Riolering, Straatwerk\n\n Materieel :\nLosse grondwerker of losse machinist, Diverse machines met machinist",
+  "meta_title": "Verbeek's Loonbedrijf 06-50663844",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

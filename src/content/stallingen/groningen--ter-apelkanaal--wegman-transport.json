@@ -1,0 +1,23 @@
+{
+  "id": 131151,
+  "slug": "wegman-transport",
+  "provincie": "groningen",
+  "plaats": "ter-apelkanaal",
+  "naam": "Wegman Transport",
+  "straat": "Handelsweg 9",
+  "postcode": "9563TS",
+  "plaatsnaam": "Ter Apelkanaal",
+  "telefoon": "0599-322277",
+  "website": "http://www.wegmantransport.nl",
+  "lat": 52.924389,
+  "lon": 7.041181,
+  "status": "gesloten",
+  "oude_url": "/groningen/ter-apelkanaal/wegman-transport/",
+  "email": "info@wegmantransport.nl",
+  "omschrijving": "Wat wij doen:\nWegman Transport is gespecialiseerd in levensmiddelen distributie en geconditioneerd vervoer.\n\nMet onze vrachtauto's rijden we voor verschillende bedrijven zoals Schuitema en Ten Kate. Tevens hebben we ruime ervaring met het rijden met trailers die zijn voorzien van een kooiaap en laadklep, hierdoor zijn we in staat om onze vrachten zelf te laden en te lossen.\n\nDagelijks rijden er 28 combinaties van Wegman Transport op de weg en daarnaast worden er nog verschillende charters door Wegman Transport ingezet voor diverse transporten.\n Specialiteiten :\nLevensmiddelen transport, Distributie transport, Vervoer met huiftrailers, Opslag en overslag, Kippentransport, Breed inzetbaar wagenpark\n\n Aangesloten bij / Certificering :\nHACCP; Keurmerk Transport en Logistiek; GMP+",
+  "meta_title": "Wegman Transport 0599-322277 info@wegmantransport.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

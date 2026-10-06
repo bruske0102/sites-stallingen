@@ -1,0 +1,23 @@
+{
+  "id": 131085,
+  "slug": "ademar-bv",
+  "provincie": "zeeland",
+  "plaats": "ritthem",
+  "naam": "Ademar BV",
+  "straat": "Engelandweg 13",
+  "postcode": "4389PC",
+  "plaatsnaam": "Ritthem",
+  "telefoon": "0118-471311",
+  "website": "http://www.ademar.nl",
+  "lat": 51.465335,
+  "lon": 3.685013,
+  "status": "gesloten",
+  "oude_url": "/zeeland/ritthem/ademar-bv/",
+  "email": "vlissingen@ademar.nl",
+  "omschrijving": "Wat wij doen:\nAdema Expeditie regelt voor u alle werkzaamheden en handelingen die te maken hebben met het laden en lossen, en de opslag/ overslag van goederen uit containers. Alle bij importeren en exporteren voorkomende douane-zaken zoals opmaken van douane-documentatie voor het in het vrije verkeer brengen van uw goederen binnen de EU handelen wij voor u af Specialiteiten :\nExpeditiewerkzaamheden, Laden /lossen werkzaamheden, Oslag / overslag, Douane-documentatie",
+  "meta_title": "Ademar BV 0118-471311 vlissingen@ademar.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

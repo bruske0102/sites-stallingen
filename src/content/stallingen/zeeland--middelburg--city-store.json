@@ -1,0 +1,22 @@
+{
+  "id": 131079,
+  "slug": "city-store",
+  "provincie": "zeeland",
+  "plaats": "middelburg",
+  "naam": "City Store",
+  "straat": "Voltaweg 27",
+  "postcode": "4338PS",
+  "plaatsnaam": "Middelburg",
+  "telefoon": "0118-613713",
+  "website": "http://www.city-store.nl",
+  "lat": 51.490935,
+  "lon": 3.645675,
+  "status": "gesloten",
+  "oude_url": "/zeeland/middelburg/city-store/",
+  "omschrijving": "Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nAdvies, Opslag",
+  "meta_title": "City Store 0118-613713",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

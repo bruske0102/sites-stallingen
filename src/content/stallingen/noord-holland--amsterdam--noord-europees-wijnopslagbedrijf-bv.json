@@ -1,0 +1,20 @@
+{
+  "id": 131277,
+  "slug": "noord-europees-wijnopslagbedrijf-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Noord Europees Wijnopslagbedrijf BV",
+  "straat": "Moezelhavenweg 10",
+  "postcode": "1043AM",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6136600",
+  "lat": 52.394029,
+  "lon": 4.821585,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/noord-europees-wijnopslagbedrijf-bv/",
+  "meta_title": "Noord Europees Wijnopslagbedrijf BV 020-6136600",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

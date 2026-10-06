@@ -1,0 +1,21 @@
+{
+  "id": 131023,
+  "slug": "pool-service-bv",
+  "provincie": "overijssel",
+  "plaats": "deventer",
+  "naam": "Pool Service BV",
+  "straat": "Munsterstraat 9",
+  "postcode": "7418EV",
+  "plaatsnaam": "Deventer",
+  "telefoon": "0570-667140",
+  "lat": 52.238788,
+  "lon": 6.186356,
+  "status": "gesloten",
+  "oude_url": "/overijssel/deventer/pool-service-bv/",
+  "omschrijving": "Wat wij doen:\nPool Service B.V. verbetert en optimaliseert retourstromen van logistieke ladingdragers in een supply chain en realiseert zo de laagste kosten in het logistieke proces. Pool Service B.V. is onderdeel van Container Centralen A/S Doelgroep :\nBedrijven\n\n Kantoor en winkel :\nkratten\n\n Tijdelijke huisvesting en opslag :\nContainer",
+  "meta_title": "Pool Service BV 0570-667140",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

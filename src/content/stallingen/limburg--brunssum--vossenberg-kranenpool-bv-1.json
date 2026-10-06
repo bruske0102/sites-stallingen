@@ -1,0 +1,20 @@
+{
+  "id": 130730,
+  "slug": "vossenberg-kranenpool-bv-1",
+  "provincie": "limburg",
+  "plaats": "brunssum",
+  "naam": "Vossenberg-Kranenpool BV",
+  "straat": "Postbus 8174",
+  "postcode": "6440HD",
+  "plaatsnaam": "Brunssum",
+  "telefoon": "045-5640411",
+  "lat": 0.0,
+  "lon": 0.0,
+  "status": "gesloten",
+  "oude_url": "/limburg/brunssum/vossenberg-kranenpool-bv-1/",
+  "meta_title": "Vossenberg-Kranenpool BV 045-5640411",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

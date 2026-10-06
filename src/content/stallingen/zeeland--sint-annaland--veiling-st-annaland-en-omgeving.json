@@ -1,0 +1,22 @@
+{
+  "id": 131091,
+  "slug": "veiling-st-annaland-en-omgeving",
+  "provincie": "zeeland",
+  "plaats": "sint-annaland",
+  "naam": "Veiling St Annaland en Omgeving",
+  "straat": "Langeweg 11",
+  "postcode": "4697RE",
+  "plaatsnaam": "St Annaland",
+  "telefoon": "0166-652450",
+  "website": "http://www.alvantho.nl",
+  "lat": 51.593634,
+  "lon": 4.10538,
+  "status": "gesloten",
+  "oude_url": "/zeeland/sint-annaland/veiling-st-annaland-en-omgeving/",
+  "omschrijving": "Opslagruimte, overslag, drogen &\nmechanisch koelen\n\n Wat wij doen:\nAlvantho is de gezamenlijke merknaam v.d. veilingen Sint Annaland en Scherpenisse.De Thoolse veilingen zijn gespecialiseerd in het leveren van vroege- en middenvroege tafelaardappelen. De belangrijkste rassen die op het eiland Tholen geteeld worden en verhandeld worden zijn: Premiere, Dore, Frieslander, Eigenheimer, Bildtstar, Bintje, Nicola. Specialiteiten :\nbildstar, bintje, dore, eigenheimer, frieslander, nicola, premiere, thoolse aardappelen, veiling aardappel",
+  "meta_title": "Veiling St Annaland en Omgeving 0166-652450",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

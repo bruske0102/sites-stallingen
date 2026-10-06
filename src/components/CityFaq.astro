@@ -1,0 +1,61 @@
+---
+import type { City, Listing } from "../lib/model";
+import { kenmerkCount } from "../lib/model";
+import { listingCount } from "../lib/nl-count";
+
+interface Props { city: City; listings: Listing[] }
+const { city, listings } = Astro.props;
+const n = listings.length || city.listings;
+const autoN = kenmerkCount(listings, /\bauto\b/i);
+const caravanN = kenmerkCount(listings, /caravan/i);
+const fietsN = kenmerkCount(listings, /fiets/i);
+const bootN = kenmerkCount(listings, /boot/i);
+
+type Faq = { q: string; a: string };
+const faqs: Faq[] = [
+  {
+    q: `Waar vind ik een stalling in ${city.naam}?`,
+    a: `Op deze pagina ${n === 1 ? "staat" : "staan"} ${listingCount(n)} in ${city.naam} met adres en telefoon. Bel voor beschikbaarheid en tarief.`,
+  },
+  {
+    q: `Wat kost een stalling in ${city.naam}?`,
+    a: `Maand- of seizoenstarieven verschillen per type (auto, caravan, fiets, boot) en of het binnen of buiten is. Vraag om een vaste prijs.`,
+  },
+];
+
+if (autoN > 0) {
+  faqs.push({
+    q: `Zijn er autostallingen in ${city.naam}?`,
+    a: `Ja - ${autoN} vermelding${autoN === 1 ? "" : "en"} noemt autostalling. Vraag naar binnen/buiten en toegangsuren.`,
+  });
+}
+if (caravanN > 0) {
+  faqs.push({
+    q: `Kan ik mijn caravan stallen in ${city.naam}?`,
+    a: `${caravanN} vermelding${caravanN === 1 ? "" : "en"} noemt caravanstalling. Check hoogte, verzekering en seizoensprijs.`,
+  });
+}
+if (fietsN > 0) {
+  faqs.push({
+    q: `Is er fietsenstalling in ${city.naam}?`,
+    a: `${fietsN} vermelding${fietsN === 1 ? "" : "en"} noemt fietsstalling - handig bij station of centrum.`,
+  });
+}
+if (bootN > 0) {
+  faqs.push({
+    q: `Kan ik een boot stallen in ${city.naam}?`,
+    a: `${bootN} vermelding${bootN === 1 ? "" : "en"} noemt bootstalling. Bel voor afmetingen en winterberging.`,
+  });
+}
+---
+<section class="section" aria-labelledby="faq">
+  <h2 id="faq">Veelgestelde vragen over stallingen in {city.naam}</h2>
+  <div class="stack">
+    {faqs.map((f) => (
+      <article class="faq-item">
+        <h3>{f.q}</h3>
+        <p>{f.a}</p>
+      </article>
+    ))}
+  </div>
+</section>

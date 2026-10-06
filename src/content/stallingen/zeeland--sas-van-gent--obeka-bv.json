@@ -1,0 +1,21 @@
+{
+  "id": 131101,
+  "slug": "obeka-bv",
+  "provincie": "zeeland",
+  "plaats": "sas-van-gent",
+  "naam": "Obeka BV",
+  "straat": "Nijverheidsstraat 4",
+  "postcode": "4551LA",
+  "plaatsnaam": "Sas van Gent",
+  "telefoon": "0115-467570",
+  "website": "http://www.obeka.nl",
+  "lat": 51.242768,
+  "lon": 3.809235,
+  "status": "gesloten",
+  "oude_url": "/zeeland/sas-van-gent/obeka-bv/",
+  "meta_title": "Obeka BV 0115-467570",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

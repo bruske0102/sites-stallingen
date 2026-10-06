@@ -1,0 +1,28 @@
+{
+  "id": 130787,
+  "slug": "maas-toiletwagen-en-douchewagenverhuur",
+  "provincie": "flevoland",
+  "plaats": "rutten",
+  "naam": "Maas Toiletwagen- en Douchewagenverhuur",
+  "straat": "Gemaalweg 2",
+  "postcode": "8313PS",
+  "plaatsnaam": "Rutten",
+  "telefoon": "0527-262044",
+  "website": "http://www.maasverhuur.nl",
+  "lat": 52.808838,
+  "lon": 5.69805,
+  "status": "gesloten",
+  "oude_url": "/flevoland/rutten/maas-toiletwagen-en-douchewagenverhuur/",
+  "omschrijving": "Wat wij doen:\nMaas Verhuur, gevestigd in de Noordoostpolder, biedt een volledige service aan op het gebied van mobiele toiletvoorzieningen. Door onze centrale locatie kunnen we zowel Midden- als Noord Nederland bedienen.\n\nWij kunnen u van dienst zijn op (bedrijfs)evenementen, feesten en beurzen. Onze moderne toilet-wagens worden desgewenst gehaald en zijn zeer volledig en gebruiksklaar uitgerust.\nOp bovengenoemde evenementen, feesten en beurzen is het mogelijk springkussens en andere spel elementen alsmede party-tenten te huren. Kijk ook eens naar onze Balla-Van elders op de site.\nOok kunt u bij ons terecht voor een veilige stalling van uw caravan of boot en is huur van rolsteigers mogelijk.\n\nTevens bieden wij voor de opberg-ruimte zoekers een perfecte (mini) opslag. Ruimte-verhuur reeds mogelijk vanaf 1 m3!! Informeer naar de mogelijkheden. Specialiteiten :\nMobiele toiletvoorzieningen, Toiletwagens, Urinoir zuilen, Douchewagens, Kassa units, Aanhangwagens, Watervoorziening, Springkussen, Terrasverwarming, Inboedelopslag",
+  "kenmerken": {
+    "Type": [
+      "boot",
+      "caravan"
+    ]
+  },
+  "meta_title": "Maas Toiletwagen- en Douchewagenverhuur 0527-262044",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

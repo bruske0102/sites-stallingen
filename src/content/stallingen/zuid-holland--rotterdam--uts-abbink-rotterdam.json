@@ -1,0 +1,22 @@
+{
+  "id": 131008,
+  "slug": "uts-abbink-rotterdam",
+  "provincie": "zuid-holland",
+  "plaats": "rotterdam",
+  "naam": "UTS Abbink Rotterdam",
+  "straat": "Bunschotenweg 200",
+  "postcode": "3089KC",
+  "plaatsnaam": "Rotterdam",
+  "telefoon": "010-4287130",
+  "website": "http://www.uts.nl",
+  "lat": 51.890174,
+  "lon": 4.405503,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/rotterdam/uts-abbink-rotterdam/",
+  "omschrijving": "Ruim 25 locaties verspreid over heel Nederland.\nAltijd een UTS Verhuisbedrijf bij u in de buurt!\n\n Doelgroep :\nParticulieren\n\n Diensten :\nArchiefopslag, Opslaan, Transport, Verhuur, Verhuizen, Verkoop\n\n Type opslag :\nContainer\n\n Materialen :\nVerpakkingsmaterialen",
+  "meta_title": "UTS Abbink Rotterdam 010-4287130",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

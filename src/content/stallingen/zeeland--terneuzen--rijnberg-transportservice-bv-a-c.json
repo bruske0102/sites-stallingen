@@ -1,0 +1,26 @@
+{
+  "id": 131099,
+  "slug": "rijnberg-transportservice-bv-a-c",
+  "provincie": "zeeland",
+  "plaats": "terneuzen",
+  "naam": "Rijnberg Transportservice BV A C",
+  "straat": "Ambachtsstraat 1",
+  "postcode": "4538AV",
+  "plaatsnaam": "Terneuzen",
+  "telefoon": "0115-612384",
+  "lat": 51.30939,
+  "lon": 3.845105,
+  "status": "gesloten",
+  "oude_url": "/zeeland/terneuzen/rijnberg-transportservice-bv-a-c/",
+  "omschrijving": "Transport - Opslag - Expeditie\n\nPostbus189, 4530AD, Terneuzen\nhttp://www.rijnberg.com\n\ninfo@rijnberg.com\n\n Wat wij doen:\nA.C. Rijnberg transportservice b.v. verzorgt het transport van stukgoed en containers door heel Europa.\nSinds het gereedkomen van de Westerscheldetunnel in maart 2003 is Terneuzen een ideale vestigingsplaats vanwege de ligging aan de doorgaande route van Rotterdam, via de havens van de Scheldemonden naar het zuiden.\n\nEen klantgericht team op kantoor, een vloot die up-to-date is en chauffeurs, die hun vak verstaan, zorgen ervoor dat de klanten op hun wenken bediend worden. Service :\nonline contactformulier\n\n Doelgroep :\nBedrijven\n\n Werkgebied :\nInternationaal\n\n Diensten :\nopslag, transport\n\n Soorten transport :\nContainer transport, Gevaarlijke stoffen transport / ADR transport, Wegtransport, stukgoedvervoer\n\n Faciliteiten :\nOpslag / magazijn\n\n Transportmiddelen :\nAanhangwagen, Oplegger, Truck, Vrachtwagen\n\n Betalingsmogelijkheden :\niDeal\n\n Aangesloten bij / Certificering :\nTLN, 9001:2008 en SQAS, Lean and Green status",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Rijnberg Transportservice BV A C 0115-612384",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

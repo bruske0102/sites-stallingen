@@ -1,0 +1,22 @@
+{
+  "id": 131350,
+  "slug": "vries-transportbedrijf",
+  "provincie": "noord-holland",
+  "plaats": "burgerbrug",
+  "naam": "Vries Transportbedrijf",
+  "straat": "Belkmerweg 16",
+  "postcode": "1754GA",
+  "plaatsnaam": "Burgerbrug",
+  "telefoon": "0226-390087",
+  "website": "http://www.vriestransport.nl",
+  "lat": 52.755932,
+  "lon": 4.674334,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/burgerbrug/vries-transportbedrijf/",
+  "omschrijving": "mobiele telefoon : 06-53313193\n\n Wat wij doen:\nMatrix b.v. is in 1989 van start gegaan met één wagen en in de loop der jaren uitgegroeid tot een gerenommeerd transportbedrijf. Met het modernste wagenpark vervoeren wij een grote verscheidenheid aan producten door Nederland en de rest van Europa. Voor vele transportvormen, zoals transport van zware en volumineuze ladingen, machinevervoer en groupagevervoer, kunt u terecht bij Matrix.\n\nTevens kunnen wij u sinds de overname van de Vries Marum b.v. met tanktransport van dienst zijn. Naast eerder genoemde activiteiten houdt Matrix zich bezig met de op- en overslag van goederen, waarbij u zowel aan overdekte als aan open opslag moet denken en de verhuur van heftrucks en andere machines.\n\nVoor al deze werkzaamheden heeft Matrix kundige en representatieve medewerkers in dienst. Zelfstandige mensen die van aanpakken weten, én weten waar ze mee bezig zijn. Onze chauffeurs beschikken over alle diploma's die vereist zijn voor het vervoer van levensmiddelen en gevaarlijke stoffen, spreken hun talen, kennen feilloos de weg door Europa en zijn tot in de puntjes uitgerust.\n\nOok de monteurs van Matrix zijn tot in de finesses opgeleid en voorzien van goed materiaal en gereedschap. Specialiteiten :\nGroupage, Tanktransport, Zwaar- en machinetransport, Heftruckverhuur, Op- en overslag, Reiniging",
+  "meta_title": "Vries Transportbedrijf 0226-390087",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

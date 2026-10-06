@@ -1,0 +1,22 @@
+{
+  "id": 131102,
+  "slug": "opdorp-transportgroep",
+  "provincie": "zeeland",
+  "plaats": "sas-van-gent",
+  "naam": "Opdorp Transportgroep",
+  "straat": "Nijverheidsstraat 2",
+  "postcode": "4551LA",
+  "plaatsnaam": "Sas van Gent",
+  "telefoon": "0115-467467",
+  "website": "http://www.vanopdorp.com",
+  "lat": 51.240808,
+  "lon": 3.809217,
+  "status": "gesloten",
+  "oude_url": "/zeeland/sas-van-gent/opdorp-transportgroep/",
+  "omschrijving": "http://www.vanopdorp.com\n\n Wat wij doen:\nWelkom bij Van Opdorp TransportGroep\n\nHet in 1927 opgerichte familiebedrijf heeft zich ontwikkeld tot een modern geoutilleerd bedrijf en is momenteel actief in verschillende takken van transport en transportondersteunende serviceverlening.\n\nDoor de omvang van het bedrijf, de kennis en kunde van de medewerkers en het technische uitrustingsniveau van het materieel is het bedrijf in staat om de gewenste dienstverlening op kwalitatief hoogstaand en verantwoorde wijze uit te voeren.\n\nHierbij staan de eisen en wensen van de klant centraal, zowel bij transport, cleaning. op- en overslag en de logistieke dienstverlening. Service :\ncleaning, logistieke dienstverlener, opslag, transport, vestigingen in nederland en belgië\n\n Doelgroep :\nBedrijven\n\n Werkgebied :\nNationaal, Internationaal\n\n Diensten :\nLogistiek\n\n Soorten transport :\nBulktransport, Container transport, Tanktransport\n\n Transportmiddelen :\nHeftruck, Truck\n\n Aangesloten bij / Certificering :\nEPCA, ATCN",
+  "meta_title": "Opdorp Transportgroep 0115-467467",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

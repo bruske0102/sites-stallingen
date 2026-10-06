@@ -1,0 +1,101 @@
+---
+/**
+ * End-of-article gids links. Prefer city + zoeken over a bare home link
+ * (logo already covers home). Provinces via /#provincies.
+ */
+import { getModel, plaatsPath } from "../lib/data";
+import { INTENT_BLOG_LINKS } from "../lib/city-intents";
+
+interface Props {
+  slug: string;
+}
+const { slug } = Astro.props;
+const { plaatsenA } = getModel();
+const topCities = [...plaatsenA]
+  .sort((a, b) => b.listings.length - a.listings.length)
+  .slice(0, 6);
+
+const related = Object.values(INTENT_BLOG_LINKS).filter((l) => !l.href.includes(`/${slug}/`));
+---
+<aside class="blog-guide" aria-labelledby="blog-guide-h">
+  <h2 id="blog-guide-h">Verder in de gids</h2>
+  <p class="blog-guide-lead">
+    Zoek op plaats, open een grote stad, of blader via provincies.
+  </p>
+  <p class="blog-guide-actions">
+    <a class="btn" href="/zoeken/">Zoek een stalling</a>
+    <a class="btn btn-ghost" href="/#provincies">Alle provincies</a>
+  </p>
+  <h3 class="blog-guide-sub">Populaire plaatsen</h3>
+  <ul class="blog-guide-cities">
+    {topCities.map((c) => (
+      <li>
+        <a href={plaatsPath(c)}>Stalling {c.naam}</a>
+      </li>
+    ))}
+  </ul>
+  {related.length > 0 && (
+    <>
+      <h3 class="blog-guide-sub">Gerelateerde gidsen</h3>
+      <ul class="blog-guide-related">
+        {related.slice(0, 5).map((l) => (
+          <li><a href={l.href}>{l.label}</a></li>
+        ))}
+      </ul>
+    </>
+  )}
+</aside>
+
+<style>
+  .blog-guide {
+    margin: 2.5rem 0 0;
+    padding: 1.35rem 1.25rem;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .blog-guide h2 {
+    font-family: var(--font);
+    font-size: 1.35rem;
+    font-weight: 750;
+    margin: 0 0 0.4rem;
+    letter-spacing: -0.015em;
+  }
+  .blog-guide-lead {
+    margin: 0 0 1rem;
+    color: var(--muted);
+    font-size: 0.98rem;
+  }
+  .blog-guide-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin: 0 0 1.25rem;
+  }
+  .blog-guide-sub {
+    font-family: var(--font);
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 1.1rem 0 0.5rem;
+  }
+  .blog-guide-cities,
+  .blog-guide-related {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.35rem 1rem;
+  }
+  @media (min-width: 560px) {
+    .blog-guide-cities {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .blog-guide a:not(.btn) {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .blog-guide a:not(.btn):hover {
+    text-decoration: underline;
+  }
+</style>

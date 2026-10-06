@@ -1,0 +1,23 @@
+{
+  "id": 131051,
+  "slug": "wim-holwedel-bv",
+  "provincie": "noord-holland",
+  "plaats": "wormer",
+  "naam": "Wim Holwedel BV",
+  "straat": "Bruynvisweg 7",
+  "postcode": "1531AX",
+  "plaatsnaam": "Wormer",
+  "telefoon": "075-6211104",
+  "website": "http://www.holwedel.nl",
+  "lat": 52.49443,
+  "lon": 4.797698,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/wormer/wim-holwedel-bv/",
+  "email": "info@holwedel.nl",
+  "omschrijving": "Constructie-, Machine- en Apparatenbouw\nRVS en Staal\n\nhttp://www.holwedel.nl\n\n Wat wij doen:\nTechnische dienstverlening op het hoogste niveau.\n\nHet familie bedrijf Holwedel BV heeft meer dan 30 jaar ervaring in het ondersteunen van diverse bouw en constructie projecten in de levensmiddelen industrie, energie opwekking en de bouw sector.\n\nHolwedel BV levert diverse diensten en produkten voor de constructie, machine/apparaten bouw en technische dienstverlening.\n\nWij ontwerpen, bouwen en monteren diverse constructies, apparaten en machines volgens klantspecificatie of op basis van turn-key project.\nZowel in nederland als internationaal.\nVoor meer informatie of een vrijblijvende offerte kunt u contact met ons opnemen. Specialiteiten :\nConstructie, Machine-, en Apparatenbouw\n\n Doelgroep :\nBedrijven\n\n Diensten :\nTanken- en apparatenbouw, Technische dienstverlening, Constructie\n\n Producten :\nBakken voor opslag en transport, Trappen en bordessen, Tafels zowel voor huis en tuin als werkbanken, Staal delen voor compensator units, Leidingwerk van 8mm tot DN 1000, Proces en Opslag tanks van 100 liter tot 100 KUB, Machine bouw van diverse apparaten en onderdelen, Balk constructies\n\n Aangesloten bij / Certificering :\nVCA",
+  "meta_title": "Wim Holwedel BV 075-6211104 info@holwedel.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

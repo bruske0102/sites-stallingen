@@ -1,0 +1,20 @@
+{
+  "id": 130879,
+  "slug": "stock-keeping-units-bv",
+  "provincie": "limburg",
+  "plaats": "venray",
+  "naam": "Stock Keeping Units BV",
+  "straat": "Microstraat 2",
+  "postcode": "5804CM",
+  "plaatsnaam": "Venray",
+  "telefoon": "0478-640318",
+  "lat": 51.54698,
+  "lon": 5.982636,
+  "status": "gesloten",
+  "oude_url": "/limburg/venray/stock-keeping-units-bv/",
+  "meta_title": "Stock Keeping Units BV 0478-640318",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

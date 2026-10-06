@@ -1,0 +1,21 @@
+{
+  "id": 131273,
+  "slug": "igma-bulk-terminal",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "IGMA Bulk Terminal",
+  "straat": "Coenhavenweg 3",
+  "postcode": "1013BK",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-5808111",
+  "lat": 52.401895,
+  "lon": 4.86307,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/igma-bulk-terminal/",
+  "omschrijving": "Postbus8692, 1005AR, Amsterdam",
+  "meta_title": "IGMA Bulk Terminal 020-5808111",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

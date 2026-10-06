@@ -1,0 +1,28 @@
+{
+  "id": 533355,
+  "slug": "de-vries-wiersma",
+  "provincie": "friesland",
+  "plaats": "fochteloo",
+  "naam": "De Vries- Wiersma",
+  "straat": "Zuideinde 51",
+  "postcode": "8428 HD",
+  "plaatsnaam": "Fochteloo",
+  "telefoon": "06 12119188",
+  "lat": 52.9728187,
+  "lon": 6.349836299999993,
+  "status": "gesloten",
+  "oude_url": "/friesland/fochteloo/de-vries-wiersma/",
+  "email": "wiersmajoke@hotmail.com",
+  "omschrijving": "Stalling voor uw caravan, camper of boot. Nabij Appelscha. Centraal gelegen in het noorden.",
+  "kenmerken": {
+    "Type": [
+      "boot",
+      "caravan"
+    ]
+  },
+  "meta_title": "De Vries- Wiersma 06 12119188 wiersmajoke@hotmail.com",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

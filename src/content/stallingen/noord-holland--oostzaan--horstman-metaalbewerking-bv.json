@@ -1,0 +1,23 @@
+{
+  "id": 131055,
+  "slug": "horstman-metaalbewerking-bv",
+  "provincie": "noord-holland",
+  "plaats": "oostzaan",
+  "naam": "Horstman Metaalbewerking BV",
+  "straat": "Noordeinde 108",
+  "postcode": "1511AG",
+  "plaatsnaam": "Oostzaan",
+  "telefoon": "075-6841589",
+  "website": "http://www.horstman-metaal.nl",
+  "lat": 52.452182,
+  "lon": 4.869476,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/oostzaan/horstman-metaalbewerking-bv/",
+  "email": "info@horstman-metaal.nl",
+  "omschrijving": "Wat wij doen:\nVoor de verwerking van staal, aluminium en roestvrij staal, staalconstructies en las- en smeedwerk bent u bij ons aan het juiste adres. Denk aan machineframes, hekwerken, aluminiumframes/ladders, apparatenbouw, wielkasten, enzovoort. Ook voor reparatiewerk en opslag kunt u bij ons terecht. Voor zowel particulieren al bedrijven. Doelgroep :\nBedrijven, Particulieren\n\n Type opdracht :\nMachines\n\n Materialen :\nAluminium, Staal",
+  "meta_title": "Horstman Metaalbewerking BV 075-6841589 info@horstman-metaal.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

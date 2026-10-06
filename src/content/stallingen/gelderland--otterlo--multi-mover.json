@@ -1,0 +1,23 @@
+{
+  "id": 130969,
+  "slug": "multi-mover",
+  "provincie": "gelderland",
+  "plaats": "otterlo",
+  "naam": "Multi-Mover",
+  "straat": "Brummelweg 52",
+  "postcode": "6731SV",
+  "plaatsnaam": "Otterlo",
+  "telefoon": "06-54955847",
+  "website": "http://www.multi-mover.nl",
+  "lat": 52.098068,
+  "lon": 5.770864,
+  "status": "gesloten",
+  "oude_url": "/gelderland/otterlo/multi-mover/",
+  "email": "hploeg@multi-mover.nl",
+  "omschrijving": "Wat wij doen:\nMulti Mover\n\n Betrouwbaarheid\n Zorgvuldigheid\n Efficiëntie\n Rust\n Ervaren\n Klantgericht\n Flexibel\n 24 uur bereikbaar\n\nOnze diensten:\n✓Bedrijfsverhuizing\n✓Project begeleiding\n✓Interne werkzaamheden\n✓Ict werkzaamheden\n✓Verhuur verhuizer\n✓Particuliere verhuizingen\n✓Senioren verhuizingen\n✓Montage\n✓Inpakken\n✓Verpakken\n✓Verhuur verhuizers\n✓Bezem schoon opleveren\n✓Vrachtwagen met personeel\n\n Service :\nGratis offerte\n\n Diensten :\nInpakken, Montage, Opslag, Verhuur, bedrijfsverhuisingen, ict werkzaamheden, particuliere verhuizingen, senioren verhuizingen, verhuur verhuizer, verhuur verhuizers, verpakke, vrachtwagen met personeel\n\n Producten :\nVerhuisdoos",
+  "meta_title": "Multi-Mover 06-54955847 hploeg@multi-mover.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

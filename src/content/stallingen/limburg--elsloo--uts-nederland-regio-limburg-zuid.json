@@ -1,0 +1,22 @@
+{
+  "id": 130572,
+  "slug": "uts-nederland-regio-limburg-zuid",
+  "provincie": "limburg",
+  "plaats": "elsloo",
+  "naam": "UTS Nederland regio Limburg Zuid",
+  "straat": "Business Park Stein 161",
+  "postcode": "6181MA",
+  "plaatsnaam": "Elsloo lb",
+  "telefoon": "046-4363100",
+  "website": "http://www.uts.nl",
+  "lat": 50.959012,
+  "lon": 5.783679,
+  "status": "gesloten",
+  "oude_url": "/limburg/elsloo/uts-nederland-regio-limburg-zuid/",
+  "omschrijving": "Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland regio Limburg Zuid 046-4363100",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

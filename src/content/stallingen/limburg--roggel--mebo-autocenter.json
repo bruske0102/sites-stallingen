@@ -1,0 +1,27 @@
+{
+  "id": 130876,
+  "slug": "mebo-autocenter",
+  "provincie": "limburg",
+  "plaats": "roggel",
+  "naam": "Mebo Autocenter",
+  "straat": "Bevelantstraat 20",
+  "postcode": "6088PB",
+  "plaatsnaam": "Roggel",
+  "telefoon": "0475-440770",
+  "website": "http://www.bcsmebo.nl",
+  "lat": 51.263179,
+  "lon": 5.906574,
+  "status": "gesloten",
+  "oude_url": "/limburg/roggel/mebo-autocenter/",
+  "omschrijving": "Wat wij doen:\nAutocenter Mebo BV is een universeel autobedrijf. Onze werkzaamheden variëren van reparaties, APK, regulier onderhoud, schadeherstel tot verkoop, van zowel nieuwe als gebruikte personen- en bedrijfsauto’s.\n\nAutocenter Mebo BV is tevens aangesloten bij Bosch Car Service. Wat betekent dat wij beschikken over alle technische gegevens van personen- en bedrijfsauto’s. We maken gebruik van de modernste diagnostische apparatuur.\n\nDoor het voortdurend volgen van trainingen zijn wij permanent op de hoogte van laatste ontwikkelingen op autogebied. Openingstijden:\n Maandag : 08:00 - 18:00\n Dinsdag : 08:00 - 18:00\n Woensdag : 08:00 - 18:00\n Donderdag : 08:00 - 18:00\n Vrijdag : 08:00 - 18:00\n Zaterdag : 09:00 - 15:00\n Zondag : gesloten Service :\nAlleen op afspraak, Pechservice\n\n Toegankelijkheid :\nBegane grond\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, Olie verversen, Onderhoud, Remmen repareren / vervangen, Reparatie, Roetmeting, Ruit reparatie / vervangen, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Aangesloten bij / Certificering :\nBOVAG / NAP, Bosch Car Service",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Mebo Autocenter 0475-440770",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

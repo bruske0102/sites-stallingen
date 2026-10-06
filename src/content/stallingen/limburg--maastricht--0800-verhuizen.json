@@ -1,0 +1,22 @@
+{
+  "id": 130573,
+  "slug": "0800-verhuizen",
+  "provincie": "limburg",
+  "plaats": "maastricht",
+  "naam": "0800 verhuizen",
+  "straat": null,
+  "postcode": "6211ST",
+  "plaatsnaam": "Maastricht",
+  "telefoon": "0800-8374849",
+  "website": "http://www.0800-verhuizen.nl",
+  "lat": 0.0,
+  "lon": 0.0,
+  "status": "gesloten",
+  "oude_url": "/limburg/maastricht/0800-verhuizen/",
+  "omschrijving": "Gratis Bellen\n\n Wat wij doen:\nIn de drukke periode van uw verhuizing nemen onze verhuizers u graag werk uit handen. U kunt van tevoren afspreken bij welke werkzaamheden u hulp kunt gebruiken. Van een verhuiswagen met chauffeur die u helpt bij efficiënt inladen, of een volledig verzorgde verhuisservice inclusief, verwarmde opslag, en uitpakken van uw inboedel.\n\nBel gratis 0800-verhuizen (0800-8374849) en u wordt direct doorverbonden met de verhuisspecialist in uw regio. Meer informatie en een online offerteaanvraag vindt u op onze website: www.0800-verhuizen.nl\n\n Service :\nGratis offerte\n\n Diensten :\nAdvies, Inpakken, Internationale verhuizing, Opslag\n\n Producten :\nVerhuisdoos, Verhuislift, Verhuiswagen, Verpakkingsmateriaal",
+  "meta_title": "0800 verhuizen 0800-8374849",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

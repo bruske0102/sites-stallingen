@@ -1,0 +1,21 @@
+{
+  "id": 131170,
+  "slug": "zos-wehe-bv",
+  "provincie": "groningen",
+  "plaats": "wehe-den-hoorn",
+  "naam": "ZOS Wehe BV",
+  "straat": "Mernaweg 48",
+  "postcode": "9964AT",
+  "plaatsnaam": "Wehe-Den Hoorn",
+  "telefoon": "0595-572234",
+  "lat": 53.359078,
+  "lon": 6.425128,
+  "status": "gesloten",
+  "oude_url": "/groningen/wehe-den-hoorn/zos-wehe-bv/",
+  "omschrijving": "0595-572234\n\n fax : 0595-571578",
+  "meta_title": "ZOS Wehe BV 0595-572234",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

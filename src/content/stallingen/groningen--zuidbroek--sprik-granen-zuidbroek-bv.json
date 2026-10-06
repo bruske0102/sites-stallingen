@@ -1,0 +1,20 @@
+{
+  "id": 131152,
+  "slug": "sprik-granen-zuidbroek-bv",
+  "provincie": "groningen",
+  "plaats": "zuidbroek",
+  "naam": "Sprik Granen Zuidbroek BV",
+  "straat": "Stationsstraat 7",
+  "postcode": "9636BA",
+  "plaatsnaam": "Zuidbroek",
+  "telefoon": "0598-451203",
+  "lat": 53.159648,
+  "lon": 6.868275,
+  "status": "gesloten",
+  "oude_url": "/groningen/zuidbroek/sprik-granen-zuidbroek-bv/",
+  "meta_title": "Sprik Granen Zuidbroek BV 0598-451203",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

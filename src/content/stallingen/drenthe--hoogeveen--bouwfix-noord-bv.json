@@ -1,0 +1,22 @@
+{
+  "id": 131122,
+  "slug": "bouwfix-noord-bv",
+  "provincie": "drenthe",
+  "plaats": "hoogeveen",
+  "naam": "Bouwfix Noord BV",
+  "straat": "Stephensonstraat 45",
+  "postcode": "7903AS",
+  "plaatsnaam": "Hoogeveen",
+  "telefoon": "0528-273714",
+  "website": "http://www.bouwfix.nl",
+  "lat": 52.728953,
+  "lon": 6.516643,
+  "status": "gesloten",
+  "oude_url": "/drenthe/hoogeveen/bouwfix-noord-bv/",
+  "omschrijving": "Verk. & verh. bouw en wegenbouwmach.\n\nhttp://www.bouwfix.nl\n\n Wat wij doen:\nBouwfix Noord is sinds 1996 leverancier van gereedschappen en machines voor grond- weg en waterbouw en de bouw- en aannemerswereld.\nWij leveren een totaal programma dat uiteenloopt van handgereedschappen tot zaagmachines en bouwliften. Maar ook op het gebied van gebruiksartikelen zoals boren, widia- en diamantzaagbladen tot spijkers en schroeven.\nMaar ook op gebied van gereedschap keuringen, plaatsen , aanpassen kunnen wij uw bedrijf helpen.\n\n Openingstijden:\n Maandag : 07:00 - 17:30\n Dinsdag : 07:00 - 17:30\n Woensdag : 07:00 - 17:30\n Donderdag : 07:00 - 17:30\n Vrijdag : 07:00 - 17:30\n Zaterdag : 09:00 - 12:00\n Zondag : gesloten Elektriciteit en klimaatbeheersing :\nAggregaat, Compressor\n\n Bouw, tuin, vervoer en gereedschap :\nAanhangwagen, Kraan, Ladder, Steekwagen, Steiger\n\n Tijdelijke huisvesting en opslag :\nUnit",
+  "meta_title": "Bouwfix Noord BV 0528-273714",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

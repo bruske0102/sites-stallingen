@@ -1,0 +1,20 @@
+{
+  "id": 131264,
+  "slug": "ceres-paragon-terminals-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Ceres Paragon Terminals BV",
+  "straat": "Ruijgoordweg 100",
+  "postcode": "1047HM",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-4073900",
+  "lat": 52.418739,
+  "lon": 4.754694,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/ceres-paragon-terminals-bv/",
+  "meta_title": "Ceres Paragon Terminals BV 020-4073900",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

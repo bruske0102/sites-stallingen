@@ -1,0 +1,27 @@
+{
+  "id": 2143852,
+  "slug": "aaa",
+  "provincie": "limburg",
+  "plaats": "kelpen-oler",
+  "naam": "aaa",
+  "straat": "Eyckheuvels 1A",
+  "postcode": "6037 RC",
+  "plaatsnaam": "Kelpen-Oler",
+  "telefoon": "+31657868132",
+  "lat": 51.23172810000001,
+  "lon": 5.8082155,
+  "status": "gesloten",
+  "oude_url": "/limburg/kelpen-oler/aaa/",
+  "email": "gillesvandenboom@hotmail.com",
+  "omschrijving": "Het goedkoopst, schoon en dicht. Met een voertuig wasstraat. De stalling ligt aan de afslag van de A2 en is zeer goed te bereiken. De stalling ligt aan een doorlopende weg, maar deze wordt binnenkort doodlopend. Geen vee, maar caravans etc.\r\n\r\nEyckheuvels 1a, Kelpen\r\nstallingkelpen@gmail.com\r\n+31657868132",
+  "kenmerken": {
+    "Type": [
+      "caravan"
+    ]
+  },
+  "meta_title": "aaa +31657868132 gillesvandenboom@hotmail.com",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

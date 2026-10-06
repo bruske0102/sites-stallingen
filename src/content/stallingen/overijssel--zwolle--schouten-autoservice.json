@@ -1,0 +1,27 @@
+{
+  "id": 130864,
+  "slug": "schouten-autoservice",
+  "provincie": "overijssel",
+  "plaats": "zwolle",
+  "naam": "Schouten Autoservice",
+  "straat": "Punterweg 11",
+  "postcode": "8042PB",
+  "plaatsnaam": "Zwolle",
+  "telefoon": "038-7113562",
+  "website": "http://www.autoserviceschouten.nl",
+  "lat": 52.518304,
+  "lon": 6.060301,
+  "status": "gesloten",
+  "oude_url": "/overijssel/zwolle/schouten-autoservice/",
+  "omschrijving": "Snel, Betrouwbaar & goedkoop!\nBanden (ook motorbanden),\nBalanceren, Accu's, Uitlijnen\nSchokdempers, Sportvelgen, APK,\nOnderhoud & Reparatie alle merken auto's\n\nhttp://www.autoserviceschouten.nl\n\n Wat wij doen:\nAutoservice Schouten in Zwolle is al vanaf 1993 de vakman op het gebied van auto- en motorbanden.\n\nWij zijn de beste en de goedkoopste leverancier van autobanden en motorbanden in Zwolle. Autoservice Schouten heeft een ruim assortiment in autobanden en motorbanden en levert en monteert onderdelen zoals uitlaten, accu's remmen, velgen, trekhaken, schokdempers en katalysatoren.\n\nAutoservice Schouten in Zwolle is tevens een allround garagebedrijf en APK- keurstation. U kunt bij ons terecht voor de APK keuring en reparatie en onderhoud van alle merken auto's. Tevens bent u voor het herstel van uw airco bij ons op het goede adres. Wij bieden ook een verlagingsset voor alle merken auto's.\n\nAutoservice Schouten is een erkend APK-Keuringstation met goed opgeleide vakmensen en hoogwaardige apparatuur. Wij voeren voor elk merk en type auto de APK-keuring uit. U krijgt vooraf een prijsopgaaf en we maken duidelijke afspraken over de kosten van de noodzakelijke reparatiewerkzaamheden aan uw auto. U krijgt van ons na de APK-keuring informatie over de conditie van uw auto en inzicht in eventueel toekomstige reparaties.\nHet is ook altijd mogelijk om de APK met een kleine of grote onderhoudsbeurt van uw auto te combineren.\n\nVoor het maken van een afspraak of het aanvragen van een offerte kunt u altijd bij ons binnenlopen of contact opnemen. Service :\nGratis offerte\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAPK keuring, Grote beurt, Kleine beurt, Onderhoud, Reparatie, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Winterbanden montage en opslag, Balanceren, Verlagingsset, Velgen, Trekhaken, Remmen, Uitlijnen, Katalysatoren, Autobanden, Accu's, Schokdempers, Motorbanden, Uitlaten, Airco service\n\n Merk :\nAlle merken",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Schouten Autoservice 038-7113562",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

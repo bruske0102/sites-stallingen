@@ -1,0 +1,27 @@
+{
+  "id": 130614,
+  "slug": "venstra-maasniel-bv",
+  "provincie": "limburg",
+  "plaats": "roermond",
+  "naam": "Venstra Maasniel BV",
+  "straat": "Straat 3",
+  "postcode": "6042KV",
+  "plaatsnaam": "Roermond",
+  "telefoon": "0475-329571",
+  "website": "http://www.venstramaasniel.nl",
+  "lat": 51.187304,
+  "lon": 6.030328,
+  "status": "gesloten",
+  "oude_url": "/limburg/roermond/venstra-maasniel-bv/",
+  "omschrijving": "Verhuur van bedrijfsruimte\n\n Wat wij doen:\nCompartimenten te huur voor opslag.\n\nDe compartimenten zijn:\n\n Van 180 m² tot 270 m² groot\n Goed geïsoleerd\n Voorzien van Electriciteit\n Toegankelijk middels loopdeur en sectionaalpoort\n Voorzien van ruime parkeerruimte op buitenterrein\n Goed bereikbaar vanaf A73 en rondweg Sint Wirosingel (= rondweg Roermond)\n\nInboedel opslag.\n\nDe ruimte is:\n\n Van 10 m² tot 50 m² groot\n Goed geïsoleerd\n Voorzien van Electriciteit\n Toegankelijk middels loopdeur en sectionaalpoort\n Voorzien van ruime parkeerruimte op buitenterrein\n Goed bereikbaarvanaf A73 en rondweg Sint Wirosingel (= rondweg Roermond)\n Alleen toegankelijk samen met beheerder Specialiteiten :\nCompartimenten te huur, Bedrijvenruimte, Loodsen te huur, Opslagruimte particulieren, Opslagruimte voor bedrijven, Industriele opslag, Loods met groot buiten terrein, Inboedel opslag\n\n Toegankelijkheid :\nRolpoort geschikt voor vrachtwagens. Extra toegangs deur.",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Venstra Maasniel BV 0475-329571",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

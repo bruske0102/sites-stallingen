@@ -1,0 +1,28 @@
+{
+  "id": 130661,
+  "slug": "slaats-bv-gebr",
+  "provincie": "noord-brabant",
+  "plaats": "waalwijk",
+  "naam": "Slaats BV Gebr",
+  "straat": "Havenweg 20",
+  "postcode": "5145NJ",
+  "plaatsnaam": "Waalwijk",
+  "telefoon": "0416-561000",
+  "website": "http://www.slaatswaalwijk.nl",
+  "lat": 51.69377,
+  "lon": 5.046504,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/waalwijk/slaats-bv-gebr/",
+  "email": "slaats.lastechniek@planet.nl",
+  "omschrijving": "Sinds 40 jaar het distributiepunt\nvoor Linde Gas Benelux (v/h HoekLoos)\n\nhttp://www.slaatswaalwijk.nl\n\n Wat wij doen:\nVanuit onze opslag op Industrieterrein \"Haven 6\" in Waalwijk distribuëren wij sinds 40 jaar industriële gassen voor Linde Gas Benelux (voorheen HoekLoos).\nNaast industriële gassen leveren wij ook las- en snijapparatuur, lastoevoegmaterialen en lasbenodigdheden.\n\nDe industriële gassen bestelt u direct bij Linde Gas Benelux. Propaan, heftruckgas en alle andere artikelen bestelt u direct bij ons. Uiteraard zorgen wij ervoor dat uw bestellingen volgens afspraak worden geleverd. Daarnaast zijn onze gasflessen altijd volgens de laatste milieueisen opgeslagen. Openingstijden:\n Maandag : 07:30 - 17:30\n Dinsdag : 07:30 - 17:30\n Woensdag : 07:30 - 17:30\n Donderdag : 07:30 - 17:30\n Vrijdag : 07:30 - 17:30\n Zaterdag : 09:00 - 12:00\n Zondag : gesloten Specialiteiten :\nIndustriële gassen, Propaan, Heftruckgas, Las- en snijapparatuur, Lastoevoegmaterialen, Lasbenodigheden, Veiligheidsartikelen\n\n Service :\nAfhalen mogelijk",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Slaats BV Gebr 0416-561000 slaats.lastechniek@planet.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

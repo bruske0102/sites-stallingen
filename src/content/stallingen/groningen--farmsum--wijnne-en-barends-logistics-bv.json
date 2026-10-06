@@ -1,0 +1,21 @@
+{
+  "id": 131139,
+  "slug": "wijnne-en-barends-logistics-bv",
+  "provincie": "groningen",
+  "plaats": "farmsum",
+  "naam": "Wijnne en Barends Logistics BV",
+  "straat": "Loodweg 3",
+  "postcode": "9936BN",
+  "plaatsnaam": "Farmsum",
+  "telefoon": "0596-617055",
+  "lat": 0.0,
+  "lon": 0.0,
+  "status": "gesloten",
+  "oude_url": "/groningen/farmsum/wijnne-en-barends-logistics-bv/",
+  "omschrijving": "Postbus123, 9930AC, Delfzijl",
+  "meta_title": "Wijnne en Barends Logistics BV 0596-617055",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

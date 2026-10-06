@@ -1,0 +1,29 @@
+{
+  "id": 130989,
+  "slug": "garage-oss-de",
+  "provincie": "noord-brabant",
+  "plaats": "oss",
+  "naam": "Garage Oss De",
+  "straat": "Gasstraat-oost 11",
+  "postcode": "5349AH",
+  "plaatsnaam": "Oss",
+  "telefoon": "0412-691313",
+  "website": "http://www.degarageoss.nl",
+  "lat": 51.762289,
+  "lon": 5.547148,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/oss/garage-oss-de/",
+  "email": "info@degarageoss.nl",
+  "omschrijving": "Wat wij doen:\nDe Garage (voorheen Doe Het Zelf Garage Oss) is een jonge en universele autogarage in Oss. Ons team staat klaar om het totaal onderhoud aan uw auto te verzorgen !\n\nBij ons kunt u terecht voor een gedegen en professioneel maar bovenal eerlijk advies. Wij bieden u graag een passende en vaak creatieve oplossing. Persoonlijke aandacht is bij de Garage in Oss belangrijk, u bent bij ons niet alleen maar een kentekennummer!\n\nWij proberen u altijd dezelfde dag nog te helpen! Openingstijden:\n Maandag : 08:00 - 18:00\n Dinsdag : 08:00 - 20:00 avond op afspraak open\n Woensdag : 08:00 - 20:00 avond op afspraak open\n Donderdag : 08:00 - 20:00 avond op afspraak open\n Vrijdag : 08:00 - 18:00\n Zaterdag : 08:00 - 15:00\n Zondag : gesloten Service :\nAPK keuring zonder afspraak, Bezorgservice, Gratis offerte, Haal- en brengservice, Nieuwe of gebruikte onderdelen\n\n Toegankelijkheid :\nBegane grond, Honden toegestaan, Toegankelijk voor rolstoelen\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto-aanpassingen, Autoalarm inbouwen, Carkit inbouwen, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Reparatie, Restauratie, Roetmeting, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin, Bank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nBovag",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Garage Oss De 0412-691313 info@degarageoss.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 131355,
+  "slug": "rumping-en-zn-bv-j-w-j",
+  "provincie": "noord-holland",
+  "plaats": "beverwijk",
+  "naam": "Rumping en Zn BV J W J",
+  "straat": "Duiveland 11",
+  "postcode": "1948RB",
+  "plaatsnaam": "Beverwijk",
+  "telefoon": "0251-223704",
+  "website": "http://www.rumping.nl",
+  "lat": 52.467598,
+  "lon": 4.674234,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/beverwijk/rumping-en-zn-bv-j-w-j/",
+  "email": "info@rumping.nl",
+  "omschrijving": "transport, opslag & overslag\n\nhttp://www.rumping.nl\n\n Doelgroep :\nBedrijven\n\n Werkgebied :\nNationaal, Internationaal\n\n Diensten :\nAdvies, Distributie\n\n Soorten transport :\nBulktransport",
+  "meta_title": "Rumping en Zn BV J W J 0251-223704 info@rumping.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

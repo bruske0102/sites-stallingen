@@ -1,0 +1,22 @@
+{
+  "id": 130945,
+  "slug": "hohenwalt-recycling-vof",
+  "provincie": "limburg",
+  "plaats": "kelpen-oler",
+  "naam": "Hohenwalt Recycling VOF",
+  "straat": "Grathemerweg 13",
+  "postcode": "6037NP",
+  "plaatsnaam": "Kelpen-Oler",
+  "telefoon": "0495-651741",
+  "website": "http://www.hohenwalt.com",
+  "lat": 51.21346,
+  "lon": 5.828584,
+  "status": "gesloten",
+  "oude_url": "/limburg/kelpen-oler/hohenwalt-recycling-vof/",
+  "omschrijving": "Wat wij doen:\nHohenwalt Recycling is dienstverlener voor handelsondernemingen en producenten die werken met non-ferro metalen. Ons dienstpakket bestaat uit o.a.\n\nPersen (pakketteren)\nSorteren\nKnippen (verkleinen)\nSnijden ( verkleinen van b.v. coils folie)\nOpslag / overslag Diensten :\nInzameling, Transport, Verwerking\n\n Recycling van :\nFerro metalen, Non ferro metalen, Plastic",
+  "meta_title": "Hohenwalt Recycling VOF 0495-651741",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

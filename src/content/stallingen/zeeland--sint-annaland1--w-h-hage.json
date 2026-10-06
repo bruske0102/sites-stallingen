@@ -1,0 +1,29 @@
+{
+  "id": 2197420,
+  "slug": "w-h-hage",
+  "provincie": "zeeland",
+  "plaats": "sint-annaland1",
+  "naam": "W H Hage",
+  "straat": "Langeweg 6",
+  "postcode": "4697 RE",
+  "plaatsnaam": "Sint-Annaland",
+  "telefoon": "0646474314",
+  "website": "http://www.hagestalling.nl",
+  "lat": 51.5941263,
+  "lon": 4.1040778,
+  "status": "gesloten",
+  "oude_url": "/zeeland/sint-annaland1/w-h-hage/",
+  "email": "w.hage2@kpnplanet.nl",
+  "omschrijving": "Stalling voor caravan camper boot ea",
+  "kenmerken": {
+    "Type": [
+      "boot",
+      "caravan"
+    ]
+  },
+  "meta_title": "W H Hage 0646474314 w.hage2@kpnplanet.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

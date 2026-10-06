@@ -1,0 +1,20 @@
+{
+  "id": 131073,
+  "slug": "loodswezen-regio-scheldemonden",
+  "provincie": "zeeland",
+  "plaats": "vlissingen",
+  "naam": "Loodswezen Regio Scheldemonden",
+  "straat": "Boulevard de Ruijter 8",
+  "postcode": "4381KA",
+  "plaatsnaam": "Vlissingen",
+  "telefoon": "0118-489500",
+  "lat": 51.440207,
+  "lon": 3.573443,
+  "status": "gesloten",
+  "oude_url": "/zeeland/vlissingen/loodswezen-regio-scheldemonden/",
+  "meta_title": "Loodswezen Regio Scheldemonden 0118-489500",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

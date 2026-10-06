@@ -1,0 +1,20 @@
+{
+  "id": 130617,
+  "slug": "janssen-transport-en-opslag-vlodrop-bv-p",
+  "provincie": "limburg",
+  "plaats": "vlodrop",
+  "naam": "Janssen Transport en Opslag Vlodrop BV P",
+  "straat": "Angsterweg 16",
+  "postcode": "6063AV",
+  "plaatsnaam": "Vlodrop",
+  "telefoon": "0475-401500",
+  "lat": 51.128585,
+  "lon": 6.068734,
+  "status": "gesloten",
+  "oude_url": "/limburg/vlodrop/janssen-transport-en-opslag-vlodrop-bv-p/",
+  "meta_title": "Janssen Transport en Opslag Vlodrop BV P 0475-401500",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

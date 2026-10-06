@@ -1,0 +1,216 @@
+{
+  "total": 834,
+  "kept_actief": 106,
+  "closed": 728,
+  "counts": {
+    "twijfel": 0,
+    "closed": 728,
+    "actief": 106
+  },
+  "reasons": {
+    "twijfel → gesloten (no stalling/opslag/self-storage in name)": 465,
+    "hard junk name (garage/transport/verhuis/olie/…)": 263
+  },
+  "samples": [
+    {
+      "naam": "Zandvoort",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Garagebedrijf De Jonge VOF",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Koolen Garage en Berging",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Lange Verhuizingen De",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Logistiek Centrum Zwiggelaar",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Scheven Op- en Overslag",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Verhuisbedrijf Tuinman",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Bandenbeurs VOF",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Fieten Olie",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Automobielbedrijf Richard Thalen",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Autoprofi",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Bouwfix Noord BV",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Transportbedrijf DGO Expres BV",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Zoer BV Erkende Verhuizers",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Autobedrijf Westerd BV De",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Wigchers Internationaal Transport B.V.",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Kloeze Garagebedrijf",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Maas Toiletwagen- en Douchewagenverhuur",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Bakker Logistiek Bodegraven",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Bakker Logistiek Deventer",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Bakker Logistiek Groep",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Bakker Logistiek Nijkerk",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Bakker Logistiek Peize",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Brolsma Verhuis- en Pianovervoer Hans",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "MCS BV",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Terpstra Vakgarage",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "De Vries- Wiersma",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Mts M. Heida en G. Heida-de Bie",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Jong Pallets BV De",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Mts Visser",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Mts Visser",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Bandsma Bultje Verhuisbedrijf",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Edunoord opleiding en training",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Friesland Verhuizingen",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Kramer Autoservice Hilco",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Otter Autobedrijf BV",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Röben opleiding en training",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "UTS Nederland regio Friesland",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "UTS Wiersma Verhuizingen",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Zwette Overslagbedrijf",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Ron Haulussy",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Hoekstra BV Verhuisbedrijf",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Tolkamp Agri Transport",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "TSC-Silos BV",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Apeldoorns Verhuisbedrijf Witteveen",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Beekman Transport Logistics/Warehousing",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    },
+    {
+      "naam": "Grolleman Coldstore BV",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Verhoeks A",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Derksen Archiefopslag",
+      "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)"
+    },
+    {
+      "naam": "Derksen Verhuizingen BV",
+      "reason": "hard junk name (garage/transport/verhuis/olie/…)"
+    }
+  ]
+}

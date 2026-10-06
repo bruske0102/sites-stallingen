@@ -1,0 +1,23 @@
+{
+  "id": 131110,
+  "slug": "blonk-verhuizingen",
+  "provincie": "zuid-holland",
+  "plaats": "rhoon",
+  "naam": "Blonk Verhuizingen",
+  "straat": "Kleidijk 37",
+  "postcode": "3161EK",
+  "plaatsnaam": "Rhoon",
+  "telefoon": "010-2188205",
+  "website": "http://www.blonkverhuizingen.nl",
+  "lat": 51.863826,
+  "lon": 4.432603,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/rhoon/blonk-verhuizingen/",
+  "email": "info@blonkverhuizingen.nl",
+  "omschrijving": "Wat wij doen:\nVoor Blonk Verhuizingen is een particuliere verhuizing dagelijks werk, wij zijn een bedrijf met veel ervaring. We kunnen u bijstaan met diverse diensten en maken samen met u een verhuisplan op maat. Openingstijden:\n Maandag : 09:00 - 20:00\n Dinsdag : 09:00 - 20:00\n Woensdag : 09:00 - 20:00\n Donderdag : 09:00 - 20:00\n Vrijdag : 09:00 - 20:00\n Zaterdag : 09:00 - 18:00\n Zondag : gesloten Service :\nGratis offerte\n\n Toegankelijkheid :\nLift aanwezig\n\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nInpakken, Internationale verhuizing, Montage, Opslag, Uitpakken, verhuur verhuislift\n\n Producten :\nVerhuisdoos, Verhuislift, Verhuistape, Verhuiswagen, Verpakkingsmateriaal",
+  "meta_title": "Blonk Verhuizingen 010-2188205 info@blonkverhuizingen.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 131178,
+  "slug": "dsv-solutions-nederland-bv",
+  "provincie": "noord-brabant",
+  "plaats": "zevenbergen",
+  "naam": "DSV Solutions Nederland BV",
+  "straat": "Tradeboulevard 4",
+  "postcode": "4761RL",
+  "plaatsnaam": "Zevenbergen",
+  "telefoon": "0168-413000",
+  "lat": 51.657288,
+  "lon": 4.568,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/zevenbergen/dsv-solutions-nederland-bv/",
+  "meta_title": "DSV Solutions Nederland BV 0168-413000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

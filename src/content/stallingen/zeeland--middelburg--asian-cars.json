@@ -1,0 +1,29 @@
+{
+  "id": 131078,
+  "slug": "asian-cars",
+  "provincie": "zeeland",
+  "plaats": "middelburg",
+  "naam": "Asian Cars",
+  "straat": "Arnesteinweg 17",
+  "postcode": "4338PD",
+  "plaatsnaam": "Middelburg",
+  "telefoon": "0118-650773",
+  "website": "http://www.asiancars.nl",
+  "lat": 51.497574,
+  "lon": 3.635742,
+  "status": "gesloten",
+  "oude_url": "/zeeland/middelburg/asian-cars/",
+  "email": "info@asiancars.nl",
+  "omschrijving": "De Japanse autospecialist van Zeeland\n\n Wat wij doen:\nWelkom bij Asian Cars, de specialist in Japanse en Koreaanse auto's. Wij houden ons voornamelijk bezig met de verkoop, onderhoud en reparatie van Aziatische merken. Door dit specialisme zijn we in staat snel en adequaat problemen op te lossen en uw auto optimaal te onderhouden.\n\nIn onze werkplaats kunt u terecht voor onderhoud, reparatie en apk van alle merken. Wij beschikken over een apk teststraat, aircoserviceapparatuur, divers speciaal gereedschap en speciale Launch uitleesapparatuur waarmee wij als een van de weinige in staat zijn zowel het complete Japanse wagenpark als het Europese wagenpark uit te lezen. Openingstijden:\n Maandag : 08:30 - 17:30\n Dinsdag : 08:30 - 17:30\n Woensdag : 08:30 - 17:30\n Donderdag : 08:30 - 17:30\n Vrijdag : 08:30 - 17:30\n Zaterdag : gesloten\n Zondag : gesloten Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto spuiten, Auto-aanpassingen, Carkit inbouwen, Demontage / montage, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Reparatie, Roetmeting, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nHonda, Hyundai, Kia, Mazda, Mitsubishi, Nissan, Suzuki, Toyota\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nBOVAG; Nationale Auto Pas",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Asian Cars 0118-650773 info@asiancars.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

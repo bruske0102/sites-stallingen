@@ -1,0 +1,21 @@
+{
+  "id": 131019,
+  "slug": "salland-storage-bv",
+  "provincie": "overijssel",
+  "plaats": "deventer",
+  "naam": "Salland Storage BV",
+  "straat": "Duurstedeweg 6",
+  "postcode": "7418CK",
+  "plaatsnaam": "Deventer",
+  "telefoon": "0570-629231",
+  "website": "http://www.sallandstorage.nl",
+  "lat": 52.249316,
+  "lon": 6.180555,
+  "status": "gesloten",
+  "oude_url": "/overijssel/deventer/salland-storage-bv/",
+  "meta_title": "Salland Storage BV 0570-629231",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

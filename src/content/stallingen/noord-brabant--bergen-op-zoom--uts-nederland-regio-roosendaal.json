@@ -1,0 +1,22 @@
+{
+  "id": 130922,
+  "slug": "uts-nederland-regio-roosendaal",
+  "provincie": "noord-brabant",
+  "plaats": "bergen-op-zoom",
+  "naam": "UTS Nederland regio Roosendaal",
+  "straat": "Blankenweg 11",
+  "postcode": "4612RC",
+  "plaatsnaam": "Bergen op Zoom",
+  "telefoon": "0165-212000",
+  "website": "http://www.uts.nl",
+  "lat": 51.494784,
+  "lon": 4.260475,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/bergen-op-zoom/uts-nederland-regio-roosendaal/",
+  "omschrijving": "Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland regio Roosendaal 0165-212000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

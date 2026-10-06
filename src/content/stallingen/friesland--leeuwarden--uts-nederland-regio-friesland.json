@@ -1,0 +1,22 @@
+{
+  "id": 130780,
+  "slug": "uts-nederland-regio-friesland",
+  "provincie": "friesland",
+  "plaats": "leeuwarden",
+  "naam": "UTS Nederland regio Friesland",
+  "straat": "Ceresweg 48",
+  "postcode": "8938BG",
+  "plaatsnaam": "Leeuwarden",
+  "telefoon": "058-2881412",
+  "website": "http://www.uts.nl",
+  "lat": 53.193894,
+  "lon": 5.858742,
+  "status": "gesloten",
+  "oude_url": "/friesland/leeuwarden/uts-nederland-regio-friesland/",
+  "omschrijving": "Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland regio Friesland 058-2881412",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

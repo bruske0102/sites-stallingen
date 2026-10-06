@@ -1,0 +1,26 @@
+{
+  "id": 131357,
+  "slug": "vos-brandstofhandel-en-benzinestation-shop",
+  "provincie": "noord-holland",
+  "plaats": "blaricum",
+  "naam": "Vos Brandstofhandel en Benzinestation-Shop",
+  "straat": "Middenweg 17",
+  "postcode": "1261EZ",
+  "plaatsnaam": "Blaricum",
+  "telefoon": "035-5382053",
+  "lat": 52.271082,
+  "lon": 5.242866,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/blaricum/vos-brandstofhandel-en-benzinestation-shop/",
+  "omschrijving": "Garage : 035-5312282\n\n Wat wij doen:\nTankstation\nShop\nGarage\nAPK\nAutowasserette\nKolen\nHout\n Openingstijden:\n Maandag : 08:30 - 17:00 Tankstation open 07.00-20.00\n Dinsdag : 08:30 - 17:00 Tankstation open 07.00-20.00\n Woensdag : 08:30 - 17:00 Tankstation open 07.00-20.00\n Donderdag : 08:30 - 17:00 Tankstation open 07.00-20.00\n Vrijdag : 08:30 - 17:00 Tankstation open 07.00-20.00\n Zaterdag : gesloten\n Zondag : gesloten Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto-aanpassingen, Autoalarm inbouwen, Carkit inbouwen, Demontage / montage, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Remmen repareren / vervangen, Reparatie, Roetmeting, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin, Mastercard, Visa\n\n Aangesloten bij / Certificering :\nBOVAG",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Vos Brandstofhandel en Benzinestation-Shop 035-5382053",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

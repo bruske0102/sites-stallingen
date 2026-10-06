@@ -1,0 +1,21 @@
+{
+  "id": 131179,
+  "slug": "moerdijk-bv-overslagbedrijf",
+  "provincie": "noord-brabant",
+  "plaats": "moerdijk",
+  "naam": "Moerdijk BV Overslagbedrijf",
+  "straat": "Middenweg 26",
+  "postcode": "4782PM",
+  "plaatsnaam": "Moerdijk",
+  "telefoon": "0168-325881",
+  "website": "http://www.obm.nl",
+  "lat": 51.675803,
+  "lon": 4.581993,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/moerdijk/moerdijk-bv-overslagbedrijf/",
+  "meta_title": "Moerdijk BV Overslagbedrijf 0168-325881",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

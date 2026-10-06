@@ -1,0 +1,20 @@
+{
+  "id": 130664,
+  "slug": "dhl-exel-supply-chain",
+  "provincie": "limburg",
+  "plaats": "beringe",
+  "naam": "DHL Exel Supply Chain",
+  "straat": "Zwenkgras 3",
+  "postcode": "5986PM",
+  "plaatsnaam": "Beringe",
+  "telefoon": "077-3261900",
+  "lat": 51.332818,
+  "lon": 5.917998,
+  "status": "gesloten",
+  "oude_url": "/limburg/beringe/dhl-exel-supply-chain/",
+  "meta_title": "DHL Exel Supply Chain 077-3261900",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

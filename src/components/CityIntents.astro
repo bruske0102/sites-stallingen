@@ -1,0 +1,70 @@
+---
+/**
+ * Intent H2s for Group A city pages - Stallingen.xyz
+ */
+import type { Listing } from "../lib/model";
+import { cityIntent, isHighTrafficCity, INTENT_BLOG_LINKS } from "../lib/city-intents";
+import { listingCount } from "../lib/nl-count";
+
+interface Props {
+  stad: string;
+  plaatsSlug: string;
+  listings: Listing[];
+  expanded?: boolean;
+}
+const { stad, plaatsSlug, listings, expanded = false } = Astro.props;
+const intent = cityIntent(plaatsSlug);
+const showExpanded = expanded || isHighTrafficCity(plaatsSlug);
+const n = listings.length;
+---
+<section class="section city-intents" aria-labelledby="intents-intro">
+  <h2 id="intents-intro" class="visually-hidden">Stalling kiezen in {stad}</h2>
+  <p class="city-intents__lead">
+    Wat zoekers in {stad} vaak willen weten, kort en eerlijk.
+    Vergelijk {n === 1 ? "de stalling" : "de stallingen"} hierboven op adres en telefoon.
+  </p>
+  <div class="city-intents__block">
+    <h2 id={`stalling-${plaatsSlug}`}>Stalling &amp; opslag in {stad}</h2>
+    <p>
+      {n === 1
+        ? `In onze gids staat 1 stalling/opslag in ${stad}. Check adres en telefoon hierboven.`
+        : `In onze gids staan ${listingCount(n)} in ${stad}. Gebruik adres en telefoon om te vergelijken.`}
+      {" "}
+      Hulp: <a href={INTENT_BLOG_LINKS.opslag.href}>{INTENT_BLOG_LINKS.opslag.label}</a>.
+    </p>
+  </div>
+  <div class="city-intents__block">
+    <h2 id={`fiets-${plaatsSlug}`}>Fietsenstalling of self-storage?</h2>
+    <p>
+      Zoek je een <strong>fietsenstalling</strong>, box of self-storage? Check per listing wat ze aanbieden.
+      {" "}
+      Tip: <a href={INTENT_BLOG_LINKS.box.href}>{INTENT_BLOG_LINKS.box.label}</a>.
+    </p>
+  </div>
+  {showExpanded && (
+    <div class="city-intents__block">
+      <h2 id={`prijs-${plaatsSlug}`}>Prijzen &amp; bereikbaarheid in {stad}</h2>
+      <p>
+        Huurprijzen hangen af van boxgrootte, bereikbaarheid en beveiliging. Bel voor actuele tarieven.
+        {" "}
+        <a href={INTENT_BLOG_LINKS.kiezen.href}>{INTENT_BLOG_LINKS.kiezen.label}</a>.
+      </p>
+    </div>
+  )}
+  <div class="city-intents__block">
+    <h2 id={`buurt-${plaatsSlug}`}>Stalling in de buurt van {stad}</h2>
+    <p>
+      Geen plek in {stad}? Kijk ook in buurgemeenten via <a href="/zoeken/">zoeken</a>.
+    </p>
+  </div>
+</section>
+<style>
+  .city-intents__lead { color: var(--muted); max-width: 62ch; }
+  .city-intents__block { margin-top: 1.5rem; }
+  .city-intents__block h2 { font-size: 1.25rem; margin: 0 0 0.4rem; }
+  .city-intents__block p { margin: 0; max-width: 65ch; }
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+  }
+</style>

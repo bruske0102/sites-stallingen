@@ -1,0 +1,29 @@
+{
+  "id": 131204,
+  "slug": "persoon-bernisse-bv",
+  "provincie": "zuid-holland",
+  "plaats": "geervliet",
+  "naam": "Persoon Bernisse BV",
+  "straat": "Polderweg 8",
+  "postcode": "3211LE",
+  "plaatsnaam": "Geervliet",
+  "telefoon": "0181-663416",
+  "lat": 51.857256,
+  "lon": 4.266917,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/geervliet/persoon-bernisse-bv/",
+  "email": "persoonbernisse@planet.nl",
+  "omschrijving": "Wat wij doen:\nWij hebben een overdekte caravan- en camperstalling. De gehele stalling is voorzien van een verharde (asfalt)vloer en is goed geventileerd. Met uw bericht minimaal 24 uur vooraf kunt u kostenloos en onbeperkt over het gestalde beschikken. We hebben een gratis wasplaats en compressor voor de banden. In overleg kunnen wij uw caravan of boot halen en wegbrengen. Openingstijden:\n Maandag : 08:00 - 17:00\n Dinsdag : 08:00 - 17:00\n Woensdag : 08:00 - 17:00\n Donderdag : 08:00 - 17:00\n Vrijdag : 08:00 - 17:00\n Zaterdag : 09:00 - 12:00\n Zondag : gesloten Specialiteiten :\nbinnen en buitenstalling, boten, campers, caravans, compressor, klassiekers, minimaal 24 uur vooraf bericht, onbeperkt halen en brengen, vouwwagens, wasplaats\n\n Service :\nAlleen op afspraak, Gratis offerte, Reserveren verplicht, ook buiten onze openingstijden kunt u over het gestalde beschikken.\n\n Toegankelijkheid :\nop afspraak (24 uur vooraf) kunt u altijd even bij de gestalde.......\n\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nCaravanstalling, Camperstalling, Botenstalling, Autostalling, Vouwwagenstalling, Klassiekerstalling, Motorstalling\n\n Producten :\nOpslag, Caravan, Camper, Boot, Auto, Vouwwagen, Motorfiets\n\n Betalingsmogelijkheden :\nBank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nRecron en ANWB",
+  "kenmerken": {
+    "Type": [
+      "fiets",
+      "boot",
+      "caravan"
+    ]
+  },
+  "meta_title": "Persoon Bernisse BV 0181-663416 persoonbernisse@planet.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

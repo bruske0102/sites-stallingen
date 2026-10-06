@@ -1,0 +1,22 @@
+{
+  "id": 131348,
+  "slug": "stammis-horeca-verhuur",
+  "provincie": "noord-holland",
+  "plaats": "heerhugowaard",
+  "naam": "Stammis Horeca Verhuur",
+  "straat": "Snelliusstraat 15",
+  "postcode": "1704SW",
+  "plaatsnaam": "Heerhugowaard",
+  "telefoon": "072-5716151",
+  "website": "http://www.stammishorecaverhuur.nl",
+  "lat": 52.691144,
+  "lon": 4.833058,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/heerhugowaard/stammis-horeca-verhuur/",
+  "omschrijving": "Toegankelijkheid :\nBegane grond\n\n Feest, evenement en beurs :\nKeukenapparatuur, Koeling, Linnen, Parasol, Podium, Tent\n\n Elektriciteit en klimaatbeheersing :\nAggregaat, Verwarming\n\n Witgoed :\nKoelkast\n\n Bouw, tuin, vervoer en gereedschap :\nAanhangwagen, Kraan, Steekwagen\n\n Licht, beeld en geluid :\nVerlichting\n\n Kantoor en winkel :\nBalie, Kassa\n\n Tijdelijke huisvesting en opslag :\nContainer, Unit",
+  "meta_title": "Stammis Horeca Verhuur 072-5716151",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

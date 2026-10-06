@@ -1,0 +1,23 @@
+{
+  "id": 131030,
+  "slug": "lmb-loenen-bv",
+  "provincie": "gelderland",
+  "plaats": "loenen-veluwe",
+  "naam": "LMB Loenen BV",
+  "straat": "Hoofdweg 54",
+  "postcode": "7371AJ",
+  "plaatsnaam": "Loenen gld",
+  "telefoon": "055-5051620",
+  "website": "http://www.lmbloenen.nl",
+  "lat": 52.120744,
+  "lon": 6.020819,
+  "status": "gesloten",
+  "oude_url": "/gelderland/loenen-veluwe/lmb-loenen-bv/",
+  "email": "info@lmbloenen.nl",
+  "omschrijving": "055-5051620\n\n fax : 055-5053061\n\n Wat wij doen:\nEen moderne constructie- en reparatiewerkplaats voorzien van kraanbaan, pons-knipmachine, zaagmachine en\nwandzwenkkranen. Tevens een winkel, magazijn en opslag voor balken, buizen en strippen. Ook onderhoud en\nverkoop van tuin- en parkmachines. Openingstijden:\n Maandag : 08:00 - 18:00\n Dinsdag : 08:00 - 18:00\n Woensdag : 08:00 - 18:00\n Donderdag : 08:00 - 18:00\n Vrijdag : 08:00 - 18:00\n Zaterdag : 08:30 - 14:00\n Zondag : gesloten Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nConstructiewerk, Klein constructiewerk, Landbouwmechanisatie, Lassen, Metaalbewerking, Mig lassen, Montage / montagewerken, Onderhoud, Reparatie, Staalbouw, Tekenwerk\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nMetaalunie, Metaalunie",
+  "meta_title": "LMB Loenen BV 055-5051620 info@lmbloenen.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

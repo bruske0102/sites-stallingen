@@ -1,0 +1,20 @@
+{
+  "id": 130878,
+  "slug": "geodis-logistics-netherlands-bv",
+  "provincie": "limburg",
+  "plaats": "venray",
+  "naam": "Geodis Logistics Netherlands BV",
+  "straat": "Energieweg 16",
+  "postcode": "5804CE",
+  "plaatsnaam": "Venray",
+  "telefoon": "0478-557000",
+  "lat": 51.547888,
+  "lon": 5.982706,
+  "status": "gesloten",
+  "oude_url": "/limburg/venray/geodis-logistics-netherlands-bv/",
+  "meta_title": "Geodis Logistics Netherlands BV 0478-557000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

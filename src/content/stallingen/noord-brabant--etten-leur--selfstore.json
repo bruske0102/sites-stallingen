@@ -1,0 +1,22 @@
+{
+  "id": 130920,
+  "slug": "selfstore",
+  "provincie": "noord-brabant",
+  "plaats": "etten-leur",
+  "naam": "SelfStore",
+  "straat": "Hoevenseweg 39",
+  "postcode": "4877LA",
+  "plaatsnaam": "Etten-Leur",
+  "telefoon": "076-5037400",
+  "website": "http://www.selfstore.nu",
+  "lat": 51.574946,
+  "lon": 4.615116,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/etten-leur/selfstore/",
+  "omschrijving": "http://www.selfstore.nu\n\n Wat wij doen:\nDe belangrijkste activiteiten van Self Store Etten-Leur BV zijn opslag in distributie (opslag niet in tanks, koelhuizen e.d.). Service :\nAlleen op afspraak\n\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nMeubelopslag, Tijdelijke opslag, Transport\n\n Type opslag :\nContainer, Opslagunit, Self storage",
+  "meta_title": "SelfStore 076-5037400",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

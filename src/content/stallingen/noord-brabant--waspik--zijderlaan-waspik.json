@@ -1,0 +1,22 @@
+{
+  "id": 130652,
+  "slug": "zijderlaan-waspik",
+  "provincie": "noord-brabant",
+  "plaats": "waspik",
+  "naam": "Zijderlaan Waspik",
+  "straat": "Hooiweg 2",
+  "postcode": "5165NL",
+  "plaatsnaam": "Waspik",
+  "telefoon": "0416-313636",
+  "website": "http://www.zijderlaanwaspik.nl",
+  "lat": 51.703123,
+  "lon": 4.943274,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/waspik/zijderlaan-waspik/",
+  "omschrijving": "Voor mengvoeder grondstoffen\nBiomassa-kunstmest e.d.\n\nhttp://www.zijderlaanwaspik.nl\n\n Wat wij doen:\nWij zijn een dynamisch bedrijf dat zich al meer dan 20 jaar bezig houdt met de handling van bulkgrondstoffen.\n\nDe producten die overgeslagen worden, zijn zeer gevarieerd: van mengvoeder grondstoffen en biomassa, tot minerale grondstoffen.\n\nOm deze activiteiten uit te voeren hebben we watergebonden locaties ter beschikking, met uitstekende aansluitingen op het wegennet richting het achterland. Specialiteiten :\nOpslag bulkgoederen, Overslag bulkgoederen",
+  "meta_title": "Zijderlaan Waspik 0416-313636",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

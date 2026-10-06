@@ -1,0 +1,22 @@
+{
+  "id": 130912,
+  "slug": "uts-van-der-lee",
+  "provincie": "utrecht",
+  "plaats": "utrecht-gemeente",
+  "naam": "UTS Van der Lee",
+  "straat": "Nucleonenweg 23",
+  "postcode": "3542CD",
+  "plaatsnaam": "Utrecht",
+  "telefoon": "030-2476000",
+  "website": "http://www.uts.nl",
+  "lat": 52.108302,
+  "lon": 5.061815,
+  "status": "gesloten",
+  "oude_url": "/utrecht/utrecht-gemeente/uts-van-der-lee/",
+  "omschrijving": "Ruim 25 locaties verspreid over heel Nederland.\nAltijd een UTS Verhuisbedrijf bij u in de buurt!\n\n Wat wij doen:\nOntzorgen staat centraal\nIn 1901 werd door de heer C.A. van der Lee het verhuisbedrijf Van der Lee verhuizingen opgericht in Utrecht. Het ondersteunen en ontzorgen van mensen, bedrijven en instellingen heeft sinds onze oprichting altijd centraal gestaan bij het uitvoeren van onze verhuisactiviteiten.\nUnieke Totaal Service\nUTS Van der Lee is uitgegroeid tot een allround verhuisbedrijf voor zowel de zakelijke- als particuliere markt in binnen- en buitenland. Wij zijn een gespecialiseerde projectverhuizer en waarborgen dat u te maken heeft met een betrouwbare partner in business. Naast het verplaatsen van werkplekken bieden wij ook een breed pakket aan facilitaire dienstverlening, onze Unieke Totaal Service.\nSpeciale service voor ouderen\nHet verhuizen van inboedels vergt de juiste houding, expertise en vakmanschap. Iets wat onze mensen op hun hart meedragen. Zorg staat bij ons centraal en wij zijn gespecialiseerd in het verhuizen van ouderen. Wij bieden een speciale service voor ouderen die echt ontzorgt. Ook onze Verhuisdirigentes maken verhuizen tot een feestelijke ervaring zoals u dat nog niet eerder mee maakte.\nDe klanten van UTS Van der Lee komen o.a. uit Utrecht, Hilversum en Amersfoort.",
+  "meta_title": "UTS Van der Lee 030-2476000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

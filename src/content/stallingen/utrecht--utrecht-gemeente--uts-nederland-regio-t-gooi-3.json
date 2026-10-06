@@ -1,0 +1,21 @@
+{
+  "id": 131358,
+  "slug": "uts-nederland-regio-t-gooi-3",
+  "provincie": "utrecht",
+  "plaats": "utrecht-gemeente",
+  "naam": "UTS Nederland regio 't Gooi",
+  "straat": "Nucleonenweg 23",
+  "postcode": "3542CD",
+  "plaatsnaam": "Utrecht",
+  "telefoon": "035-7121558",
+  "lat": 52.108302,
+  "lon": 5.061815,
+  "status": "gesloten",
+  "oude_url": "/utrecht/utrecht-gemeente/uts-nederland-regio-t-gooi-3/",
+  "omschrijving": "Sloterweg312, 1171VJ, Badhoevedorp\n020-5858800\n\nhttp://www.uts.nl\nRuim 25 locaties verspreid over heel Nederland.\nAltijd een UTS Verhuisbedrijf bij u in de buurt!\n\n Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland regio 't Gooi 035-7121558",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

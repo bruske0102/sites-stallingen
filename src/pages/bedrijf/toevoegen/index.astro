@@ -1,0 +1,24 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import ToevoegenForm from "../../../components/ToevoegenForm.astro";
+import { instellingen } from "../../../lib/data";
+---
+<Layout
+  title={`Praktijk toevoegen - ${instellingen.site.naam}`}
+  description="Voeg je praktijk gratis toe aan stallingen.xyz. We controleren elke aanmelding voordat die online komt."
+  zoekbaar={false}
+>
+  <p class="crumbs"><a href="/">Home</a> / Bedrijf toevoegen</p>
+  <header class="page-intro">
+    <h1 class="page-title">Je praktijk toevoegen</h1>
+    <p class="lead">
+      Meld je praktijk gratis aan - we controleren elke aanmelding vóór publicatie.
+    </p>
+    <ul class="trust-list">
+      <li><strong>Gratis</strong> - geen kosten, geen abonnement</li>
+      <li><strong>Geen betaalde ranking</strong> - niemand koopt een hogere plek</li>
+      <li><strong>Handmatige controle</strong> - we checken website/Maps vóór publicatie</li>
+    </ul>
+  </header>
+  <ToevoegenForm />
+</Layout>

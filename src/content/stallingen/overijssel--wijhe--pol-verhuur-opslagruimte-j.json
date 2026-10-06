@@ -1,0 +1,20 @@
+{
+  "id": 130854,
+  "slug": "pol-verhuur-opslagruimte-j",
+  "provincie": "overijssel",
+  "plaats": "wijhe",
+  "naam": "Pol Verhuur Opslagruimte J",
+  "straat": "Onder de Gelder 2",
+  "postcode": "8131SG",
+  "plaatsnaam": "Wijhe",
+  "telefoon": "0570-523165",
+  "lat": 52.391812,
+  "lon": 6.144865,
+  "status": "gesloten",
+  "oude_url": "/overijssel/wijhe/pol-verhuur-opslagruimte-j/",
+  "meta_title": "Pol Verhuur Opslagruimte J 0570-523165",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

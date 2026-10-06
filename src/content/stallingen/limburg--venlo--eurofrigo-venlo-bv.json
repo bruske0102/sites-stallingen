@@ -1,0 +1,21 @@
+{
+  "id": 130698,
+  "slug": "eurofrigo-venlo-bv",
+  "provincie": "limburg",
+  "plaats": "venlo",
+  "naam": "Eurofrigo Venlo BV",
+  "straat": "Egtenrayseweg 35",
+  "postcode": "5928PH",
+  "plaatsnaam": "Venlo",
+  "telefoon": "077-3231060",
+  "lat": 51.38765,
+  "lon": 6.137237,
+  "status": "gesloten",
+  "oude_url": "/limburg/venlo/eurofrigo-venlo-bv/",
+  "omschrijving": "Wat wij doen:\nEurofrigo Venlo B.V. is een logistiek centrum voor de opslag en handling van gekoelde en diepgevroren producten zoals IQF fruit, groenten, ijs- en andere melkproducten, farmaceutische middelen en producten voor de automotive industrie. Eurofrigo heeft vier vrieshuizen in bezit waar in totaal meer dan 100 mensen werken. Specialiteiten :\nVrieshuisfaciliteiten, Opslag , Handling , Barcodering, Containers laden/lossen, Crossdocking, Orderpicking, Elektronische Data Transfer, Douanefaciliteiten, Transport en expeditiewerkzaamheden\n\n Aangesloten bij / Certificering :\nHACCP-gecertificeerd (Hazard Analysis Critical Control Points)",
+  "meta_title": "Eurofrigo Venlo BV 077-3231060",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

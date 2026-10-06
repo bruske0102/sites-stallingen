@@ -1,0 +1,29 @@
+{
+  "id": 130867,
+  "slug": "timmer-autoservice",
+  "provincie": "overijssel",
+  "plaats": "staphorst",
+  "naam": "Timmer Autoservice",
+  "straat": "H G Fledderusstraat 1",
+  "postcode": "7951DS",
+  "plaatsnaam": "Staphorst",
+  "telefoon": "0522-461387",
+  "website": "http://www.autoservicetimmer.nl",
+  "lat": 52.640814,
+  "lon": 6.221457,
+  "status": "gesloten",
+  "oude_url": "/overijssel/staphorst/timmer-autoservice/",
+  "email": "info@timmerrouveen.nl",
+  "omschrijving": "Wat wij doen:\nAutoservice Timmer is een garagebedrijf met de nodige specialiteiten. Zo kunnen wij onderhoud voor u verzorgen aan alle type auto's en zijn daarnaast ook aircospecialist en APK-keuringsstation. Uw auto is in vertrouwde handen bij ons.\n\nKijk voor meer informatie op onze website, of kom eens langs! Openingstijden:\n Maandag : 08:15 - 17:30\n Dinsdag : 08:15 - 17:30\n Woensdag : 08:15 - 17:30\n Donderdag : 08:15 - 17:30\n Vrijdag : 08:15 - 17:30\n Zaterdag : 09:00 - 12:00\n Zondag : gesloten Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto spuiten, Carkit inbouwen, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop occasions / tweedehands auto's, Winterbanden montage en opslag\n\n Merk :\nAlle merken, Mazda\n\n Betalingsmogelijkheden :\nContant, Pin, Bank / Giro overschrijving\n\n Aangesloten bij / Certificering :\nNAP, Stek, RDW",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Timmer Autoservice 0522-461387 info@timmerrouveen.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

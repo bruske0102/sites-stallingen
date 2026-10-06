@@ -1,0 +1,20 @@
+{
+  "id": 131284,
+  "slug": "ozer-container-services-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Ozer Container Services BV",
+  "straat": "Vlothavenweg 10",
+  "postcode": "1013BJ",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "010-2944344",
+  "lat": 52.4015,
+  "lon": 4.853156,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/ozer-container-services-bv/",
+  "meta_title": "Ozer Container Services BV 010-2944344",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

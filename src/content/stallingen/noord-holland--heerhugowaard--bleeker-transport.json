@@ -1,0 +1,23 @@
+{
+  "id": 130636,
+  "slug": "bleeker-transport",
+  "provincie": "noord-holland",
+  "plaats": "heerhugowaard",
+  "naam": "Bleeker Transport",
+  "straat": "Hasselaarsweg 1",
+  "postcode": "1704DW",
+  "plaatsnaam": "Heerhugowaard",
+  "telefoon": "072-5742026",
+  "website": "http://www.bleekertransport.nl",
+  "lat": 52.697439,
+  "lon": 4.833807,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/heerhugowaard/bleeker-transport/",
+  "email": "info@bleekertransport.nl",
+  "omschrijving": "072-5742026\n\n fax : 072-5744682\n\nhttp://www.bleekertransport.nl\n\n Werkgebied :\nNationaal, Internationaal\n\n Diensten :\nDistributie\n\n Soorten transport :\nExceptioneel transport\n\n Transportmiddelen :\nAanhangwagen, Autolaadkraan, Trailer",
+  "meta_title": "Bleeker Transport 072-5742026 info@bleekertransport.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

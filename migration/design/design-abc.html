@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keramiek design A / B / C — preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Manrope, system-ui, sans-serif;
+      background: #eef1f4;
+      color: #1a1a1a;
+      padding: 1.25rem;
+    }
+    h1.page-title {
+      text-align: center;
+      font-size: 1.35rem;
+      margin: 0 0 0.35rem;
+    }
+    p.page-lead {
+      text-align: center;
+      color: #5a6578;
+      margin: 0 0 1.5rem;
+      font-size: 0.95rem;
+    }
+    .grid {
+      display: grid;
+      gap: 1.25rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    @media (min-width: 960px) {
+      .grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    .option {
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,.08);
+      border: 1px solid rgba(0,0,0,.06);
+    }
+    .option-label {
+      padding: 0.65rem 1rem;
+      font-weight: 800;
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: #fff;
+      border-bottom: 1px solid rgba(0,0,0,.06);
+    }
+    .option-label span { font-weight: 600; text-transform: none; letter-spacing: 0; color: #5a6578; margin-left: 0.35rem; font-size: 0.8rem; }
+    .frame {
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 420px;
+    }
+    .frame a { text-decoration: none; }
+    .frame .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--line);
+      background: var(--header-bg);
+      backdrop-filter: blur(12px);
+    }
+    .frame .brand { font-weight: 800; font-size: 0.95rem; color: var(--ink); }
+    .frame .brand em { font-style: normal; color: var(--accent); }
+    .frame .nav { display: flex; gap: 0.85rem; font-size: 0.78rem; font-weight: 650; }
+    .frame .nav a { color: var(--muted); }
+    .frame .hero {
+      padding: 1.25rem 1rem 1rem;
+      background: var(--hero-bg);
+    }
+    .frame .eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin: 0 0 0.4rem;
+    }
+    .frame h2 {
+      margin: 0 0 0.45rem;
+      font-size: 1.35rem;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      max-width: 14ch;
+    }
+    .frame .lead {
+      margin: 0 0 0.85rem;
+      color: var(--muted);
+      font-size: 0.82rem;
+      max-width: 28ch;
+    }
+    .frame .search {
+      display: flex;
+      gap: 0;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      max-width: 100%;
+    }
+    .frame .search input {
+      flex: 1;
+      border: 0;
+      padding: 0.55rem 0.75rem;
+      font: inherit;
+      font-size: 0.8rem;
+      background: transparent;
+      color: var(--ink);
+    }
+    .frame .search button {
+      border: 0;
+      background: var(--accent);
+      color: var(--btn-ink);
+      font: inherit;
+      font-weight: 700;
+      font-size: 0.78rem;
+      padding: 0.55rem 0.9rem;
+      cursor: pointer;
+    }
+    .frame .section {
+      padding: 0.85rem 1rem 1rem;
+      background: var(--page-bg);
+    }
+    .frame .section h3 {
+      margin: 0 0 0.55rem;
+      font-size: 0.88rem;
+      color: var(--ink);
+    }
+    .frame .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.65rem 0.85rem;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      margin-bottom: 0.45rem;
+      box-shadow: var(--shadow);
+    }
+    .frame .row strong { font-size: 0.82rem; color: var(--ink); display: block; }
+    .frame .row small { color: var(--muted); font-size: 0.72rem; }
+    .frame .count {
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 0.15rem 0.45rem;
+      border-radius: 999px;
+    }
+    .frame .tip {
+      margin-top: 0.65rem;
+      padding: 0.75rem 0.85rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line));
+      background: var(--accent-soft);
+      font-size: 0.72rem;
+      color: var(--ink);
+    }
+    .frame .tip b { color: var(--accent-dark); }
+
+    /* A — Porcelain + cobalt */
+    .theme-a {
+      --page-bg: #f8f9fc;
+      --panel: #ffffff;
+      --ink: #0f1419;
+      --muted: #5c6678;
+      --line: #dde3ed;
+      --accent: #1e40af;
+      --accent-dark: #1e3a8a;
+      --accent-soft: #e8eefc;
+      --btn-ink: #fff;
+      --header-bg: rgba(248,249,252,.85);
+      --hero-bg: linear-gradient(165deg, #f8f9fc 0%, #eef2f9 55%, #e4eaf5 100%);
+      --shadow: 0 1px 0 rgba(15,20,25,.04), 0 8px 24px -12px rgba(30,64,175,.15);
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+
+    /* B — Clay wash + ink */
+    .theme-b {
+      --page-bg: #f4f2ef;
+      --panel: #ffffff;
+      --ink: #1c1917;
+      --muted: #6b6560;
+      --line: #e0dcd6;
+      --accent: #c2410c;
+      --accent-dark: #9a3412;
+      --accent-soft: #ffedd5;
+      --btn-ink: #fff;
+      --header-bg: rgba(244,242,239,.9);
+      --hero-bg: linear-gradient(165deg, #faf9f7 0%, #f0ebe4 60%, #e8e2da 100%);
+      --shadow: 0 1px 0 rgba(28,25,23,.04), 0 8px 24px -12px rgba(28,25,23,.12);
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+
+    /* C — Glaze green */
+    .theme-c {
+      --page-bg: #f2f7f5;
+      --panel: #ffffff;
+      --ink: #0f1a17;
+      --muted: #5a6b65;
+      --line: #d4e4de;
+      --accent: #2d6a4f;
+      --accent-dark: #1b4332;
+      --accent-soft: #d8f3dc;
+      --btn-ink: #fff;
+      --header-bg: rgba(242,247,245,.88);
+      --hero-bg: linear-gradient(165deg, #f7fbf9 0%, #e8f3ee 55%, #dceee4 100%);
+      --shadow: 0 1px 0 rgba(15,26,23,.04), 0 8px 24px -12px rgba(45,106,79,.18);
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="page-title">Keramiek-overzicht.nl — design preview</h1>
+  <p class="page-lead">Same layout, three color directions. Pick A, B, or C (or mix).</p>
+
+  <div class="grid">
+    <div class="option">
+      <div class="option-label">A <span>Porcelain + cobalt</span></div>
+      <div class="frame theme-a">
+        <header class="header">
+          <div class="brand">Keramiek<em>-overzicht</em>.nl</div>
+          <nav class="nav"><a href="#">Home</a><a href="#">Blog</a><a href="#">Contact</a></nav>
+        </header>
+        <div class="hero">
+          <p class="eyebrow">608 ateliers · heel Nederland</p>
+          <h2>Keramiekcursus in de buurt?</h2>
+          <p class="lead">Vind een atelier voor cursus, workshop of draaien.</p>
+          <div class="search">
+            <input type="search" placeholder="Bijv. Breda, Den Haag…" readonly />
+            <button type="button">Zoeken</button>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Populaire plaatsen</h3>
+          <div class="row">
+            <div><strong>Keramiek Breda</strong><small>Noord-Brabant</small></div>
+            <span class="count">12</span>
+          </div>
+          <div class="row">
+            <div><strong>Keramiek Den Haag</strong><small>Zuid-Holland</small></div>
+            <span class="count">9</span>
+          </div>
+          <div class="tip">✓ Vergelijk ateliers voordat je boekt<br /><b>Tip:</b> check openingstijden online</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="option">
+      <div class="option-label">B <span>Clay wash + ink</span></div>
+      <div class="frame theme-b">
+        <header class="header">
+          <div class="brand">Keramiek<em>-overzicht</em>.nl</div>
+          <nav class="nav"><a href="#">Home</a><a href="#">Blog</a><a href="#">Contact</a></nav>
+        </header>
+        <div class="hero">
+          <p class="eyebrow">608 ateliers · heel Nederland</p>
+          <h2>Keramiekcursus in de buurt?</h2>
+          <p class="lead">Vind een atelier voor cursus, workshop of draaien.</p>
+          <div class="search">
+            <input type="search" placeholder="Bijv. Breda, Den Haag…" readonly />
+            <button type="button">Zoeken</button>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Populaire plaatsen</h3>
+          <div class="row">
+            <div><strong>Keramiek Breda</strong><small>Noord-Brabant</small></div>
+            <span class="count">12</span>
+          </div>
+          <div class="row">
+            <div><strong>Keramiek Den Haag</strong><small>Zuid-Holland</small></div>
+            <span class="count">9</span>
+          </div>
+          <div class="tip">✓ Vergelijk ateliers voordat je boekt<br /><b>Tip:</b> check openingstijden online</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="option">
+      <div class="option-label">C <span>Glaze green</span></div>
+      <div class="frame theme-c">
+        <header class="header">
+          <div class="brand">Keramiek<em>-overzicht</em>.nl</div>
+          <nav class="nav"><a href="#">Home</a><a href="#">Blog</a><a href="#">Contact</a></nav>
+        </header>
+        <div class="hero">
+          <p class="eyebrow">608 ateliers · heel Nederland</p>
+          <h2>Keramiekcursus in de buurt?</h2>
+          <p class="lead">Vind een atelier voor cursus, workshop of draaien.</p>
+          <div class="search">
+            <input type="search" placeholder="Bijv. Breda, Den Haag…" readonly />
+            <button type="button">Zoeken</button>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Populaire plaatsen</h3>
+          <div class="row">
+            <div><strong>Keramiek Breda</strong><small>Noord-Brabant</small></div>
+            <span class="count">12</span>
+          </div>
+          <div class="row">
+            <div><strong>Keramiek Den Haag</strong><small>Zuid-Holland</small></div>
+            <span class="count">9</span>
+          </div>
+          <div class="tip">✓ Vergelijk ateliers voordat je boekt<br /><b>Tip:</b> check openingstijden online</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

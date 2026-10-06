@@ -1,0 +1,20 @@
+{
+  "id": 131263,
+  "slug": "bpamsterdam-terminal",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "BPAmsterdam Terminal",
+  "straat": "Hornweg 10",
+  "postcode": "1045AR",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-5863211",
+  "lat": 52.413049,
+  "lon": 4.789022,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/bpamsterdam-terminal/",
+  "meta_title": "BPAmsterdam Terminal 020-5863211",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

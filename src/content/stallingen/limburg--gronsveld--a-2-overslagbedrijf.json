@@ -1,0 +1,21 @@
+{
+  "id": 130843,
+  "slug": "a-2-overslagbedrijf",
+  "provincie": "limburg",
+  "plaats": "gronsveld",
+  "naam": "A-2 Overslagbedrijf",
+  "straat": "Schutteboendersweg 1",
+  "postcode": "6247EM",
+  "plaatsnaam": "Gronsveld",
+  "telefoon": "043-4081881",
+  "website": "http://www.maxtrans.nl",
+  "lat": 50.81301,
+  "lon": 5.719719,
+  "status": "gesloten",
+  "oude_url": "/limburg/gronsveld/a-2-overslagbedrijf/",
+  "meta_title": "A-2 Overslagbedrijf 043-4081881",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

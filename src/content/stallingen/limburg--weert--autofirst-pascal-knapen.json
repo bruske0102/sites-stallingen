@@ -1,0 +1,30 @@
+{
+  "id": 130707,
+  "slug": "autofirst-pascal-knapen",
+  "provincie": "limburg",
+  "plaats": "weert",
+  "naam": "Autofirst Pascal Knapen",
+  "straat": "Roermondseweg 66",
+  "postcode": "6004AT",
+  "plaatsnaam": "Weert",
+  "telefoon": "0495-541018",
+  "website": "http://www.apkweert.nl",
+  "lat": 51.249342,
+  "lon": 5.721279,
+  "status": "gesloten",
+  "oude_url": "/limburg/weert/autofirst-pascal-knapen/",
+  "email": "info@apkweert.nl",
+  "omschrijving": "0495-541018\n\n fax : 0495-541574\n\nhttp://www.apkweert.nl\n\n Wat wij doen:\nAutofit Pascal Knapen is de allround garage voor alle automerken. Voor de ruime regio van Weert is het bedrijf hét adres voor werkzaamheden op het gebied van APK, tuning, onderhoud, reparaties, storingen, airco, banden en velgen.\nHiernaast specialiseert Autofit Pascal Knapen zich sinds kort, middels verschillende samenwerkingsverbanden, nu ook in ruitreparatie, schade afhandeling en autoverzekeringen.\n\nDe prima prijs-kwaliteit verhouding voor al deze werkzaamheden en producten voor uw auto, waarbij tevens 'de klant is koning' nog steeds hoog in het vaandel staat, maakt Autofit Pascal Knapen het ideale adres voor alles omtrent uw auto. Openingstijden:\n Maandag : 08:00 - 18:00\n Dinsdag : 08:00 - 18:00\n Woensdag : 08:00 - 18:00\n Donderdag : 08:00 - 18:00\n Vrijdag : 08:00 - 18:00\n Zaterdag : 09:00 - 13:00\n Zondag : gesloten\n Sinterklaas : 08:00 - 16:00\n Oudjaarsdag : 08:00 - 16:00 Service :\nAlleen op afspraak\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Auto spuiten, Carkit inbouwen, Demontage / montage, Grote beurt, Inkoop gebruikte auto's, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Onderhoud en reparatie motorfiets, Remmen repareren / vervangen, Reparatie, Revisie, Roetmeting, Ruit reparatie / vervangen, Schadeherstel, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Tuning, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van accessoires, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Winterbanden montage en opslag, inkoop gebruikte auto's, verkoop occasions / tweedehands auto's\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nAutofirst, Bovag",
+  "kenmerken": {
+    "Type": [
+      "fiets",
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Autofirst Pascal Knapen 0495-541018 info@apkweert.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

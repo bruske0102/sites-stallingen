@@ -1,0 +1,20 @@
+{
+  "id": 131183,
+  "slug": "feringa-overslagbedrijf-k",
+  "provincie": "groningen",
+  "plaats": "winschoten",
+  "naam": "Feringa Overslagbedrijf K",
+  "straat": "Industrieweg 16",
+  "postcode": "9672AR",
+  "plaatsnaam": "Winschoten",
+  "telefoon": "0597-415576",
+  "lat": 53.140911,
+  "lon": 7.045242,
+  "status": "gesloten",
+  "oude_url": "/groningen/winschoten/feringa-overslagbedrijf-k/",
+  "meta_title": "Feringa Overslagbedrijf K 0597-415576",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

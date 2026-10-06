@@ -1,0 +1,20 @@
+{
+  "id": 130734,
+  "slug": "tsc-silos-bv",
+  "provincie": "gelderland",
+  "plaats": "aalten",
+  "naam": "TSC-Silos BV",
+  "straat": "Tweede Broekdijk 7",
+  "postcode": "7122LB",
+  "plaatsnaam": "Aalten",
+  "telefoon": "0543-473979",
+  "lat": 51.916604,
+  "lon": 6.573814,
+  "status": "gesloten",
+  "oude_url": "/gelderland/aalten/tsc-silos-bv/",
+  "meta_title": "TSC-Silos BV 0543-473979",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

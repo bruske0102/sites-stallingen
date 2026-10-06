@@ -1,0 +1,20 @@
+{
+  "id": 131032,
+  "slug": "scheven-op-en-overslag",
+  "provincie": "drenthe",
+  "plaats": "emmen",
+  "naam": "Scheven Op- en Overslag",
+  "straat": "Boslaan 82",
+  "postcode": "7823TS",
+  "plaatsnaam": "Emmen",
+  "telefoon": "0591-623333",
+  "lat": 52.799828,
+  "lon": 6.937838,
+  "status": "gesloten",
+  "oude_url": "/drenthe/emmen/scheven-op-en-overslag/",
+  "meta_title": "Scheven Op- en Overslag 0591-623333",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

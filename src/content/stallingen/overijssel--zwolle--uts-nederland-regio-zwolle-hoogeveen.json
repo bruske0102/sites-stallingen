@@ -1,0 +1,22 @@
+{
+  "id": 130862,
+  "slug": "uts-nederland-regio-zwolle-hoogeveen",
+  "provincie": "overijssel",
+  "plaats": "zwolle",
+  "naam": "UTS Nederland regio Zwolle Hoogeveen",
+  "straat": "Nervistraat 5",
+  "postcode": "8013RS",
+  "plaatsnaam": "Zwolle",
+  "telefoon": "038-7113529",
+  "website": "http://www.uts.nl",
+  "lat": 52.489579,
+  "lon": 6.138252,
+  "status": "gesloten",
+  "oude_url": "/overijssel/zwolle/uts-nederland-regio-zwolle-hoogeveen/",
+  "omschrijving": "Ruim 25 locaties verspreid over heel Nederland\nAltijd een UTS verhuisbedrijf bij ú in de buurt!\n\n Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland regio Zwolle Hoogeveen 038-7113529",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

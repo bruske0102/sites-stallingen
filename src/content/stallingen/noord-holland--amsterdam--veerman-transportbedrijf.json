@@ -1,0 +1,23 @@
+{
+  "id": 131292,
+  "slug": "veerman-transportbedrijf",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Veerman Transportbedrijf",
+  "straat": "Nieuwe Hemweg 6",
+  "postcode": "1013BG",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6828533",
+  "website": "http://www.veermantransport.nl",
+  "lat": 52.394409,
+  "lon": 4.867228,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/veerman-transportbedrijf/",
+  "email": "info@veermantransport.nl",
+  "omschrijving": "Sneltransport - Koeriersdienst\nConfectievervoer - Distributie\nNachtelijke distributie dagbladen\ngespec. in vervoer v. hangende confectie\n24 uur per dag / 7 dagen per week\n\nhttp://www.veermantransport.nl\n\n Wat wij doen:\nVeerman transport bv, richt zich op diverse takken van transport, namelijk.\n\n* nachtelijke distributie dagbladen.\n* aanleveren levensmiddelen grootwinkelbedrijven\n* distributie heel Nederland\n* op en overslag, voornamelijk confectie\n* gespecialiseerd in het vervoer van hangende confectie.\n* koerierswerkzaamheden Specialiteiten :\nNachtelijke distributie, Levensmiddelen levering, Distributie, Opslag, Overslag, Confectie vervoer en opslag, Koerierswerkzaamheden\n\n Service :\n24-uurs service, Bezorgservice, Reserveren verplicht, Alleen op afspraak",
+  "meta_title": "Veerman Transportbedrijf 020-6828533 info@veermantransport.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

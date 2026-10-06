@@ -1,0 +1,20 @@
+{
+  "id": 130749,
+  "slug": "verhoef-marktkramen-ron",
+  "provincie": "utrecht",
+  "plaats": "baarn",
+  "naam": "Verhoef Marktkramen Ron",
+  "straat": "Meeuwenweide 6",
+  "postcode": "3742XT",
+  "plaatsnaam": "Baarn",
+  "telefoon": "035-8878814",
+  "lat": 52.200096,
+  "lon": 5.296441,
+  "status": "gesloten",
+  "oude_url": "/utrecht/baarn/verhoef-marktkramen-ron/",
+  "meta_title": "Verhoef Marktkramen Ron 035-8878814",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": 131016,
+  "slug": "thomassen-distributiecentrum",
+  "provincie": "gelderland",
+  "plaats": "loenen-veluwe",
+  "naam": "Thomassen Distributiecentrum",
+  "straat": "Kanaal Zuid 496",
+  "postcode": "7371GL",
+  "plaatsnaam": "Loenen gld",
+  "telefoon": "055-5053395",
+  "website": "http://www.thomassen-transport.nl",
+  "lat": 52.129451,
+  "lon": 6.044412,
+  "status": "gesloten",
+  "oude_url": "/gelderland/loenen-veluwe/thomassen-distributiecentrum/",
+  "meta_title": "Thomassen Distributiecentrum 055-5053395",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

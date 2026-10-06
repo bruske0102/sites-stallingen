@@ -1,0 +1,20 @@
+{
+  "id": 131120,
+  "slug": "tielbeke-co",
+  "provincie": "overijssel",
+  "plaats": "dedemsvaart",
+  "naam": "Tielbeke & Co",
+  "straat": "Moerheimstraat 83",
+  "postcode": "7701CC",
+  "plaatsnaam": "Dedemsvaart",
+  "telefoon": "0523-616072",
+  "lat": 52.601195,
+  "lon": 6.471987,
+  "status": "gesloten",
+  "oude_url": "/overijssel/dedemsvaart/tielbeke-co/",
+  "meta_title": "Tielbeke & Co 0523-616072",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

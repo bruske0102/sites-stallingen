@@ -1,0 +1,20 @@
+{
+  "id": 130694,
+  "slug": "dsv-solutions-bv",
+  "provincie": "limburg",
+  "plaats": "venlo",
+  "naam": "DSV Solutions BV",
+  "straat": "Popeweg 50",
+  "postcode": "5928SC",
+  "plaatsnaam": "Venlo",
+  "telefoon": "077-3262800",
+  "lat": 51.409263,
+  "lon": 6.092101,
+  "status": "gesloten",
+  "oude_url": "/limburg/venlo/dsv-solutions-bv/",
+  "meta_title": "DSV Solutions BV 077-3262800",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

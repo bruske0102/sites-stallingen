@@ -1,0 +1,29 @@
+{
+  "id": 130761,
+  "slug": "newo-vakgarage",
+  "provincie": "utrecht",
+  "plaats": "soest",
+  "naam": "Newo Vakgarage",
+  "straat": "Weteringpad 10",
+  "postcode": "3762EN",
+  "plaatsnaam": "Soest",
+  "telefoon": "035-6027123",
+  "website": "http://www.vakgaragenewo.nl",
+  "lat": 52.179593,
+  "lon": 5.274055,
+  "status": "gesloten",
+  "oude_url": "/utrecht/soest/newo-vakgarage/",
+  "email": "info@vakgaragenewo.nl",
+  "omschrijving": "Wat wij doen:\nSinds 1991 is Vakgarage al het grootste zelfstandige autoconcept in Nederland. Iedere Vakgarage is aangesloten bij de BOVAG en RDW erkend. Samen met bijna 150 andere Vakgarages bieden wij een full-service aanbod aan alle automerken. Onze monteurs zijn uitstekend opgeleid en hebben kennis om alle automerken uitmuntend te onderhouden.\n\nEen bijkomend voordeel van Vakgarage is dat wij de originele en A-kwaliteit onderdelen gezamenlijk en dus goedkoper inkopen, en daar profiteert u direct van mee!\n\nVoor APK-Keuringen, banden, regulier onderhoud én seizoenscontroles bent u bij Vakgarage NEWO aan het juiste adres\n\nBij Vakgarage Newo kunt u met uw auto terecht voor alle voorkomende service- en onderhoudswerkzaamheden, zoals o.a.:\n\n- Onderhoud, reparatie, APK\n- Banden, trekhaken\n- Ruitreparatie\n- Schadeherstel\n- Airco service\n- Remmen service\n- Storingsdiagnose\n- Accu controle\n- Camper onderhoud\n- Accessoires\n- Vervangend vervoer\n- Pechhulp\n-Flushen automatische versnellingsbak\n-autoverhuur Openingstijden:\n Maandag : 08:00 - 17:30\n Dinsdag : 08:00 - 17:30\n Woensdag : 08:00 - 17:30\n Donderdag : 08:00 - 17:30\n Vrijdag : 08:00 - 17:30\n Zaterdag : 09:00 - 12:30\n Zondag : gesloten Doelgroep :\nBedrijven\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Reparatie, Roetmeting, Ruit reparatie / vervangen, Schadetaxatie, Schokdempers repareren / vervangen, Storing oplossen, Transport / slepen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Verkoop en montage van velgen, Winterbanden montage en opslag, Flushing automatische versnellingsbak, Autoverhuur\n\n Merk :\nAlfa Romeo, BMW, Chevrolet, Citroën, Ferrari, Ford, Honda, Hyundai, Kia, Lada, Mazda, Mini, Peugeot, Renault, Tesla, Toyota\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nBOVAG, RDW, VAKPlan, STEK, Vakgarage, NAP",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Newo Vakgarage 035-6027123 info@vakgaragenewo.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,64 @@
+---
+import type { City, Listing } from "../lib/model";
+import { kenmerkCount } from "../lib/model";
+import { listingCount, nlCount } from "../lib/nl-count";
+
+interface Props { city: City; listings: Listing[] }
+const { city, listings } = Astro.props;
+const n = listings.length || city.listings;
+
+const autoN = kenmerkCount(listings, /\bauto\b/i);
+const caravanN = kenmerkCount(listings, /caravan/i);
+const fietsN = kenmerkCount(listings, /fiets/i);
+const bootN = kenmerkCount(listings, /boot/i);
+
+const cards: { title: string; body: string }[] = [
+  {
+    title: "Adres & contact",
+    body: `${listingCount(n)} in ${city.naam} met adres en telefoon in onze gids.`,
+  },
+];
+
+if (autoN > 0) {
+  cards.push({
+    title: "Auto",
+    body: `${nlCount(autoN, "stalling", "stallingen")} voor auto in de kenmerken.`,
+  });
+}
+if (caravanN > 0) {
+  cards.push({
+    title: "Caravan",
+    body: `${nlCount(caravanN, "stalling", "stallingen")} noemt caravan.`,
+  });
+}
+if (fietsN > 0) {
+  cards.push({
+    title: "Fiets",
+    body: `${nlCount(fietsN, "stalling", "stallingen")} noemt fiets.`,
+  });
+}
+if (bootN > 0) {
+  cards.push({
+    title: "Boot",
+    body: `${nlCount(bootN, "stalling", "stallingen")} noemt boot.`,
+  });
+}
+if (cards.length < 3) {
+  cards.push({
+    title: "Beschikbaarheid",
+    body: `Bel voor vrije plekken en tarief in ${city.naam}.`,
+  });
+}
+---
+<section class="section" aria-labelledby="diensten">
+  <h2 id="diensten">Wat je in {city.naam} tegenkomt</h2>
+  <p>Gebaseerd op de vermeldingen in onze gids - bel altijd voor actuele details.</p>
+  <div class="diensten-grid">
+    {cards.slice(0, 4).map((c) => (
+      <div class="dienst">
+        <h3>{c.title}</h3>
+        <p>{c.body}</p>
+      </div>
+    ))}
+  </div>
+</section>

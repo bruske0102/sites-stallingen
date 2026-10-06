@@ -1,0 +1,23 @@
+{
+  "id": 130825,
+  "slug": "groenendaal-verhuur",
+  "provincie": "noord-brabant",
+  "plaats": "elshout",
+  "naam": "Groenendaal Verhuur",
+  "straat": "Mariendonkstraat 25",
+  "postcode": "5154EG",
+  "plaatsnaam": "Elshout",
+  "telefoon": "0416-375423",
+  "website": "http://www.groenendaalverhuur.nl",
+  "lat": 51.703559,
+  "lon": 5.148506,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/elshout/groenendaal-verhuur/",
+  "email": "info@groenendaalverhuur.nl",
+  "omschrijving": "Wat wij doen:\nGroenendaal Verhuur is gespecialiseerd in de verhuur van toilet-voorzieningen. Ons materieel wordt ingezet bij bouwprojecten, feesten, evenementen en recreatieterreinen.\n\nWij bieden nette en frisse toiletten voor een betaalbare prijs. Of het nu gaat om een toiletcabine op de bouwplaats, een luxe toiletwagen voor een bruiloft of sanitaire voorzieningen voor een groot evenement.\n\nKijk ook eens bij onze Partyverhuur www.feestering.nl Openingstijden:\n Maandag : 08:00 - 17:00\n Dinsdag : 08:00 - 17:00\n Woensdag : 08:00 - 17:00\n Donderdag : 08:00 - 17:00\n Vrijdag : 08:00 - 17:00\n Zaterdag : 09:00 - 12:00\n Zondag : gesloten Toegankelijkheid :\nBegane grond\n\n Bouw, tuin, vervoer en gereedschap :\nAanhangwagen\n\n Licht, beeld en geluid :\nVerlichting\n\n Kantoor en winkel :\nStelling\n\n Tijdelijke huisvesting en opslag :\nUnit",
+  "meta_title": "Groenendaal Verhuur 0416-375423 info@groenendaalverhuur.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

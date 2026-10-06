@@ -1,0 +1,29 @@
+{
+  "id": 2409428,
+  "slug": "olsman",
+  "provincie": "overijssel",
+  "plaats": "holtheme",
+  "naam": "Olsman",
+  "straat": "Rondweg 15",
+  "postcode": "7787 EJ",
+  "plaatsnaam": "Holtheme",
+  "telefoon": "0639210204",
+  "website": "http://www.caravanstalling-holtheme.nl",
+  "lat": 52.5954084,
+  "lon": 6.7158593,
+  "status": "gesloten",
+  "oude_url": "/overijssel/holtheme/olsman/",
+  "email": "info@caravanstalling-holtheme.nl",
+  "omschrijving": "Stalling voor uw caravan, camper, vouwwagen. Andere objecten in overleg\r\nWinterstalling voor uw motorfiets",
+  "kenmerken": {
+    "Type": [
+      "fiets",
+      "caravan"
+    ]
+  },
+  "meta_title": "Olsman 0639210204 info@caravanstalling-holtheme.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

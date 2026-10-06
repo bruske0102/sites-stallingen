@@ -1,0 +1,21 @@
+{
+  "id": 131020,
+  "slug": "deventer-overslag-kombinatie-bv",
+  "provincie": "overijssel",
+  "plaats": "deventer",
+  "naam": "Deventer Overslag Kombinatie BV",
+  "straat": "Westfalenstraat 2",
+  "postcode": "7418DB",
+  "plaatsnaam": "Deventer",
+  "telefoon": "0570-625022",
+  "lat": 52.250188,
+  "lon": 6.189885,
+  "status": "gesloten",
+  "oude_url": "/overijssel/deventer/deventer-overslag-kombinatie-bv/",
+  "omschrijving": "Postbus725, 7400AS, Deventer\nhttp://www.dokdeventer.nl",
+  "meta_title": "Deventer Overslag Kombinatie BV 0570-625022",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

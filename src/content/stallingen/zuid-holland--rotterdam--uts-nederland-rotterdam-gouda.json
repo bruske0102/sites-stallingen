@@ -1,0 +1,21 @@
+{
+  "id": 131198,
+  "slug": "uts-nederland-rotterdam-gouda",
+  "provincie": "zuid-holland",
+  "plaats": "rotterdam",
+  "naam": "UTS Nederland Rotterdam Gouda",
+  "straat": "Bunschotenweg 200",
+  "postcode": "3089KC",
+  "plaatsnaam": "Rotterdam",
+  "telefoon": "010-4287130",
+  "lat": 51.890174,
+  "lon": 4.405503,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/rotterdam/uts-nederland-rotterdam-gouda/",
+  "omschrijving": "Zuiderweg70, 2289BR, Rijswijk zh\n070-7112931\nRuim 25 locaties verspreid over heel Nederland\nAltijd een UTS verhuisbedrijf bij ú in de buurt!\n\n Doelgroep :\nParticulieren\n\n Diensten :\nAdvies, Internationale verhuizing, Opslag, Verhuur, Verkoop, Vervoer",
+  "meta_title": "UTS Nederland Rotterdam Gouda 010-4287130",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

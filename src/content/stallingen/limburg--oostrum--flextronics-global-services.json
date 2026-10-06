@@ -1,0 +1,22 @@
+{
+  "id": 130996,
+  "slug": "flextronics-global-services",
+  "provincie": "limburg",
+  "plaats": "oostrum",
+  "naam": "Flextronics Global Services",
+  "straat": "Nobelstraat 10",
+  "postcode": "5807GA",
+  "plaatsnaam": "Oostrum lb",
+  "telefoon": "0478-518000",
+  "website": "http://www.flextronics.com",
+  "lat": 51.51777,
+  "lon": 6.016212,
+  "status": "gesloten",
+  "oude_url": "/limburg/oostrum/flextronics-global-services/",
+  "omschrijving": "Wat wij doen:\nFlextronics Global Services (FGS) is a strategic business unit of Flextronics and one of the most respected global providers of post manufacturing supply chain logistics services. Openingstijden:\n Maandag : 08:00 - 17:00 Front Office openingstijden\n Dinsdag : 08:00 - 17:00 Front Office openingstijden\n Woensdag : 08:00 - 17:00 Front Office openingstijden\n Donderdag : 08:00 - 17:00 Front Office openingstijden\n Vrijdag : 08:00 - 17:00 Front Office openingstijden\n Zaterdag : gesloten\n Zondag : gesloten Specialiteiten :\nDistribution & SMI, Product Transformation, Service Parts Logistics, Reverse Logistics & Repair",
+  "meta_title": "Flextronics Global Services 0478-518000",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

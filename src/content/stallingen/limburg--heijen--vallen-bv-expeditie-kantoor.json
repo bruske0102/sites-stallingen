@@ -1,0 +1,20 @@
+{
+  "id": 130880,
+  "slug": "vallen-bv-expeditie-kantoor",
+  "provincie": "limburg",
+  "plaats": "heijen",
+  "naam": "Vallen BV Expeditie Kantoor",
+  "straat": "De Grens 35",
+  "postcode": "6598DK",
+  "plaatsnaam": "Heijen",
+  "telefoon": "0485-514774",
+  "lat": 51.662285,
+  "lon": 5.990325,
+  "status": "gesloten",
+  "oude_url": "/limburg/heijen/vallen-bv-expeditie-kantoor/",
+  "meta_title": "Vallen BV Expeditie Kantoor 0485-514774",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

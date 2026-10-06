@@ -1,0 +1,27 @@
+---
+/**
+ * Affiliate tip - only renders when monetization includes affiliate links.
+ * Stalling-overzicht is AdSense-only; this component is a no-op unless affiliates are configured.
+ */
+import { instellingen } from "../lib/data";
+
+interface Props {
+  scriptie?: boolean;
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+const mode = instellingen.monetization?.mode || "";
+const aff = instellingen.monetization?.affiliate;
+const show = Boolean(aff && /affiliate/i.test(mode));
+const tip = aff?.tip || "Vergelijk altijd voordat je boekt";
+---
+{show && (
+  <aside class:list={["affiliate-tip", compact && "affiliate-tip--compact"]} aria-label="Tip">
+    <p class="affiliate-tip-body">
+      <span class="affiliate-tip-line">
+        <span class="affiliate-check" aria-hidden="true">✓</span>
+        <span>{tip}</span>
+      </span>
+    </p>
+  </aside>
+)}

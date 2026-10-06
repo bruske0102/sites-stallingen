@@ -1,0 +1,20 @@
+{
+  "id": 131325,
+  "slug": "stable-service-trading",
+  "provincie": "noord-holland",
+  "plaats": "avenhorn",
+  "naam": "Stable Service & Trading",
+  "straat": "Grosthuizen 114",
+  "postcode": "1633ES",
+  "plaatsnaam": "Avenhorn",
+  "telefoon": "06-21706205",
+  "lat": 52.616018,
+  "lon": 4.963497,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/avenhorn/stable-service-trading/",
+  "meta_title": "Stable Service & Trading 06-21706205",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

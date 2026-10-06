@@ -1,0 +1,81 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getModel, scrapedListingCount, plaatsPath } from "../lib/data";
+
+const m = getModel();
+const jaar = new Date().getFullYear();
+const totalListings = scrapedListingCount();
+const grootste = [...m.plaatsenA].sort((a, b) => b.listings.length - a.listings.length).slice(0, 12);
+
+const byProv = new Map<string, { naam: string; n: number; shops: number; b: number }>();
+for (const p of m.plaatsenA) {
+  const cur = byProv.get(p.provincie) ?? { naam: p.provincieNaam, n: 0, shops: 0, b: 0 };
+  cur.n += 1;
+  cur.shops += p.listings.length;
+  byProv.set(p.provincie, cur);
+}
+for (const p of m.plaatsenB) {
+  const cur = byProv.get(p.provincie) ?? { naam: p.provincieNaam, n: 0, shops: 0, b: 0 };
+  cur.b += 1;
+  byProv.set(p.provincie, cur);
+}
+const provs = [...byProv.entries()]
+  .filter(([, info]) => info.shops > 0)
+  .sort((a, b) => b[1].shops - a[1].shops);
+
+const title = `Caravanstalling en opslag in Nederland`;
+const description = `Vergelijk ${totalListings} stallingen in Nederland - met adres en telefoon.`;
+---
+<Layout title={title} description={description}>
+  <section class="home-hero" aria-labelledby="home-h1">
+    <p class="brand-lockup">Stallingen.xyz</p>
+    <p class="eyebrow">{totalListings} stallingen · heel Nederland · {jaar}</p>
+    <h1 id="home-h1">Caravanstalling en opslag</h1>
+    <p class="lead">Caravanstalling, camperstalling en self-storage: adres en telefoon.</p>
+    <form class="hero-search" action="/zoeken/" method="get" role="search">
+      <label for="hero-q" class="skip">Zoek op plaats of stalling</label>
+      <input id="hero-q" name="q" type="search" placeholder="Bijv. Utrecht, Rotterdam, Amsterdam…" autocomplete="off" />
+      <button type="submit">Zoeken</button>
+    </form>
+    <p class="hero-actions">
+      <a class="btn btn-ghost" href="/#provincies">Of kies een provincie</a>
+    </p>
+  </section>
+  <section class="section" aria-labelledby="steden">
+    <div class="section-head">
+      <h2 id="steden">Populaire plaatsen</h2>
+      <p>Meeste stallingen in onze gids</p>
+    </div>
+    <ul class="linklist">
+      {grootste.map((city) => (
+        <li>
+          <a href={plaatsPath(city)}>Stalling {city.naam}</a>
+          <span class="count">{city.listings.length}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+  <section class="section home-hub" aria-labelledby="hub">
+    <div class="section-head">
+      <h2 id="hub">Fiets & voertuigstallingen</h2>
+      <p>Snel vergelijken in jouw regio</p>
+    </div>
+    <p class="section-lead">Niemand betaalt voor een hogere plek in de lijst.</p>
+    <p class="home-hub-links">
+      <a class="section-more" href="/zoeken/">Zoek een stalling</a>
+      <span aria-hidden="true"> · </span>
+      <a class="section-more" href="/bedrijf/toevoegen/">Gratis toevoegen</a>
+    </p>
+  </section>
+  <section class="section" aria-labelledby="provincies" id="provincies">
+    <div class="section-head"><h2 id="prov-h">Per provincie</h2></div>
+    <ul class="linklist">
+      {provs.map(([slug, info]) => (
+        <li>
+          <a href={`/${slug}/`}>{info.naam}</a>
+          <span class="count">{info.shops}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Layout>

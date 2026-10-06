@@ -1,0 +1,84 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+import Layout from "../../../layouts/Layout.astro";
+import AffiliateTip from "../../../components/AffiliateTip.astro";
+import BlogGuideLinks from "../../../components/BlogGuideLinks.astro";
+
+export function getStaticPaths() {
+  const dir = path.join(process.cwd(), "migration/blog-export/posts");
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => {
+      const data = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+      return { params: { slug: data.slug }, props: { post: data } };
+    });
+}
+
+const { post } = Astro.props;
+const hero = post.hero?.src
+  ? `/blog-heroes/${path.basename(post.hero.src)}`
+  : null;
+---
+<Layout title={post.meta_title || post.title} description={post.meta_description || post.excerpt}>
+  <article class="blog-article section">
+    {hero && (
+      <img
+        class="blog-hero-img"
+        src={hero}
+        alt={post.hero?.alt || ""}
+        width="1200"
+        height="675"
+        loading="eager"
+      />
+    )}
+    <h1 class="listing-title">{post.title}</h1>
+    <p class="lead-plain">{post.excerpt}</p>
+    <div class="prose" set:html={post.content_html} />
+    <BlogGuideLinks slug={post.slug} />
+    <AffiliateTip />
+  </article>
+</Layout>
+
+<style is:global>
+  .blog-article { max-width: 720px; }
+  .blog-hero-img {
+    width: 100%;
+    border-radius: var(--radius);
+    margin-bottom: 1.25rem;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    box-shadow: var(--shadow);
+  }
+  .prose h2 {
+    font-family: var(--font);
+    font-weight: 750;
+    font-size: 1.45rem;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+    margin: 2rem 0 0.75rem;
+  }
+  .prose .cta {
+    background: var(--footer-bg);
+    color: var(--footer-ink);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.2rem;
+    margin: 2rem 0;
+  }
+  .prose .cta h2 { color: #fff; margin-top: 0; }
+  .prose .cta a { color: #9fd4d0; }
+  .prose .faq details {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+  }
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+</style>

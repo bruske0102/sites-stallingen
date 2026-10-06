@@ -1,0 +1,21 @@
+{
+  "id": 130611,
+  "slug": "teho-bv",
+  "provincie": "limburg",
+  "plaats": "maastricht",
+  "naam": "Teho BV",
+  "straat": "Punterweg 47",
+  "postcode": "6222NW",
+  "plaatsnaam": "Maastricht",
+  "telefoon": "043-3520824",
+  "lat": 50.875501,
+  "lon": 5.709854,
+  "status": "gesloten",
+  "oude_url": "/limburg/maastricht/teho-bv/",
+  "omschrijving": "Wat wij doen:\nZeer zorgvuldige selectie van onze leveranciers en een constante bewaking van alle processen voor- en tijdens transport opslag en levering zorgen voor producten van optimale kwaliteit. En....service zit ons in het bloed.\n\nEfficiënt en zeker ...Ons vakmanschap, onze moderne koelsystemen, de snelle doorvoer van de producten en dagelijkse leveringen zorgen ervoor dat u uw gast topkwaliteit kunt serveren. Voor....een marktconforme prijs. Specialiteiten :\nHorecaleverancier, Vis, Schaaldieren, Vlees, Wild, Gevogelte\n\n Service :\nOnline Bestelformulier",
+  "meta_title": "Teho BV 043-3520824",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

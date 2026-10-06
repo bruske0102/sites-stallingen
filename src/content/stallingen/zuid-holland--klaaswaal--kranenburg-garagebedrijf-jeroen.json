@@ -1,0 +1,28 @@
+{
+  "id": 131181,
+  "slug": "kranenburg-garagebedrijf-jeroen",
+  "provincie": "zuid-holland",
+  "plaats": "klaaswaal",
+  "naam": "Kranenburg Garagebedrijf Jeroen",
+  "straat": "Molendijk 17",
+  "postcode": "3286BE",
+  "plaatsnaam": "Klaaswaal",
+  "telefoon": "0186-571512",
+  "lat": 51.770544,
+  "lon": 4.443169,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/klaaswaal/kranenburg-garagebedrijf-jeroen/",
+  "email": "info@garagekranenburg.nl",
+  "omschrijving": "Wat wij doen:\nReparatie, onderhoud en apk aan personen auto's, bedrijfswagens en campers. Openingstijden:\n Maandag : 08:00 - 18:00 Lunch pauze van 12.30 uur tot 13.30 uur\n Dinsdag : 08:00 - 18:00 Lunch pauze van 12.30 uur tot 13.30 uur\n Woensdag : 08:00 - 18:00 Lunch pauze van 12.30 uur tot 13.30 uur\n Donderdag : 08:00 - 18:00 Lunch pauze van 12.30 uur tot 13.30 uur\n Vrijdag : 08:00 - 18:00 Lunch pauze van 12.30 uur tot 13.30 uur\n Zaterdag : 08:00 - 18:00\n Zondag : 08:00 - 18:00\n Carnaval : 08:00 - 18:00\n Suikerfeest : 08:00 - 18:00\n Sinterklaas : 08:00 - 15:00 Service :\nAlleen op afspraak, Vervangend vervoer / leenauto\n\n Toegankelijkheid :\nBegane grond\n\n Doelgroep :\nBedrijven, Particulieren\n\n Soort garagebedrijf :\nUniverseel garagebedrijf\n\n Diensten :\nAccu vervangen, Airco onderhoud, APK keuring, Grote beurt, Kleine beurt, Olie verversen, Onderhoud, Onderhoud en reparatie 4x4, Onderhoud en reparatie camper, Remmen repareren / vervangen, Reparatie, Roetmeting, Ruit reparatie / vervangen, Schokdempers repareren / vervangen, Storing oplossen, Uitlaat repareren / vervangen, Uitlijnen en balanceren, Verkoop en montage van banden / bandenservice, Verkoop en montage van onderdelen, Winterbanden montage en opslag\n\n Merk :\nAlle merken\n\n Betalingsmogelijkheden :\nContant, Pin, Bank / Giro overschrijving",
+  "kenmerken": {
+    "Type": [
+      "auto",
+      "caravan"
+    ]
+  },
+  "meta_title": "Kranenburg Garagebedrijf Jeroen 0186-571512 info@garagekranenburg.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}

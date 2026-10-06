@@ -1,0 +1,28 @@
+{
+  "id": 131163,
+  "slug": "jansma-watersport-r",
+  "provincie": "groningen",
+  "plaats": "lauwersoog",
+  "naam": "Jansma Watersport R",
+  "straat": "Kustweg 16",
+  "postcode": "9976VP",
+  "plaatsnaam": "Lauwersoog",
+  "telefoon": "06-20995491",
+  "website": "http://www.rjansma.nl",
+  "lat": 53.406861,
+  "lon": 6.197342,
+  "status": "gesloten",
+  "oude_url": "/groningen/lauwersoog/jansma-watersport-r/",
+  "email": "rommert@rjansma.nl",
+  "omschrijving": "06-20995491\n\n fax : 0519-349502\n\n Wat wij doen:\nOns bedrijf beschikt over 5 grote loodsen waarin voornamelijk boten worden gestald. Eén van de loodsen bevat twee schilderruimtes die wij verhuren.\n\nNaast stalling verkopen wij verschillende soorten boten en bootmotoren. Ook verrichten wij onderhoud aan uw boot, zoals servicebeurten, reparaties of alleen olie en een filter verversen. Maar ook schilderwerk en inbouw van apparatuur en van nieuwe motoren behoort tot de mogelijkheden. Wij verrichten de werkzaamheden voor u altijd met de nodige vakkundigheid, service en betrouwbaarheid.\n\nAls u uw boot zelf wilt onderhouden kan dat ook bij ons. Wij beschikken over een ruime werkplaats met kantine en sanitaire voorzieningen.\n\nOp ons bedrijventerrein bieden wij diverse hellingfaciliteiten. Onze hijskraan is recentelijk vernieuwd en kan t/m 25 ton hijsen. Tevens is er een mobiele hefkar aanwezig, zodat wij u eigenlijk altijd kunnen helpen. Openingstijden:\n Maandag : gesloten\n Dinsdag : 08:00 - 18:00\n Woensdag : 08:00 - 18:00\n Donderdag : 08:00 - 18:00\n Vrijdag : 08:00 - 18:00\n Zaterdag : 09:00 - 17:00\n Zondag : gesloten Service :\nreparatie en verhuur op afspraak\n\n Watersporten :\nZeilen\n\n Productgroepen :\nAccessoires, Motoren, Onderdelen, onderhoud en reparatie, opslag boten, schildersruimte, schilderwerk aan boten, verkoop bootmotoren, verkoop boten\n\n Vaartuigen :\nBoot, Sloep, Visboot\n\n Diensten :\nOnderhoud, Verkoop\n\n Faciliteiten :\nStalling, Werkplaats, Winterstalling, Zomerstalling\n\n Soort aanbieder :\nWatersportwinkel",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Jansma Watersport R 06-20995491 rommert@rjansma.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

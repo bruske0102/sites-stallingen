@@ -1,0 +1,23 @@
+{
+  "id": 131066,
+  "slug": "dpa-direct-project-assist-boxenopslagnl",
+  "provincie": "zeeland",
+  "plaats": "burgh-haamstede",
+  "naam": "DPA - Direct Project Assist & BOXenOPSLAG.nl",
+  "straat": "De Roterij 17",
+  "postcode": "4328BB",
+  "plaatsnaam": "Burgh-Haamstede",
+  "telefoon": "0111-651690",
+  "website": "http://www.dpanet.nl",
+  "lat": 51.695873,
+  "lon": 3.748023,
+  "status": "gesloten",
+  "oude_url": "/zeeland/burgh-haamstede/dpa-direct-project-assist-boxenopslagnl/",
+  "email": "info@dpanet.nl",
+  "omschrijving": "0111-651690\n\n fax : 0111-654363\n\n Wat wij doen:\nDPA is een dienstverlenend bedrijf op het gebied van:\n\n - opslag inboedel en (handels) goederen\n - import en export logistiek (luchtvracht, zeevracht, wegtransport)\n - verhuur 40 tons telescoopkraan\n - assistentie bij (zelf)verhuizingen Openingstijden:\n Maandag : 09:00 - 17:00\n Dinsdag : 09:00 - 17:00\n Woensdag : 09:00 - 17:00\n Donderdag : 09:00 - 17:00\n Vrijdag : 09:00 - 17:00\n Zaterdag : gesloten\n Zondag : gesloten Service :\nGratis offerte",
+  "meta_title": "DPA - Direct Project Assist & BOXenOPSLAG.nl 0111-651690 info@dpanet.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

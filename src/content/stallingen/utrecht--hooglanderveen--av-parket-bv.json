@@ -1,0 +1,20 @@
+{
+  "id": 130750,
+  "slug": "av-parket-bv",
+  "provincie": "utrecht",
+  "plaats": "hooglanderveen",
+  "naam": "AV Parket BV",
+  "straat": "Achterhoekerweg 1",
+  "postcode": "3829NA",
+  "plaatsnaam": "Hooglanderveen",
+  "telefoon": "06-29095984",
+  "lat": 52.215533,
+  "lon": 5.413922,
+  "status": "gesloten",
+  "oude_url": "/utrecht/hooglanderveen/av-parket-bv/",
+  "meta_title": "AV Parket BV 06-29095984",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

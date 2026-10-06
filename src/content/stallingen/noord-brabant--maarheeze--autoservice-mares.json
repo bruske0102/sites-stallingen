@@ -1,0 +1,21 @@
+{
+  "id": 130710,
+  "slug": "autoservice-mares",
+  "provincie": "noord-brabant",
+  "plaats": "maarheeze",
+  "naam": "Autoservice Mares",
+  "straat": "Stationsstraat 2",
+  "postcode": "6026CV",
+  "plaatsnaam": "Maarheeze",
+  "telefoon": "0495-588030",
+  "lat": 51.309915,
+  "lon": 5.609383,
+  "status": "gesloten",
+  "oude_url": "/noord-brabant/maarheeze/autoservice-mares/",
+  "omschrijving": "Wat wij doen:\nIn 2003 startte Autoservice Mares met de werkplaats en is inmiddels in 2012 uitgebreid met een showroom met occasions van alle merken.\n\nOns team staat voor service en kwaliteit tegen een eerlijke prijs! Wij beschikken over kennis en apparatuur om aan alle hedendaagse merken auto’s te werken.\n\nNaast onze occasions kunt u zoals vertrouwd bij ons terecht voor onderhoud, reparatie en APK keuringen van alle merken.\n\nWij zien u graag terug bij Autoservice Mares!\n\nMarcel Caris Openingstijden:\n Maandag : 08:00 - 18:00\n Dinsdag : 08:00 - 18:00\n Woensdag : 08:00 - 18:00\n Donderdag : 08:00 - 18:00\n Vrijdag : 09:00 - 15:00\n Zaterdag : gesloten\n Zondag : gesloten Service :\nVervangend vervoer mogelijk\n\n Merken :\nAlle merken\n\n Diensten :\nAPK keuring, Inkoop gebruikte auto's, Verkoop occasions / tweedehands auto's, Inbouw van alle mogelijke accessoires, Airco service, Schadeherstel, Reparatie en Onderhoud, Bandenservice (opslag winter- zomerbanden)\n\n Aangesloten bij / Certificering :\nRDW",
+  "meta_title": "Autoservice Mares 0495-588030",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

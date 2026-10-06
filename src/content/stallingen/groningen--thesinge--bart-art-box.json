@@ -1,0 +1,21 @@
+{
+  "id": 131165,
+  "slug": "bart-art-box",
+  "provincie": "groningen",
+  "plaats": "thesinge",
+  "naam": "Bart Art Box",
+  "straat": "Thesingerweg 4",
+  "postcode": "9797TG",
+  "plaatsnaam": "Thesinge",
+  "telefoon": "050-3061909",
+  "website": "http://www.bartartbox.nl",
+  "lat": 53.288885,
+  "lon": 6.652449,
+  "status": "gesloten",
+  "oude_url": "/groningen/thesinge/bart-art-box/",
+  "meta_title": "Bart Art Box 050-3061909",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

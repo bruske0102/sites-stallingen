@@ -1,0 +1,20 @@
+{
+  "id": 130747,
+  "slug": "oke",
+  "provincie": "utrecht",
+  "plaats": "leusden",
+  "naam": "OKE",
+  "straat": "Vlooswijkseweg 4",
+  "postcode": "3832RG",
+  "plaatsnaam": "Leusden",
+  "telefoon": "033-4610189",
+  "lat": 52.130851,
+  "lon": 5.373373,
+  "status": "gesloten",
+  "oude_url": "/utrecht/leusden/oke/",
+  "meta_title": "OKE 033-4610189",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

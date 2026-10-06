@@ -1,0 +1,44 @@
+{
+  "slug": "camperstalling",
+  "title": "Camperstalling: ruimte en eisen",
+  "meta_title": "Camperstalling: hoogte, gewicht, binnenstalling & kosten",
+  "meta_description": "Camperstalling zoeken: let op doorrijhoogte, gewicht, stroom en seizoensprijzen. Praktische gids voor camper opslag.",
+  "author": "Redactie Stallingen.xyz",
+  "excerpt": "Campers zijn hoger en zwaarder dan caravans. Check doorrijhoogte en vloerbelasting vóór je een camperstalling boekt.",
+  "primary_keyword": "camperstalling",
+  "secondary_keywords": [
+    "camper opslag",
+    "camperstalling kosten",
+    "caravanstalling"
+  ],
+  "semrush": {
+    "database": "nl",
+    "volume": 1300,
+    "kd": 23,
+    "support": "camper opslag 170/22; camperstalling kosten 50/12",
+    "note": "phrase_these 2026-10-05"
+  },
+  "faq": [
+    {
+      "q": "Past elke camper in een binnenhal?",
+      "a": "Nee. Meet hoogte inclusief airco/satelliet en vraag de maximale doorrijhoogte en stallingsbox."
+    },
+    {
+      "q": "Heb ik stroom nodig tijdens stalling?",
+      "a": "Handig voor accus en vorstwacht. Niet elke stalling biedt een stopcontact per plaats."
+    },
+    {
+      "q": "Mag ik aan de camper klussen op het terrein?",
+      "a": "Vaak beperkt of verboden (milieu, brandveiligheid). Vraag het reglement."
+    }
+  ],
+  "content_html": "<p><strong>Camperstalling</strong> vraagt extra checks t.o.v. een standaard caravanplek: hoogte, lengte, gewicht en soms 230V.</p>\n\n<h2>Meetlijst meenemen</h2>\n<ul>\n<li>Lengte over alles</li>\n<li>Hoogte (hoogste punt)</li>\n<li>Breedte met spiegels</li>\n<li>Ledig gewicht / maximum massa</li>\n</ul>\n\n<h2>Binnen vs buiten voor campers</h2>\n<p>Binnen spaart rubber, kitnaden en stoffering. Buiten kan met goede Band- en hoesdiscipline. Vraag naar stormankers of wielklembeleid.</p>\n\n<section class=\"faq\"><h2>Veelgestelde vragen</h2>\n<details><summary>Past elke camper in een binnenhal?</summary><p>Nee. Meet hoogte inclusief airco/satelliet en vraag de maximale doorrijhoogte en stallingsbox.</p></details>\n<details><summary>Heb ik stroom nodig tijdens stalling?</summary><p>Handig voor accus en vorstwacht. Niet elke stalling biedt een stopcontact per plaats.</p></details>\n<details><summary>Mag ik aan de camper klussen op het terrein?</summary><p>Vaak beperkt of verboden (milieu, brandveiligheid). Vraag het reglement.</p></details>\n</section>\n\n<aside class=\"cta\">\n  <h2>Camperstalling vergelijken</h2>\n  <p>Zoek stallingen en bel met je maten bij de hand.</p>\n  <p class=\"cta-links\"><a href=\"/noord-holland/amsterdam/\">Amsterdam</a> · <a href=\"/utrecht/utrecht-gemeente/\">Utrecht</a> · <a href=\"/noord-brabant/eindhoven/\">Eindhoven</a> · <a href=\"/noord-holland/haarlem/\">Haarlem</a> · <a href=\"/zoeken/\">Zoeken</a></p>\n</aside>\n",
+  "date": "2026-10-05",
+  "modified": "2026-10-05",
+  "_status": "published",
+  "redirects_from": [],
+  "hero": {
+    "src": "camperstalling.jpg",
+    "alt": "Camperstalling: ruimte en eisen"
+  }
+}

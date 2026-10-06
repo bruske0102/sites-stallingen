@@ -1,0 +1,28 @@
+{
+  "id": 130615,
+  "slug": "kalle-en-bakker-havenoverslag",
+  "provincie": "limburg",
+  "plaats": "roermond",
+  "naam": "Kalle en Bakker Havenoverslag",
+  "straat": "Mijnheerkensweg 7",
+  "postcode": "6041TA",
+  "plaatsnaam": "Roermond",
+  "telefoon": "0475-318686",
+  "website": "http://www.kallebakker.nl",
+  "lat": 51.201807,
+  "lon": 5.998124,
+  "status": "gesloten",
+  "oude_url": "/limburg/roermond/kalle-en-bakker-havenoverslag/",
+  "email": "info@kallebakker.nl",
+  "omschrijving": "0475-318686\n\n fax : 0475-310459\n\n Wat wij doen:\nKalle en Bakker Overslag BV is een overslagbedrijf dat bulk- en stukgoederen voor derden overslaat in haar industriehavens. Kalle en Bakker Overslag BV kenmerkt zich door een snelle groei. De kades van Kalle en Bakker voorzien in een grote toename van activiteiten. Dankzij onze jarenlange ervaring, zijn wij in staat het lossen en laden van schepen snel en efficiënt te verzorgen. Desgewenst denken wij mee in bedrijfsprocessen en overslag activiteiten. Flexibiliteit is ons sleutelwoord.\n\nOverslag ROC Roermond en Nederweert\nKalle en Bakker exploiteert in Roermond en Nederweert twee Regionale Overslag Centra (ROC’s). Deze ROC’s richten zich op verladers en bedrijven die goederenstromen over de weg en het water versturen. Duurzaamheid en efficiëntie staan bij ons hoog in het vaandel. Met ROC Roermond en ROC Nederweert speelt Kalle en Bakker in op uw behoeften. Specialiteiten :\nlogistieke diensten, opslag binnen en buiten, overslag bulk- en stukgoederen, uitzeven en sorteren\n\n Aangesloten bij / Certificering :\nROC Vereniging Nederland",
+  "kenmerken": {
+    "Type": [
+      "boot"
+    ]
+  },
+  "meta_title": "Kalle en Bakker Havenoverslag 0475-318686 info@kallebakker.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

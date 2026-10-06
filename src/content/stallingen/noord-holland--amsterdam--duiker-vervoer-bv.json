@@ -1,0 +1,20 @@
+{
+  "id": 131265,
+  "slug": "duiker-vervoer-bv",
+  "provincie": "noord-holland",
+  "plaats": "amsterdam",
+  "naam": "Duiker Vervoer BV",
+  "straat": "Westhavenweg 93",
+  "postcode": "1042BA",
+  "plaatsnaam": "Amsterdam",
+  "telefoon": "020-6113041",
+  "lat": 52.414549,
+  "lon": 4.823675,
+  "status": "gesloten",
+  "oude_url": "/noord-holland/amsterdam/duiker-vervoer-bv/",
+  "meta_title": "Duiker Vervoer BV 020-6113041",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 130667,
+  "slug": "reuten-bv",
+  "provincie": "limburg",
+  "plaats": "echt",
+  "naam": "Reuten BV",
+  "straat": "Newtonweg 19",
+  "postcode": "6101WX",
+  "plaatsnaam": "Echt",
+  "telefoon": "0475-461617",
+  "website": "http://www.reuten.nl",
+  "lat": 51.118911,
+  "lon": 5.885148,
+  "status": "gesloten",
+  "oude_url": "/limburg/echt/reuten-bv/",
+  "email": "info@reuten.nl",
+  "omschrijving": "Wat wij doen:\nTransportbedrijf Reuten in Echt is uitgegroeid tot een middelgroot bedrijf dat zich bezig houdt met transport, transporteren van afvalcontainers, verhuur afvalcontainers, grondwerken, levering van zand/grind en siergrind voor bedrijven, overheid en particulieren. Onze minigraver met sloophamer kan ingezet worden bij het uitbreken van bijvoorbeeld een betonvloer. Verder is onze kraanauto op vele punten inzetbaar. Openingstijden:\n Maandag : 08:00 - 18:00\n Dinsdag : 08:00 - 18:00\n Woensdag : 08:00 - 18:00\n Donderdag : 08:00 - 18:00\n Vrijdag : 08:00 - 18:00\n Zaterdag : 08:00 - 14:00\n Zondag : gesloten Service :\nEmail: info@reuten.nl\n\n Toegankelijkheid :\nBegane grond\n\n Doelgroep :\nBedrijven, Particulieren\n\n Diensten :\nContainer verhuur, Containertransport, verkoop zand en grind, opslag containers, kraanauto verhuur, grondverzet\n\n Producten :\nAfvalcontainer, Puincontainer, Zeecontainer, afsluitbare containers, klepcontainer, afsluitbare container, container 25 m³, container 8 m³\n\n Aangesloten bij / Certificering :\nWij voldoen aan de Bijlage B van de VCA 2008/05 norm.",
+  "meta_title": "Reuten BV 0475-461617 info@reuten.nl",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

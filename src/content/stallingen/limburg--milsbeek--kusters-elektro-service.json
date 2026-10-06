@@ -1,0 +1,27 @@
+{
+  "id": 130973,
+  "slug": "kusters-elektro-service",
+  "provincie": "limburg",
+  "plaats": "milsbeek",
+  "naam": "Kusters Elektro Service",
+  "straat": "Sprokkelveld 60",
+  "postcode": "6596DM",
+  "plaatsnaam": "Milsbeek",
+  "telefoon": "0485-471128",
+  "website": "http://www.kusterselektroservice.nl",
+  "lat": 51.719103,
+  "lon": 5.940982,
+  "status": "gesloten",
+  "oude_url": "/limburg/milsbeek/kusters-elektro-service/",
+  "omschrijving": "Wat wij doen:\nWij repareren huishoudelijke apparaten en inbouwapparatuur , van alle merken. Tevens leveren wij witgoed van de \"betere merken\". De witgoedreparatie vindt veelal plaats op lokatie. Wilt u uw apparaat komen brengen, dan kan dat ook, wij beschikken over een bedrijfsruimte van 300m2, deze is ingericht voor opslag en reparatie.\n\nMocht reparatie niet meer interessant zijn, bv.vanwege te hoge kosten i.c.m. leeftijd , kan er altijd gesproken worden over vervanging van het apparaat. In dat geval worden er geen reparatiekosten in rekening gebracht.\nWij zijn aangesloten bij de grootste inkooporganisatie van europa, en kunnen dus concurrerend leveren, de meest gevraagde apparaten hebben wij op voorraad.\n Openingstijden:\n Maandag : 08:00 - 21:00 ALLEEN OP AFSPRAAK\n Dinsdag : 08:00 - 21:00 ALLEEN OP AFSPRAAK\n Woensdag : 08:00 - 21:00 ALLEEN OP AFSPRAAK\n Donderdag : 08:00 - 21:00 ALLEEN OP AFSPRAAK\n Vrijdag : 08:00 - 21:00 ALLEEN OP AFSPRAAK\n Zaterdag : 08:00 - 17:00 ALLEEN OP AFSPRAAK\n Zondag : gesloten Service :\nOnline reparatie aanvragen\n\n Toegankelijkheid :\nBegane grond, Gehandicaptenparkeerplaats, Toegankelijk voor rolstoelen\n\n Diensten :\nAankoopadvies, Advies, Installatie, Onderhoud, Reparatie, Storing oplossen, Verkoop\n\n Productgroepen :\nHuishoudelijke apparatuur, Inbouwapparatuur, Wasdroger / droger, Was-droog machine, Wasmachine / wasautomaat, Witgoed\n\n Soort wasmachine :\nBovenlader, Voorlader\n\n Soort wasdroger :\nAfvoerdroger, Centrifuge, Condensdroger, Warmtepompdroger\n\n Producten :\nKoelkast, Magnetron, Onderdelen, Vaatwasser\n\n Merken :\nAEG, Asko, ATAG, Bosch, Electrolux, Etna, Miele, Pelgrim, Siemens, Zanussi\n\n Soort aanbieder :\nReparateur / monteur, Witgoedspecialist\n\n Betalingsmogelijkheden :\nContant, Pin\n\n Aangesloten bij / Certificering :\nGarantiereparaties voor Miele, Siemens, Bosch en MCS",
+  "kenmerken": {
+    "Type": [
+      "auto"
+    ]
+  },
+  "meta_title": "Kusters Elektro Service 0485-471128",
+  "_triage": {
+    "reason": "twijfel → gesloten (no stalling/opslag/self-storage in name)",
+    "pass": "off-niche-1c-name"
+  }
+}

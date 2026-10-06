@@ -1,0 +1,23 @@
+{
+  "id": 131239,
+  "slug": "leeuwen-zn-bv-verhuizingen-van",
+  "provincie": "zuid-holland",
+  "plaats": "sassenheim",
+  "naam": "Leeuwen & Zn BV Verhuizingen Van",
+  "straat": "Madame Curiestraat 2",
+  "postcode": "2171TW",
+  "plaatsnaam": "Sassenheim",
+  "telefoon": "0252-210670",
+  "website": "http://www.vanleeuwenverhuizingen.nl",
+  "lat": 52.210511,
+  "lon": 4.490192,
+  "status": "gesloten",
+  "oude_url": "/zuid-holland/sassenheim/leeuwen-zn-bv-verhuizingen-van/",
+  "email": "info@vanleeuwenverhuizingen.nl",
+  "omschrijving": "Lid van Erkende Verhuizers\n\nhttp://www.vanleeuwenverhuizingen.nl",
+  "meta_title": "Leeuwen & Zn BV Verhuizingen Van 0252-210670 info@vanleeuwenverhuizingen.nl",
+  "_triage": {
+    "reason": "hard junk name (garage/transport/verhuis/olie/…)",
+    "pass": "off-niche-1c-name"
+  }
+}
